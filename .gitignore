@@ -2,3 +2,4 @@ source/vendor
 node_modules
 .tmp
 _site
+next.sublime-workspace
