@@ -1,0 +1,33 @@
+.flickr.gallery {
+
+	a.fancybox {
+		display: inline-block;
+		border: 4px solid #000;
+		border-radius: 4px;
+		.transition( all, 0.1s, ease );
+
+
+		&:hover {
+			border-color: @gelb;
+			.transform( rotate(-3deg) scale(1.2) );
+			z-index: 2;
+		}
+	}
+
+	img {
+		height: 50px;
+	}
+
+}
+
+.press-page {
+	.picture {
+		float:right;
+		padding-right: 0.2em;
+
+		img {
+			max-width: 200px;
+		}
+	}
+
+}

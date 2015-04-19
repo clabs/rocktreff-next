@@ -1,0 +1,145 @@
+#                                 _
+#  _ __  _ __ ___  ___  ___ _ __ | |_ ___ _ __
+# | '_ \| '__/ _ \/ __|/ _ \ '_ \| __/ _ \ '__|
+# | |_) | | |  __/\__ \  __/ | | | ||  __/ |
+# | .__/|_|  \___||___/\___|_| |_|\__\___|_|
+# |_|
+- name: jugendamt
+  image: jugendamt.png
+  url: http://www.berlin.de/ba-tempelhof-schoeneberg/organisationseinheit/jugend-familie/
+  presenter: true
+
+- name: starfm
+  image: star_fm.png
+  url: http://starfm.de/
+  presenter: true
+
+- name: catering company
+  image: catering_company.png
+  url: http://catering-company-berlin.de/
+  presenter: true
+
+- name: psd bank
+  image: psd.png
+  url: http://www.psd-berlin-brandenburg.de/
+  presenter: true
+
+- name: cpye
+  image: cpye.png
+  url: http://cpye.de/
+  presenter: true
+
+
+#                  _
+#  _ __ ___   __ _(_)_ __
+# | '_ ` _ \ / _` | | '_ \
+# | | | | | | (_| | | | | |
+# |_| |_| |_|\__,_|_|_| |_|
+- name: euref
+  image: euref.png
+  url: http://www.eurefcampus.de/
+  main: true
+
+- name: faces
+  image: faces.png
+  url: http://www.facesvt.de/
+  main: true
+
+- name: vattenfall
+  image: vattenfall.png
+  url: http://www.vattenfall.de/
+  main: true
+
+- name: vitasyn
+  image: vitasyn.png
+  url: http://www.vitasyn.de/
+  main: true
+
+- name: stilbrand
+  image: stilbrand.png
+  url: http://www.stilbrand.de/
+  main: true
+
+
+#        _   _
+#   ___ | |_| |__   ___ _ __
+#  / _ \| __| '_ \ / _ \ '__|
+# | (_) | |_| | | |  __/ |
+#  \___/ \__|_| |_|\___|_|
+
+# - name: 3m
+#   image: 3m.png
+#   url: http://www.3mdeutschland.de/
+
+- name: avantgarde
+  image: avantgarde.png
+  url: http://www.avantgarde-technik.de/
+
+- name: derpart
+  image: derpart.png
+  url: http://www.derpart24.de/ehlert
+
+- name: gewosued
+  image: gewosud.png
+  url: http://www.gewosued.de/
+
+- name: humboldt
+  image: humboldtbox.png
+  url: http://www.humboldt-box.com/
+
+- name: kki
+  image: kki.png
+  url: http://www.kki-verein.de/
+
+- name: ladenzeile
+  image: lz.png
+  url: http://www.ladenzeile.de/
+
+- name: hoppe
+  image: hoppe.png
+  url: http://leichtbrille.com/
+
+- name: outline
+  image: outline.png
+  url: http://www.outline-display.de/
+
+# - name: pam
+#   image: pam.png
+#   url: http://www.pamevents.de/
+
+# - name: phrenetica
+#   image: phrenetica.png
+#   url: http://phrenetica.com/
+
+- name: pksd
+  image: pksd.png
+  url: http://www.pksd.biz/
+
+- name: popella
+  image: popella.png
+  url: http://www.popella.de/
+
+- name: radio moeller
+  image: radio_moeller.png
+  url: http://www.euronics.de/info/portal/vs=shop/dealer=201561-0/ZacCenter/main.ipm
+
+- name: riemer
+  image: riemer_schultz.png
+  url: http://www.riemerschultz.de/
+
+- name: sea
+  image: sea.png
+  url: http://www.sea-vertrieb.de/
+
+- name: streetteam
+  image: streetteam_berlin.png
+  url: http://www.streetteam-berlin.de/
+
+- name: sunshine
+  image: sunshine.png
+  url: http://www.sunshinehouse-berlin.de/
+
+- name: swi
+  image: swi.png
+  url: http://www.die-hauptstadtbauer.de/
+

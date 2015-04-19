@@ -1,0 +1,124 @@
+---
+permalink: /presse/
+---
+<!DOCTYPE html>
+<!--
+______ _____ _____  _   _____________ _________________
+| ___ \  _  /  __ \| | / /_   _| ___ \  ___|  ___|  ___|
+| |_/ / | | | /  \/| |/ /  | | | |_/ / |__ | |_  | |_
+|    /| | | | |    |    \  | | |    /|  __||  _| |  _|
+| |\ \\ \_/ / \__/\| |\  \ | | | |\ \| |___| |   | |
+\_| \_|\___/ \____/\_| \_/ \_/ \_| \_\____/\_|   \_|
+-->
+<html lang="de-DE">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <title>Presse | ROCKTREFF</title>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.1.min.js"/></script>
+  <script type="text/javascript" src="/vendor/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  <script type="text/javascript" src="/vendor/packery/dist/packery.pkgd.min.js"></script>
+  <link rel="stylesheet" href="/vendor/fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+  <link rel="stylesheet" type="text/css" href="/styles/main.css">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+  <script type="text/javascript">
+  $( function () {
+    $( '.flickr.gallery > a' ).fancybox()
+
+    $( '.email' ).on( 'click', function () {
+      var self = $( this )
+      var alias = self.text()
+      var domain = self.attr( 'domain' ) || 'rocktreff.de'
+      window.location = 'mailto:'+ alias +'@'+ domain
+    })
+  })
+  </script>
+</head>
+<body class="page press">
+  {% include navigation.html%}
+  <div class="container">
+    <div class="row">
+
+      <div class="col-xs-4">
+        <!-- rss feed -->
+        <div class="box top">
+          <h3>Immer aktuell</h3>
+          Du kannst die Pressemitteilungen des ROCKTREFF als RSS-Feed abonnieren.
+          <div>
+            <a href="feed://{{ site.url }}/presse/feed.xml">
+              <i class="icon-feed2"></i>
+              Pressemitteilungen
+            </a>
+          </div>
+        </div>
+        <!-- kontaktdaten -->
+        <div class="box inverse">
+          <h3>Ansprechpartner</h3>
+          <p>
+            <strong>Robert Pagel</strong> <br>
+            Interviews, Akkreditierung <br>
+            <span class="email">rob</span>
+          </p>
+          <p>
+            <strong>Phillip Mengel</strong> <br>
+            Public Affairs <br>
+            <span class="email">phillip</span>
+          </p>
+        </div>
+        <!-- medien -->
+        <div class="box">
+          <h3>Pressebilder</h3>
+          {% flickr 72157647105546913 %}
+        </div>
+
+      </div>
+
+      <div class="col-xs-8">
+        <div class="box top">
+          <h1>Presse</h1>
+          <p>
+            Hier findest Du regelmäßig die aktuellsten Presse-Informationen
+            zum ROCKTREFF. Unsere aktuellen Pressemitteilungen kannst Du
+            einfach und bequem per Feed-Reader abonnieren.
+          </p>
+          <p>
+            Wenn Du für die redaktionelle Berichterstattung druckfähige Fotos,
+            Grafiken, Logos oder Illustrationen verwenden möchtest, kannst Du
+            unsere Pressebilder verwenden. Solltest Du weiteres Material
+            benötigen, wende Dich bitte direkt an die Pressestelle: <span
+            class="email">presse</span>
+          </p>
+        </div>
+
+        <div class="box">
+          <h3>Pressemitteilungen</h3>
+          <ul class="pressreleases">
+          {% for release in site.presse reversed limit:5 %}
+              <li>
+                <div class="date">{{ release.date | date: "%-d.%-m.%Y"}}</div>
+                <a href="{{ release.url }}">{{ release.title }}</a>
+              </li>
+          {% endfor %}
+          </ul>
+        </div>
+
+        <div class="box">
+          <h3>Pressematerial</h3>
+          <ul>
+            <li>Logo 2015 (
+              <a href="http://static.rocktreff.de/presse/Rocktreff_2015_Logo_FX_1200.png" target="_blank">PNG</a>
+              )
+            </li>
+            <li>Logo – Neutral (
+              <a href="http://static.rocktreff.de/presse/RT_neutral_vector.eps" target="_blank">EPS</a>,
+              <a href="http://static.rocktreff.de/presse/RT_neutral_vector.pdf" target="_blank">PDF</a>
+              )
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</boby>
+</html>

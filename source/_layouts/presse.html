@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!--
+______ _____ _____  _   _____________ _________________
+| ___ \  _  /  __ \| | / /_   _| ___ \  ___|  ___|  ___|
+| |_/ / | | | /  \/| |/ /  | | | |_/ / |__ | |_  | |_
+|    /| | | | |    |    \  | | |    /|  __||  _| |  _|
+| |\ \\ \_/ / \__/\| |\  \ | | | |\ \| |___| |   | |
+\_| \_|\___/ \____/\_| \_/ \_/ \_| \_\____/\_|   \_|
+-->
+<html lang="de-DE">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <link rel="stylesheet" type="text/css" href="/styles/main.css">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+  <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.1.min.js"/></script>
+  <script type="text/javascript" src="/vendor/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  <link rel="stylesheet" href="/vendor/fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+  <script type="text/javascript">
+  $( function () {
+    $( '.picture > a' ).fancybox()
+  })
+  </script>
+</head>
+<body class="page press-page">
+  {% include navigation.html %}
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-8">
+        <div class="box top">
+          <h1>{{ page.title }}</h1>
+          <a href="/presse" class="back"><span class="glyphicon glyphicon-chevron-left"></span> Zurück</a>
+          <div class="date">BERLIN, {{ page.date | date: "%d %b %Y"}}</div>
+          {% if page.picture %}
+          <div class="picture">
+            <a class="fancybox" rel="group" href="http://static.rocktreff.de/presse/bilder/{{ page.picture }}">
+              <img src="http://static.rocktreff.de/presse/bilder/{{ page.picture }}">
+            </a>
+          </div>
+          {% endif %}
+          {{ content }}
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="box top">
+          <h3>Immer aktuell</h3>
+          Du kannst die Pressemitteilungen des ROCKTREFF als RSS-Feed abonnieren.
+          <div>
+            <a href="feed://{{ site.url }}/presse/feed.xml">
+              <i class="icon-feed2"></i>
+              Pressemitteilungen
+            </a>
+          </div>
+        </div>
+        <div class="box inverse">
+          <h3>Pressemitteilungen</h3>
+          <ul class="pressreleases">
+          {% for release in site.presse reversed limit:5 %}
+              <li>
+                <div class="date">{{ release.date | date: "%-d.%-m.%Y"}}</div>
+                <a href="{{ release.url }}">{{ release.title }}</a>
+              </li>
+          {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

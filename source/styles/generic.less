@@ -1,0 +1,103 @@
+body {
+	background-color: #000;
+	color: #fff;
+	font-size: 14px;
+	font-family: 'PT Sans', sans-serif;
+	padding-bottom: 50px;
+}
+
+::-moz-selection {
+	color: #000;
+	background: @gelb;
+}
+
+::selection {
+	color: #000;
+	background: @gelb;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: Impact, Arial, sans-serif;
+	color: @gelb;
+}
+
+a, a:active, a:visited {
+	display: inline-block;
+	color: @gelb;
+	padding: 0.1em 0.2em;
+	border-radius: 2px;
+	.transition;
+
+	&:hover {
+		text-decoration: none;
+		background-color: @gelb;
+		color: #000;
+	}
+}
+
+
+p.initial {
+	&:first-of-type {
+		&:first-letter {
+			color: @gelb;
+			font-size: 4em;
+			float: left;
+			line-height: 1.3em;
+			font-family: "321impact", Impact;
+			margin: 0 0.1em -0.5em 0;
+		}
+	}
+	&:first-letter {
+		color: inherit;
+		font-size: inherit;
+		float: inherit;
+		line-height: inherit;
+		font-family: inherit;
+		margin: inherit;
+	}
+}
+
+.email {
+	display: inline-block;
+	white-space: nowrap;
+	color: @gelb;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+	.transition;
+	padding: 0.1em 0.2em;
+	border-radius: 3px;
+	cursor: pointer;
+
+	&:before {
+		content: '\2709';
+		position: relative;
+		top: 1px;
+		display: inline-block;
+		font-family: 'Glyphicons Halflings';
+		font-style: normal;
+		font-weight: normal;
+		line-height: 1;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+		margin-right: 0.3em;
+		font-size: 0.8em;
+	}
+
+
+	&:after {
+		content: '@rocktreff.de';
+	}
+
+	&[domain]:after {
+		content: '@' attr(domain);
+	}
+
+	&:hover {
+		background-color: @gelb;
+		color: #000;
+	}
+}

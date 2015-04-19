@@ -1,0 +1,428 @@
+---
+permalink: '/'
+---
+<!DOCTYPE html>
+<!--
+______ _____ _____  _   _____________ _________________
+| ___ \  _  /  __ \| | / /_   _| ___ \  ___|  ___|  ___|
+| |_/ / | | | /  \/| |/ /  | | | |_/ / |__ | |_  | |_
+|    /| | | | |    |    \  | | |    /|  __||  _| |  _|
+| |\ \\ \_/ / \__/\| |\  \ | | | |\ \| |___| |   | |
+\_| \_|\___/ \____/\_| \_/ \_/ \_| \_\____/\_|   \_|
+-->
+<html lang="de-DE">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<title>ROCKTREFF | 10.-12. Juli 2015</title>
+	<script type="text/javascript" src="//code.jquery.com/jquery-2.1.1.min.js"/></script>
+	<script type="text/javascript" src="vendor/skrollr/dist/skrollr.min.js"></script>
+	<script type="text/javascript" src="vendor/bootstrap/js/scrollspy.js"></script>
+	<link rel="stylesheet" type="text/css" href="styles/main.css">
+	<link rel="icon" type="image/x-icon" href="./favicon.ico" />
+</head>
+<body data-spy="scroll" data-offset="0" data-target="#navigation">
+	{% include navigation.html attribs="data-top=\"margin-bottom:-100px;\" data--400-top=\"margin-bottom:0px;\" data-anchor-target=\"#landing\""%}
+
+	<!-- landing splash -->
+	<section class="slide" id="landing">
+
+		<div class="video-bg"
+			data-top="top:0%;";
+			data-top-bottom="top:50%;"
+			data-anchor-target="#landing"
+		>
+			<video preload="auto" muted="muted" loop="loop" canplay="false" autoplay="autoplay">
+				<source src="http://static.rocktreff.de/video/rocktreff_web_2000k.mp4" type="video/mp4">
+			</video>
+		</div>
+
+		<div class="scrolldown"
+			data-top="opacity:1;"
+			data--100-top="opacity:0;"
+			data-anchor-target="#landing"
+		>
+			<span class="glyphicon glyphicon-chevron-down"></span></a>
+		</div>
+
+		<div class="logo"
+			data-top="opacity:1;"
+			data--400-top="opacity:0;"
+			data-anchor-target="#landing"
+		>
+			<img src="./images/rt.png">
+		</div>
+
+		<div class="presenter"
+			data--120-bottom="opacity:1;";
+			data--400-bottom=="opacity:0;"
+			data-anchor-target="#landing"
+		>
+			<div class="presented_by">
+				präsentiert von
+			</div>
+			{% for sponsor in site.data.sponsors %}
+				{% if sponsor.presenter %}
+				<a href="{{ sponsor.url }}" target="_blank">
+					<img src="http://static.rocktreff.de/sponsors/{{sponsor.image}}">
+				</a>
+				{% endif %}
+			{% endfor %}
+		</div>
+
+		<div class="info">
+			<h1>Eintritt Frei!</h1>
+			<h2>10.-12. Juli 2015<h2>
+			<h3>Volkspark Mariendorf</h3>
+			<div class="box"></div>
+		</div>
+
+		<div class="footer"
+			data-top="opacity:1;"
+			data--100-top="opacity:0;"
+			data-anchor-target="#landing"
+		>
+			<a href="#imprint">Impressum</a>
+		</div>
+
+	</section>
+
+
+	<section id="lineup" class="slide">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4">
+					<h1>16 Bands Live!</h1>
+					<p>
+						Der jährlich im Volksparkstadion Mariendorf stattfindende
+						Rocktreff ist ein Open Air Festival, das sich ganz der
+						handgemachten Musik verschrieben hat. Hier werden die
+						Gitarren ausgepackt, die Verstärker hochgeregelt und
+						gemeinsam das Haupthaar geschüttelt. Ziel des Rocktreffs
+						ist es, Amateurbands eine geeignete Bühne zu bieten, sich
+						einem größtmöglichen Publikum zu präsentieren und auf der
+						anderen Seite einer breiten Öffentlichkeit ein kostenloses
+						Event zu bieten. Das Rocktreff-Open Air gilt als das
+						größte Amateurbandfestival Berlins.
+
+						Aus erfahrungsgemäß über 200 Bewerbungen werden ca. 16
+						Bands ausgewählt, die an drei Tagen des Festivals das Line
+						Up stellen.
+					</p>
+				</div>
+				<div class="col-sm-8">
+					<div class="row dates">
+						<div class="col-sm-1"></div>
+						<div class="col-sm-3">
+							Freitag, 10. Juli
+						</div>
+						<div class="col-sm-3">
+							Samstag, 11. Juli
+						</div>
+						<div class="col-sm-3">
+							Sonntag, 12. Juli
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-1">
+							<div class="timeslot">16:00</div>
+							<div class="timeslot">17:00</div>
+							<div class="timeslot">18:00</div>
+							<div class="timeslot">19:00</div>
+							<div class="timeslot">20:00</div>
+							<div class="timeslot">21:00</div>
+							<div class="timeslot">22:00</div>
+							<div class="timeslot">23:00</div>
+						</div>
+						{% assign bands = site.bands | where: 'year', 2015 | sort: 'stagetime'  %}
+						<div class="col-sm-3 day friday">
+							{% for band in bands %}
+								{% if band.stagetime contains 'Freitag' %}
+								<a href="{{ band.url }}" class="thumb" style="background-image:url('http://static.rocktreff.de/bands/pictures/{{ band.picture }}')">
+									<div class="name">{{ band.title }}</div>
+								</a>
+								{% endif %}
+							{% endfor %}
+						</div>
+						<div class="col-sm-3 day saturday">
+							{% for band in bands  %}
+								{% if band.stagetime contains 'Samstag' %}
+								<a href="{{ band.url }}" class="thumb" style="background-image:url('http://static.rocktreff.de/bands/pictures/{{ band.picture }}')">
+									<div class="name">{{ band.title }}</div>
+								</a>
+								{% endif %}
+							{% endfor %}
+						</div>
+						<div class="col-sm-3 day sunday">
+							{% for band in bands %}
+								{% if band.stagetime contains 'Sonntag' %}
+								<a href="{{ band.url }}" class="thumb" style="background-image:url('http://static.rocktreff.de/bands/pictures/{{ band.picture }}')">
+									<div class="name">{{ band.title }}</div>
+								</a>
+								{% endif %}
+							{% endfor %}
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="second" class="slide second">
+		<div class="bg"
+			data-bottom-top="top:-50%;"
+			data-top-bottom="top:50%;";
+			data-anchor-target="#second"
+		><div class="image"></div></div>
+	</section>
+
+	<section id="map" class="slide">
+		<div class="container approach">
+			<div class="row">
+				<div class="col-sm-6 col-sm-offset-3">
+					<h1>Anfahrt</h1>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-3 col-sm-offset-3">
+					<p>
+						Der Volkspark befindet sich direkt am Mariendorfer Damm!
+						Wir empfehlen in jedem Fall die Anfahrt mit der BVG,
+						da nur sehr begrenzt Parkplätze vorhanden sind
+					</p>
+					<dt>Adresse</dt>
+					<dd>Prühßstraße 90, 12109 Berlin-Tempelhof</dd>
+				</div>
+				<div class="col-sm-3">
+					<dt>BVG-Anbindung</dt>
+					<dd>
+						<p>
+							<span class="bvg u6">U6</span> Alt-Mariendorf –
+							Bus
+							<span class="bvg bus">181</span>,
+							<span class="bvg mbus">M76</span>
+							<span class="bvg bus">179</span>
+							<span class="bvg bus">277</span>
+							<span class="bvg xbus">X76</span>
+							<span class="bvg mbus">M77</span>
+						</p>
+						<p>
+							<span class="bvg u6">U6</span> Westphalweg –
+							Bus
+							<span class="bvg bus">282</span>
+						</p>
+					</dd>
+				</div>
+			</div>
+		</div>
+		<div class="noscroll">
+			<iframe
+				data-bottom-top="top:-50%;"
+				data-top-bottom="top:50%;";
+				data-anchor-target="#map"
+				src="http://www.openstreetmap.org/export/embed.html?bbox=13.384330272674559%2C52.43943940263717%2C13.406345844268799%2C52.44794096541378&amp;layer=mapquest&amp;marker=52.44369038910433%2C13.39533805847168"
+				width="100%" height="400" frameborder="0" style="border:0;pointer-events:none" scrolling="no"
+			></iframe>
+		</div>
+		<script type="text/javascript">
+			// Disable scroll zooming and bind back the click event
+			var onMapMouseleaveHandler = function ( event ) {
+				var self = $( this )
+				self.on( 'click', onMapClickHandler )
+				self.off( 'mouseleave', onMapMouseleaveHandler )
+				self.find( 'iframe' ).css( 'pointer-events' , 'none' )
+			}
+			var onMapClickHandler = function ( event ) {
+				var self = $( this )
+				// Disable the click handler until the user leaves the map area
+				self.off( 'click', onMapClickHandler )
+				// Enable scrolling zoom
+				self.find( 'iframe' ).css( 'pointer-events', 'auto' )
+				// Handle the mouse leave event
+				self.on( 'mouseleave', onMapMouseleaveHandler )
+			}
+			// Enable map zooming with mouse scroll when the user clicks the map
+			$( '#map .noscroll' ).on( 'click', onMapClickHandler )
+		</script>
+	</section>
+
+
+	<section id="sponsors" class="slide">
+		<div class="container sponsors">
+			<div class="row col-sm-12">
+				<h1>Sponsoren</h1>
+			</div>
+			<div class="row">
+				<div class="col-sm-7">
+					<p>
+						Dass der Rocktreff auch im 32. Jahr noch für den Besucher gratis stattfinden kann, ist wohl vor allem als Verdienst der vielen ehrenamtlichen Helfer und Bands, die ohne Gage auftreten, zu verdanken. Nur ein kleiner Teil des gesamten benötigten Budgets wird vom Jugendamt Tempelhof-Schöneberg getragen. Der Großteil des Etats für das dreitägige Open Air stellen die akquirierten Sponsoren.
+					</p>
+				</div>
+				<div class="main col-sm-5">
+					{% for sponsor in site.data.sponsors %}
+						{% if sponsor.main %}
+						<a href="{{ sponsor.url }}" target="_blank">
+							<img src="http://static.rocktreff.de/sponsors/{{sponsor.image}}">
+						</a>
+						{% endif %}
+					{% endfor %}
+				</div>
+			</div>
+			<div class="row">
+				<div class="other col-sm-12">
+					<h3>Weitere Sponsoren</h3>
+					{% for sponsor in site.data.sponsors %}
+						{% unless sponsor.presenter %}
+						{% unless sponsor.main %}
+						<a href="{{ sponsor.url }}" target="_blank">
+							<img src="http://static.rocktreff.de/sponsors/{{sponsor.image}}">
+						</a>
+						{% endunless %}
+						{% endunless %}
+					{% endfor %}
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+
+
+	<section id="spielfest" class="slide">
+		<div class="bg"
+			data-bottom-top="top:-50%;"
+			data-top-bottom="top:50%;";
+			data-anchor-target="#spielfest"
+		><div class="image"></div></div>
+		</div>
+		<div class="logo"></div>
+		<div class="silhouetten"></div>
+	</section>
+	<section id="spielfest_info" class="slide ">
+		<div class="container">
+			<div class="col-sm-8">
+				<p>
+					Parallel zum Rocktreff findet alljährlich das Spielfest auf demselben
+					Gelände statt. Bevor die ersten Bands die Bühne erklimmen, können sich
+					die kleinsten der Rocker auf der Hüpfburg austoben, während ihren
+					Eltern ein buntes Angebot an Gastronomie und Kunsthandwerk geboten
+					wird. <a href="http://spielfest-mariendorf.de/" target="_blank">Mehr Infos …</a>
+				</p>
+			</div>
+			<div class="col-sm-4">
+				<img src="http://static.rocktreff.de/sponsors/moebel_kraft.png">
+			</div>
+		</div>
+	</section>
+
+
+
+	<section id="last" class="slide last">
+		<div class="bg"
+			data-bottom-top="top:-50%;"
+			data-top-bottom="top:50%;";
+			data-anchor-target="#last"
+		><div class="image"></div></div>
+	</section>
+
+
+
+	<section id="footer" class="slide">
+		<div class="container" id="imprint">
+			<div class="row">
+				<div class="col-sm-3 imprint">
+					<dl>
+						<dt>Veranstalter</dt>
+							<dd>
+								Bezirksamt Tempelhof-Schöneberg von Berlin <br>
+								Abteilung Jugend, Ordnung, Bürgerdienste <br>
+								Büro des Bezirksstadtrates <br>
+								JOB VM <br>
+								Rathaus Friedenau <br>
+								Niedstraße 1-2 <br>
+								12159 Berlin <br>
+								<i class="icon-phone"></i> +49 30 90277 4804 <br>
+								<i class="icon-print"></i> +49 30 90277 4805 <br>
+								<span class="email">jugendamt</span><br>
+								Inhaltlich Verantwortlicher gem. § 55 RStV: <br>
+								Bezirksstadtrat Oliver Schworck
+							</dd>
+					</dl>
+				</div>
+				<div class="col-sm-4 imprint border">
+					<dl>
+						<dt>Träger der Veranstaltung<dt>
+							<dd>
+								CPYE e.V.<br>
+								Viktoriastraße 13 – 12105 Berlin
+							</dd>
+						<dt>Kooperationspartner</dt>
+							<dd>
+								ROCK-INI Tempelhof <br>
+								Catering Company
+							</dd>
+						<dt>Veranstaltungskoordinator & Sponsoringbeauftragter</dt>
+							<dd>
+								Philipp Mengel <br>
+								<i class="icon-phone"></i> +49 176 6340 2665 <br>
+								<span class="email" domain="berlin.de">jugendamt.ts-vm</span>
+							</dd>
+						<dt>Technische Veranstaltungsleitung</dt>
+							<dd>
+								Sven Perschmann
+							</dd>
+						<dt>Kontakt</dt>
+							<dd>
+								<span class="email">kontakt</span>
+							</dd>
+					</dl>
+
+				</div>
+				<div class="col-sm-5">
+					<a href="http://www.berlin.de/ba-tempelhof-schoeneberg/organisationseinheit/jugend-familie/" target="_blank">
+						<img src="http://static.rocktreff.de/sponsors/jugendamt.png" width="200" alt="Jugendamt">
+					</a>
+					<img src="images/footer_rockini.png" alt="ROCK-INI">
+					<a href="http://www.cpye.de/" target="_blank">
+						<img src="http://static.rocktreff.de/sponsors/cpye.png" alt="CPYE e.V.">
+					</a>
+				</div>
+
+			</div>
+		</div>
+
+	</section>
+
+
+
+	<script type="text/javascript">
+		skrollr.init({ smoothScrolling: false })
+		$( 'a[href*=#]:not([href=#])' ).click( function () {
+			if ( location.pathname.replace(/^\//,'') === this.pathname.replace(/^\//,'') &&
+				location.hostname == this.hostname ) {
+				var target = $( this.hash )
+				target = target.length ? target : $( '#' + this.hash.slice(1) )
+				if ( target.length ) {
+					$( 'html,body' ).animate({
+						scrollTop: target.offset().top
+					}, 700)
+					return false
+				}
+			}
+		})
+		$( '.scrolldown' ).click( function () {
+			$( 'html,body' ).animate({
+				scrollTop: $( window ).height()
+			}, 700)
+		})
+		$( '.email' ).on( 'click', function () {
+			var self = $( this )
+			var alias = self.text()
+			var domain = self.attr( 'domain' ) || 'rocktreff.de'
+			window.location = 'mailto:'+ alias +'@'+ domain
+		})
+  </script>
+	</script>
+</body>
+</html>

@@ -1,0 +1,145 @@
+---
+permalink: /helfen/
+---
+<!DOCTYPE html>
+<!--
+______ _____ _____  _   _____________ _________________
+| ___ \  _  /  __ \| | / /_   _| ___ \  ___|  ___|  ___|
+| |_/ / | | | /  \/| |/ /  | | | |_/ / |__ | |_  | |_
+|    /| | | | |    |    \  | | |    /|  __||  _| |  _|
+| |\ \\ \_/ / \__/\| |\  \ | | | |\ \| |___| |   | |
+\_| \_|\___/ \____/\_| \_/ \_/ \_| \_\____/\_|   \_|
+-->
+<html lang="de-DE">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <title>Helfen | ROCKTREFF</title>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.1.min.js"/></script>
+  <script type="text/javascript" src="/vendor/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  <script type="text/javascript" src="/vendor/packery/dist/packery.pkgd.min.js"></script>
+  <link rel="stylesheet" href="/vendor/fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+  <link rel="stylesheet" type="text/css" href="/styles/main.css">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+  <script type="text/javascript">
+  $( function () {
+    $( '.flickr.gallery > a' ).fancybox()
+
+    $( '.email' ).on( 'click', function () {
+      var self = $( this )
+      var alias = self.text()
+      var domain = self.attr( 'domain' ) || 'rocktreff.de'
+      window.location = 'mailto:'+ alias +'@'+ domain
+    })
+  })
+  </script>
+</head>
+<body class="page help">
+  {% include navigation.html%}
+  <div class="container">
+    <div class="row">
+
+      <div class="col-sm-8">
+        <div class="box top">
+          <h1>Der ROCKTREFF braucht Hilfe!</h1>
+          <p>
+            Der ROCKTREFF ist ein nicht-kommerzielles Festival, das sich
+            ausschließlich mit Zuwendungen, Sponsoren und die Hilfe von
+            ehrenamtlichen Helfern trägt. Deswegen sind wir jedes Jahr aufs
+            neue darauf angewiesen, dass uns zahlreich Leute helfen. Alle
+            Bands und Künstler treten ohne Gage auf. Die Crew ackert mit bis
+            zu 60 Leuten teils monatelang ebenfalls ohne Bezahlung, aber
+            mit viel Spaß an der Sache.
+          </p>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="box">
+              <h3>Du willst mitmachen?</h3>
+              <p>
+                Der ROCKTREFF bietet viele Möglichkeiten sich zu engagieren
+                und dabei den eigenen Horizont zu erweitern. Neben den
+                klassischen Tätigkeitsbereichen wie Licht &amp; Ton suchen wir
+                immer Leute für Bandbetreuung, Catering und viele weitere
+                Bereiche.
+              </p>
+              <p>
+                Für die Helfer beginnt der ROCKTREFF bereits viele Tage vor der
+                Veranstaltung. Wir errichten eine komplette kleine Stadt, die
+                für die ROCKTREFF-Woche auch unser Zuhause ist.
+              </p>
+              <p>
+                Interesse? Dann schreib eine Mail an
+                <span class="email">helfen</span>
+              </p>
+            </div>
+          </div>
+
+          <div class="col-sm-6">
+            <div class="box">
+              <h3>Sponsor werden</h3>
+              <!-- <p>
+                Wer beim und mit dem ROCKTREFF wirbt, stellt seinen Namen in
+                Verbindung mit einem schönen Wochenende, das die Gäste der
+                Veranstaltung in Erinnerung behalten werden.
+              </p> -->
+              <p>
+                Das Bezirksamt Tempelhof-Schöneberg von Berlin finanziert
+                einen Teil (etwa 20%) der Kosten für Technik und Ausstattung,
+                der weitaus größerer Rest muss aus Zuwendungen von Sponsoren
+                akquiriert werden. Helf uns dabei!
+              </p>
+              <p>
+                Für Infos und Absprachen zu den Sponsoringmöglichkeiten
+                sowie den jeweiligen Konditionen kontaktiere bitte den
+                Veranstaltungskoordinator Philipp Mengel via E-Mail an
+                <span class="email">philipp</span>
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+
+      </div>
+
+      <div class="col-sm-4">
+        <div class="box top">
+          <h3>Crew 2014</h3>
+
+          <div class="flickr gallery" style="float:left;padding-right: 0.2em;">
+            <a class="fancybox" rel="group" href="http://static.rocktreff.de/crew/crew2014.jpg">
+              <img src="http://static.rocktreff.de/crew/crew2014.jpg">
+            </a>
+          </div>
+          Fast 60 Leute stark war unsere Crew 2014! <a href="https://www.flickr.com/photos/rocktreff/sets/72157645486866930/" target="blank">Hier die Bilder</a>.
+        </div>
+
+        <div class="box inverse">
+          <h3>Spenden</h3>
+          Eine Überweisung auf unser Konto ist uns die liebste Form, da sie keinerlei zusätzliche Gebühren aufwirft.
+
+          <div class="code">
+            <a href="bank://singlepaymentsepa?name=CPYE%20e.%20V.&reason=Spende%20ROCKTREFF&iban=DE51100100100015333103&bic=PBNKDEFF&amount=23%2C00">
+              <img src="/images/bezahlcode.png" class="bezahlcode">
+            </a>
+            <strong>Inhaber:</strong> CPYE e.V. <br>
+            <strong>Konto:</strong> 15 333 103 (Postbank Berlin) <br>
+            <strong>BLZ:</strong> 100 100 10 <br>
+            <strong>IBAN:</strong> DE51100100100015333103 <br>
+            <strong>BIC:</strong> PBNKDEFF <br>
+            <strong>Zweck:</strong> Spende ROCKTREFF
+            <p>
+              Ab 100€ stellen wir gerne eine Spendenquittung aus. Schreibe bitte dazu eine Mail
+              an <span class="email" domain="rocktreff.de">spenden</span>
+            </p>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</boby>
+</html>

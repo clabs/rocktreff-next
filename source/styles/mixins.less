@@ -1,0 +1,59 @@
+.transition ( @what: all, @time: @easing_time, @function: @easing_function, @delay: 0s ) {
+	transition-delay: @delay;
+	-webkit-transition-delay: @delay;
+	-moz-transition-delay: @delay;
+	-ms-transition-delay: @delay;
+	-o-transition-delay: @delay;
+	transition: @what @time @function;
+	-webkit-transition: @what @time @function; /** Chrome & Safari **/
+	-moz-transition: @what @time @function; /** Firefox **/
+	-ms-transition: @what @time @function; /** Firefox **/
+	-o-transition: @what @time @function; /** Opera **/
+}
+
+
+.translateX ( @offset: @offscreen-width, @margin: 0.01px ) {
+	transform: translate3d( @offset, 0, 0 );
+	-webkit-transform: translate3d( @offset, 0, 0 );
+	-moz-transform: translate3d( @offset, 0, 0 );
+	-ms-transform: translate3d( @offset, 0, 0 );
+	-o-transform: translate3d( @offset, 0, 0 );
+	// margin-left fixes a reflow/repaint bug in firefox
+	// and is additionally used by ie 9 as a fallback
+	margin-left: @margin;
+}
+
+.translateY ( @offset: 0, @margin: 0.01px ) {
+	transform: translate3d( 0, @offset, 0 );
+	-webkit-transform: translate3d( 0, @offset, 0 );
+	-moz-transform: translate3d( 0, @offset, 0 );
+	-ms-transform: translate3d( 0, @offset, 0 );
+	-o-transform: translate3d( 0, @offset, 0 );
+	// margin-left fixes a reflow/repaint bug in firefox
+	// and is additionally used by ie 9 as a fallback
+	margin-top: @margin;
+}
+
+.transform ( @what ) {
+	transform: @what;
+	-webkit-transform: @what;
+	-moz-transform: @what;
+	-ms-transform: @what;
+	-o-transform: @what;
+}
+
+.scale ( @factor: 1 ) {
+	transform: scale( @factor );
+	-webkit-transform: scale( @factor );
+	-moz-transform: scale( @factor );
+	-ms-transform: scale( @factor );
+	-o-transform: scale( @factor );
+}
+
+.transfromOrigin( @origin: top left ) {
+	transform-origin: @origin;
+	-webkit-transform-origin: @origin;
+	-moz-transform-origin: @origin;
+	-ms-transform-origin: @origin;
+	-o-transform-origin: @origin;
+}

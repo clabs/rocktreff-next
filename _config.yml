@@ -1,0 +1,26 @@
+# Site settings
+title: ROCKTREFF
+email: kontakt@rocktreff.de
+description: ""
+baseurl: ""
+url: "http://www.rocktreff.de"
+exclude: [ "styles" ]
+gems: []
+default_locale: "de"
+
+# collections
+collections:
+  bands:
+    output: true
+  presse:
+    output: true
+
+
+#flickr
+flickr:
+  api_key: 'f2fedaf7f36bf5739b3eba547ab384b2'
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+lessc: lessc

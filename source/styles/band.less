@@ -1,0 +1,67 @@
+.page.band {
+	background-color: #222;
+	background-image: url('../images/bg_band.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	margin-bottom: 4em;
+
+
+	.picture {
+		margin: 0 1em 0.5em 0;
+
+	}
+
+	ul.lineup {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		letter-spacing: -0.04em;
+		text-transform: uppercase;
+
+		li {
+			float: left;
+			&:hover {
+				a {
+					text-decoration: none;
+					.transform( scale(1.2) rotate(-2deg) );
+					background-color: #000;
+					color: @gelb;
+				}
+			}
+
+			&:after {
+				content: '-';
+			}
+
+			&:last-of-type {
+				&:after {
+					display: none;
+				}
+			}
+		}
+
+		a {
+			.transition(all, 0.1s);
+			padding-left: 5px;
+			padding-right: 5px;
+			display: inline-block;
+			&:hover {
+				text-decoration: none;
+			}
+		}
+	}
+
+	.stagetime {
+		margin-bottom: 0.3em;
+		&:before {
+			display: none;
+			content: 'STAGETIME';
+			color: #000;
+			background-color: @gelb;
+			margin-right: 0.5em;
+			padding: 2px 4px;
+			font-family: Impact;
+		}
+	}
+
+}
