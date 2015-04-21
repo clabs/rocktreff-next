@@ -45,7 +45,7 @@ ______ _____ _____  _   _____________ _________________
           <h3>Immer aktuell</h3>
           Du kannst die Pressemitteilungen des ROCKTREFF als RSS-Feed abonnieren.
           <div>
-            <a href="feed://{{ site.url }}/presse/feed.xml">
+            <a class="link" href="feed://{{ site.url }}/presse/feed.xml">
               <i class="icon-feed2"></i>
               Pressemitteilungen
             </a>
@@ -82,11 +82,11 @@ ______ _____ _____  _   _____________ _________________
             einfach und bequem per Feed-Reader abonnieren.
           </p>
           <p>
-            Wenn Du für die redaktionelle Berichterstattung druckfähige Fotos,
-            Grafiken, Logos oder Illustrationen verwenden möchtest, kannst Du
-            unsere Pressebilder verwenden. Solltest Du weiteres Material
-            benötigen, wende Dich bitte direkt an die Pressestelle: <span
-            class="email">presse</span>
+            Wenn Du für die redaktionelle Berichterstattung Fotos, Grafiken,
+            Logos oder Illustrationen verwenden möchtest, kannst Du das hier
+            verlinkte Material unverändert verwenden. Solltest Du weiteres
+            Material oder hochauflösende Bilder benötigen, wende Dich bitte
+            direkt an die Pressestelle: <span class="email">presse</span>
           </p>
         </div>
 
@@ -96,7 +96,7 @@ ______ _____ _____  _   _____________ _________________
           {% for release in site.presse reversed limit:5 %}
               <li>
                 <div class="date">{{ release.date | date: "%-d.%-m.%Y"}}</div>
-                <a href="{{ release.url }}">{{ release.title }}</a>
+                <a class="link" href="{{ release.url }}">{{ release.title }}</a>
               </li>
           {% endfor %}
           </ul>
@@ -106,12 +106,12 @@ ______ _____ _____  _   _____________ _________________
           <h3>Pressematerial</h3>
           <ul>
             <li>Logo 2015 (
-              <a href="http://static.rocktreff.de/presse/Rocktreff_2015_Logo_FX_1200.png" target="_blank">PNG</a>
+              <a class="link" href="http://static.rocktreff.de/presse/Rocktreff_2015_Logo_FX_1200.png" target="_blank">PNG</a>
               )
             </li>
             <li>Logo – Neutral (
-              <a href="http://static.rocktreff.de/presse/RT_neutral_vector.eps" target="_blank">EPS</a>,
-              <a href="http://static.rocktreff.de/presse/RT_neutral_vector.pdf" target="_blank">PDF</a>
+              <a class="link" href="http://static.rocktreff.de/presse/RT_neutral_vector.eps" target="_blank">EPS</a>,
+              <a class="link" href="http://static.rocktreff.de/presse/RT_neutral_vector.pdf" target="_blank">PDF</a>
               )
             </li>
           </ul>
