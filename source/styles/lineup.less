@@ -1,5 +1,96 @@
 #lineup {
+
+	padding-top: 4em;
+	padding-bottom: 4em;
+
+
+	.thumb {
+		display: block;
+		width: 100%;
+		border-top: 3px solid @gelb;
+		background-size: cover;
+		background-position-y: 35%;
+		.transition;
+
+		&:hover {
+			.transform( rotate(-2deg) scale(1.2) );
+			border: 3px solid @gelb;
+			z-index: 2;
+			border-radius: 4px;
+		}
+	}
+
+	.timeslot {
+		height: 75px;
+		font-size: 0.8em;
+		text-align: right;
+		position: relative;
+		line-height: 0px;
+		margin-bottom: 1px;
+
+		&:after {
+			content: "";
+			position: absolute;
+			top: -1px;
+			width: 586%;
+			border-top: 1px solid darken( @gelb, 40% );
+		}
+	}
+
+	.dates {
+		color: @gelb;
+		font-family: 'Oswald', Impact, sans-serif;
+		font-size: 1.3em;
+		margin-bottom: 16px;
+	}
+
+	.day > * {
+		margin-bottom: 1px;
+		height: 75px;
+		position: relative;
+
+		.name {
+			position: absolute;
+			display: inline-block;
+			top: 0;
+			left: 0;
+			padding: 2px 4px 0px;
+			font-size: 1.1em;
+			color: #fff;
+			white-space: nowrap;
+			overflow: hidden;
+			font-family: 'Oswald', Impact, sans-serif;
+			text-shadow: 2px 2px 0px #000;
+			z-index: 1;
+			background-color: rgba(0,0,0,0.5);
+		}
+	}
+
+	.friday {
+		padding-top: 152px;
+	}
+
+	h1 {
+		margin-top: 0;
+	}
+
 	.day {
+		@media (max-width: @screen-xs-max) and (max-aspect-ratio: 1/1) {
+			& {
+				padding-left: 0;
+				padding-right: 0;
+
+				.col-xs-3 {
+					width: 30%;
+				}
+
+				.name {
+					white-space: initial;
+				}
+			}
+		}
+
+		// fixes
 		&.friday {
 			a {
 				&:nth-child(2) { background-position-y: 0%; }
@@ -28,4 +119,6 @@
 			}
 		}
 	}
+
+
 }

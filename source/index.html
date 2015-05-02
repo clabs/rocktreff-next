@@ -14,25 +14,25 @@ ______ _____ _____  _   _____________ _________________
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-	<title>ROCKTREFF 2015 | 10.-12. Juli 2015 | Eintritt frei | Open Air Festival im Fußballstadion Volksparkstadion Mariendorf</title>
+	<title>ROCKTREFF 2015 | 10.-12. Juli 2015 | Eintritt frei | Open Air Festival im Fußballstadion Volksparkstadion Mariendorf</title>
+	<link rel="stylesheet" type="text/css" href="styles/main.css">
 	<script type="text/javascript" src="//code.jquery.com/jquery-2.1.1.min.js"/></script>
 	<script type="text/javascript" src="vendor/skrollr/dist/skrollr.min.js"></script>
 	<script type="text/javascript" src="vendor/bootstrap/js/scrollspy.js"></script>
-	<link rel="stylesheet" type="text/css" href="styles/main.css">
 	<link rel="icon" type="image/x-icon" href="./favicon.ico" />
 </head>
 <body data-spy="scroll" data-offset="0" data-target="#navigation">
-	{% include navigation.html attribs="data-top=\"margin-bottom:-100px;\" data--400-top=\"margin-bottom:0px;\" data-anchor-target=\"#landing\""%}
-
+{% include navigation.html attribs="data-top=\"margin-top:-100px;\" data--700-top=\"margin-top:0px;\" data-anchor-target=\"#landing\""%}
+<div id="skrollr-body">
 	<!-- landing splash -->
 	<section class="slide" id="landing">
 
-		<div class="video-bg"
+		<div class="video-bg hidden-xs"
 			data-top="top:0%;";
 			data-top-bottom="top:50%;"
 			data-anchor-target="#landing"
 		>
-			<video preload="auto" muted="muted" loop="loop" canplay="false" autoplay="autoplay">
+			<video preload="auto" muted="muted" loop="loop" canplay="false" autoplay="autoplay" poster="http://static.rocktreff.de/video/rocktreff_web_2000k.jpg">
 				<source src="http://static.rocktreff.de/video/rocktreff_web_2000k.mp4" type="video/mp4">
 			</video>
 		</div>
@@ -59,7 +59,7 @@ ______ _____ _____  _   _____________ _________________
 			data-anchor-target="#landing"
 		>
 			<div class="presented_by">
-				präsentiert von
+				<span class="hidden-xs">präsentiert von</span>
 			</div>
 			{% for sponsor in site.data.sponsors %}
 				{% if sponsor.presenter %}
@@ -70,7 +70,7 @@ ______ _____ _____  _   _____________ _________________
 			{% endfor %}
 		</div>
 
-		<div class="info">
+		<div class="info hidden-xs">
 			<h1>Eintritt Frei!</h1>
 			<h2>10.-12. Juli 2015<h2>
 			<h3>Volkspark Mariendorf</h3>
@@ -91,39 +91,56 @@ ______ _____ _____  _   _____________ _________________
 	<section id="lineup" class="slide">
 		<div class="container">
 			<div class="row">
-				<div class="col-sm-4">
+				<div class="col-sm-4 col-sm-push-8">
 					<h1>16 Bands Live!</h1>
-					<p>
-						Der jährlich im Volksparkstadion Mariendorf stattfindende
-						ROCKTREFF ist ein Open Air Festival, das sich ganz der
-						handgemachten Musik verschrieben hat. Hier werden die
-						Gitarren ausgepackt, die Verstärker hochgeregelt und
-						gemeinsam das Haupthaar geschüttelt. Ziel des ROCKTREFFs
-						ist es, Amateurbands eine geeignete Bühne zu bieten, sich
-						einem größtmöglichen Publikum zu präsentieren und auf der
-						anderen Seite einer breiten Öffentlichkeit ein kostenloses
-						Event zu bieten. Das ROCKTREFF Open Air gilt als das
-						größte Amateurbandfestival Berlins.
-
-						Aus jährlich über 200 Bewerbungen wurden dieses Jahr 16 Bands
-						ausgewählt, die an drei Tagen des Festivals das Line-Up stellen.
-					</p>
 				</div>
-				<div class="col-sm-8">
+			</div>
+			<div class="row">
+				<div class="col-md-4 col-md-push-8">
+					Der jährlich im Volksparkstadion Mariendorf stattfindende
+					ROCKTREFF ist ein Open Air Festival, das sich ganz der
+					handgemachten Musik verschrieben hat. Hier werden die
+					Gitarren ausgepackt, die Verstärker hochgeregelt und
+					gemeinsam das Haupthaar geschüttelt. Ziel des ROCKTREFFs
+					ist es, Amateurbands eine geeignete Bühne zu bieten, sich
+					einem größtmöglichen Publikum zu präsentieren und auf der
+					anderen Seite einer breiten Öffentlichkeit ein kostenloses
+					Event zu bieten. Das ROCKTREFF Open Air gilt als das
+					größte Amateurbandfestival Berlins.<br>
+
+					Aus jährlich über 200 Bewerbungen wurden dieses Jahr 16 Bands
+					ausgewählt, die an drei Tagen des Festivals das Line-Up stellen.
+				</div>
+				<div class="col-md-8 col-md-pull-4">
 					<div class="row dates">
-						<div class="col-sm-1"></div>
-						<div class="col-sm-3">
-							Freitag, 10. Juli
+						<div class="col-xs-2"></div>
+						<div class="col-xs-3">
+							<span class="hidden-xs-portrait">
+								Freitag, 10. Juli
+							</span>
+							<span class="visible-xs-portrait">
+								Fr, 10.7.
+							</span>
 						</div>
-						<div class="col-sm-3">
-							Samstag, 11. Juli
+						<div class="col-xs-3">
+							<span class="hidden-xs-portrait">
+								Samstag, 11. Juli
+							</span>
+							<span class="visible-xs-portrait">
+								Sa, 11.7.
+							</span>
 						</div>
-						<div class="col-sm-3">
-							Sonntag, 12. Juli
+						<div class="col-xs-3">
+							<span class="hidden-xs-portrait">
+								Sonntag, 12. Juli
+							</span>
+							<span class="visible-xs-portrait">
+								So, 12.7.
+							</span>
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-sm-1">
+						<div class="col-xs-2">
 							<div class="timeslot">16:00</div>
 							<div class="timeslot">17:00</div>
 							<div class="timeslot">18:00</div>
@@ -134,7 +151,7 @@ ______ _____ _____  _   _____________ _________________
 							<div class="timeslot">23:00</div>
 						</div>
 						{% assign bands = site.bands | where: 'year', 2015 | sort: 'stagetime'  %}
-						<div class="col-sm-3 day friday">
+						<div class="col-xs-3 day friday">
 							{% for band in bands %}
 								{% if band.stagetime contains 'Freitag' %}
 								<a href="{{ band.url }}" class="thumb" style="background-image:url('http://static.rocktreff.de/bands/pictures/{{ band.picture }}')">
@@ -143,7 +160,7 @@ ______ _____ _____  _   _____________ _________________
 								{% endif %}
 							{% endfor %}
 						</div>
-						<div class="col-sm-3 day saturday">
+						<div class="col-xs-3 day saturday">
 							{% for band in bands  %}
 								{% if band.stagetime contains 'Samstag' %}
 								<a href="{{ band.url }}" class="thumb" style="background-image:url('http://static.rocktreff.de/bands/pictures/{{ band.picture }}')">
@@ -152,7 +169,7 @@ ______ _____ _____  _   _____________ _________________
 								{% endif %}
 							{% endfor %}
 						</div>
-						<div class="col-sm-3 day sunday">
+						<div class="col-xs-3 day sunday">
 							{% for band in bands %}
 								{% if band.stagetime contains 'Sonntag' %}
 								<a href="{{ band.url }}" class="thumb" style="background-image:url('http://static.rocktreff.de/bands/pictures/{{ band.picture }}')">
@@ -178,12 +195,12 @@ ______ _____ _____  _   _____________ _________________
 	<section id="map" class="slide">
 		<div class="container approach">
 			<div class="row">
-				<div class="col-sm-6 col-sm-offset-3">
+				<div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
 					<h1>Anfahrt</h1>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-sm-3 col-sm-offset-3">
+				<div class="col-xs-12 col-sm-5 col-sm-offset-1 col-md-4 col-md-offset-2">
 					<p>
 						Der Volkspark befindet sich direkt am Mariendorfer
 						Damm zwischen den U-Bahnhöfen Alt-Mariendorf und
@@ -194,23 +211,21 @@ ______ _____ _____  _   _____________ _________________
 					<dt>Adresse</dt>
 					<dd>Prühßstraße 90, 12109 Berlin-Tempelhof</dd>
 				</div>
-				<div class="col-sm-3">
+				<div class="col-xs-12 col-sm-5 col-md-4">
 					<dt>BVG-Anbindung</dt>
 					<dd>
 						<p>
-							<span class="bvg u6">U6</span> Alt-Mariendorf –
-							Bus
-							<span class="bvg bus">181</span>,
-							<span class="bvg mbus">M76</span>
-							<span class="bvg bus">179</span>
-							<span class="bvg bus">277</span>
-							<span class="bvg xbus">X76</span>
-							<span class="bvg mbus">M77</span>
+							<span class="nobr bvg u6">U6</span> Alt-Mariendorf</br>
+							<span class="nobr bvg bus">181</span>,
+							<span class="nobr bvg mbus">M76</span>
+							<span class="nobr bvg bus">179</span>
+							<span class="nobr bvg bus">277</span>
+							<span class="nobr bvg xbus">X76</span>
+							<span class="nobr bvg mbus">M77</span>
 						</p>
 						<p>
-							<span class="bvg u6">U6</span> Westphalweg –
-							Bus
-							<span class="bvg bus">282</span>
+							<span class="nobr bvg u6">U6</span> Westphalweg</br>
+							<span class="nobr bvg bus">282</span>
 						</p>
 					</dd>
 				</div>
@@ -226,7 +241,6 @@ ______ _____ _____  _   _____________ _________________
 			></iframe>
 		</div>
 		<script type="text/javascript">
-			// Disable scroll zooming and bind back the click event
 			var onMapMouseleaveHandler = function ( event ) {
 				var self = $( this )
 				self.on( 'click', onMapClickHandler )
@@ -235,14 +249,10 @@ ______ _____ _____  _   _____________ _________________
 			}
 			var onMapClickHandler = function ( event ) {
 				var self = $( this )
-				// Disable the click handler until the user leaves the map area
 				self.off( 'click', onMapClickHandler )
-				// Enable scrolling zoom
 				self.find( 'iframe' ).css( 'pointer-events', 'auto' )
-				// Handle the mouse leave event
 				self.on( 'mouseleave', onMapMouseleaveHandler )
 			}
-			// Enable map zooming with mouse scroll when the user clicks the map
 			$( '#map .noscroll' ).on( 'click', onMapClickHandler )
 		</script>
 	</section>
@@ -250,11 +260,11 @@ ______ _____ _____  _   _____________ _________________
 
 	<section id="sponsors" class="slide">
 		<div class="container sponsors">
-			<div class="row col-sm-12">
+			<div class="row col-lg-12">
 				<h1>Sponsoren</h1>
 			</div>
 			<div class="row">
-				<div class="col-sm-7">
+				<div class="col-lg-7">
 					<p>
 						Das der ROCKTREFF auch im 32. Jahr noch für den
 						Besucher bei freiem Eintritt stattfinden kann, ist
@@ -267,7 +277,7 @@ ______ _____ _____  _   _____________ _________________
 						Sponsoren.
 					</p>
 				</div>
-				<div class="main col-sm-5">
+				<div class="main col-lg-5">
 					{% for sponsor in site.data.sponsors %}
 						{% if sponsor.main %}
 						<a href="{{ sponsor.url }}" target="_blank">
@@ -278,7 +288,7 @@ ______ _____ _____  _   _____________ _________________
 				</div>
 			</div>
 			<div class="row">
-				<div class="other col-sm-12">
+				<div class="other col-lg-12">
 					<h3>Weitere Sponsoren</h3>
 					{% for sponsor in site.data.sponsors %}
 						{% unless sponsor.presenter %}
@@ -304,15 +314,13 @@ ______ _____ _____  _   _____________ _________________
 			data-top-bottom="top:50%;";
 			data-anchor-target="#spielfest"
 		><div class="image"></div></div>
-		</div>
 		<div class="logo"></div>
 		<div class="silhouetten"></div>
 	</section>
 	<section id="spielfest_info" class="slide ">
 		<div class="container">
-			<div class="col-sm-8">
+			<div class="col-sm-8 col-sm-offset-2">
 				<p>
-
 					Im Rahmen des ROCKTREFFs findet auf dem selben Gelände am
 					Samstag und Sonntag von 12:00 Uhr bis 18:00 Uhr das
 					Spielfest statt. Die Kleinsten der Rocker können sich bei
@@ -321,13 +329,13 @@ ______ _____ _____  _   _____________ _________________
 					geboten wird. Die Schirmherrin des Spielfestes ist die
 					Bezirksbürgermeisterin Frau Angelika Schöttler.
 					<a class="link" href="http://spielfest-mariendorf.de/" target="_blank">Mehr Infos …</a>
-
 				</p>
 			</div>
-			<div class="col-sm-4">
-				<img src="http://static.rocktreff.de/sponsors/moebel_kraft.png">
-			</div>
 		</div>
+	</section>
+	<section id="spielfest_sponsors" class="slide ">
+		<img src="http://static.rocktreff.de/sponsors/moebel_kraft.png">
+		<img src="http://static.rocktreff.de/sponsors/stromnetz_berlin.png">
 	</section>
 
 
@@ -345,7 +353,7 @@ ______ _____ _____  _   _____________ _________________
 	<section id="footer" class="slide">
 		<div class="container" id="imprint">
 			<div class="row">
-				<div class="col-sm-3 imprint">
+				<div class="col-sm-4 col-sm-offset-2 imprint">
 					<dl>
 						<dt>Veranstalter</dt>
 							<dd>
@@ -364,7 +372,7 @@ ______ _____ _____  _   _____________ _________________
 							</dd>
 					</dl>
 				</div>
-				<div class="col-sm-4 imprint border">
+				<div class="col-sm-4 imprint">
 					<dl>
 						<dt>Träger der Veranstaltung<dt>
 							<dd>
@@ -393,16 +401,15 @@ ______ _____ _____  _   _____________ _________________
 					</dl>
 
 				</div>
-				<div class="col-sm-5">
-					<a href="http://www.berlin.de/ba-tempelhof-schoeneberg/organisationseinheit/jugend-familie/" target="_blank">
-						<img src="http://static.rocktreff.de/sponsors/jugendamt.png" width="200" alt="Jugendamt">
-					</a>
-					<img src="images/footer_rockini.png" alt="ROCK-INI">
-					<a href="http://www.cpye.de/" target="_blank">
-						<img src="http://static.rocktreff.de/sponsors/cpye.png" alt="CPYE e.V.">
-					</a>
-				</div>
-
+			</div>
+			<div style="text-align:center;margin-top:2em">
+				<a href="http://www.berlin.de/ba-tempelhof-schoeneberg/organisationseinheit/jugend-familie/" target="_blank">
+					<img src="http://static.rocktreff.de/sponsors/jugendamt.png" width="200" alt="Jugendamt">
+				</a>
+				<img src="images/footer_rockini.png" alt="ROCK-INI">
+				<a href="http://www.cpye.de/" target="_blank">
+					<img src="http://static.rocktreff.de/sponsors/cpye.png" alt="CPYE e.V.">
+				</a>
 			</div>
 		</div>
 
@@ -411,7 +418,11 @@ ______ _____ _____  _   _____________ _________________
 
 
 	<script type="text/javascript">
-		skrollr.init({ smoothScrolling: false })
+		skrollr.init({
+			smoothScrolling: true,
+			scale: 1,
+			mobileDeceleration: 0.004
+		})
 		$( 'a[href*=#]:not([href=#])' ).click( function () {
 			if ( location.pathname.replace(/^\//,'') === this.pathname.replace(/^\//,'') &&
 				location.hostname == this.hostname ) {
@@ -436,7 +447,7 @@ ______ _____ _____  _   _____________ _________________
 			var domain = self.attr( 'domain' ) || 'rocktreff.de'
 			window.location = 'mailto:'+ alias +'@'+ domain
 		})
-  </script>
 	</script>
+</div>
 </body>
 </html>

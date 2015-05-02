@@ -55,6 +55,11 @@
   url: http://www.vitasyn.de/
   main: true
 
+- name: schreiberlin
+  image: schreiberlin.png
+  url: http://www.schreiberlin.com/
+  main: true
+
 - name: stilbrand
   image: stilbrand.png
   url: http://www.stilbrand.de/
@@ -75,6 +80,10 @@
   image: avantgarde.png
   url: http://www.avantgarde-technik.de/
 
+- name: degas
+  image: degas.png
+  url: http://www.degas-atd.com/
+
 - name: derpart
   image: derpart.png
   url: http://www.derpart24.de/ehlert
@@ -89,7 +98,7 @@
 
 - name: kki
   image: kki.png
-  url: http://www.kki-verein.de/
+  url: http://www.kki-gesellschaft.de/
 
 - name: ladenzeile
   image: lz.png
@@ -127,9 +136,9 @@
   image: riemer_schultz.png
   url: http://www.riemerschultz.de/
 
-- name: sea
-  image: sea.png
-  url: http://www.sea-vertrieb.de/
+# - name: sea
+#   image: sea.png
+#   url: http://www.sea-vertrieb.de/
 
 - name: streetteam
   image: streetteam_berlin.png

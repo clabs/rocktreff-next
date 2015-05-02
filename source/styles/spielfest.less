@@ -1,0 +1,73 @@
+
+
+#spielfest {
+
+	.bg .image {
+		background-image: url('../images/landing_2.jpg');
+	}
+
+
+	.logo {
+		background-image: url('../images/spielfest_logo.png');
+		width: 50vw;
+		height: 8.5vw;
+		background-size: cover;
+		margin-top: 25%;
+		margin-left: 25%;
+		position: absolute;
+		z-index: 1;
+	}
+
+	.silhouetten {
+		background-image: url('../images/spielfest_silhouetten.png');
+		background-size: auto 100%;
+		width: 100vw;
+		height: 170px;
+		position: absolute;
+		bottom: 0;
+	}
+}
+
+#spielfest_info {
+	background-color: #39802f;
+	min-height: initial;
+	padding: 40px 0;
+	z-index: 1;
+
+	&:before {
+		content: '';
+		position: absolute;
+		z-index: 2;
+		top: 0;
+		left: 10%;
+		width: 80%;
+		height: 1px;
+		box-shadow: 0 0 10px #000;
+ 	}
+
+	a {
+		color: @gelb;
+		&:hover {
+			color: #000;
+		}
+	}
+}
+
+#spielfest_sponsors {
+	background: #fff;
+	min-height: 100px;
+	padding: 18px 0;
+	z-index: 1;
+	background: -moz-linear-gradient(top,  #d6efd3 0%, #ffffff 20%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d6efd3), color-stop(20%,#ffffff));
+	background: -webkit-linear-gradient(top,  #d6efd3 0%,#ffffff 20%);
+	background: -o-linear-gradient(top,  #d6efd3 0%,#ffffff 20%);
+	background: -ms-linear-gradient(top,  #d6efd3 0%,#ffffff 20%);
+	background: linear-gradient(to bottom,  #d6efd3 0%,#ffffff 20%);
+	text-align: center;
+
+	img {
+		width: 185px;
+	}
+
+}
