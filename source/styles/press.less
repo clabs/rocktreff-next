@@ -1,4 +1,4 @@
-.page.press, .press-page {
+.page.press {
 	background-image: url( '../images/bg_press.jpg' );
 
 	.pressreleases {
@@ -21,8 +21,29 @@
 }
 
 .press-page {
+	background-image: url( '../images/bg_press.jpg' );
 
-	.pressreleases .date {
-		display: none;
+	.pressreleases {
+		list-style: disc;
+		padding-left: 1.1em;
+
+		a {
+			display: inline;
+		}
+
+		.date {
+			display: none;
+		}
+	}
+
+	.date {
+		font-size: 0.85em;
+		margin-bottom: 0.6em;
+	}
+
+	.picture {
+		margin-left: 0.5em;
+		margin-bottom: 0.4em;
+		border-radius: 4px;
 	}
 }

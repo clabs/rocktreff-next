@@ -29,8 +29,8 @@ module Jekyll
         @set = look_up(context, $1)
       end
       # uncomment to skip flickr api calls. TODO: integrate into dev mode
-      # @html = ""
-      # return @html
+      #@html = ""
+      #return @html
       # get json from flickr and parse photo items
       @uri  = URI.parse("https://api.flickr.com/services/rest/?method=flickr.photosets.getPhotos&photoset_id=#{@set}&api_key=#{@config['api_key']}&format=json&nojsoncallback=1")
       @http = Net::HTTP.new(@uri.host, @uri.port)

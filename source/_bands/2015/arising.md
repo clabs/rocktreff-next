@@ -10,6 +10,7 @@ website: https://www.facebook.com/ARISING.BERLIN
 stagetime: Freitag, 10. Juli 2015, 19:00 Uhr
 logo: arising.jpg
 picture: arising.jpg
+youtube: 389qsEHFcwY
 ---
 ARISING sind fünf kreative Musiker aus Berlin, die sich an einem kalten
 Dezemberabend 2012 in einem der Berliner Proberäume getroffen haben, um

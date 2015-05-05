@@ -22,25 +22,32 @@ ______ _____ _____  _   _____________ _________________
 	<link rel="icon" type="image/x-icon" href="./favicon.ico" />
 </head>
 <body data-spy="scroll" data-offset="0" data-target="#navigation">
-{% include navigation.html attribs="data-top=\"margin-top:-100px;\" data--700-top=\"margin-top:0px;\" data-anchor-target=\"#landing\""%}
 <div id="skrollr-body">
+	{% include navigation.html attribs="data-top=\"margin-top:-100px;\" data--700-top=\"margin-top:0px;\" data-anchor-target=\"#slide_landing\""%}
 	<!-- landing splash -->
-	<section class="slide" id="landing">
+	<section class="slide landing" id="slide_landing">
 
 		<div class="video-bg hidden-xs"
 			data-top="top:0%;";
 			data-top-bottom="top:50%;"
-			data-anchor-target="#landing"
+			data-anchor-target="#slide_landing"
 		>
 			<video preload="auto" muted="muted" loop="loop" canplay="false" autoplay="autoplay" poster="http://static.rocktreff.de/video/rocktreff_web_2000k.jpg">
 				<source src="http://static.rocktreff.de/video/rocktreff_web_2000k.mp4" type="video/mp4">
 			</video>
 		</div>
 
+		<div class="mobil-bg visible-xs"
+			data-top="top:0%;";
+			data-top-bottom="top:50%;"
+			data-anchor-target="#slide_landing"
+		>
+		</div>
+
 		<div class="scrolldown"
 			data-top="opacity:1;"
 			data--100-top="opacity:0;"
-			data-anchor-target="#landing"
+			data-anchor-target="#slide_landing"
 		>
 			<span class="glyphicon glyphicon-chevron-down"></span></a>
 		</div>
@@ -48,7 +55,7 @@ ______ _____ _____  _   _____________ _________________
 		<div class="logo"
 			data-top="opacity:1;"
 			data--400-top="opacity:0;"
-			data-anchor-target="#landing"
+			data-anchor-target="#slide_landing"
 		>
 			<img src="./images/rt.png">
 		</div>
@@ -56,7 +63,7 @@ ______ _____ _____  _   _____________ _________________
 		<div class="presenter"
 			data--120-bottom="opacity:1;";
 			data--400-bottom=="opacity:0;"
-			data-anchor-target="#landing"
+			data-anchor-target="#slide_landing"
 		>
 			<div class="presented_by">
 				<span class="hidden-xs">präsentiert von</span>
@@ -80,15 +87,16 @@ ______ _____ _____  _   _____________ _________________
 		<div class="footer"
 			data-top="opacity:1;"
 			data--100-top="opacity:0;"
-			data-anchor-target="#landing"
+			data-anchor-target="#slide_landing"
 		>
-			<a class="link" href="#imprint">Impressum</a>
+			<a class="link" href="#impressum">Impressum</a>
 		</div>
 
 	</section>
 
 
-	<section id="lineup" class="slide">
+	<section class="slide lineup" id="slide_lineup">
+		<a name="lineup"></a>
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-4 col-sm-push-8">
@@ -184,15 +192,16 @@ ______ _____ _____  _   _____________ _________________
 		</div>
 	</section>
 
-	<section id="second" class="slide second">
+	<section class="slide second" id="slide_second">
 		<div class="bg"
 			data-bottom-top="top:-50%;"
 			data-top-bottom="top:50%;";
-			data-anchor-target="#second"
+			data-anchor-target="#slide_second"
 		><div class="image"></div></div>
 	</section>
 
-	<section id="map" class="slide">
+	<section class="slide map">
+		<a name="map"></a>
 		<div class="container approach">
 			<div class="row">
 				<div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
@@ -235,7 +244,7 @@ ______ _____ _____  _   _____________ _________________
 			<iframe
 				data-bottom-top="top:-50%;"
 				data-top-bottom="top:50%;";
-				data-anchor-target="#map"
+				data-anchor-target=".slide.map"
 				src="http://www.openstreetmap.org/export/embed.html?bbox=13.384330272674559%2C52.43943940263717%2C13.406345844268799%2C52.44794096541378&amp;layer=mapquest&amp;marker=52.44369038910433%2C13.39533805847168"
 				width="100%" height="400" frameborder="0" style="border:0;pointer-events:none" scrolling="no"
 			></iframe>
@@ -253,12 +262,13 @@ ______ _____ _____  _   _____________ _________________
 				self.find( 'iframe' ).css( 'pointer-events', 'auto' )
 				self.on( 'mouseleave', onMapMouseleaveHandler )
 			}
-			$( '#map .noscroll' ).on( 'click', onMapClickHandler )
+			$( '.slide.map .noscroll' ).on( 'click', onMapClickHandler )
 		</script>
 	</section>
 
 
-	<section id="sponsors" class="slide">
+	<section class="slide sponsors" id="slide_sponsors">
+		<a name="sponsors"></a>
 		<div class="container sponsors">
 			<div class="row col-lg-12">
 				<h1>Sponsoren</h1>
@@ -308,16 +318,17 @@ ______ _____ _____  _   _____________ _________________
 
 
 
-	<section id="spielfest" class="slide">
+	<section class="slide spielfest" id="slide_spielfest">
+		<a name="spielfest"></a>
 		<div class="bg"
 			data-bottom-top="top:-50%;"
 			data-top-bottom="top:50%;";
-			data-anchor-target="#spielfest"
+			data-anchor-target="#slide_spielfest"
 		><div class="image"></div></div>
 		<div class="logo"></div>
 		<div class="silhouetten"></div>
 	</section>
-	<section id="spielfest_info" class="slide ">
+	<section class="slide spielfest_info">
 		<div class="container">
 			<div class="col-sm-8 col-sm-offset-2">
 				<p>
@@ -333,25 +344,26 @@ ______ _____ _____  _   _____________ _________________
 			</div>
 		</div>
 	</section>
-	<section id="spielfest_sponsors" class="slide ">
+	<section class="slide spielfest_sponsors">
 		<img src="http://static.rocktreff.de/sponsors/moebel_kraft.png">
 		<img src="http://static.rocktreff.de/sponsors/stromnetz_berlin.png">
 	</section>
 
 
 
-	<section id="last" class="slide last">
+	<section class="slide last" id="slide_last">
 		<div class="bg"
 			data-bottom-top="top:-50%;"
 			data-top-bottom="top:50%;";
-			data-anchor-target="#last"
+			data-anchor-target="#slide_last"
 		><div class="image"></div></div>
 	</section>
 
 
 
-	<section id="footer" class="slide">
-		<div class="container" id="imprint">
+	<section class="slide footer">
+		<a name="impressum"></a>
+		<div class="container imprint">
 			<div class="row">
 				<div class="col-sm-4 col-sm-offset-2 imprint">
 					<dl>
@@ -419,10 +431,10 @@ ______ _____ _____  _   _____________ _________________
 
 	<script type="text/javascript">
 		skrollr.init({
-			smoothScrolling: true,
-			scale: 1,
+			smoothScrolling: false,
 			mobileDeceleration: 0.004
 		})
+		skrollr.get().refresh()
 		$( 'a[href*=#]:not([href=#])' ).click( function () {
 			if ( location.pathname.replace(/^\//,'') === this.pathname.replace(/^\//,'') &&
 				location.hostname == this.hostname ) {
@@ -432,7 +444,7 @@ ______ _____ _____  _   _____________ _________________
 					$( 'html,body' ).animate({
 						scrollTop: target.offset().top
 					}, 700)
-					return false
+					return true
 				}
 			}
 		})
@@ -447,6 +459,9 @@ ______ _____ _____  _   _____________ _________________
 			var domain = self.attr( 'domain' ) || 'rocktreff.de'
 			window.location = 'mailto:'+ alias +'@'+ domain
 		})
+	</script>
+	<script type="text/javascript">
+		skrollr.get().refresh()
 	</script>
 </div>
 </body>

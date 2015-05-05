@@ -1,6 +1,6 @@
 
 
-#spielfest {
+.slide.spielfest {
 
 	.bg .image {
 		background-image: url('../images/landing_2.jpg');
@@ -12,10 +12,21 @@
 		width: 50vw;
 		height: 8.5vw;
 		background-size: cover;
+		background-repeat: no-repeat;
 		margin-top: 25%;
 		margin-left: 25%;
 		position: absolute;
 		z-index: 1;
+
+		@media (max-width: @screen-xs-max) and (max-aspect-ratio: 1/1) {
+			& {
+				width: 98vw;
+				height: 15vh;
+				margin-top: 35vh;
+				margin-left: 1vw;
+				background-size: contain;
+			}
+		}
 	}
 
 	.silhouetten {
@@ -28,7 +39,7 @@
 	}
 }
 
-#spielfest_info {
+.slide.spielfest_info {
 	background-color: #39802f;
 	min-height: initial;
 	padding: 40px 0;
@@ -53,7 +64,7 @@
 	}
 }
 
-#spielfest_sponsors {
+.slide.spielfest_sponsors {
 	background: #fff;
 	min-height: 100px;
 	padding: 18px 0;
