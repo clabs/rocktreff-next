@@ -13,7 +13,7 @@ permalink: /presse/feed.xml
 				<title>{{ release.title | xml_escape }}</title>
 				<description>
 					{% if release.picture %}
-					&lt;img src="http://static.rocktreff.de/presse/bilder/{{ release.picture }}"&gt;
+					&lt;img src="https://static.rocktreff.de/presse/bilder/{{ release.picture }}"&gt;
 					{% endif %}
 					{{ release.content | xml_escape }}
 				</description>

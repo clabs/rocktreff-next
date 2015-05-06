@@ -1,6 +1,6 @@
 <nav id="navigation" {% if include.attribs %}{{include.attribs}}{% endif %}>
   <ul class="nav hidden-xs">
-    <li><a href="/"></a><li>
+    <li><a href="/#"></a><li>
     <li><a href="/#lineup">Lineup</a></li>
     <li><a href="/#sponsors">Sponsoren</a></li>
     <li><a href="/#spielfest">Spielfest</a></li>
@@ -20,7 +20,7 @@
   </ul>
   <div class="nav-small visible-xs">
       <ul class="nav">
-        <li><a href="/"></a><li>
+        <li><a href="/#"></a><li>
         <li><a href="/#lineup">Lineup</a></li>
         <li><a href="/#sponsors">Sponsoren</a></li>
         <li><a href="/#spielfest">Spielfest</a></li>
@@ -35,9 +35,11 @@
   </div>
 </nav>
 <script type="text/javascript">
-  var $xsMenu = $( '.nav-small' )
-  $( '.nav.visible-xs .glyphicon-menu-hamburger, .nav a' )
-    .on( 'click', function () {
-      $xsMenu.toggleClass( 'in' )
-    })
+  $( function () {
+    var $xsMenu = $( '.nav-small' )
+    $( '.nav.visible-xs .glyphicon-menu-hamburger, .nav a' )
+      .on( 'click', function () {
+        $xsMenu.toggleClass( 'in' )
+      })
+  })
 </script>

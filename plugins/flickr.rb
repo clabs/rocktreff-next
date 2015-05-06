@@ -59,7 +59,7 @@ module Jekyll
 
     def initialize(title, id, secret, server, farm, thumbnail_size)
       @title          = title
-      @url            = "http://farm#{farm}.staticflickr.com/#{server}/#{id}_#{secret}.jpg"
+      @url            = "https://farm#{farm}.staticflickr.com/#{server}/#{id}_#{secret}.jpg"
       @thumbnail_url  = url.gsub(/\.jpg/i, "_#{thumbnail_size}.jpg")
       @thumbnail_size = thumbnail_size
     end

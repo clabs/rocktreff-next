@@ -16,10 +16,45 @@ ______ _____ _____  _   _____________ _________________
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 	<title>ROCKTREFF 2015 | 10.-12. Juli 2015 | Eintritt frei | Open Air Festival im Fußballstadion Volksparkstadion Mariendorf</title>
 	<link rel="stylesheet" type="text/css" href="styles/main.css">
-	<script type="text/javascript" src="//code.jquery.com/jquery-2.1.1.min.js"/></script>
+	<link rel="icon" type="image/x-icon" href="./favicon.ico" />
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"/></script>
 	<script type="text/javascript" src="vendor/skrollr/dist/skrollr.min.js"></script>
 	<script type="text/javascript" src="vendor/bootstrap/js/scrollspy.js"></script>
-	<link rel="icon" type="image/x-icon" href="./favicon.ico" />
+	<script type="text/javascript">
+		$( function () {
+			skrollr.init({
+				smoothScrolling: false,
+				mobileDeceleration: 0.004
+			})
+			$( 'a[href*=#]:not([href=#])' ).click( function () {
+				if ( location.pathname.replace(/^\//,'') === this.pathname.replace(/^\//,'') &&
+					location.hostname == this.hostname ) {
+					var target = $( this.hash )
+					target = target.length ? target : $( '#' + this.hash.slice(1) )
+					if ( target.length ) {
+						$( 'html,body' ).animate({
+							scrollTop: target.offset().top
+						}, 700)
+						return true
+					}
+				}
+			})
+			$( '.scrolldown' ).click( function () {
+				$( 'html,body' ).animate({
+					scrollTop: $( window ).height()
+				}, 700)
+			})
+			$( '.email' ).on( 'click', function () {
+				var self = $( this )
+				var alias = self.text()
+				var domain = self.attr( 'domain' ) || 'rocktreff.de'
+				window.location = 'mailto:'+ alias +'@'+ domain
+			})
+		})
+		$( function () {
+			//skrollr.get().refresh()
+		})
+	</script>
 </head>
 <body data-spy="scroll" data-offset="0" data-target="#navigation">
 <div id="skrollr-body">
@@ -32,8 +67,8 @@ ______ _____ _____  _   _____________ _________________
 			data-top-bottom="top:50%;"
 			data-anchor-target="#slide_landing"
 		>
-			<video preload="auto" muted="muted" loop="loop" canplay="false" autoplay="autoplay" poster="http://static.rocktreff.de/video/rocktreff_web_2000k.jpg">
-				<source src="http://static.rocktreff.de/video/rocktreff_web_2000k.mp4" type="video/mp4">
+			<video preload="auto" muted="muted" loop="loop" canplay="false" autoplay="autoplay" poster="https://static.rocktreff.de/video/rocktreff_web_2000k.jpg">
+				<source src="https://static.rocktreff.de/video/rocktreff_web_2000k.mp4" type="video/mp4">
 			</video>
 		</div>
 
@@ -71,7 +106,7 @@ ______ _____ _____  _   _____________ _________________
 			{% for sponsor in site.data.sponsors %}
 				{% if sponsor.presenter %}
 				<a href="{{ sponsor.url }}" target="_blank">
-					<img src="http://static.rocktreff.de/sponsors/{{sponsor.image}}">
+					<img src="https://static.rocktreff.de/sponsors/{{sponsor.image}}">
 				</a>
 				{% endif %}
 			{% endfor %}
@@ -95,8 +130,7 @@ ______ _____ _____  _   _____________ _________________
 	</section>
 
 
-	<section class="slide lineup" id="slide_lineup">
-		<a name="lineup"></a>
+	<section class="slide lineup" id="lineup">
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-4 col-sm-push-8">
@@ -162,7 +196,7 @@ ______ _____ _____  _   _____________ _________________
 						<div class="col-xs-3 day friday">
 							{% for band in bands %}
 								{% if band.stagetime contains 'Freitag' %}
-								<a href="{{ band.url }}" class="thumb" style="background-image:url('http://static.rocktreff.de/bands/pictures/{{ band.picture }}')">
+								<a href="{{ band.url }}" class="thumb" style="background-image:url('https://static.rocktreff.de/bands/pictures/{{ band.picture }}')">
 									<div class="name">{{ band.title }}</div>
 								</a>
 								{% endif %}
@@ -171,7 +205,7 @@ ______ _____ _____  _   _____________ _________________
 						<div class="col-xs-3 day saturday">
 							{% for band in bands  %}
 								{% if band.stagetime contains 'Samstag' %}
-								<a href="{{ band.url }}" class="thumb" style="background-image:url('http://static.rocktreff.de/bands/pictures/{{ band.picture }}')">
+								<a href="{{ band.url }}" class="thumb" style="background-image:url('https://static.rocktreff.de/bands/pictures/{{ band.picture }}')">
 									<div class="name">{{ band.title }}</div>
 								</a>
 								{% endif %}
@@ -180,7 +214,7 @@ ______ _____ _____  _   _____________ _________________
 						<div class="col-xs-3 day sunday">
 							{% for band in bands %}
 								{% if band.stagetime contains 'Sonntag' %}
-								<a href="{{ band.url }}" class="thumb" style="background-image:url('http://static.rocktreff.de/bands/pictures/{{ band.picture }}')">
+								<a href="{{ band.url }}" class="thumb" style="background-image:url('https://static.rocktreff.de/bands/pictures/{{ band.picture }}')">
 									<div class="name">{{ band.title }}</div>
 								</a>
 								{% endif %}
@@ -245,7 +279,7 @@ ______ _____ _____  _   _____________ _________________
 				data-bottom-top="top:-50%;"
 				data-top-bottom="top:50%;";
 				data-anchor-target=".slide.map"
-				src="http://www.openstreetmap.org/export/embed.html?bbox=13.384330272674559%2C52.43943940263717%2C13.406345844268799%2C52.44794096541378&amp;layer=mapquest&amp;marker=52.44369038910433%2C13.39533805847168"
+				src="https://www.openstreetmap.org/export/embed.html?bbox=13.384330272674559%2C52.43943940263717%2C13.406345844268799%2C52.44794096541378&amp;layer=mapquest&amp;marker=52.44369038910433%2C13.39533805847168"
 				width="100%" height="400" frameborder="0" style="border:0;pointer-events:none" scrolling="no"
 			></iframe>
 		</div>
@@ -267,8 +301,7 @@ ______ _____ _____  _   _____________ _________________
 	</section>
 
 
-	<section class="slide sponsors" id="slide_sponsors">
-		<a name="sponsors"></a>
+	<section class="slide sponsors" id="sponsors">
 		<div class="container sponsors">
 			<div class="row col-lg-12">
 				<h1>Sponsoren</h1>
@@ -291,7 +324,7 @@ ______ _____ _____  _   _____________ _________________
 					{% for sponsor in site.data.sponsors %}
 						{% if sponsor.main %}
 						<a href="{{ sponsor.url }}" target="_blank">
-							<img src="http://static.rocktreff.de/sponsors/{{sponsor.image}}">
+							<img src="https://static.rocktreff.de/sponsors/{{sponsor.image}}">
 						</a>
 						{% endif %}
 					{% endfor %}
@@ -304,7 +337,7 @@ ______ _____ _____  _   _____________ _________________
 						{% unless sponsor.presenter %}
 						{% unless sponsor.main %}
 						<a href="{{ sponsor.url }}" target="_blank">
-							<img src="http://static.rocktreff.de/sponsors/{{sponsor.image}}">
+							<img src="https://static.rocktreff.de/sponsors/{{sponsor.image}}">
 						</a>
 						{% endunless %}
 						{% endunless %}
@@ -318,12 +351,11 @@ ______ _____ _____  _   _____________ _________________
 
 
 
-	<section class="slide spielfest" id="slide_spielfest">
-		<a name="spielfest"></a>
+	<section class="slide spielfest" id="spielfest">
 		<div class="bg"
 			data-bottom-top="top:-50%;"
 			data-top-bottom="top:50%;";
-			data-anchor-target="#slide_spielfest"
+			data-anchor-target="#spielfest"
 		><div class="image"></div></div>
 		<div class="logo"></div>
 		<div class="silhouetten"></div>
@@ -345,8 +377,8 @@ ______ _____ _____  _   _____________ _________________
 		</div>
 	</section>
 	<section class="slide spielfest_sponsors">
-		<img src="http://static.rocktreff.de/sponsors/moebel_kraft.png">
-		<img src="http://static.rocktreff.de/sponsors/stromnetz_berlin.png">
+		<img src="https://static.rocktreff.de/sponsors/moebel_kraft.png">
+		<img src="https://static.rocktreff.de/sponsors/stromnetz_berlin.png">
 	</section>
 
 
@@ -361,8 +393,7 @@ ______ _____ _____  _   _____________ _________________
 
 
 
-	<section class="slide footer">
-		<a name="impressum"></a>
+	<section class="slide footer" id="impressum">
 		<div class="container imprint">
 			<div class="row">
 				<div class="col-sm-4 col-sm-offset-2 imprint">
@@ -416,53 +447,16 @@ ______ _____ _____  _   _____________ _________________
 			</div>
 			<div style="text-align:center;margin-top:2em">
 				<a href="http://www.berlin.de/ba-tempelhof-schoeneberg/organisationseinheit/jugend-familie/" target="_blank">
-					<img src="http://static.rocktreff.de/sponsors/jugendamt.png" width="200" alt="Jugendamt">
+					<img src="https://static.rocktreff.de/sponsors/jugendamt.png" width="200" alt="Jugendamt">
 				</a>
 				<img src="images/footer_rockini.png" alt="ROCK-INI">
 				<a href="http://www.cpye.de/" target="_blank">
-					<img src="http://static.rocktreff.de/sponsors/cpye.png" alt="CPYE e.V.">
+					<img src="https://static.rocktreff.de/sponsors/cpye.png" alt="CPYE e.V.">
 				</a>
 			</div>
 		</div>
 
 	</section>
-
-
-
-	<script type="text/javascript">
-		skrollr.init({
-			smoothScrolling: false,
-			mobileDeceleration: 0.004
-		})
-		skrollr.get().refresh()
-		$( 'a[href*=#]:not([href=#])' ).click( function () {
-			if ( location.pathname.replace(/^\//,'') === this.pathname.replace(/^\//,'') &&
-				location.hostname == this.hostname ) {
-				var target = $( this.hash )
-				target = target.length ? target : $( '#' + this.hash.slice(1) )
-				if ( target.length ) {
-					$( 'html,body' ).animate({
-						scrollTop: target.offset().top
-					}, 700)
-					return true
-				}
-			}
-		})
-		$( '.scrolldown' ).click( function () {
-			$( 'html,body' ).animate({
-				scrollTop: $( window ).height()
-			}, 700)
-		})
-		$( '.email' ).on( 'click', function () {
-			var self = $( this )
-			var alias = self.text()
-			var domain = self.attr( 'domain' ) || 'rocktreff.de'
-			window.location = 'mailto:'+ alias +'@'+ domain
-		})
-	</script>
-	<script type="text/javascript">
-		skrollr.get().refresh()
-	</script>
 </div>
 </body>
 </html>
