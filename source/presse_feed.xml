@@ -6,20 +6,28 @@ permalink: /presse/feed.xml
 	<channel>
 		<title>{{ site.name | xml_escape }}</title>
 		<description>{% if site.description %}{{ site.description | xml_escape }}{% endif %}</description>
+		<lastBuildDate>{{ site.time | date: '%a, %d %b %Y %H:%M:%S %z' }}</lastBuildDate>
 		<link>{{ site.url }}</link>
+		<language>de-DE</language>
 		<atom:link href="{{ site.url }}/presse/feed.xml" rel="self" type="application/rss+xml" />
 		{% for release in site.presse limit:10 %}
 			<item>
 				<title>{{ release.title | xml_escape }}</title>
+				<pubDate>{{ release.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+				<link>{{ site.url }}{{ release.url }}</link>
+				<guid isPermaLink="false">{{ site.url }}{{ release.url }}</guid>
 				<description>
 					{% if release.picture %}
 					&lt;img src="https://static.rocktreff.de/presse/bilder/{{ release.picture }}"&gt;
 					{% endif %}
 					{{ release.content | xml_escape }}
 				</description>
-				<pubDate>{{ release.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
-				<link>{{ site.url }}{{ release.url }}</link>
-				<guid isPermaLink="true">{{ site.url }}{{ release.url }}</guid>
+				<content:encoded><![CDATA[
+					{% if release.picture %}
+					&lt;img src="https://static.rocktreff.de/presse/bilder/{{ release.picture }}"&gt;
+					{% endif %}
+					{{ release.content | xml_escape }}
+				]]>
 			</item>
 		{% endfor %}
 	</channel>

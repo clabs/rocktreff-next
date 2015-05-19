@@ -6,7 +6,7 @@
 # |_|
 - name: jugendamt
   image: jugendamt.png
-  url: http://www.berlin.de/ba-tempelhof-schoeneberg/organisationseinheit/jugend-familie/
+  url: http://www.bruecken-bauen.info/
   presenter: true
 
 - name: starfm
@@ -50,14 +50,19 @@
   url: http://www.vattenfall.de/
   main: true
 
-- name: vitasyn
-  image: vitasyn.png
-  url: http://www.vitasyn.de/
-  main: true
-
 - name: schreiberlin
   image: schreiberlin.png
   url: http://www.schreiberlin.com/
+  main: true
+
+- name: printprinz
+  image: printprinz.png
+  url: https://printprinz.de/
+  main: true
+
+- name: vitasyn
+  image: vitasyn.png
+  url: http://www.vitasyn.de/
   main: true
 
 - name: stilbrand
@@ -76,9 +81,9 @@
 #   image: 3m.png
 #   url: http://www.3mdeutschland.de/
 
-- name: avantgarde
-  image: avantgarde.png
-  url: http://www.avantgarde-technik.de/
+# - name: avantgarde
+#   image: avantgarde.png
+#   url: http://www.avantgarde-technik.de/
 
 - name: degas
   image: degas.png
@@ -100,9 +105,9 @@
   image: kki.png
   url: http://www.kki-gesellschaft.de/
 
-- name: ladenzeile
-  image: lz.png
-  url: http://www.ladenzeile.de/
+# - name: ladenzeile
+#   image: lz.png
+#   url: http://www.ladenzeile.de/
 
 - name: hoppe
   image: hoppe.png
@@ -140,9 +145,9 @@
 #   image: sea.png
 #   url: http://www.sea-vertrieb.de/
 
-- name: streetteam
-  image: streetteam_berlin.png
-  url: http://www.streetteam-berlin.de/
+# - name: streetteam
+#   image: streetteam_berlin.png
+#   url: http://www.streetteam-berlin.de/
 
 - name: sunshine
   image: sunshine.png

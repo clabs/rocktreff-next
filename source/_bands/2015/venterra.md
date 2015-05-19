@@ -11,6 +11,7 @@ stagetime: Sonntag, 12. Juli 2015, 18:00 Uhr
 youtube: CJ0sfyPYX3k
 picture: venterra.jpg
 logo: venterra.png
+spotify: spotify:artist:6EIkSnnnda4qrv3pg7NXHa
 ---
 Venterra live - Und wir tanzen im Konfettiregen!
 

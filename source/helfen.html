@@ -16,21 +16,9 @@ ______ _____ _____  _   _____________ _________________
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
   <title>Helfen | ROCKTREFF</title>
   <link rel="stylesheet" type="text/css" href="/styles/main.css">
-  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"/></script>
-  <script type="text/javascript" src="/vendor/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
   <link rel="stylesheet" href="/vendor/fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
   <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-  <script type="text/javascript">
-  $( function () {
-    $( '.flickr.gallery > a' ).fancybox()
-    $( '.email' ).on( 'click', function () {
-      var self = $( this )
-      var alias = self.text()
-      var domain = self.attr( 'domain' ) || 'rocktreff.de'
-      window.location = 'mailto:'+ alias +'@'+ domain
-    })
-  })
-  </script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"/></script>
 </head>
 <body class="page help">
   {% include navigation.html%}
@@ -86,7 +74,7 @@ ______ _____ _____  _   _____________ _________________
               <p>
                 Sponsoring-Interessierte kontaktieren bitte für Details den
                 Veranstaltungskoordinator Philipp Mengel via Mail an
-                <span class="email">philipp</span>
+                <span class="email" domain="berlin.de">jugendamt.ts-vm</span>
               </p>
             </div>
           </div>
@@ -133,5 +121,8 @@ ______ _____ _____  _   _____________ _________________
       </div>
     </div>
   </div>
-</boby>
+<script type="text/javascript" src="/vendor/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+<script type="text/javascript" src="/js/main.js"></script>
+{% include google.html %}
+</body>
 </html>

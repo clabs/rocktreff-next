@@ -1,6 +1,6 @@
 ---
 layout: presse
-title: Die Webseite und das Lineup für den ROCKTREFF 2015 steht
+title: Die Webseite und das Programm für den ROCKTREFF 2015 stehen
 date: 2015-05-05 21:10:00 +0100
 picture: 05052015_lineup.jpg
 ---
@@ -33,4 +33,4 @@ können sich dann wieder bewerben.
 Die ROCK-INI lädt alle Bands und Fans herzlich ein zum ROCKTREFF 2015 ins Volksparkstadion
 Mariendorf zu kommen. Beginn ist am Freitag der 10. Juli um 18 Uhr sowie an den beiden darauf folgenden
 Tagen ab 16 Uhr. Parallel zum ROCKTREFF findet am Wochenende bereits ab 12 Uhr auf dem selben
-Gelände das Spielfest(Link) statt.
+Gelände das [Spielfest](https://www.rocktreff.de/#spielfest) statt.

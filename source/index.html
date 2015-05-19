@@ -15,48 +15,11 @@ ______ _____ _____  _   _____________ _________________
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 	<title>ROCKTREFF 2015 | 10.-12. Juli 2015 | Eintritt frei | Open Air Festival im Fußballstadion Volksparkstadion Mariendorf</title>
-	<link rel="stylesheet" type="text/css" href="styles/main.css">
 	<link rel="icon" type="image/x-icon" href="./favicon.ico" />
+	<link rel="stylesheet" type="text/css" href="styles/main.css">
 	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"/></script>
-	<script type="text/javascript" src="vendor/skrollr/dist/skrollr.min.js"></script>
-	<script type="text/javascript" src="vendor/bootstrap/js/scrollspy.js"></script>
-	<script type="text/javascript">
-		$( function () {
-			skrollr.init({
-				smoothScrolling: false,
-				mobileDeceleration: 0.004
-			})
-			$( 'a[href*=#]:not([href=#])' ).click( function () {
-				if ( location.pathname.replace(/^\//,'') === this.pathname.replace(/^\//,'') &&
-					location.hostname == this.hostname ) {
-					var target = $( this.hash )
-					target = target.length ? target : $( '#' + this.hash.slice(1) )
-					if ( target.length ) {
-						$( 'html,body' ).animate({
-							scrollTop: target.offset().top
-						}, 700)
-						return true
-					}
-				}
-			})
-			$( '.scrolldown' ).click( function () {
-				$( 'html,body' ).animate({
-					scrollTop: $( window ).height()
-				}, 700)
-			})
-			$( '.email' ).on( 'click', function () {
-				var self = $( this )
-				var alias = self.text()
-				var domain = self.attr( 'domain' ) || 'rocktreff.de'
-				window.location = 'mailto:'+ alias +'@'+ domain
-			})
-		})
-		$( function () {
-			//skrollr.get().refresh()
-		})
-	</script>
 </head>
-<body data-spy="scroll" data-offset="0" data-target="#navigation">
+<body data-offset="0" data-target="#navigation" style="background:#000">
 <div id="skrollr-body">
 	{% include navigation.html attribs="data-top=\"margin-top:-100px;\" data--700-top=\"margin-top:0px;\" data-anchor-target=\"#slide_landing\""%}
 	<!-- landing splash -->
@@ -259,7 +222,7 @@ ______ _____ _____  _   _____________ _________________
 					<dd>
 						<p>
 							<span class="nobr bvg u6">U6</span> Alt-Mariendorf</br>
-							<span class="nobr bvg bus">181</span>,
+							<span class="nobr bvg bus">181</span>
 							<span class="nobr bvg mbus">M76</span>
 							<span class="nobr bvg bus">179</span>
 							<span class="nobr bvg bus">277</span>
@@ -276,9 +239,6 @@ ______ _____ _____  _   _____________ _________________
 		</div>
 		<div class="noscroll">
 			<iframe
-				data-bottom-top="top:-50%;"
-				data-top-bottom="top:50%;";
-				data-anchor-target=".slide.map"
 				src="https://www.openstreetmap.org/export/embed.html?bbox=13.384330272674559%2C52.43943940263717%2C13.406345844268799%2C52.44794096541378&amp;layer=mapquest&amp;marker=52.44369038910433%2C13.39533805847168"
 				width="100%" height="400" frameborder="0" style="border:0;pointer-events:none" scrolling="no"
 			></iframe>
@@ -403,7 +363,7 @@ ______ _____ _____  _   _____________ _________________
 								Bezirksamt Tempelhof-Schöneberg von Berlin <br>
 								Abteilung Jugend, Ordnung, Bürgerdienste <br>
 								Büro des Bezirksstadtrates <br>
-								JOB VM <br>
+								Jug VM <br>
 								Rathaus Friedenau <br>
 								Niedstraße 1-2 <br>
 								12159 Berlin <br>
@@ -446,7 +406,7 @@ ______ _____ _____  _   _____________ _________________
 				</div>
 			</div>
 			<div style="text-align:center;margin-top:2em">
-				<a href="http://www.berlin.de/ba-tempelhof-schoeneberg/organisationseinheit/jugend-familie/" target="_blank">
+				<a href="http://www.bruecken-bauen.info/" target="_blank">
 					<img src="https://static.rocktreff.de/sponsors/jugendamt.png" width="200" alt="Jugendamt">
 				</a>
 				<img src="images/footer_rockini.png" alt="ROCK-INI">
@@ -458,5 +418,8 @@ ______ _____ _____  _   _____________ _________________
 
 	</section>
 </div>
+<script type="text/javascript" src="vendor/skrollr/dist/skrollr.min.js"></script>
+<script type="text/javascript" src="js/main.js"/></script>
+{% include google.html %}
 </body>
 </html>
