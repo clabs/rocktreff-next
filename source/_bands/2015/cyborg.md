@@ -8,7 +8,7 @@ year: 2015
 day: friday
 website: http://cyborg-band.com/
 stagetime: Freitag, 10. Juli 2015, 22:00 Uhr
-soundcloud: tracks/181159165
+soundcloud: users/125513599
 logo: cyborg.png
 picture: cyborg.jpg
 ---

@@ -19,4 +19,4 @@ auch dieses Jahr eine gute Mischung an Rockmusik dem Publikum geboten wird.
 Der ROCKTREFF 2015 findet vom 10. bis zum 12. Juli im Volksparkstadion
 Mariendorf statt. Beginn ist am Freitag um 18 Uhr sowie 16 Uhr an den
 folgenden Tagen. Parallel zum ROCKTREFF findet am Wochenende bereits ab 12 Uhr
-auf dem selben Gelände das Spielfest(Link) statt.
+auf dem selben Gelände das [Spielfest](https://www.rocktreff.de/#spielfest) statt.

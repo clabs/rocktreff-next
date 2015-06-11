@@ -52,7 +52,7 @@ module.exports = function ( grunt ) {
 
 		connect: {
 			options: {
-				port: 1337,
+				port: 1338,
 				hostname: '0.0.0.0'
 			},
 			livereload: {

@@ -97,6 +97,10 @@
   image: gewosud.png
   url: http://www.gewosued.de/
 
+- name: hoppe
+  image: hoppe.png
+  url: http://leichtbrille.com/
+
 - name: humboldt
   image: humboldtbox.png
   url: http://www.humboldt-box.com/
@@ -109,9 +113,9 @@
 #   image: lz.png
 #   url: http://www.ladenzeile.de/
 
-- name: hoppe
-  image: hoppe.png
-  url: http://leichtbrille.com/
+- name: maximilian
+  image: maximilian.png
+  url: http://www.maximilian.de/
 
 - name: outline
   image: outline.png
@@ -141,6 +145,10 @@
   image: riemer_schultz.png
   url: http://www.riemerschultz.de/
 
+- name: robbesbeste
+  image: robbes_beste.png
+  url: http://robbesbeste.info/
+
 # - name: sea
 #   image: sea.png
 #   url: http://www.sea-vertrieb.de/
@@ -148,6 +156,10 @@
 # - name: streetteam
 #   image: streetteam_berlin.png
 #   url: http://www.streetteam-berlin.de/
+
+- name: vierlande
+  image: vierlande.png
+  url: http://www.vierlande.de/
 
 - name: sunshine
   image: sunshine.png
