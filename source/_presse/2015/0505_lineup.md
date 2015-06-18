@@ -27,7 +27,7 @@ für das Festival präsentiert:
 [Working Class Monkey](http://www.facebook.com/workingclassmonkey)
 
 Die Veranstalter danken allen diesjährigen Bewerbern. Die Bewerbungsphase für den ROCKTREFF
-2015 startet am 11. November 2015. Alle Bands, für die es dieses Jahr nicht gereicht hat,
+2016 startet am 11. November 2015. Alle Bands, für die es dieses Jahr nicht gereicht hat,
 können sich dann wieder bewerben.
 
 Die ROCK-INI lädt alle Bands und Fans herzlich ein zum ROCKTREFF 2015 ins Volksparkstadion

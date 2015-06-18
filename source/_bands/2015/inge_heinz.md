@@ -7,7 +7,7 @@ style: Brutal Hardschlager
 year: 2015
 day: sunday
 website: http://www.inge-und-heinz.de/
-stagetime: Sonntag, 12. Juli 2015, 20:00 Uhr
+stagetime: Sonntag, 12. Juli 2015, 19:00 Uhr
 youtube: F_aOx7oDlvo
 logo: inge_heinz.png
 picture: inge_heinz.jpg
