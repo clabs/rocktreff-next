@@ -1,0 +1,71 @@
+---
+permalink: /live/
+---
+<!DOCTYPE html>
+<!--
+______ _____ _____  _   _____________ _________________
+| ___ \  _  /  __ \| | / /_   _| ___ \  ___|  ___|  ___|
+| |_/ / | | | /  \/| |/ /  | | | |_/ / |__ | |_  | |_
+|    /| | | | |    |    \  | | |    /|  __||  _| |  _|
+| |\ \\ \_/ / \__/\| |\  \ | | | |\ \| |___| |   | |
+\_| \_|\___/ \____/\_| \_/ \_/ \_| \_\____/\_|   \_|
+-->
+<html lang="de-DE">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <title>Live | ROCKTREFF</title>
+  <meta property="og:title" content="ROCKTREFF live!" />
+  <meta property="og:site_name" content="ROCKTREFF"/>
+  <meta property="og:url" content="https://rocktreff.de{{page.url}}"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:image" content="https://rocktreff.de/images/og_image.jpg" />
+  <meta property="og:description" content="Der jährlich im Volksparkstadion Mariendorf stattfindende ROCKTREFF ist ein Open Air Festival, das sich ganz der handgemachten Musik verschrieben hat. Hier werden die Gitarren ausgepackt, die Verstärker hochgeregelt und gemeinsam das Haupthaar geschüttelt." />
+  <link rel="stylesheet" type="text/css" href="/styles/main.css">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"/></script>
+  <script type="text/javascript" src="/vendor/videojs/dist/video-js/video.js"></script>
+</head>
+<body class="page live">
+  {% include navigation.html%}
+  <div class="container">
+    <div class="row">
+
+      <div class="col-xs-12 col-sm-10 col-sm-offset-1 video-container">
+
+        <video class="video-js vjs-default-skin" width="100%" height="264"
+          data-setup='{
+            "controls": true,
+            "autoplay": true,
+            "preload": "auto",
+            "poster": "https://rocktreff.de/images/rt.png"
+          }'>
+          <source src="rtmp://live.rockcdn.de/rocktreff/live" type="rtmp/mp4">
+          <source src="http://live.rockcdn.de/hls/live.m3u8" type="application/x-mpegURL">
+          <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that supports HTML5 video</p>
+        </video>
+        <script type="text/javascript">
+          var resize_video = function () {
+            var video = $( 'video, .vjs-tech' )
+            var width = video.width()
+            var aspect = 16/9
+            var height = width/aspect
+            video.height(height)
+            $( '.video-js' ).height( height )
+          }
+          $( window ).on( 'resize', resize_video )
+          setTimeout( resize_video, 500 )
+        </script>
+        <div class="logo">
+          unterstützt durch
+          <a href="" target="_blank">
+            <img src="https://static.rocktreff.de/sponsors/triolution.png">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+<script type="text/javascript" src="/js/main.js"></script>
+{% include google.html %}
+</body>
+</html>

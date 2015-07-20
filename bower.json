@@ -3,7 +3,7 @@
   "version": "0.3.0",
   "dependencies": {
     "bootstrap": "~3.3.4",
-    "jquery": "~2.1.3",
-    "skrollr": "~0.6.29"
+    "skrollr": "~0.6.29",
+    "videojs": "~4.12.10"
   }
 }
