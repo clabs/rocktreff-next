@@ -14,8 +14,8 @@ ______ _____ _____  _   _____________ _________________
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-	<title>ROCKTREFF 2015 | 10.-12. Juli 2015 | Eintritt frei | Open Air Festival im Fußballstadion Volksparkstadion Mariendorf</title>
-	<meta property="og:title" content="ROCKTREFF 2015 - Open Air Festival" />
+	<title>ROCKTREFF 2016 | 8.-10. Juli 2016 | Eintritt frei | Open Air Festival im Fußballstadion Volksparkstadion Mariendorf</title>
+	<meta property="og:title" content="ROCKTREFF 2016 - Open Air Festival" />
 	<meta property="og:site_name" content="ROCKTREFF"/>
 	<meta property="og:url" content="https://rocktreff.de{{page.url}}"/>
 	<meta property="og:type" content="website"/>
@@ -83,7 +83,7 @@ ______ _____ _____  _   _____________ _________________
 
 		<div class="info hidden-xs">
 			<h1>Eintritt Frei!</h1>
-			<h2>10.-12. Juli 2015<h2>
+			<h2>8.-10. Juli 2016<h2>
 			<h3>Volkspark Mariendorf</h3>
 			<div class="box"></div>
 		</div>
@@ -102,94 +102,28 @@ ______ _____ _____  _   _____________ _________________
 	<section class="slide lineup" id="lineup">
 		<div class="container">
 			<div class="row">
-				<div class="col-sm-4 col-sm-push-8">
-					<h1>16 Bands Live!</h1>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-4 col-md-push-8">
-					Der jährlich im Volksparkstadion Mariendorf stattfindende
-					ROCKTREFF ist ein Open Air Festival, das sich ganz der
-					handgemachten Musik verschrieben hat. Hier werden die
-					Gitarren ausgepackt, die Verstärker hochgeregelt und
-					gemeinsam das Haupthaar geschüttelt. Ziel des ROCKTREFFs
-					ist es, Amateurbands eine geeignete Bühne zu bieten, sich
-					einem größtmöglichen Publikum zu präsentieren und auf der
-					anderen Seite einer breiten Öffentlichkeit ein kostenloses
-					Event zu bieten. Das ROCKTREFF Open Air gilt als das
-					größte Amateurbandfestival Berlins.<br>
-
-					Aus jährlich über 200 Bewerbungen wurden dieses Jahr 16 Bands
-					ausgewählt, die an drei Tagen des Festivals das Line-Up stellen.
-				</div>
-				<div class="col-md-8 col-md-pull-4">
-					<div class="row dates">
-						<div class="col-xs-2"></div>
-						<div class="col-xs-3">
-							<span class="hidden-xs-portrait">
-								Freitag, 10. Juli
-							</span>
-							<span class="visible-xs-portrait">
-								Fr, 10.7.
-							</span>
-						</div>
-						<div class="col-xs-3">
-							<span class="hidden-xs-portrait">
-								Samstag, 11. Juli
-							</span>
-							<span class="visible-xs-portrait">
-								Sa, 11.7.
-							</span>
-						</div>
-						<div class="col-xs-3">
-							<span class="hidden-xs-portrait">
-								Sonntag, 12. Juli
-							</span>
-							<span class="visible-xs-portrait">
-								So, 12.7.
-							</span>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-xs-2">
-							<div class="timeslot">16:00</div>
-							<div class="timeslot">17:00</div>
-							<div class="timeslot">18:00</div>
-							<div class="timeslot">19:00</div>
-							<div class="timeslot">20:00</div>
-							<div class="timeslot">21:00</div>
-							<div class="timeslot">22:00</div>
-							<div class="timeslot">23:00</div>
-						</div>
-						{% assign bands = site.bands | where: 'year', 2015 | sort: 'stagetime'  %}
-						<div class="col-xs-3 day friday">
-							{% for band in bands %}
-								{% if band.stagetime contains 'Freitag' %}
-								<a href="{{ band.url }}" class="thumb" style="background-image:url('https://static.rocktreff.de/bands/pictures/{{ band.picture }}')">
-									<div class="name">{{ band.title }}</div>
-								</a>
-								{% endif %}
-							{% endfor %}
-						</div>
-						<div class="col-xs-3 day saturday">
-							{% for band in bands  %}
-								{% if band.stagetime contains 'Samstag' %}
-								<a href="{{ band.url }}" class="thumb" style="background-image:url('https://static.rocktreff.de/bands/pictures/{{ band.picture }}')">
-									<div class="name">{{ band.title }}</div>
-								</a>
-								{% endif %}
-							{% endfor %}
-						</div>
-						<div class="col-xs-3 day sunday">
-							{% for band in bands %}
-								{% if band.stagetime contains 'Sonntag' %}
-								<a href="{{ band.url }}" class="thumb" style="background-image:url('https://static.rocktreff.de/bands/pictures/{{ band.picture }}')">
-									<div class="name">{{ band.title }}</div>
-								</a>
-								{% endif %}
-							{% endfor %}
-						</div>
-					</div>
+				<div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 bandauswahl-teaser">
+					<h1>Bewerbung 2016</h1>
+					<p>
+						Der jährlich im Volksparkstadion Mariendorf stattfindende
+						ROCKTREFF ist ein Open Air Festival, das sich ganz der
+						handgemachten Musik verschrieben hat. Hier werden die
+						Gitarren ausgepackt, die Verstärker hochgeregelt und
+						gemeinsam das Haupthaar geschüttelt. Ziel des ROCKTREFFs
+						ist es, Amateurbands eine geeignete Bühne zu bieten, sich
+						einem größtmöglichen Publikum zu präsentieren und auf der
+						anderen Seite einer breiten Öffentlichkeit ein kostenloses
+						Event zu bieten. Das ROCKTREFF Open Air gilt als das
+						größte Amateurbandfestival Berlins.
+					</p>
+					<p>
+						Ab dem <strong class="gelb">11. November 2015</strong> können
+						sich alle Bands für den kommenden 33. ROCKTREFF auf unserem
+						Bewerbungsportal bewerben.
+					</p>
+					<p>
+						Fragen? Dann schreib eine Mail an <span class="email">band-support</span>
+					</p>
 				</div>
 			</div>
 		</div>
@@ -275,7 +209,7 @@ ______ _____ _____  _   _____________ _________________
 			<div class="row">
 				<div class="col-lg-7">
 					<p>
-						Das der ROCKTREFF auch im 32. Jahr noch für den
+						Das der ROCKTREFF auch im 33. Jahr noch für den
 						Besucher bei freiem Eintritt stattfinden kann, ist
 						wohl vor allem dem Verdienst der vielen ehrenamtlichen
 						Helfer und Bands, die ohne Gage auftreten, zu

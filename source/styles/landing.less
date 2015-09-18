@@ -240,6 +240,39 @@
 		}
 	}
 
+	.bandauswahl-teaser {
+		background-image: url('../images/bg_bandauswahl.jpg');
+		background-size: auto 80%;
+		background-position: left 20%;
+		background-repeat: no-repeat;
+		height: 30em;
+
+		h1 {
+			text-transform: uppercase;
+			text-shadow: 1px 1px 6px black;
+			margin-left: 4em;
+		}
+
+		p {
+			margin-left: 14em;
+		}
+
+
+		@media (max-width: @screen-xs-max) {
+
+			& {
+				background-image: none;
+				height: auto;
+			}
+
+			h1,p {
+				margin-left: 0;
+			}
+
+
+		}
+	}
+
 	&.second {
 		.bg .image {
 			background-image: url('../images/landing_1.jpg');

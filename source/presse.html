@@ -49,7 +49,7 @@ ______ _____ _____  _   _____________ _________________
         <div class="box">
           <h3>Pressemitteilungen</h3>
           <ul class="pressreleases">
-          {% for release in site.presse reversed limit:5 %}
+          {% for release in site.presse reversed limit:6 %}
               <li>
                 <div class="date">{{ release.date | date: "%-d.%-m.%Y"}}</div>
                 <a class="link" href="{{ release.url }}">{{ release.title }}</a>

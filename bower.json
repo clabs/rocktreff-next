@@ -4,6 +4,7 @@
   "dependencies": {
     "bootstrap": "~3.3.4",
     "skrollr": "~0.6.29",
-    "videojs": "~4.12.10"
+    "videojs": "~4.12.10",
+    "fancybox": "~2.1.5"
   }
 }
