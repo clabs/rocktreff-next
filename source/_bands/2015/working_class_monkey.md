@@ -8,6 +8,7 @@ year: 2015
 day: friday
 website: http://www.facebook.com/workingclassmonkey
 stagetime: Freitag, 10. Juli 2015, 20:00 Uhr
+flickr: 72157665059646421
 picture: working_class_monkey.jpg
 soundcloud: users/7206768
 ---

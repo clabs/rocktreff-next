@@ -9,6 +9,7 @@ day: friday
 website: https://www.facebook.com/ARISING.BERLIN
 stagetime: Freitag, 10. Juli 2015, 19:00 Uhr
 logo: arising.jpg
+flickr: 72157662887292293
 picture: arising.jpg
 youtube: 389qsEHFcwY
 ---

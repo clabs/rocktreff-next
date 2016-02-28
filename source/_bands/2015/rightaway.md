@@ -9,6 +9,7 @@ day: friday
 website: http://www.facebook.de/rightawayberlin
 stagetime: Freitag, 10. Juli 2015, 18:00 Uhr
 soundcloud: tracks/209199274
+flickr: 72157664634859360
 logo: right_away.png
 picture: right_away.jpg
 ---

@@ -8,6 +8,7 @@ year: 2015
 day: saturday
 website: http://www.wereallthieves.de/
 stagetime: Samstag, 11. Juli 2015, 16:00 Uhr
+flickr: 72157665027626292
 picture: were_all_thieves.jpg
 logo: were_all_thieves.png
 youtube: UewwgX-ckaw

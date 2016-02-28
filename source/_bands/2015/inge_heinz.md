@@ -9,6 +9,7 @@ day: sunday
 website: http://www.inge-und-heinz.de/
 stagetime: Sonntag, 12. Juli 2015, 19:00 Uhr
 youtube: F_aOx7oDlvo
+flickr: 72157664515395579
 logo: inge_heinz.png
 picture: inge_heinz.jpg
 ---

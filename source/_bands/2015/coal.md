@@ -9,6 +9,7 @@ day: saturday
 website: https://www.facebook.com/CoalBand
 stagetime: Samstag, 11. Juli 2015, 21:00 Uhr
 logo: coal.jpg
+flickr: 72157665027936282
 picture: coal.jpg
 soundcloud: users/148693576
 ---
