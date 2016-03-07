@@ -1,5 +1,6 @@
 source/vendor
 node_modules
 .tmp
-_site
+.cache
 next.sublime-workspace
+.jekyll-metadata

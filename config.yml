@@ -16,11 +16,11 @@ collections:
     output: true
 
 
-#flickr
 flickr:
   api_key: 'f2fedaf7f36bf5739b3eba547ab384b2'
+  user_id: '80099500@N05'
+  use_cache: true
 
 # Build settings
 markdown: kramdown
 permalink: pretty
-lessc: lessc
