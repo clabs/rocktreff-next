@@ -3,18 +3,17 @@ layout: band
 title: Rebels + Rivals
 
 
-style:
+style: Nu-Metal, Metalcore
 year: 2016
 day: saturday
-website:
+website: http://www.facebook.com/rebelsandrivals
 stagetime: Samstag, 09. Juli 2016, 20:00 Uhr
+soundcloud: https://soundcloud.com/flooow1810/rebels-rivals-dead-heroez
+flickr: 
 logo:
-picture:
-youtube:
+picture: rebelrivals.jpg
+youtube: gwwTsl6cUsI
 ---
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Die Band folgt visuell und musikalisch einer neuen Interpretation des 90er Jahre Nu-Metal (="Nu-Metalcore") im Stil von Linkin Park, Limp Bizkit, uvm. 
+Melodische Pop-Refrains werden in Elementen aus Hip-Hop, Hard- und Metalcore verbunden. Eigens angefertigte Outfits dienen der Band u.a. als Stilmittel für exzentrische (Live) Performances. 
+Die Texte von REBELS + RIVALS sind düster, gesellschaftskritisch und spiegeln das Weltbild einer zerrütteten, modernen Jugend wider.

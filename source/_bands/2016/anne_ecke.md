@@ -3,18 +3,16 @@ layout: band
 title: Anne Ecke
 
 
-style:
+style: Deutsch Rock/Punk
 year: 2016
 day: friday
 website: http://www.facebook.com/anneecke
 stagetime: Freitag, 08. Juli 2016, 18:00 Uhr
+soundcloud: https://soundcloud.com/anneecke030/snippet-6-tracks
+flickr: 
 logo:
-picture:
+picture: annaecke.jpg
 youtube: AK0blW7LdvE
 ---
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+ANNE ECKE sind ... Sonntag-Licht, die Dielen haben Macken-von Vulkanausbrüchen, Erdplattenknacken... Von Neukölln, Friedrichshain über Mitte bis rauf und runter den Prenzl Berg! ... Denn was gibts sonst noch ausser ... Fressen, (kopulieren-die Red.), Cha-Cha-Cha? 
+ANNE ECKE aus BERLIN!!!

@@ -3,18 +3,19 @@ layout: band
 title: Phase X
 
 
-style:
+style: Crossover HipHop
 year: 2016
 day: saturday
-website:
+website: http://www.phase-x.de/
 stagetime: Samstag, 09. Juli 2016, 19:00 Uhr
+soundcloud: https://soundcloud.com/phase-x/bang-bang
+flickr: 
 logo:
-picture:
-youtube:
+picture: phasex.jpg
+youtube: 
 ---
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+PHASE X	- „…eine geballte Ladung Rock gepaart mit Hip Hop."
+Die	Berliner Jungs mischen den Crossover Style der 90er Jahre mit 
+modernen Sounds.	
+Ende 2013 gründete sich die Band PHASE X, bezog einen Proberaum in Berlin Pankow und fing an, an Ihrem Sound zu schrauben. „Verzerrte Gitarren, paar Samples und ein echtes Drumkit“. 
+Die 2 Sänger kicken deutsche Texte die zum nachdenken anregen aber auch gerne mal eine Portion Spaß beinhalten. 1 Jahr lang bastelt die Band an Ihrem Set und Ende 2014 wird der erste Song „Mach Platz“ aufgenommen, welchen die Band als kostenlosen Download anbietet.	

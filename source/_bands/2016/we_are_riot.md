@@ -3,18 +3,18 @@ layout: band
 title: We Are Riot
 
 
-style:
+style: Rock
 year: 2016
 day: saturday
-website:
+website: http://www.weareriotband.com/
 stagetime: Samstag, 09. Juli 2016, 16:00 Uhr
+soundcloud: https://play.spotify.com/track/6L65yb7bnI6ZSjmK5QicaJ
+flickr: 
 logo:
-picture:
-youtube:
+picture: weareriot.jpg
+youtube: YDfdvGaBkbE
 ---
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+We Are Riot ist eine aufstrebende Rockband aus Bremen, die sich Mitte 2014 um Frontfrau Jennifer Bothe gegründet hat.
+Nur ein Jahr später haben die 5 Musiker bereits eine EP veröffentlicht und im Bundesfinale des bekannten Local Heroes Contests den 2. Platz beim Publikumspreis belegt. Besonders live bieten die Bremer ein wahres Spektakel und wissen mit ihrer energiegeladenen Show zu überzeugen. Ob unplugged oder verstärkt.
+Ballade oder Powerchord. We Are Riot nimmt euch mit.
+Schließt euch dem Aufstand an! Lets start a riot!
