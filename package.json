@@ -1,8 +1,9 @@
 {
   "name": "rocktreff-next",
-  "version": "0.0.2",
+  "version": "1.0.2016",
   "description": "new static rocktreff website",
   "main": "index.html",
+  "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
