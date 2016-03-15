@@ -8,9 +8,9 @@ year: 2016
 day: friday
 website: http://www.facebook.com/janaraofficial
 stagetime: Freitag, 08. Juli 2016, 22:00 Uhr
-spotify: https://play.spotify.com/album/0QhBRe47fef45Df0V2qilx
-flickr: 
-logo:
+spotify: spotify:artist:4MI0jyt90xZjWdFJ25sCKJ
+flickr:
+logo: janara.png
 picture: janara.jpg
 youtube: t10fDnpue6M
 ---

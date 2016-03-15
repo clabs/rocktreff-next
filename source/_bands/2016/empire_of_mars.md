@@ -8,11 +8,11 @@ year: 2016
 day: saturday
 website:
 stagetime: Samstag, 09. Juli 2016, 17:00 Uhr
-soundcloud: 
-flickr: 
-logo:
+soundcloud:
+flickr:
+logo: empireofmars.jpg
 picture: empireofmars.jpg
-youtube: 
+youtube:
 ---
 Empire of Mars spielen römischen Rock`n`Roll mit blutrotem Antlitz.
 Disziplin und Ordnung der Legion treffen auf Impulsivität und Anarchie australischen Hard Rocks und entfesseln eine archaische Kraft, die einen jeden in ihren Bann zu ziehen vermag.

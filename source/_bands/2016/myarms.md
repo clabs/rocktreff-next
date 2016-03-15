@@ -8,9 +8,9 @@ year: 2016
 day: sunday
 website: http://www.facebook.com/MyArms
 stagetime: Sonntag, 10. Juli 2016, 16:00 Uhr
-soundcloud: https://soundcloud.com/myarms/overdozed
-flickr: 
-logo:
+soundcloud: users/141027607
+flickr:
+logo: myarms.png
 picture: myarms.jpg
 youtube: gt6A4N1iVQQ
 ---

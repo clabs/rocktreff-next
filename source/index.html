@@ -23,11 +23,16 @@ ______ _____ _____  _   _____________ _________________
 	<meta property="og:description" content="Der jährlich im Volksparkstadion Mariendorf stattfindende ROCKTREFF ist ein Open Air Festival, das sich ganz der handgemachten Musik verschrieben hat. Hier werden die Gitarren ausgepackt, die Verstärker hochgeregelt und gemeinsam das Haupthaar geschüttelt." />
 	<link rel="icon" type="image/x-icon" href="./favicon.ico" />
 	<link rel="stylesheet" type="text/css" href="styles/main.css">
+	<link rel="stylesheet" href="/vendor/fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
 	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"/></script>
 </head>
 <body data-offset="0" data-target="#navigation" style="background:#000">
 <div id="skrollr-body">
-	{% include navigation.html attribs="data-top=\"margin-top:-100px;\" data--700-top=\"margin-top:0px;\" data-anchor-target=\"#slide_landing\""%}
+	{% include navigation.html attribs="data-top=\"margin-top:-100px;\" data--650-top=\"margin-top:0px;\" data-anchor-target=\"#slide_landing\""%}
+
+
+
+
 	<!-- landing splash -->
 	<section class="slide landing" id="slide_landing">
 
@@ -93,17 +98,19 @@ ______ _____ _____  _   _____________ _________________
 			data--100-top="opacity:0;"
 			data-anchor-target="#slide_landing"
 		>
-			<a class="link" href="#impressum">Impressum</a>
+			<a class="link" href="#veranstalter">Veranstalter</a>
 		</div>
 
 	</section>
 
 
+
+
 	<section class="slide lineup" id="lineup">
 		<div class="container">
 			<div class="row">
-				<div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 bandauswahl-teaser">
-					<h1>Bewerbung 2016</h1>
+				<div class="col-md-4 col-md-push-8">
+					<h1>16 Bands Live!</h1>
 					<p>
 						Der jährlich im Volksparkstadion Mariendorf stattfindende
 						ROCKTREFF ist ein Open Air Festival, das sich ganz der
@@ -117,17 +124,89 @@ ______ _____ _____  _   _____________ _________________
 						größte Amateurbandfestival Berlins.
 					</p>
 					<p>
-						Ab dem <strong class="gelb">11. November 2015</strong> können
-						sich alle Bands für den kommenden 33. ROCKTREFF auf unserem
-						Bewerbungsportal bewerben.
+						Aus jährlich über 300 Bewerbungen wurden dieses Jahr 16 Bands
+						ausgewählt, die an drei Tagen des Festivals das Line-Up stellen.
 					</p>
 					<p>
-						Fragen? Dann schreib eine Mail an <span class="email">band-support</span>
+						<a href="/bands">Übersicht aller Bands</a>
 					</p>
+				</div>
+				<div class="col-md-8 col-md-pull-4">
+					<div class="row dates">
+						<div class="col-xs-2"></div>
+						<div class="col-xs-3">
+							<span class="hidden-xs-portrait">
+								Freitag, 8. Juli
+							</span>
+							<span class="visible-xs-portrait">
+								Fr, 8.7.
+							</span>
+						</div>
+						<div class="col-xs-3">
+							<span class="hidden-xs-portrait">
+								Samstag, 9. Juli
+							</span>
+							<span class="visible-xs-portrait">
+								Sa, 9.7.
+							</span>
+						</div>
+						<div class="col-xs-3">
+							<span class="hidden-xs-portrait">
+								Sonntag, 10. Juli
+							</span>
+							<span class="visible-xs-portrait">
+								So, 10.7.
+							</span>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-2">
+							<div class="timeslot">16:00</div>
+							<div class="timeslot">17:00</div>
+							<div class="timeslot">18:00</div>
+							<div class="timeslot">19:00</div>
+							<div class="timeslot">20:00</div>
+							<div class="timeslot">21:00</div>
+							<div class="timeslot">22:00</div>
+							<div class="timeslot">23:00</div>
+						</div>
+						{% assign bands = site.bands | where: 'year', 2016 | sort: 'stagetime'  %}
+						<div class="col-xs-3 day friday">
+							{% for band in bands %}
+								{% if band.stagetime contains 'Freitag' %}
+								<a href="{{ band.url }}" class="thumb" style="background-image:url('https://static.rocktreff.de/bands/pictures/{{ band.picture }}')">
+									<div class="name">{{ band.title }}</div>
+								</a>
+								{% endif %}
+							{% endfor %}
+						</div>
+						<div class="col-xs-3 day saturday">
+							{% for band in bands  %}
+								{% if band.stagetime contains 'Samstag' %}
+								<a href="{{ band.url }}" class="thumb" style="background-image:url('https://static.rocktreff.de/bands/pictures/{{ band.picture }}')">
+									<div class="name">{{ band.title }}</div>
+								</a>
+								{% endif %}
+							{% endfor %}
+						</div>
+						<div class="col-xs-3 day sunday">
+							{% for band in bands %}
+								{% if band.stagetime contains 'Sonntag' %}
+								<a href="{{ band.url }}" class="thumb" style="background-image:url('https://static.rocktreff.de/bands/pictures/{{ band.picture }}')">
+									<div class="name">{{ band.title }}</div>
+								</a>
+								{% endif %}
+							{% endfor %}
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
 	</section>
+
+
+
+
 
 	<section class="slide second" id="slide_second">
 		<div class="bg"
@@ -136,6 +215,11 @@ ______ _____ _____  _   _____________ _________________
 			data-anchor-target="#slide_second"
 		><div class="image"></div></div>
 	</section>
+
+
+
+
+
 
 	<section class="slide map">
 		<a name="map"></a>
@@ -201,6 +285,9 @@ ______ _____ _____  _   _____________ _________________
 	</section>
 
 
+
+
+
 	<section class="slide sponsors" id="sponsors">
 		<div class="container sponsors">
 			<div class="row col-lg-12">
@@ -260,6 +347,11 @@ ______ _____ _____  _   _____________ _________________
 		<div class="logo"></div>
 		<div class="silhouetten"></div>
 	</section>
+
+
+
+
+
 	<section class="slide spielfest_info">
 		<div class="container">
 			<div class="col-sm-8 col-sm-offset-2">
@@ -276,11 +368,113 @@ ______ _____ _____  _   _____________ _________________
 			</div>
 		</div>
 	</section>
+
+
 	<section class="slide spielfest_sponsors">
 		<img src="https://static.rocktreff.de/sponsors/moebel_kraft.png">
 		<img src="https://static.rocktreff.de/sponsors/stromnetz_berlin.png">
 	</section>
 
+
+
+
+	<section class="slide foo" id="slide_foo">
+		<div class="bg"
+			data-bottom-top="top:-50%;"
+			data-top-bottom="top:50%;";
+			data-anchor-target="#slide_foo"
+		><div class="image"></div></div>
+	</section>
+
+
+	<section class="slide helfen" id="helfen">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<h1>Der ROCKTREFF braucht Hilfe!</h1>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-4">
+					<p>
+						Der ROCKTREFF ist ein nicht-kommerzielles Festival, das sich
+						ausschließlich mit Zuwendungen, Sponsoren und der Hilfe von
+						ehrenamtlichen Helfern trägt. Deswegen sind wir jedes Jahr aufs
+						neue darauf angewiesen, dass uns zahlreich Leute helfen. Alle
+						Bands und Künstler treten ohne Gage auf. Die Crew ackert mit bis
+						zu 60 Leuten teils monatelang ebenfalls ohne Bezahlung, aber
+						mit viel Spaß an der Sache. <a class="link" href="https://www.flickr.com/photos/rocktreff/albums/72157658561531956/" target="blank">Hier die Bilder der Crew 2015</a>.
+					</p>
+
+				</div>
+				<div class="col-sm-4">
+					<div class="flickr gallery">
+						<a class="fancybox" rel="group" href="https://static.rocktreff.de/crew/crew2015.jpg">
+							<img src="https://static.rocktreff.de/crew/crew2015.jpg" style="width:100%;height:auto">
+						</a>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<iframe src="https://www.youtube.com/embed/9JxTPFZEFWs?wmode=transparent&fs=1&hl=en&modestbranding=1&iv_load_policy=3&showsearch=0&rel=1&theme=dark" frameborder="0" allowfullscreen style="height:12em;"></iframe>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-4">
+
+					<h3>Du willst mitmachen?</h3>
+					<p>
+						Der ROCKTREFF bietet viele Möglichkeiten sich zu engagieren
+						und dabei den eigenen Horizont zu erweitern. Neben den
+						klassischen Tätigkeitsbereichen wie Licht &amp; Ton suchen wir
+						immer Leute für Bandbetreuung, Catering und viele weitere
+						Bereiche.
+					</p>
+					<p>
+						Für die Helfer beginnt der ROCKTREFF bereits viele Tage vor der
+						Veranstaltung. Wir errichten eine komplette kleine Stadt, die
+						für die ROCKTREFF-Woche auch unser Zuhause ist.
+					</p>
+					<p>
+						Interesse? Dann schreib eine Mail an
+						<span class="email">helfen</span>
+					</p>
+				</div>
+				<div class="col-sm-4">
+					<h3>Sponsor werden</h3>
+					<p>
+						Das Bezirksamt Tempelhof-Schöneberg von Berlin finanziert etwa
+						20% der Kosten für Technik und Ausstattung. Den weitaus
+						größerer Teil müssen wir aus Zuwendungen von Sponsoren
+						akquirieren. Hilf uns dabei!
+					</p>
+					<p>
+						Sponsoring-Interessierte kontaktieren bitte für Details den
+						Veranstaltungskoordinator Ed Koch via Mail an
+						<span class="email" domain="berlin.de">jugendamt.ts-vm</span>
+					</p>
+				</div>
+				<div class="col-sm-4">
+					<h3>Spenden</h3>
+					Eine Überweisung auf unser Konto ist uns die liebste Form, da sie keinerlei zusätzliche Gebühren aufwirft.
+					<div class="code">
+						<a href="bank://singlepaymentsepa?name=CPYE%20e.%20V.&reason=Spende%20ROCKTREFF&iban=DE51100100100015333103&bic=PBNKDEFF&amount=23%2C00">
+						<img src="/images/bezahlcode.png" class="bezahlcode">
+						</a>
+					</div>
+					<strong>Inhaber:</strong> CPYE e.V. <br>
+					<strong>Konto:</strong> 15 333 103 (Postbank Berlin) <br>
+					<strong>BLZ:</strong> 100 100 10 <br>
+					<strong>IBAN:</strong> DE51100100100015333103 <br>
+					<strong>BIC:</strong> PBNKDEFF <br>
+					<strong>Zweck:</strong> Spende ROCKTREFF
+					<p>
+						Ab 100€ stellen wir gerne eine Spendenquittung aus. Schreibe dazu bitte eine Mail
+						an <span class="email" domain="rocktreff.de">spenden</span>
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
 
 
 	<section class="slide last" id="slide_last">
@@ -293,25 +487,33 @@ ______ _____ _____  _   _____________ _________________
 
 
 
-	<section class="slide footer" id="impressum">
+	<section class="slide footer" id="veranstalter">
 		<div class="container imprint">
 			<div class="row">
+				<div class="col-sm-10 col-sm-offset-2">
+					<h1>Veranstalter</h1>
+				</div>
+			</div>
+			<div class="row">
 				<div class="col-sm-4 col-sm-offset-2 imprint">
+
 					<dl>
-						<dt>Veranstalter</dt>
+						<dd>
+							Bezirksamt Tempelhof-Schöneberg von Berlin <br>
+							Abteilung Jugend, Ordnung, Bürgerdienste <br>
+							Jugendamt – Jug VM - Veranstaltungsmanagement <br>
+							Strelitzstraße 15 <br>
+							12105 Berlin <br>
+							<i class="icon-phone"></i> +49 30 90277 4804 <br>
+							<i class="icon-phone"></i> +49 30 705 25 11 <br>
+							<span class="email" domain="berlin.de">jugendamt.ts-vm</span><br>
+							Inhaltlich Verantwortlicher gem. § 55 RStV: <br>
+							Bezirksstadtrat Oliver Schworck
+						</dd>
+						<dt>Beauftragter des Jugendamtes für Veranstaltungsmanagement und Social Sponsoring</dt>
 							<dd>
-								Bezirksamt Tempelhof-Schöneberg von Berlin <br>
-								Abteilung Jugend, Ordnung, Bürgerdienste <br>
-								Büro des Bezirksstadtrates <br>
-								Jug VM <br>
-								Rathaus Friedenau <br>
-								Niedstraße 1-2 <br>
-								12159 Berlin <br>
-								<i class="icon-phone"></i> +49 30 90277 4804 <br>
-								<i class="icon-print"></i> +49 30 90277 4805 <br>
-								<span class="email" domain="berlin.de">jugendamt.ts-vm</span><br>
-								Inhaltlich Verantwortlicher gem. § 55 RStV: <br>
-								Bezirksstadtrat Oliver Schworck
+								Ed Koch (kommissarisch) <br>
+								<i class="icon-phone"></i> +49 170 626 7377
 							</dd>
 					</dl>
 				</div>
@@ -320,18 +522,13 @@ ______ _____ _____  _   _____________ _________________
 						<dt>Träger der Veranstaltung<dt>
 							<dd>
 								CPYE e.V.<br>
-								Viktoriastraße 13 – 12105 Berlin
+								Viktoriastraße 13 – 12105 Berlin <br>
+								verantwortlich: Andie Kraft, Vorsitzender
 							</dd>
 						<dt>Kooperationspartner</dt>
 							<dd>
 								ROCK-INI Tempelhof <br>
 								Catering Company
-							</dd>
-						<dt>Veranstaltungskoordinator & Sponsoringbeauftragter</dt>
-							<dd>
-								Philipp Mengel <br>
-								<i class="icon-phone"></i> +49 176 6340 2665 <br>
-								<span class="email" domain="berlin.de">jugendamt.ts-vm</span>
 							</dd>
 						<dt>Technische Veranstaltungsleitung</dt>
 							<dd>
@@ -359,7 +556,7 @@ ______ _____ _____  _   _____________ _________________
 	</section>
 </div>
 <script type="text/javascript" src="vendor/skrollr/dist/skrollr.min.js"></script>
+<script type="text/javascript" src="/vendor/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
 <script type="text/javascript" src="js/main.js"/></script>
-{% include google.html %}
 </body>
 </html>

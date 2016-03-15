@@ -8,9 +8,9 @@ year: 2016
 day: sunday
 website: http://www.diexyz.de
 stagetime: Sonntag, 10. Juli 2016, 17:00 Uhr
-soundcloud: https://soundcloud.com/diexyz/hoch-hinaus
-flickr: 
-logo:
+soundcloud: users/150696972
+flickr:
+logo: xyz.png
 picture: xyz.jpg
 youtube: Qo0U87S4Rxc
 ---
@@ -23,4 +23,4 @@ All das, eingebettet in den klassischen, einzigartigen DIE XYZ-Sound - Das ist D
 
 X - Gitarre
 Y - Stimme, Bass
-Z - Schlagzeug 
+Z - Schlagzeug

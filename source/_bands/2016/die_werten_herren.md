@@ -8,9 +8,9 @@ year: 2016
 day: friday
 website: http://www.diewertenherren.de/
 stagetime: Freitag, 08. Juli 2016, 20:00 Uhr
-soundcloud: https://soundcloud.com/diewertenherren/instinkt
-flickr: 
-logo:
+soundcloud: users/133900041
+flickr:
+logo: diewertenherren.png
 picture: diewertenherren.jpg
 youtube: oC5rMT_ozso
 ---

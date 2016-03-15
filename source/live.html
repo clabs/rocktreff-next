@@ -24,48 +24,37 @@ ______ _____ _____  _   _____________ _________________
   <link rel="stylesheet" type="text/css" href="/styles/main.css">
   <link rel="icon" type="image/x-icon" href="/favicon.ico" />
   <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"/></script>
-  <script type="text/javascript" src="/vendor/videojs/dist/video-js/video.js"></script>
 </head>
 <body class="page live">
   {% include navigation.html%}
-  <div class="container">
-    <div class="row">
-
-      <div class="col-xs-12 col-sm-10 col-sm-offset-1 video-container">
-
-        <video class="video-js vjs-default-skin" width="100%" height="264"
-          data-setup='{
-            "controls": true,
-            "autoplay": true,
-            "preload": "auto",
-            "poster": "https://rocktreff.de/images/rt.png"
-          }'>
-          <source src="rtmp://live.rockcdn.de/rocktreff/live" type="rtmp/mp4">
-          <source src="http://live.rockcdn.de/hls/live.m3u8" type="application/x-mpegURL">
-          <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that supports HTML5 video</p>
-        </video>
-        <script type="text/javascript">
-          var resize_video = function () {
-            var video = $( 'video, .vjs-tech' )
-            var width = video.width()
-            var aspect = 16/9
-            var height = width/aspect
-            video.height(height)
-            $( '.video-js' ).height( height )
-          }
-          $( window ).on( 'resize', resize_video )
-          setTimeout( resize_video, 500 )
-        </script>
-        <div class="logo">
-          unterstützt durch
-          <a href="" target="_blank">
-            <img src="https://static.rocktreff.de/sponsors/triolution.png">
-          </a>
-        </div>
-      </div>
-    </div>
+  <div class="stage">
+    <video class="video-js"controls preload="auto" width="100%" height="100%"
+      data-setup='{
+        "controls": true,
+        "autoplay": true,
+        "preload": "auto",
+        "poster": "https://rocktreff.de/images/rt.pn"
+      }'>
+      <!--source src="rtmp://live.rockcdn.de/rocktreff/live" type="rtmp/mp4"-->
+      <!--source src="http://live.rockcdn.de/hls/live.m3u8" type="application/x-mpegURL"-->
+      <source src="http://streamdumps.rocktreff.de/in_flames.mp4" type="video/mp4">
+      <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that supports HTML5 video</p>
+    </video>
+    <link href="http://vjs.zencdn.net/5.7.1/video-js.css" rel="stylesheet">
+    <script type="text/javascript" src="http://vjs.zencdn.net/5.7.1/video.js" async="true">
+    <script type="text/javascript">
+      // var resize_video = function () {
+      //   var video = $( 'video, .vjs-tech' )
+      //   var width = video.width()
+      //   var aspect = 16/9
+      //   var height = width/aspect
+      //   video.height(height)
+      //   $( '.video-js' ).height( height )
+      // }
+      // $( window ).on( 'resize', resize_video )
+      // setTimeout( resize_video, 500 )
+    </script>
   </div>
 <script type="text/javascript" src="/js/main.js"></script>
-{% include google.html %}
 </body>
 </html>

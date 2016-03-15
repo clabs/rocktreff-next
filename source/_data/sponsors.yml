@@ -14,14 +14,14 @@
   url: http://starfm.de/
   presenter: true
 
-- name: catering company
-  image: catering_company.png
-  url: http://catering-company-berlin.de/
-  presenter: true
-
 - name: psd bank
   image: psd.png
   url: http://www.psd-berlin-brandenburg.de/
+  presenter: true
+
+- name: catering company
+  image: catering_company.png
+  url: http://catering-company-berlin.de/
   presenter: true
 
 - name: cpye
@@ -35,10 +35,10 @@
 # | '_ ` _ \ / _` | | '_ \
 # | | | | | | (_| | | | | |
 # |_| |_| |_|\__,_|_|_| |_|
-- name: euref
-  image: euref.png
-  url: http://www.eurefcampus.de/
-  main: true
+# - name: euref
+#   image: euref.png
+#   url: http://www.eurefcampus.de/
+#   main: true
 
 - name: faces
   image: faces.png
@@ -53,11 +53,6 @@
 - name: schreiberlin
   image: schreiberlin.png
   url: http://www.schreiberlin.com/
-  main: true
-
-- name: printprinz
-  image: printprinz.png
-  url: https://printprinz.de/
   main: true
 
 - name: vitasyn
@@ -85,13 +80,13 @@
 #   image: avantgarde.png
 #   url: http://www.avantgarde-technik.de/
 
-- name: degas
-  image: degas.png
-  url: http://www.degas-atd.com/
+# - name: degas
+#   image: degas.png
+#   url: http://www.degas-atd.com/
 
-- name: derpart
-  image: derpart.png
-  url: http://www.derpart24.de/ehlert
+# - name: derpart
+#   image: derpart.png
+#   url: http://www.derpart24.de/ehlert
 
 - name: gewosued
   image: gewosud.png
@@ -101,9 +96,9 @@
   image: hoppe.png
   url: http://leichtbrille.com/
 
-- name: humboldt
-  image: humboldtbox.png
-  url: http://www.humboldt-box.com/
+# - name: humboldt
+#   image: humboldtbox.png
+#   url: http://www.humboldt-box.com/
 
 - name: kki
   image: kki.png
@@ -117,21 +112,21 @@
   image: maximilian.png
   url: http://www.maximilian.de/
 
-- name: outline
-  image: outline.png
-  url: http://www.outline-display.de/
+# - name: outline
+#   image: outline.png
+#   url: http://www.outline-display.de/
 
 # - name: pam
 #   image: pam.png
 #   url: http://www.pamevents.de/
 
-# - name: phrenetica
-#   image: phrenetica.png
-#   url: http://phrenetica.com/
+- name: phrenetica
+  image: phrenetica.png
+  url: http://phrenetica.com/
 
-- name: pksd
-  image: pksd.png
-  url: http://www.pksd.biz/
+# - name: pksd
+#   image: pksd.png
+#   url: http://www.pksd.biz/
 
 - name: popella
   image: popella.png
@@ -145,9 +140,9 @@
   image: riemer_schultz.png
   url: http://www.riemerschultz.de/
 
-- name: robbesbeste
-  image: robbes_beste.png
-  url: http://robbesbeste.info/
+# - name: robbesbeste
+#   image: robbes_beste.png
+#   url: http://robbesbeste.info/
 
 # - name: sea
 #   image: sea.png
@@ -161,11 +156,15 @@
   image: vierlande.png
   url: http://www.vierlande.de/
 
-- name: sunshine
-  image: sunshine.png
-  url: http://www.sunshinehouse-berlin.de/
+# - name: sunshine
+#   image: sunshine.png
+#   url: http://www.sunshinehouse-berlin.de/
 
 - name: swi
   image: swi.png
   url: http://www.die-hauptstadtbauer.de/
+
+- name: trio
+  image: triolution.png
+  url: http://www.triolution.de/
 

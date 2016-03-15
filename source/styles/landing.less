@@ -39,14 +39,14 @@
 		.scrolldown {
 			position: absolute;
 			width: 70px;
-			background-color: #000;
-			color: #888;
-			height: 70px;
+			background-color: @gelb;
+			color: black;
+			height: 65px;
 			bottom: 0;
 			margin-left: -35px;
 			left: 50%;
 			z-index: 1;
-			border: 1px solid #333;
+			border: 1px solid transparent;
 			border-bottom: none;
 			border-top-left-radius: 30px;
 			border-top-right-radius: 30px;
@@ -57,10 +57,7 @@
 			font-size: 23px;
 			.transition( all, 0.2s);
 			&:hover {
-				height: 86px;
-				background-color: @gelb;
-				border-color: #000;
-				color: #000;
+				height: 100px;
 			}
 		}
 
@@ -101,6 +98,15 @@
 			z-index: 0;
 			text-align: center;
 
+			&:before {
+				content: "";
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				background-image: url('../images/overlay_video.png');
+				opacity: 0.85;
+			}
+
 			video {
 				width: 100%;
 				height: 100%;
@@ -137,7 +143,6 @@
 			position: fixed;
 			top: 0;
 			right: 0;
-			background-color: rgba(0,0,0,0.4);
 			padding: 1vh 1vw;
 
 			img {
@@ -162,7 +167,8 @@
 			@media (max-width: @screen-xs-max) and (max-aspect-ratio: 1/1) {
 
 				& {
-					text-align: center
+					text-align: center;
+					background-color: fadeout( black, 60% );
 				}
 
 				img {
@@ -185,7 +191,7 @@
 				font-family: "321impact";
 				font-size: 1.5em;
 				margin-top: -2.5em;
-				background-color: #ffef03;
+				background-color: @gelb;
 				padding: 0.2em 1.5em 0 0.3em;
 				position: absolute;
 				right: -1.7em;
@@ -364,9 +370,32 @@
 		}
 	}
 
-	&.last {
+	&.foo {
 		.bg .image {
 			background-image: url('../images/landing_3.jpg');
+		}
+	}
+
+	&.helfen {
+		padding-top: 4em;
+		padding-bottom: 6em;
+		background-color: black;
+
+		.code {
+			a {
+				padding: 0;
+				display: inherit;
+				.bezahlcode {
+						float: right;
+						width: 80px;
+					}
+			}
+		}
+	}
+
+	&.last {
+		.bg .image {
+			background-image: url('../images/landing_4.jpg');
 		}
 	}
 
@@ -375,7 +404,7 @@
 		padding-top: 4em;
 		padding-bottom: 6em;
 		color: #fff;
-		min-height: initial;
+		min-height: auto;
 
 		dt {
 			color: @gelb;

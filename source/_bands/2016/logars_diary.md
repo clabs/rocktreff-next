@@ -8,9 +8,9 @@ year: 2016
 day: friday
 website: http://www.facebook.com/logarsdiary
 stagetime: Freitag, 08. Juli 2016, 21:00 Uhr
-soundcloud: 
-flickr: 
-logo:
+soundcloud:
+flickr:
+logo: logars_diary.png
 picture: logarsdiary.jpg
 youtube: bwaLf6Hr8So
 ---

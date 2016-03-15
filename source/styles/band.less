@@ -18,6 +18,22 @@
 	}
 
 
+	.bandhistory {
+		display: flex;
+		flex-direction: column-reverse;
+
+		> * {
+			&:after {
+				clear: both;
+			}
+		}
+
+		h3 {
+			margin: 10px -200px 15px !important;
+		}
+	}
+
+
 
 	ul.lineup {
 		list-style: none;
@@ -32,8 +48,8 @@
 				a {
 					text-decoration: none;
 					.transform( scale(1.2) rotate(-2deg) );
-					background-color: #000;
-					color: @gelb;
+					background-color: @gelb;
+					color: black;
 				}
 			}
 
@@ -56,6 +72,18 @@
 			&:hover {
 				text-decoration: none;
 			}
+		}
+	}
+
+	.box.inverse {
+		.lineup {
+			li:hover {
+				a {
+					background-color: black;
+					color: @gelb;
+				}
+			}
+
 		}
 	}
 

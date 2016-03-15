@@ -8,9 +8,9 @@ year: 2016
 day: saturday
 website: http://www.weareriotband.com/
 stagetime: Samstag, 09. Juli 2016, 16:00 Uhr
-soundcloud: https://play.spotify.com/track/6L65yb7bnI6ZSjmK5QicaJ
-flickr: 
-logo:
+spotify: spotify:artist:49vwGeo0HEHSyUnFVQgnkf
+flickr:
+logo: weareriot.png
 picture: weareriot.jpg
 youtube: YDfdvGaBkbE
 ---
