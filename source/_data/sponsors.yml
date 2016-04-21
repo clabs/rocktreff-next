@@ -50,9 +50,19 @@
   url: http://www.vattenfall.de/
   main: true
 
+- name: nitz-nitz
+  image: nitz-nitz.png
+  url: http://www.nitz-nitz.de/
+  main: true
+
 - name: schreiberlin
   image: schreiberlin.png
   url: http://www.schreiberlin.com/
+  main: true
+
+- name: druckcenter
+  image: druckcenter.png
+  url: http://www.druckcenter-berlin.de/
   main: true
 
 - name: vitasyn
@@ -72,61 +82,21 @@
 # | (_) | |_| | | |  __/ |
 #  \___/ \__|_| |_|\___|_|
 
-# - name: 3m
-#   image: 3m.png
-#   url: http://www.3mdeutschland.de/
+- name: phrenetica
+  image: phrenetica.png
+  url: http://phrenetica.com/
 
-# - name: avantgarde
-#   image: avantgarde.png
-#   url: http://www.avantgarde-technik.de/
-
-# - name: degas
-#   image: degas.png
-#   url: http://www.degas-atd.com/
-
-# - name: derpart
-#   image: derpart.png
-#   url: http://www.derpart24.de/ehlert
+- name: degas
+  image: degas.png
+  url: http://www.degas-atd.com/
 
 - name: gewosued
   image: gewosud.png
   url: http://www.gewosued.de/
 
-- name: hoppe
-  image: hoppe.png
-  url: http://leichtbrille.com/
-
-# - name: humboldt
-#   image: humboldtbox.png
-#   url: http://www.humboldt-box.com/
-
-- name: kki
-  image: kki.png
-  url: http://www.kki-gesellschaft.de/
-
-# - name: ladenzeile
-#   image: lz.png
-#   url: http://www.ladenzeile.de/
-
-- name: maximilian
-  image: maximilian.png
-  url: http://www.maximilian.de/
-
-# - name: outline
-#   image: outline.png
-#   url: http://www.outline-display.de/
-
-# - name: pam
-#   image: pam.png
-#   url: http://www.pamevents.de/
-
-- name: phrenetica
-  image: phrenetica.png
-  url: http://phrenetica.com/
-
-# - name: pksd
-#   image: pksd.png
-#   url: http://www.pksd.biz/
+- name: riemer
+  image: riemer_schultz.png
+  url: http://www.riemerschultz.de/
 
 - name: popella
   image: popella.png
@@ -136,35 +106,29 @@
   image: radio_moeller.png
   url: http://www.euronics.de/info/portal/vs=shop/dealer=201561-0/ZacCenter/main.ipm
 
-- name: riemer
-  image: riemer_schultz.png
-  url: http://www.riemerschultz.de/
+- name: kki
+  image: kki.png
+  url: http://www.kki-gesellschaft.de/
 
-# - name: robbesbeste
-#   image: robbes_beste.png
-#   url: http://robbesbeste.info/
-
-# - name: sea
-#   image: sea.png
-#   url: http://www.sea-vertrieb.de/
-
-# - name: streetteam
-#   image: streetteam_berlin.png
-#   url: http://www.streetteam-berlin.de/
+- name: maximilian
+  image: maximilian.png
+  url: http://www.maximilian.de/
 
 - name: vierlande
   image: vierlande.png
   url: http://www.vierlande.de/
 
-# - name: sunshine
-#   image: sunshine.png
-#   url: http://www.sunshinehouse-berlin.de/
-
 - name: swi
   image: swi.png
   url: http://www.die-hauptstadtbauer.de/
 
+- name: hoppe
+  image: hoppe.png
+  url: http://leichtbrille.com/
+
 - name: trio
   image: triolution.png
   url: http://www.triolution.de/
+
+
 
