@@ -126,6 +126,14 @@
   image: hoppe.png
   url: http://leichtbrille.com/
 
+- name: cameo
+  image: cameo.png
+  url: http://www.cameolight.com/
+
+- name: ld
+  image: ld.png
+  url: http://www.ld-systems.com/
+
 - name: trio
   image: triolution.png
   url: http://www.triolution.de/
