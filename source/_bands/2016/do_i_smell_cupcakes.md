@@ -9,7 +9,7 @@ day: friday
 website: http://www.doismellcupcakes.com
 stagetime: Freitag, 08. Juli 2016, 19:00 Uhr
 soundcloud: users/2521655
-flickr:
+flickr: 72157675273667436
 logo: do_i_smell_cupcakes.png
 picture: doismellcupcakes.jpg
 youtube: HS8KOAe8dns

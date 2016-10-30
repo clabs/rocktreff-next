@@ -55,10 +55,10 @@
   url: http://www.nitz-nitz.de/
   main: true
 
-- name: schreiberlin
-  image: schreiberlin.png
-  url: http://www.schreiberlin.com/
-  main: true
+# - name: schreiberlin
+#   image: schreiberlin.png
+#   url: http://www.schreiberlin.com/
+#   main: true
 
 - name: druckcenter
   image: druckcenter.png

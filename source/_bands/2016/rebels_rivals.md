@@ -9,7 +9,7 @@ day: saturday
 website: http://www.facebook.com/rebelsandrivals
 stagetime: Samstag, 09. Juli 2016, 20:00 Uhr
 soundcloud: tracks/213979057
-flickr:
+flickr: 72157674045396452
 logo: rebelrivals.png
 picture: rebelsrivals.jpg
 youtube: gwwTsl6cUsI

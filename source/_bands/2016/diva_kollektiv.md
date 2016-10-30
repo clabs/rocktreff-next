@@ -9,7 +9,7 @@ day: sunday
 website: http://www.divakollektiv.de/
 stagetime: Sonntag, 10. Juli 2016, 19:00 Uhr
 soundcloud: users/45428075
-flickr:
+flickr: 72157675420028425
 logo: divakollektiv.png
 picture: divakollektiv.jpg
 youtube: WoAnoT-G1k4

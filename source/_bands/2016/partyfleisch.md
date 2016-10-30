@@ -9,7 +9,7 @@ day: sunday
 website: https://www.facebook.com/partyfleisch
 stagetime: Sonntag, 10. Juli 2016, 18:00 Uhr
 soundcloud: users/89421758
-flickr:
+flickr: 72157675419819985
 logo: partyfleisch.png
 picture: partyfleisch.jpg
 youtube: hKkLHy-3fyE

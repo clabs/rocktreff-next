@@ -9,7 +9,7 @@ day: friday
 website: http://www.diewertenherren.de/
 stagetime: Freitag, 08. Juli 2016, 20:00 Uhr
 soundcloud: users/133900041
-flickr:
+flickr: 72157671846148954
 logo: diewertenherren.png
 picture: diewertenherren.jpg
 youtube: oC5rMT_ozso

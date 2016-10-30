@@ -9,7 +9,7 @@ day: saturday
 website: http://www.tainamusic.de
 stagetime: Samstag, 09. Juli 2016, 22:00 Uhr
 soundcloud:
-flickr:
+flickr: 72157675322681866
 logo: taina.png
 picture: taina.jpg
 youtube: qJgj3axO59M

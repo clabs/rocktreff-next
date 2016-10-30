@@ -9,7 +9,7 @@ day: saturday
 website: http://bwhrocks.wordpress.com/
 stagetime: Samstag, 09. Juli 2016, 21:00 Uhr
 soundcloud: users/50833204
-flickr:
+flickr: 72157671887464564
 logo: blackwaterhorizon.png
 picture: blackwaterhorizon.jpg
 youtube: twOeaA8IGyA

@@ -14,8 +14,8 @@ ______ _____ _____  _   _____________ _________________
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-	<title>ROCKTREFF 2016 | 8.-10. Juli 2016 | Eintritt frei | Open Air Festival im Fußballstadion Volksparkstadion Mariendorf</title>
-	<meta property="og:title" content="ROCKTREFF 2016 - Open Air Festival" />
+	<title>ROCKTREFF 2017 | 7.-9. Juli 2017 | Eintritt frei | Open Air Festival im Fußballstadion Volksparkstadion Mariendorf</title>
+	<meta property="og:title" content="ROCKTREFF 2017 - Open Air Festival" />
 	<meta property="og:site_name" content="ROCKTREFF"/>
 	<meta property="og:url" content="https://rocktreff.de{{page.url}}"/>
 	<meta property="og:type" content="website"/>
@@ -86,9 +86,14 @@ ______ _____ _____  _   _____________ _________________
 			{% endfor %}
 		</div>
 
+		<div class="info visible-xs">
+			<!--h1 class="live"><a href="http://live.rocktreff.de">Livestream</a></h1-->
+		</div>
+
 		<div class="info hidden-xs">
+			<!--h1 class="live"><a href="http://live.rocktreff.de">Livestream</a></h1-->
 			<h1>Eintritt Frei!</h1>
-			<h2>8.-10. Juli 2016<h2>
+			<h2>7.-9. Juli 2017<h2>
 			<h3>Volkspark Mariendorf</h3>
 			<div class="box"></div>
 		</div>
@@ -106,11 +111,11 @@ ______ _____ _____  _   _____________ _________________
 
 
 
-	<section class="slide lineup" id="lineup">
+	<section class="slide lineup" id="bands">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-4 col-md-push-8">
-					<h1>16 Bands Live!</h1>
+					<h1>Bewerbung 2017</h1>
 					<p>
 						Der jährlich im Volksparkstadion Mariendorf stattfindende
 						ROCKTREFF ist ein Open Air Festival, das sich ganz der
@@ -124,81 +129,15 @@ ______ _____ _____  _   _____________ _________________
 						größte Amateurbandfestival Berlins.
 					</p>
 					<p>
-						Aus jährlich über 300 Bewerbungen wurden dieses Jahr 16 Bands
-						ausgewählt, die an drei Tagen des Festivals das Line-Up stellen.
+						Ab dem 11. November können sich wieder alle Bands auf dieser Seite
+						für den kommenden ROCKTREFF anmelden.
 					</p>
 					<p>
 						<a href="/bands">Übersicht aller Bands</a>
 					</p>
 				</div>
-				<div class="col-md-8 col-md-pull-4">
-					<div class="row dates">
-						<div class="col-xs-2"></div>
-						<div class="col-xs-3">
-							<span class="hidden-xs-portrait">
-								Freitag, 8. Juli
-							</span>
-							<span class="visible-xs-portrait">
-								Fr, 8.7.
-							</span>
-						</div>
-						<div class="col-xs-3">
-							<span class="hidden-xs-portrait">
-								Samstag, 9. Juli
-							</span>
-							<span class="visible-xs-portrait">
-								Sa, 9.7.
-							</span>
-						</div>
-						<div class="col-xs-3">
-							<span class="hidden-xs-portrait">
-								Sonntag, 10. Juli
-							</span>
-							<span class="visible-xs-portrait">
-								So, 10.7.
-							</span>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-xs-2">
-							<div class="timeslot">16:00</div>
-							<div class="timeslot">17:00</div>
-							<div class="timeslot">18:00</div>
-							<div class="timeslot">19:00</div>
-							<div class="timeslot">20:00</div>
-							<div class="timeslot">21:00</div>
-							<div class="timeslot">22:00</div>
-							<div class="timeslot">23:00</div>
-						</div>
-						{% assign bands = site.bands | where: 'year', 2016 | sort: 'stagetime'  %}
-						<div class="col-xs-3 day friday">
-							{% for band in bands %}
-								{% if band.stagetime contains 'Freitag' %}
-								<a href="{{ band.url }}" class="thumb" style="background-image:url('https://static.rocktreff.de/bands/pictures/{{ band.picture }}')">
-									<div class="name">{{ band.title }}</div>
-								</a>
-								{% endif %}
-							{% endfor %}
-						</div>
-						<div class="col-xs-3 day saturday">
-							{% for band in bands  %}
-								{% if band.stagetime contains 'Samstag' %}
-								<a href="{{ band.url }}" class="thumb" style="background-image:url('https://static.rocktreff.de/bands/pictures/{{ band.picture }}')">
-									<div class="name">{{ band.title }}</div>
-								</a>
-								{% endif %}
-							{% endfor %}
-						</div>
-						<div class="col-xs-3 day sunday">
-							{% for band in bands %}
-								{% if band.stagetime contains 'Sonntag' %}
-								<a href="{{ band.url }}" class="thumb" style="background-image:url('https://static.rocktreff.de/bands/pictures/{{ band.picture }}')">
-									<div class="name">{{ band.title }}</div>
-								</a>
-								{% endif %}
-							{% endfor %}
-						</div>
-					</div>
+				<div class="col-md-8 col-md-pull-4 teaser">
+
 				</div>
 			</div>
 		</div>
@@ -395,7 +334,7 @@ ______ _____ _____  _   _____________ _________________
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-sm-4">
+				<div class="col-sm-6">
 					<p>
 						Der ROCKTREFF ist ein nicht-kommerzielles Festival, das sich
 						ausschließlich mit Zuwendungen, Sponsoren und der Hilfe von
@@ -407,15 +346,15 @@ ______ _____ _____  _   _____________ _________________
 					</p>
 
 				</div>
-				<div class="col-sm-4">
+				<div class="col-sm-2">
 					<div class="flickr gallery">
-						<a class="fancybox" rel="group" href="https://static.rocktreff.de/crew/crew2015.jpg">
-							<img src="https://static.rocktreff.de/crew/crew2015.jpg" style="width:100%;height:auto">
+						<a class="fancybox" rel="group" href="https://static.rocktreff.de/crew/crew2016.jpg">
+							<img src="https://static.rocktreff.de/crew/crew2016.jpg" style="width:100%;height:auto">
 						</a>
 					</div>
 				</div>
 				<div class="col-sm-4">
-					<iframe src="https://www.youtube.com/embed/9JxTPFZEFWs?wmode=transparent&fs=1&hl=en&modestbranding=1&iv_load_policy=3&showsearch=0&rel=1&theme=dark" frameborder="0" allowfullscreen style="height:12em;"></iframe>
+					<iframe src="https://www.youtube.com/embed/ZkRsYGko_A0?wmode=transparent&fs=1&hl=en&modestbranding=1&iv_load_policy=3&showsearch=0&rel=1&theme=dark" frameborder="0" allowfullscreen style="height:12em;"></iframe>
 				</div>
 			</div>
 			<div class="row">

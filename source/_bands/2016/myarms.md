@@ -9,7 +9,7 @@ day: sunday
 website: http://www.facebook.com/MyArms
 stagetime: Sonntag, 10. Juli 2016, 16:00 Uhr
 soundcloud: users/141027607
-flickr:
+flickr: 72157674236249460
 logo: myarms.png
 picture: myarms.jpg
 youtube: gt6A4N1iVQQ

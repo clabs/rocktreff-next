@@ -9,7 +9,7 @@ day: saturday
 website: https://www.facebook.com/EmpireofMarsBerlin/
 stagetime: Samstag, 09. Juli 2016, 18:00 Uhr
 soundcloud:
-flickr:
+flickr: 72157675414487545
 logo: empireofmars.jpg
 picture: empireofmars.jpg
 youtube:

@@ -4,3 +4,4 @@ node_modules
 .cache
 next.sublime-workspace
 .jekyll-metadata
+_site

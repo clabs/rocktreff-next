@@ -1,13 +1,5 @@
 $(function(){
 
-
-	if ( window.skrollr ) {
-		skrollr.init({
-			smoothScrolling: false,
-			// mobileDeceleration: 0.004
-		})
-	}
-
 	$( 'a[href*=#]:not([href=#])' ).click( function () {
 		if ( location.pathname.replace(/^\//,'') === this.pathname.replace(/^\//,'') &&
 			location.hostname == this.hostname ) {
@@ -44,5 +36,4 @@ $(function(){
 		.on( 'click', function () {
 			$( '.nav-small' ).toggleClass( 'in' )
 		})
-
 })

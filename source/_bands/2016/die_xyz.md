@@ -9,7 +9,7 @@ day: sunday
 website: http://www.diexyz.de
 stagetime: Sonntag, 10. Juli 2016, 17:00 Uhr
 soundcloud: users/150696972
-flickr:
+flickr: 72157674081373411
 logo: xyz.png
 picture: xyz.jpg
 youtube: Qo0U87S4Rxc
