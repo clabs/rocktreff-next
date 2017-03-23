@@ -21,9 +21,10 @@ ______ _____ _____  _   _____________ _________________
   <meta property="og:type" content="website"/>
   <meta property="og:image" content="https://rocktreff.de/images/og_image.jpg" />
   <meta property="og:description" content="Der jährlich im Volksparkstadion Mariendorf stattfindende ROCKTREFF ist ein Open Air Festival, das sich ganz der handgemachten Musik verschrieben hat. Hier werden die Gitarren ausgepackt, die Verstärker hochgeregelt und gemeinsam das Haupthaar geschüttelt." />
-  <link rel="stylesheet" type="text/css" href="/styles/main.css">
+  <link rel="stylesheet" type="text/css" href="https://www.rocktreff.de/styles/main.css">
   <link rel="icon" type="image/x-icon" href="/favicon.ico" />
   <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"/></script>
+  <script type="text/javascript" src="https://cdn.dashjs.org/latest/dash.all.min.js"></script>
 </head>
 <body class="page live">
   {% include navigation.html%}
@@ -34,14 +35,15 @@ ______ _____ _____  _   _____________ _________________
         "autoplay": true,
         "preload": "auto"
       }'>
-      <!--source src="rtmp://live.rockcdn.de/rocktreff/live" type="rtmp/mp4"-->
-      <!--source src="http://live.rockcdn.de/hls/live.m3u8" type="application/x-mpegURL"-->
-      <source src="http://streamdumps.rocktreff.de/in_flames.mp4" type="video/mp4">
+      <source src="http://live.rockcdn.de/rocktreff/live.m3u8" type="application/x-mpegURL">
+      <source src="http://136.243.174.97:1935/rocktreff/live/manifest.mpd">
+      <source src="rtmp://live.rockcdn.de/rocktreff/live" type="rtmp/mp4">
       <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that supports HTML5 video</p>
     </video>
     <link href="https://vjs.zencdn.net/5.7.1/video-js.css" rel="stylesheet">
-    <script type="text/javascript" src="https://vjs.zencdn.net/5.7.1/video.js" async="true"></script>
   </div>
-<script type="text/javascript" src="/js/main.js"></script>
+<script type="text/javascript" src="https://www.rocktreff.de/js/main.js"></script>
+<script type="text/javascript" src="https://vjs.zencdn.net/5.7.1/video.js"></script>
+<script type="text/javascript" src="https://www.rocktreff.de/vendor/videojs-dash.min.js"></script>
 </body>
 </html>

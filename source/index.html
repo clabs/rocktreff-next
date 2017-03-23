@@ -26,54 +26,23 @@ ______ _____ _____  _   _____________ _________________
 	<link rel="stylesheet" href="/vendor/fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
 	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"/></script>
 </head>
-<body data-offset="0" data-target="#navigation" style="background:#000">
-<div id="skrollr-body">
-	{% include navigation.html attribs="data-top=\"margin-top:-100px;\" data--650-top=\"margin-top:0px;\" data-anchor-target=\"#slide_landing\""%}
-
-
-
-
-	<!-- landing splash -->
+<body style="background:#000">
+<div>
+	{% include navigation.html %}
 	<section class="slide landing" id="slide_landing">
-
-		<div class="video-bg hidden-xs"
-			data-top="top:0%;";
-			data-top-bottom="top:50%;"
-			data-anchor-target="#slide_landing"
-		>
-			<video preload="auto" muted="muted" loop="loop" canplay="false" autoplay="autoplay" poster="https://static.rocktreff.de/video/rocktreff_web_2000k.jpg">
-				<source src="https://static.rocktreff.de/video/rocktreff_web_2000k.mp4" type="video/mp4">
+		<div class="hidden-xs video-bg" >
+			<video preload="auto" muted="muted" loop="loop" canplay="false" autoplay="autoplay" poster="https://static.rocktreff.de/video/rt17_web_2000k.jpg">
+				<source src="https://static.rocktreff.de/video/rt17_web_2000k.mp4" type="video/mp4">
 			</video>
 		</div>
-
-		<div class="mobil-bg visible-xs"
-			data-top="top:0%;";
-			data-top-bottom="top:50%;"
-			data-anchor-target="#slide_landing"
-		>
-		</div>
-
-		<div class="scrolldown"
-			data-top="opacity:1;"
-			data--100-top="opacity:0;"
-			data-anchor-target="#slide_landing"
-		>
+		<div class="visible-xs mobil-bg"></div>
+		<div class="scrolldown">
 			<span class="glyphicon glyphicon-chevron-down"></span></a>
 		</div>
-
-		<div class="logo"
-			data-top="opacity:1;"
-			data--400-top="opacity:0;"
-			data-anchor-target="#slide_landing"
-		>
+		<div class="logo">
 			<img src="./images/rt.png">
 		</div>
-
-		<div class="presenter"
-			data--120-bottom="opacity:1;";
-			data--400-bottom=="opacity:0;"
-			data-anchor-target="#slide_landing"
-		>
+		<div class="presenter">
 			<div class="presented_by">
 				<span class="hidden-xs">präsentiert von</span>
 			</div>
@@ -85,11 +54,11 @@ ______ _____ _____  _   _____________ _________________
 				{% endif %}
 			{% endfor %}
 		</div>
-
 		<div class="info visible-xs">
 			<!--h1 class="live"><a href="http://live.rocktreff.de">Livestream</a></h1-->
+			<h3>7.-9. Juli 2017<h3>
+			<h3>EINTRITT FREI!</h3>
 		</div>
-
 		<div class="info hidden-xs">
 			<!--h1 class="live"><a href="http://live.rocktreff.de">Livestream</a></h1-->
 			<h1>Eintritt Frei!</h1>
@@ -97,56 +66,29 @@ ______ _____ _____  _   _____________ _________________
 			<h3>Volkspark Mariendorf</h3>
 			<div class="box"></div>
 		</div>
-
-		<div class="footer"
-			data-top="opacity:1;"
-			data--100-top="opacity:0;"
-			data-anchor-target="#slide_landing"
-		>
+		<div class="footer">
 			<a class="link" href="#veranstalter">Veranstalter</a>
 		</div>
-
 	</section>
-
-
-
-
 	<section class="slide lineup" id="bands">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-4 col-md-push-8">
 					<h1>Bewerbung 2017</h1>
 					<p>
-						Der jährlich im Volksparkstadion Mariendorf stattfindende
-						ROCKTREFF ist ein Open Air Festival, das sich ganz der
-						handgemachten Musik verschrieben hat. Hier werden die
-						Gitarren ausgepackt, die Verstärker hochgeregelt und
-						gemeinsam das Haupthaar geschüttelt. Ziel des ROCKTREFFs
-						ist es, Amateurbands eine geeignete Bühne zu bieten, sich
-						einem größtmöglichen Publikum zu präsentieren und auf der
-						anderen Seite einer breiten Öffentlichkeit ein kostenloses
-						Event zu bieten. Das ROCKTREFF Open Air gilt als das
-						größte Amateurbandfestival Berlins.
-					</p>
-					<p>
-						Ab dem 11. November können sich wieder alle Bands auf dieser Seite
-						für den kommenden ROCKTREFF anmelden.
+						Die Bewerbungsgphase für 2017 ist abgeschlossen. Fragen? Schreib eine Mail an
+						<span class="email">band-support</span>
 					</p>
 					<p>
 						<a href="/bands">Übersicht aller Bands</a>
 					</p>
 				</div>
-				<div class="col-md-8 col-md-pull-4 teaser">
+				<div class="col-md-8 col-md-pull-4 bandauswahl-teaser">
 
 				</div>
 			</div>
 		</div>
 	</section>
-
-
-
-
-
 	<section class="slide second" id="slide_second">
 		<div class="bg"
 			data-bottom-top="top:-50%;"
@@ -154,12 +96,6 @@ ______ _____ _____  _   _____________ _________________
 			data-anchor-target="#slide_second"
 		><div class="image"></div></div>
 	</section>
-
-
-
-
-
-
 	<section class="slide map">
 		<a name="map"></a>
 		<div class="container approach">
@@ -222,11 +158,6 @@ ______ _____ _____  _   _____________ _________________
 			$( '.slide.map .noscroll' ).on( 'click', onMapClickHandler )
 		</script>
 	</section>
-
-
-
-
-
 	<section class="slide sponsors" id="sponsors">
 		<div class="container sponsors">
 			<div class="row col-lg-12">
@@ -272,11 +203,6 @@ ______ _____ _____  _   _____________ _________________
 			</div>
 		</div>
 	</section>
-
-
-
-
-
 	<section class="slide spielfest" id="spielfest">
 		<div class="bg"
 			data-bottom-top="top:-50%;"
@@ -286,11 +212,6 @@ ______ _____ _____  _   _____________ _________________
 		<div class="logo"></div>
 		<div class="silhouetten"></div>
 	</section>
-
-
-
-
-
 	<section class="slide spielfest_info">
 		<div class="container">
 			<div class="col-sm-8 col-sm-offset-2">
@@ -307,16 +228,13 @@ ______ _____ _____  _   _____________ _________________
 			</div>
 		</div>
 	</section>
-
-
 	<section class="slide spielfest_sponsors">
-		<img src="https://static.rocktreff.de/sponsors/moebel_kraft.png">
+		<img src="https://static.rocktreff.de/sponsors/hoeffner.png">
+		<img src="https://static.rocktreff.de/sponsors/stadtundland.png">
 		<img src="https://static.rocktreff.de/sponsors/stromnetz_berlin.png">
+		<img src="https://static.rocktreff.de/sponsors/druckcenter_light.png">
+		<img src="https://static.rocktreff.de/sponsors/stilbrand_light.png">
 	</section>
-
-
-
-
 	<section class="slide foo" id="slide_foo">
 		<div class="bg"
 			data-bottom-top="top:-50%;"
@@ -324,8 +242,6 @@ ______ _____ _____  _   _____________ _________________
 			data-anchor-target="#slide_foo"
 		><div class="image"></div></div>
 	</section>
-
-
 	<section class="slide helfen" id="helfen">
 		<div class="container">
 			<div class="row">
@@ -342,7 +258,7 @@ ______ _____ _____  _   _____________ _________________
 						neue darauf angewiesen, dass uns zahlreich Leute helfen. Alle
 						Bands und Künstler treten ohne Gage auf. Die Crew ackert mit bis
 						zu 60 Leuten teils monatelang ebenfalls ohne Bezahlung, aber
-						mit viel Spaß an der Sache. <a class="link" href="https://www.flickr.com/photos/rocktreff/albums/72157658561531956/" target="blank">Hier die Bilder der Crew 2015</a>.
+						mit viel Spaß an der Sache. <a class="link" href="https://www.flickr.com/photos/rocktreff/albums/72157676925025496/" target="blank">Hier die Bilder der Crew 2016</a>.
 					</p>
 
 				</div>
@@ -354,10 +270,10 @@ ______ _____ _____  _   _____________ _________________
 					</div>
 				</div>
 				<div class="col-sm-4">
-					<iframe src="https://www.youtube.com/embed/ZkRsYGko_A0?wmode=transparent&fs=1&hl=en&modestbranding=1&iv_load_policy=3&showsearch=0&rel=1&theme=dark" frameborder="0" allowfullscreen style="height:12em;"></iframe>
+					<iframe src="https://www.youtube.com/embed/ZkRsYGko_A0?wmode=transparent&fs=1&hl=en&modestbranding=1&iv_load_policy=3&showsearch=0&rel=1&theme=dark" frameborder="0" allowfullscreen style="height:13em;width:100%"></iframe>
 				</div>
 			</div>
-			<div class="row">
+			<div class="row ways">
 				<div class="col-sm-4">
 
 					<h3>Du willst mitmachen?</h3>
@@ -414,8 +330,6 @@ ______ _____ _____  _   _____________ _________________
 			</div>
 		</div>
 	</section>
-
-
 	<section class="slide last" id="slide_last">
 		<div class="bg"
 			data-bottom-top="top:-50%;"
@@ -423,9 +337,6 @@ ______ _____ _____  _   _____________ _________________
 			data-anchor-target="#slide_last"
 		><div class="image"></div></div>
 	</section>
-
-
-
 	<section class="slide footer" id="veranstalter">
 		<div class="container imprint">
 			<div class="row">
@@ -435,11 +346,9 @@ ______ _____ _____  _   _____________ _________________
 			</div>
 			<div class="row">
 				<div class="col-sm-4 col-sm-offset-2 imprint">
-
 					<dl>
 						<dd>
 							Bezirksamt Tempelhof-Schöneberg von Berlin <br>
-							Abteilung Jugend, Ordnung, Bürgerdienste <br>
 							Jugendamt – Jug VM - Veranstaltungsmanagement <br>
 							Strelitzstraße 15 <br>
 							12105 Berlin <br>
@@ -473,12 +382,15 @@ ______ _____ _____  _   _____________ _________________
 							<dd>
 								Sven Perschmann
 							</dd>
+						<dt>Presse & Akkreditierung</dt>
+							<dd>
+							<span class="email">presse</span>
+							</dd>
 						<dt>Kontakt</dt>
 							<dd>
 								<span class="email">kontakt</span>
 							</dd>
 					</dl>
-
 				</div>
 			</div>
 			<div style="text-align:center;margin-top:2em">
@@ -494,8 +406,49 @@ ______ _____ _____  _   _____________ _________________
 
 	</section>
 </div>
-<script type="text/javascript" src="vendor/skrollr/dist/skrollr.min.js"></script>
+<script type="text/javascript" src="vendor/scrollreveal/dist/scrollreveal.min.js"></script>
 <script type="text/javascript" src="/vendor/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
 <script type="text/javascript" src="js/main.js"/></script>
+<script type="text/javascript">
+	var sr = ScrollReveal()
+	sr.reveal('.logo', { delay: 0, origin:'top', duration: 1000 }, 50 )
+
+	sr.reveal('.landing .presenter img', { delay: 500, origin:'right', duration: 1000 }, 100 )
+	sr.reveal('.landing .presented_by',  { delay: 1800, origin:'left', duration: 100 })
+	sr.reveal('.landing .info > h1',   { delay: 2800, origin:'right', scale: 1, duration: 1000 })
+	sr.reveal('.landing .info > h2',   { delay: 2400, origin:'right', scale: 1, duration: 1000 })
+	sr.reveal('.landing .info > h3',   { delay: 2400, origin:'right', scale: 1, duration: 1000 })
+	sr.reveal('.landing .info > .box', { delay: 2000, origin:'right', scale: 1, duration: 1000 })
+	sr.reveal('.landing .scrolldown', { delay: 3000, origin:'bottom', duration: 1000, opacity: 0 })
+	sr.reveal('.lineup .bandauswahl-teaser', { delay: 1000, origin:'right', duration: 2000 })
+	sr.reveal('.lineup .col-md-push-8', { delay: 0, origin:'left', duration: 2000 })
+	sr.reveal('.sponsors .main img',  { delay: 0, origin:'right', scale: 1, duration: 600 }, 100 )
+	sr.reveal('.sponsors .other img', { delay: 700, origin:'right', scale: 1, duration: 1000 }, 100 )
+	sr.reveal('.helfen .ways > *',  { delay: 0, origin:'top', scale: 1, duration: 1000 }, 500 )
+	sr.reveal('.spielfest_sponsors img', { delay: 100, origin:'right', scale: 1, duration: 1000 }, 200 )
+	sr.reveal('.imprint img', { delay: 100, origin:'right', scale: 1, duration: 800 }, 200 )
+
+</script>
+<script type="text/javascript">
+	var nav = document.querySelector( '#navigation' )
+	var bands  = document.querySelector( '#bands' )
+	var scrolldown  = document.querySelector( '.scrolldown' )
+
+	nav.classList.add( 'hidden' )
+	window.addEventListener( "scroll", function () {
+		if ( window.pageYOffset >= bands.offsetTop - 100 ) {
+			nav.classList.remove( 'hidden' )
+		}
+		else if ( !nav.classList.contains( 'hidden' ) ){
+			nav.classList.add( 'hidden' )
+		}
+
+		if ( window.pageYOffset >= 10 ) {
+			scrolldown.classList.add( 'notvisible' )
+		} else {
+			scrolldown.classList.remove( 'notvisible' )
+		}
+	}, false )
+</script>
 </body>
 </html>

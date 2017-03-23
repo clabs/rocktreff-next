@@ -12,7 +12,7 @@ soundcloud: users/50833204
 flickr: 72157671887464564
 logo: blackwaterhorizon.png
 picture: blackwaterhorizon.jpg
-youtube: twOeaA8IGyA
+youtube: V5gD9HP7Rfk
 ---
 Blackwater Horizon ist wie ein guter Whiskey: intensiv-rau im Geschmack und wohltuend im Herzen zugleich. Das erzielt die Mainzer Band mit ihrem New Southern Rock, d.h. Hard Rock gepaart mit einer Prise Blues & Country aus den Tiefen der Südstaaten.
 Blackwater Horizon verzichtet bewusst auf übermäßigen Synthie-Einsatz oder lange progressive Solos und setzt dafür auf gradlinigen Rock mit Melodien, die stets lange in den Köpfen der Hörer nachhallen. Inspiration holen sich die drei Herren dabei von aktuell erfolgreichen Künstlern wie Black Stone Cherry oder Slash bis hin zu alten Legenden wie Lynyrd Skynyrd und ZZ Top.
