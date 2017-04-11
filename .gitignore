@@ -5,3 +5,16 @@ node_modules
 next.sublime-workspace
 .jekyll-metadata
 _site
+
+# Mac
+.DS_Store
+*.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
