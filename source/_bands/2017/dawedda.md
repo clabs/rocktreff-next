@@ -3,13 +3,13 @@ layout: band
 title: DAWEDDA
 website: http://www.dawedda.de
 style: Rock/Metal von original Kurpfälzischer Mundart
-logo: bandlogo.png
-picture: bandfoto.jpg
+logo: dawedda_logo.jpg
+picture: dawedda_band.jpg
 year: 2017
 day: saturday
 stagetime: Samstag, 08. Juli 2017, 19:00 Uhr
 vimeo:
-youtube:  https://youtu.be/jtepq07N7s4 / https://youtu.be/fhtV128QkJs
+youtube: fhtV128QkJs
 spotify: 
 soudcloud: 
 bandcamp: 

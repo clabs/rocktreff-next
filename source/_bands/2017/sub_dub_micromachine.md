@@ -3,13 +3,13 @@ layout: band
 title: Sub Dub Micromachine
 website: http://www.sdmm.de
 style:  Industrial Metal
-logo: bandlogo.png
-picture: bandfoto.jpg
+logo: subdubmicromachine_logo.png
+picture: subdubmicromachine_band.jpg
 year: 2017
 day: friday
 stagetime: Freitag, 07. Juli 2017, 22:00 Uhr
 vimeo:
-youtube: https://www.youtube.com/watch?v=PA8TaIcJCqY / https://www.youtube.com/watch?v=6ZvpxEB8354&list=PLV7CrOY7dbX4oAhJzZj7im-K-Y_ud1ba5
+youtube: PA8TaIcJCqY
 spotify: 
 soudcloud: 
 bandcamp: 

@@ -3,15 +3,15 @@ layout: band
 title: MoDo
 website: http://www.modo-band.com
 style: Happy Metal / Alternative / Rock
-logo: bandlogo.png
-picture: bandfoto.jpg
+logo: modo_logo.png
+picture: modo_band.jpg
 year: 2017
 day: saturday
 stagetime: Samstag, 08. Juli 2017, 21:00 Uhr
 vimeo:
-youtube: https://www.youtube.com/watch?v=_zmr4qAmajc /  https://www.youtube.com/watch?v=ezN9KOdL8q8 / https://www.youtube.com/watch?v=3N6TrrRXms0
+youtube: _zmr4qAmajc
 spotify: 
-soudcloud: 
+soudcloud: tracks/245573504
 bandcamp: 
 flickr: 
 ---

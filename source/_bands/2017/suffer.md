@@ -1,15 +1,15 @@
 ﻿---
 layout: band
 title: Suffer
-website: 
+website: https://www.facebook.com/SufferBerlin/
 style: Melodic-Meta
-logo: bandlogo.png
-picture: bandfoto.jpg
+logo: suffer_logo.jpg
+picture: suffer_band.png
 year: 2017
 day: friday
 stagetime: Freitag, 07. Juli 2017, 21:00 Uhr
 vimeo:
-youtube: 
+youtube: vD6jIP7fheU
 spotify: 
 soudcloud: 
 bandcamp: 

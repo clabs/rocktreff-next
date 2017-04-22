@@ -1,18 +1,18 @@
 ﻿---
 layout: band
 title: WELTRAUM POWER
-website: http://www.weltraumpwer.de
+website: http://www.facebook.com/weltraumpower
 style: RockPunkElektroRap
-logo: bandlogo.png
-picture: bandfoto.jpg
+logo:
+picture: weltraumpower_band.jpg
 year: 2017
 day: sunday
 stagetime: Sonntag, 09. Juli 2017, 17:00 Uhr
 vimeo:
-youtube: https://www.youtube.com/watch?v=bJsv0K8V-FY / https://www.youtube.com/watch?v=BGKdC_xVZzM
+youtube: bJsv0K8V-FY
 spotify: 
-soudcloud: 
+soudcloud: tracks/132018660
 bandcamp: 
 flickr: 
 ---
- WELTRAUM POWER SIND ZURÜCK! Nach Toursupports für Montreal, Jennifer Rostock und Marathonmann, gönnte man sich eine Pause und erfand sich mal wieder neu. Neu in geil und so. Weltraum Power gehen im Sommer 2017 auf Festivaltour und würden vielen, vielen Menschen Glück ins Herz spritzen, eines davon in Berlin zu spielen. Wer Pop mit lauten Gitarren mag, wem völlig egal ist ob das nun Pop, Indie oder Punk ist, geschrien oder gesungen ist, wer echte Freundschaft, Tanzen, Vermissen und Happy Endings mag, der mag auch Weltraum Power.
+PopPunkElektroIndieRap?! Da blickt doch eh keiner mehr durch. Wozu auch? Irgendwie macht doch jede Band inzwischen eh was sie will. Geil! Weltraum Power machen beim ersten Hören vor allem eines: Spaß! Doch auch wenn die Band sich selbst vielleicht nicht immer allzu Ernst nimmt, in eine reine Spaßkiste möchte sie nicht gesteckt werden – zu recht! "Klar wollen wir, dass die Leute mit uns Spaß haben, aber es muss und darf auch nicht alles immer nur lustig sein. Ab und an vom Leben mal ordentlich eine auf´s Maul zu bekommen ist super wichtig!" stellt Sänger Fabi Feuer klar. Diese Einstellung zieht sich wie ein roter Faden durch die Musik von Weltraum Power. So passiert es dir schnell, dass du dich beim euphorischen Tanzen und Mitsingen erwischst, während Fabi von Einsamkeit oder Post-Feierdepressionen singt. Kein Wunder: strahlen die vier Berliner doch stets eine selbstbewusste Ladung an Optimismus aus und schaffen es dadurch auf ihre Art zu begeistern und mitzureißen. Bassistin Josi bringt es auf den Punkt: "Die Welt ist zwar wunderschön bunt aber oft auch WELTRAUM POWER
