@@ -1,6 +1,8 @@
 ﻿---
 layout: band
 title: Lightkultur
+
+
 website: http://www.aggroschlager.com
 style: Aggroschlager, Deutschrockpunk
 logo: lightkultur_logo.jpg
@@ -8,11 +10,9 @@ picture: lightkultur_band.jpg
 year: 2017
 day: sunday
 stagetime: Sonntag, 09. Juli 2017, 16:00 Uhr
-vimeo:
 youtube: OEnBNfg0FQw
-spotify: 
-soudcloud: 
-bandcamp: 
-flickr: 
 ---
-Weil wir 2017 die Berlinerszene Überraschungs-Reunion sind :-) Tata!!! Nach 10 Jahren der Trennung, haben sich die 4 jungen Knaben von damals, als 4 leicht in die Jahre gekommenden Herren wieder zusammen geschloassen um wie einst poppig, punkige und spaßige Unterhaltung zu liefern. Dieses natürlich, aber vorallem auch in Mariendorf. Prost!
+Zugegeben, ganz frisch sind die vier Jungs vom Brandenburger Tor nicht mehr. Dieses sei aber auch dem geschuldet, dass sie sich bereits Anfang der 2000er bis auf den letzten Tropfen Schweiß verausgabten. Mit Erfolg? Das sei jedem selbst überlassen... im Jahr 2007 war auf jeden Fall Schluss.
+
+
+Heute, 10 Jahre danach meldet sich die Lightkultur vom Brandenburger Tor zurück. Im Gepäck die Songs von damals, die dazwischen und brandaktuelle. Musikalisch sind sie den 3 Akkorden plus Moll-Parallele treu geblieben. Dazu Melodien die jedes Lied aus der Mundorgel vor Neid erblassen lassen. Optisch die Sahne im Kaffee, welche alle Bands Anfang 20 alt aussehen lässt . Mit Der EP „LK“ gibt es den ersten musikalischen Output auf die Ohren. Ein ganzes Album ist bereits in Planung und Mache. Guten Tag hier sind wir wieder und Gute Nacht Berlin!

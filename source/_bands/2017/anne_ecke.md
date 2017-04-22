@@ -3,18 +3,32 @@ layout: band
 title: Anne Ecke
 
 
-website: https://de-de.facebook.com/anneecke/
+website: https://www.facebook.com/anneecke/
 style: NDW Punk
 logo: anneecke_logo.jpg
 picture: anneecke_band.jpg
 year: 2017
 day: friday
 stagetime: Freitag, 07. Juli 2017, 18:00 Uhr
-vimeo:
 youtube: yCf31i50Q4I
-spotify: 
 soudcloud: users/174436471
-bandcamp: 
-flickr: 
 ---
+ANNE ECKE sind ... 
+
+
+Sonntag-Licht, die Dielen haben Macken-
+
+
+von Vulkanausbrüchen, Erdplattenknacken... 
+
+
+Von Neukölln, Friedrichshain über Mitte bis rauf und  runter den Prenzl Berg! ... 
+
+
+Denn was gibts sonst noch ausser ... Fressen,  (kopulieren-die Red.), Cha-Cha-Cha? 
+
+
+ANNE ECKE, ROCK aus BERLIN!!!
+
+
 Letztes Jahr sind sie leider kurzfristig ausgefallen und konnten das Publikum nicht begeistern. In diesem Jahr steht ihrem auftritt hoffentlich nichts im Weg.
