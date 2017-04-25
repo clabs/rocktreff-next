@@ -1,4 +1,4 @@
-﻿---
+---
 layout: band
 title: Sub Dub Micromachine
 

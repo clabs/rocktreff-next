@@ -1,4 +1,4 @@
-﻿---
+---
 layout: band
 title: Final Stair
 
