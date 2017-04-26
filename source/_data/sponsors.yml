@@ -126,6 +126,10 @@
   image: hoppe.png
   url: http://leichtbrille.com/
 
+- name: tempelhoferjournal
+  image: tempelhoferjournal.png
+  url: http://tempelhoferjournal.de/
+
 - name: cameo
   image: cameo.png
   url: http://www.cameolight.com/
