@@ -4,9 +4,9 @@ title: Broken Skull
 
 
 website: https://www.facebook.com/BrokenSkullBand
-style: Hard Rock 
-logo: brokenskull_logo.png
-picture: brokenskull_band.jpg
+style: Hard Rock
+logo: brokenskull.png
+picture: brokenskull.jpg
 year: 2017
 day: saturday
 stagetime: Samstag, 08. Juli 2017, 20:00 Uhr

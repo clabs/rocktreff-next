@@ -5,8 +5,8 @@ title: Lightkultur
 
 website: http://www.aggroschlager.com
 style: Aggroschlager, Deutschrockpunk
-logo: lightkultur_logo.jpg
-picture: lightkultur_band.jpg
+logo: lightkultur.png
+picture: lightkultur.jpg
 year: 2017
 day: sunday
 stagetime: Sonntag, 09. Juli 2017, 16:00 Uhr

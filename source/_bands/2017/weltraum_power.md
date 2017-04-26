@@ -5,7 +5,7 @@ title: WELTRAUM POWER
 
 website: http://www.facebook.com/weltraumpower
 style: RockPunkElektroRap
-picture: weltraumpower_band.jpg
+picture: weltraumpower.jpg
 year: 2017
 day: sunday
 stagetime: Sonntag, 09. Juli 2017, 17:00 Uhr

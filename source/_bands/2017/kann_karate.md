@@ -5,8 +5,8 @@ title: Kann Karate
 
 website: https://www.facebook.com/KannKarateKannKarate
 style: Indie Rock / Postpunk
-logo: kannkarate_logo.jpg
-picture: kannkarate_band.jpg
+logo:
+picture: kannkarate.jpg
 year: 2017
 day: saturday
 stagetime: Samstag, 08. Juli 2017, 17:00 Uhr

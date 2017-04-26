@@ -4,9 +4,9 @@ title: Redscale
 
 
 website: http://www.redscale-berlin.de
-style: Heavy Rock / Stoner  
-logo: redscale_logo.jpg
-picture: redscale_band.jpg
+style: Heavy Rock / Stoner
+logo: redscale.jpg
+picture: redscale.jpg
 year: 2017
 day: sunday
 stagetime: Sonntag, 09. Juli 2017, 19:00 Uhr

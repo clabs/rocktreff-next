@@ -1,12 +1,12 @@
-﻿---
+---
 layout: band
 title: Ryv Law
 
 
 website: http://www.ryvlaw.com
 style: Punk / Post-Hardcore
-logo: ryvlaw_logo.png
-picture: ryvlaw_band.jpg
+logo: ryvlaw.png
+picture: ryvlaw.jpg
 year: 2017
 day: friday
 stagetime: Freitag, 07. Juli 2017, 20:00 Uhr

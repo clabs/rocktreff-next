@@ -5,8 +5,8 @@ title: ECHOLITE
 
 website: http://www.facebook.com/echolite.band
 style: Alternative Hardrock
-logo: echolite_logo.png
-picture: echolite_band.jpg
+logo: echolite.png
+picture: echolite.jpg
 year: 2017
 day: friday
 stagetime: Freitag, 07. Juli 2017, 19:00 Uhr

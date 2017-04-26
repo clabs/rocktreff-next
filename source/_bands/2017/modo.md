@@ -5,8 +5,8 @@ title: MoDo
 
 website: http://www.modo-band.com
 style: Happy Metal / Alternative / Rock
-logo: modo_logo.png
-picture: modo_band.jpg
+logo: modo.png
+picture: modo.jpg
 year: 2017
 day: saturday
 stagetime: Samstag, 08. Juli 2017, 21:00 Uhr

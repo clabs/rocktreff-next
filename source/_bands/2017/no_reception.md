@@ -5,8 +5,8 @@ title: No Reception
 
 website: http://www.facebook.com/NoReceptionBerlin
 style: Rock/Punkrock/Alternative
-logo: noreception_logo.jpg
-picture: noreception_band.png
+logo: noreception.png
+picture: noreception.jpg
 year: 2017
 day: saturday
 stagetime: Samstag, 08. Juli 2017, 16:00 Uhr

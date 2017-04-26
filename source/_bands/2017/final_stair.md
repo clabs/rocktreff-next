@@ -4,9 +4,9 @@ title: Final Stair
 
 
 website: http://www.finalstair.com
-style:  Rock/Indie  
-logo: finalstair_logo.png
-picture: finalstair_band.jpg
+style:  Rock/Indie
+logo: finalstair.png
+picture: finalstair.jpg
 year: 2017
 day: saturday
 stagetime: Samstag, 08. Juli 2017, 18:00 Uhr

@@ -5,8 +5,8 @@ title: Mädchenname Mademann
 
 website: https://www.facebook.com/MNMMalter/
 style: Punk-Kabarett
-logo: maedchennamemademann_logo.jpg
-picture: maedchennamemademann_band.jpg
+logo: maedchennamemademann.png
+picture: maedchennamemademann.jpg
 year: 2017
 day: sunday
 stagetime: Sonntag, 09. Juli 2017, 18:00 Uhr

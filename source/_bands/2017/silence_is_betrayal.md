@@ -5,8 +5,8 @@ title: Silence Is Betrayal
 
 website: http://www.silenceisbetrayal.de/
 style: Alternative Metal
-logo: silenceisbetrayal_logo.jpg
-picture: silenceisbetrayal_band.jpg
+logo: silenceisbetrayal.png
+picture: silenceisbetrayal.jpg
 year: 2017
 day: saturday
 stagetime: Samstag, 08. Juli 2017, 22:00 Uhr
