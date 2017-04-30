@@ -10,7 +10,7 @@ picture: silenceisbetrayal.jpg
 year: 2017
 day: saturday
 stagetime: Samstag, 08. Juli 2017, 22:00 Uhr
-soudcloud: tracks/145310635
+soundcloud: users/90072827
 ---
 ...bieten seit 2012 den Berlinern neuartige Klänge. Irgendwo zwischen Alternative und Progressive Metal entstehen hier Melodien, die euch so schnell nicht mehr loslassen werden! Auf atmosphärische Strophen, die nur allzu oft die Grenzen des üblichen Versmaßes sprengen, folgen brachiale Riffs, welche jede Hütte zum Wackeln bringen!
 
