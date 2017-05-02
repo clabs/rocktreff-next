@@ -6,7 +6,7 @@ title: Audrey Fights Back!
 style: Cinematic-Hardcore
 year: 2013
 website: http://www.facebook.com/audreyfightsbackmusic
-stagetime: Sonntag, 16. Juli 2013, 19:00 Uhr
+stagetime: Sonntag, 16. Juni 2013, 19:00 Uhr
 flickr: 72157648296460694
 logo: audrey_fights_back.jpg
 spotify: spotify:artist:3V5A7PpDbYyatq6n7uzxgu

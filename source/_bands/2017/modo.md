@@ -11,7 +11,7 @@ year: 2017
 day: saturday
 stagetime: Samstag, 08. Juli 2017, 21:00 Uhr
 youtube: _zmr4qAmajc
-soudcloud: tracks/245573504
+soundcloud: users/120426619
 ---
 „MoDo“ ist eine Alternative Rock-Pop Band aus dem Kreis Heinsberg / NRW
 

@@ -6,7 +6,7 @@ title: Logar's Diary
 style: Metal / Mittelalter
 year: 2013
 website: http://www.facebook.com/logarsdiary
-stagetime: Freitag, 14. Juli 2013, 22:00 Uhr
+stagetime: Freitag, 14. Juni 2013, 22:00 Uhr
 flickr: 72157650563040906
 youtube: DtHalDEp2l4
 logo: logars_diary.png
