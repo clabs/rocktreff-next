@@ -12,13 +12,13 @@ day: friday
 stagetime: Freitag, 07. Juli 2017, 21:00 Uhr
 youtube: vD6jIP7fheU
 ---
-Wir von Suffer sind fünf engagierte Jungs im Alter von 17-19 Jahren.
+Suffer sind fünf engagierte Jungs im Alter von 17-19 Jahren.
 
 
-Unsere Musik lehnt sich an unsere musikalischen Vorbilder, darunter Avenged Sevenfold, Bullet For My Valentine, While She Sleeps und Slipknot, uns ist wichtig niemanden zu kopieren, sondern mit Inspiration durch diese Bands unseren eigenen Stil zu entwickeln.
+Die Inspiration der musikalischen Vorbilder wie bspw. Avenged Sevenfold, Bullet For My Valentine, While She Sleeps und Slipknot lässt Suffer ihren eigenen Stil entwickeln. Bereits seit einigen Jahren haben sie zahlreiche kleiner Konzerte gespielt und auch schon ein eigenes Mini-Festival veranstaltet.
 
 
-Unsere Geschichte beginnt im Jahr 2013 unter dem Namen „The Julius Project“ wo wir noch Pop bis Poprock gespielt haben. Nachdem es einige Änderungen in der Besetzung gab, haben wir Pop aus dem Programm genommen und erstmal nur Rock gespielt. Nachdem unser Gitarrist Leon  im Jahr 2015 zu uns kam, stiegen wir ganz auf Metal um und spielten nun unter dem Namen „Suffer“.
+Ihre Geschichte beginnt im Jahr 2013 unter dem Namen „The Julius Project“ wo sie noch Pop bis Poprock gespielt haben. Nachdem es einige Änderungen in der Besetzung gab, haben sie Pop aus dem Programm genommen und erstmal nur Rock gespielt. Nachdem ihr Gitarrist Leon im Jahr 2015 zu ihnen kam, stiegen sie ganz auf Metal um und spielten nun unter dem Namen „Suffer“.
 
 
-In den letzten Jahren konnten wir zahlreiche kleinere Konzerte geben, sowie ein ein eigenes Mini-Festival veranstalten. Zudem erreichten wir im Vorjahr den 3. Platz im Nordost-Finale Deutschlands des Emergenza-Bandwettbewerbs.
+In den letzten Jahren konnten sie zahlreiche kleinere Konzerte geben, sowie ein eigenes Mini-Festival veranstalten. Zudem erreichten sie im Vorjahr den 3. Platz im Nordost-Finale Deutschlands des Emergenza-Bandwettbewerbs.

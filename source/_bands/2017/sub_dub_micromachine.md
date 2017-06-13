@@ -12,7 +12,7 @@ day: friday
 stagetime: Freitag, 07. Juli 2017, 22:00 Uhr
 youtube: PA8TaIcJCqY
 ---
-Sub Dub Micromachine spielen seit ihrer Gründung 1997 in Berlin Industrial Metal Ein erstes Album RABAUTZ! erschien 2002; 2008 folgte AUFERSTANDEN! Trotz seltener Auftritte wurde die Band durch streams (ChroniX Aggression und Pure-Metal) vor allem in den USA bekannt Todespoesien aus dem Niemandsland am Ende der Zivilisationbeherrschen das dritte Album - Settle For Force. Lustvolle Untergangszenarien aus Sicht der Maschinen nach ihrem Sieg über die Menschheit: AS SOON AS YOU WERE DEAD Erstmals live zu erleben vom 3. bis 6. August in WACKEN; record release rechtzeitig vorher am 29. Juli 2016
+Sub Dub Micromachine spielen seit ihrer Gründung 1997 in Berlin Industrial Metal. Ein erstes Album RABAUTZ! erschien 2002; 2008 folgte AUFERSTANDEN! Trotz seltener Auftritte wurde die Band durch streams (ChroniX Aggression und Pure-Metal) vor allem in den USA bekannt Todespoesien aus dem Niemandsland am Ende der Zivilisationbeherrschen das dritte Album - Settle For Force. Lustvolle Untergangszenarien aus Sicht der Maschinen nach ihrem Sieg über die Menschheit: AS SOON AS YOU WERE DEAD Erstmals live zu erleben vom 3. bis 6. August in WACKEN; record release rechtzeitig vorher am 29. Juli 2016
 
 
 Für kraftvoll düstere Stimmung sorgt der Gesang von Kirk de Burgh (Gründungsmitglied von KNORKATOR), Oftmals wurden die Refrains hingegen melodisch gestaltet und weisen ein ausgeprägtes Mitsing-Potential auf, begleitet von Rasant stampfenden drumbeats Herrn Goldhofers, low tuned powerchord guitars (Toni_Ka), slap bass & teilweise wirklich krankem background-Gesang von H-Beta
