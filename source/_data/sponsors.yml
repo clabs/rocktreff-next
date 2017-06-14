@@ -45,9 +45,14 @@
   url: http://www.facesvt.de/
   main: true
 
-- name: vattenfall
-  image: vattenfall.png
-  url: http://www.vattenfall.de/
+# - name: vattenfall
+#   image: vattenfall.png
+#   url: http://www.vattenfall.de/
+#   main: true
+
+- name: akzente
+  image: akzente.png
+  url: http://www.dieakzente-sozial.de/
   main: true
 
 - name: nitz-nitz
@@ -104,7 +109,7 @@
 
 - name: rockstar
   image: rockstar_energy.png
-  url: http://rockstarenergy.com/
+  url: https://www.facebook.com/rockstarenergygermany/
 
 - name: radio moeller
   image: radio_moeller.png
