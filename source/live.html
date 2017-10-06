@@ -24,26 +24,39 @@ ______ _____ _____  _   _____________ _________________
   <link rel="stylesheet" type="text/css" href="https://www.rocktreff.de/styles/main.css">
   <link rel="icon" type="image/x-icon" href="/favicon.ico" />
   <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"/></script>
-  <script type="text/javascript" src="https://cdn.dashjs.org/latest/dash.all.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/clappr/latest/clappr.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/dash-shaka-playback/2.0.5/dash-shaka-playback.js"></script>
+  <script type="text/javascript" src="https://rocktreff.de/js/bowser.min.js"></script>
 </head>
 <body class="page live">
   {% include navigation.html%}
-  <div class="stage">
-    <video class="video-js"controls preload="auto" width="100%" height="100%"
-      data-setup='{
-        "controls": true,
-        "autoplay": true,
-        "preload": "auto"
-      }'>
-      <source src="http://live.rockcdn.de/rocktreff/live.m3u8" type="application/x-mpegURL">
-      <source src="http://136.243.174.97:1935/rocktreff/live/manifest.mpd">
-      <source src="rtmp://live.rockcdn.de/rocktreff/live" type="rtmp/mp4">
-      <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that supports HTML5 video</p>
-    </video>
-    <link href="https://vjs.zencdn.net/5.7.1/video-js.css" rel="stylesheet">
-  </div>
+  <div class="stage"></div>
+  <script>
+    var hls_src  = 'http://live.rockcdn.de:1935/rt2017/live/playlist.m3u8'
+    var dash_src = '//live.rockcdn.de:1935/rt20172/live/manifest.mpd'
+    var ie10 = bowser.msie && bowser.version <= 10
+    var android = bowser.android || bowser.samsungBrowser
+    var source = bowser.ios || ie10 || android ? hls_src : hls_src
+
+    var player = new Clappr.Player({
+        mediacontrol: {seekbar: "#ffef03", buttons: "#ffffff"},
+        width: '100%',
+        height: '100%',
+        autoPlay: true,
+        source: source,
+        maxBufferLength: 10,
+        plugins: [DashShakaPlayback],
+        shakaConfiguration: {
+          streaming: {
+            rebufferingGoal: 15
+          }
+        },
+        shakaOnBeforeLoad: function( splayer ) {
+          // splayer.getNetworkingEngine().registerRequestFilter() ...
+        },
+        parentId: '.stage'
+      });
+  </script>
 <script type="text/javascript" src="https://www.rocktreff.de/js/main.js"></script>
-<script type="text/javascript" src="https://vjs.zencdn.net/5.7.1/video.js"></script>
-<script type="text/javascript" src="https://www.rocktreff.de/vendor/videojs-dash.min.js"></script>
 </body>
 </html>
