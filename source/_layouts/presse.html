@@ -12,12 +12,7 @@ ______ _____ _____  _   _____________ _________________
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
   <title>{{ page.title }} | {{ site.title }}</title>
-  <meta property="og:title" content="{{ page.title }} | {{ site.title }}" />
-  <meta property="og:site_name" content="ROCKTREFF"/>
-  <meta property="og:url" content="https://rocktreff.de{{page.url}}"/>
-  <meta property="og:type" content="website"/>
-  <meta property="og:image" content="https://rocktreff.de/images/og_image.jpg" />
-  <meta property="og:description" content="Der jährlich im Volksparkstadion Mariendorf stattfindende ROCKTREFF ist ein Open Air Festival, das sich ganz der handgemachten Musik verschrieben hat. Hier werden die Gitarren ausgepackt, die Verstärker hochgeregelt und gemeinsam das Haupthaar geschüttelt." />
+  {% include opengraph.html %}
   <link rel="stylesheet" type="text/css" href="/styles/main.css">
   <link rel="stylesheet" href="/vendor/fancybox/source/jquery.fancybox.css" type="text/css" media="screen" />
   <link rel="icon" type="image/x-icon" href="/favicon.ico" />

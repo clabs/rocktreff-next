@@ -45,7 +45,7 @@ ______ _____ _____  _   _____________ _________________
           <h3>LINEUP {{page.year}}</h3>
           <ul class="lineup">
           {% for band in site.bands %}
-            {% if band.year == {{page.year}} %}
+            {% if band.year == page.year %}
               <li><a href="{{band.url}}">{{ band.title }}</a></li>
             {% endif %}
           {% endfor %}
@@ -116,7 +116,7 @@ ______ _____ _____  _   _____________ _________________
             <h3>LINEUP {{page.year}}</h3>
             <ul class="lineup">
             {% for band in site.bands %}
-              {% if band.year == {{page.year}} %}
+              {% if band.year == page.year %}
                 <li><a href="{{band.url}}">{{ band.title }}</a></li>
               {% endif %}
             {% endfor %}

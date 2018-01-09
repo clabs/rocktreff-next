@@ -91,9 +91,9 @@
   image: phrenetica.png
   url: http://phrenetica.com/
 
-- name: degas
-  image: degas.png
-  url: http://www.degas-atd.com/
+# - name: degas
+#   image: degas.png
+#   url: http://www.degas-atd.com/
 
 - name: gewosued
   image: gewosud.png
@@ -115,9 +115,13 @@
   image: radio_moeller.png
   url: http://www.euronics.de/info/portal/vs=shop/dealer=201561-0/ZacCenter/main.ipm
 
-- name: kki
-  image: kki.png
-  url: http://www.kki-gesellschaft.de/
+- name: edkoch
+  image: edkoch.png
+  url:
+
+# - name: kki
+#   image: kki.png
+#   url: http://www.kki-gesellschaft.de/
 
 - name: maximilian
   image: maximilian.png

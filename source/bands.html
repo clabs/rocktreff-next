@@ -24,13 +24,14 @@ ______ _____ _____  _   _____________ _________________
   {% include navigation.html%}
   <div class="container">
     <div class="row">
-      <div class="col-xs-8">
+      <div class="col-sm-8">
         <div class="box top bandhistory">
           <div>
             <h3>... 1984</h3>
             mehr als 350 weitere Bands
           </div>
-          {% for band in site.bands | sort: 'year' %}
+          {% assign bands = site.bands | sort: 'year' %}
+          {% for band in bands %}
             {% capture currentyear %}{{band.year}}{% endcapture %}
             {% if currentyear != year %}
               {% unless forloop.first %}</ul></div>{% endunless %}
@@ -45,7 +46,7 @@ ______ _____ _____  _   _____________ _________________
           </div>
         </div>
       </div>
-      <div class="col-xs-4">
+      <div class="col-sm-4">
         <div class="box top">
           <h1>33 Jahre Erinnerungen!</h1>
           <p>

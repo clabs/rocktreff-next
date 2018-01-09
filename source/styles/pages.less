@@ -6,7 +6,7 @@ body.page {
 
 	.box {
 		overflow: hidden;
-		background-color: rgba(0,0,0,0.87);
+		background-color: rgba(255,255,255,0.07);
 		border-radius: 8px;
 		margin: 0 10px 10px 0;
 		padding: 20px;
@@ -45,21 +45,22 @@ body.page {
 		}
 
 		h1 {
+			z-index: 1;
 			position: relative;
-			.transform( rotate(-2deg) );
-			color: #000;
-			background-color: @gelb;
+			display: block;
 			padding: 0.3em 200px;
 			margin: 0 -200px 1em -200px;
 			text-transform: uppercase;
+
+			&:before {
+				top: 0em;
+			}
 		}
 
 
 		h3 {
 			margin: -10px -200px 10px -200px;
 			padding: 0 200px 5px 200px;
-			.transform( rotate(-1deg) );
-			border-bottom: 1px solid @gelb;
 		}
 
 		&.clear {

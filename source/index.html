@@ -3,45 +3,30 @@ permalink: '/'
 ---
 <!DOCTYPE html>
 <!--
-______ _____ _____  _   _____________ _________________
-| ___ \  _  /  __ \| | / /_   _| ___ \  ___|  ___|  ___|
-| |_/ / | | | /  \/| |/ /  | | | |_/ / |__ | |_  | |_
-|    /| | | | |    |    \  | | |    /|  __||  _| |  _|
-| |\ \\ \_/ / \__/\| |\  \ | | | |\ \| |___| |   | |
-\_| \_|\___/ \____/\_| \_/ \_/ \_| \_\____/\_|   \_|
+                    |\
+ ______ _____ _____ | \  _____________ _________________
+ \ ___ \  _  /  __ \| | / /_   _| ___ \  ___|  ___|  ___/
+ | |_/ / | | | /  \/| |/ /  | | | |_/ / |__ | |_  | |__
+ |    /| | | | |    |    \  | | |    /|  __||  _| |  _/
+ | |\ \\ \_/ / \__/\| |\  \ | | | |\ \| |___| |   | |
+ | | \_|\___/ \____/\_| \_/ \_/ \_| \_\____/\_|   \_|
+ \/
 -->
 <html lang="de-DE">
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 	<title>ROCKTREFF 2018 | 29.6-1.7. 2018 | Eintritt frei | Open Air Festival im Fußballstadion Volksparkstadion Mariendorf</title>
-	<meta property="og:title" content="ROCKTREFF 2018 - Open Air Festival" />
-	<meta property="og:site_name" content="ROCKTREFF"/>
-	<meta property="og:url" content="https://rocktreff.de{{page.url}}"/>
-	<meta property="og:type" content="website"/>
-	<meta property="og:image" content="https://rocktreff.de/images/og_image.jpg" />
-	<meta property="og:description" content="Der jährlich im Volksparkstadion Mariendorf stattfindende ROCKTREFF ist ein Open Air Festival, das sich ganz der handgemachten Musik verschrieben hat. Hier werden die Gitarren ausgepackt, die Verstärker hochgeregelt und gemeinsam das Haupthaar geschüttelt." />
+	{% include opengraph.html %}
 	<link rel="icon" type="image/x-icon" href="./favicon.ico" />
 	<link rel="stylesheet" type="text/css" href="styles/main.css">
 	<link rel="stylesheet" href="/vendor/fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
 	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"/></script>
 </head>
-<body style="background:#000">
-<div>
-	{% include navigation.html %}
+<body style="background-color:#000">
+	{% include navigation.html attribs="class='hidden-xs'"%}
 	<section class="slide landing" id="slide_landing">
-		<div class="hidden-xs video-bg" >
-			<video preload="auto" muted="muted" loop="loop" canplay="false" autoplay="autoplay" poster="https://static.rocktreff.de/video/rt17_web_2000k.jpg">
-				<source src="https://static.rocktreff.de/video/rt17_web_2000k.mp4" type="video/mp4">
-			</video>
-		</div>
-		<div class="visible-xs mobil-bg"></div>
-		<div class="scrolldown">
-			<span class="glyphicon glyphicon-chevron-down"></span></a>
-		</div>
-		<div class="logo">
-			<img src="./images/rt.png">
-		</div>
+		<div class="back"></div>
 		<div class="presenter">
 			<div class="presented_by">
 				<span class="hidden-xs">präsentiert von</span>
@@ -54,123 +39,54 @@ ______ _____ _____  _   _____________ _________________
 				{% endif %}
 			{% endfor %}
 		</div>
-		<div class="info visible-xs">
-			<!--h1 class="live"><a href="http://live.rocktreff.de">Livestream</a></h1-->
-			<h3>29. Juni - 1. Juli 2018<h3>
-			<h3>EINTRITT FREI!</h3>
-		</div>
-		<div class="info hidden-xs">
-			<!--h1 class="live"><a href="http://live.rocktreff.de">Livestream</a></h1-->
-			<h1>Eintritt Frei!</h1>
-			<h2>29. Juni - 1. Juli 2018<h2>
-			<h3>Volkspark Mariendorf</h3>
-			<div class="box"></div>
+		<div class="front">
+			<div class="logo"></div>
+			<div class="info">
+				<div>29. Juni - 1. Juli 2018</div>
+				<div>Im Volkspark Mariendorf</div>
+				<div>16 Bands Live - Eintritt Frei!</div>
+			</div>
 		</div>
 		<div class="footer">
 			<a class="link" href="#veranstalter">Veranstalter</a>
 		</div>
+		<div class="scrolldown">
+			<span class="glyphicon glyphicon-chevron-down"></span></a>
+		</div>
 	</section>
-	<section class="slide lineup" id="bands">
+	<section class="slide lineup bordertop" id="bands">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-4 col-md-push-8">
-					<h1>16 Bands Live!</h1>
+				<div class="col-md-10 col-md-offset-2">
+					<h1>Drei Tage volles Programm</h1>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-md-4 col-md-push-8">
+			<div class="row bands">
+				<div class="col-md-4 col-md-offset-2">
+					<h3>16 Bands Live!</h3>
 					Der jährlich im Volksparkstadion Mariendorf stattfindende
 					ROCKTREFF ist ein Open Air Festival, das sich ganz der
 					handgemachten Musik verschrieben hat. Hier werden die
 					einem größtmöglichen Publikum zu präsentieren und auf der
 					anderen Seite einer breiten Öffentlichkeit ein kostenloses
 					Event zu bieten. Das ROCKTREFF Open Air gilt als das
-					größte Amateurbandfestival Berlins.<br>
+					größte Amateurbandfestival Berlins.<br><br>
 
 					Aus jährlich über 200 Bewerbungen wurden dieses Jahr 16 Bands
 					ausgewählt, die an drei Tagen des Festivals das Line-Up stellen.
-					<p>
-						<a href="/bands">Übersicht aller Bands</a>
-					</p>
+					<br><br>
+					<a href="/bands">Übersicht aller Bands</a>
 				</div>
-				<div class="col-md-8 col-md-pull-4">
-					<div class="row dates">
-						<div class="col-xs-2"></div>
-						<div class="col-xs-3">
-							<span class="hidden-xs-portrait">
-								Freitag, 29. Juni
-							</span>
-							<span class="visible-xs-portrait">
-								Fr, 29.6.
-							</span>
-						</div>
-						<div class="col-xs-3">
-							<span class="hidden-xs-portrait">
-								Samstag, 30. Juni
-							</span>
-							<span class="visible-xs-portrait">
-								Sa, 30.6.
-							</span>
-						</div>
-						<div class="col-xs-3">
-							<span class="hidden-xs-portrait">
-								Sonntag, 1. Juli
-							</span>
-							<span class="visible-xs-portrait">
-								So, 1.7.
-							</span>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-xs-2">
-							<div class="timeslot">16:00</div>
-							<div class="timeslot">17:00</div>
-							<div class="timeslot">18:00</div>
-							<div class="timeslot">19:00</div>
-							<div class="timeslot">20:00</div>
-							<div class="timeslot">21:00</div>
-							<div class="timeslot">22:00</div>
-							<div class="timeslot">23:00</div>
-						</div>
-						{% assign bands = site.bands | where: 'year', 2018 | sort: 'stagetime'  %}
-						<div class="col-xs-3 day friday">
-							{% for band in bands %}
-								{% if band.stagetime contains 'Freitag' %}
-								<a href="{{ band.url }}" class="thumb" style="background-image:url('https://static.rocktreff.de/bands/pictures/{{ band.picture }}')">
-									<div class="name">{{ band.title }}</div>
-								</a>
-								{% endif %}
-							{% endfor %}
-						</div>
-						<div class="col-xs-3 day saturday">
-							{% for band in bands  %}
-								{% if band.stagetime contains 'Samstag' %}
-								<a href="{{ band.url }}" class="thumb" style="background-image:url('https://static.rocktreff.de/bands/pictures/{{ band.picture }}')">
-									<div class="name">{{ band.title }}</div>
-								</a>
-								{% endif %}
-							{% endfor %}
-						</div>
-						<div class="col-xs-3 day sunday">
-							{% for band in bands %}
-								{% if band.stagetime contains 'Sonntag' %}
-								<a href="{{ band.url }}" class="thumb" style="background-image:url('https://static.rocktreff.de/bands/pictures/{{ band.picture }}')">
-									<div class="name">{{ band.title }}</div>
-								</a>
-								{% endif %}
-							{% endfor %}
-						</div>
-					</div>
+				<div class="col-md-4">
+					{% include bewerbung.html %}
 				</div>
 			</div>
 		</div>
 	</section>
-	<section class="slide second" id="slide_second">
-		<div class="bg"
-			data-bottom-top="top:-50%;"
-			data-top-bottom="top:50%;";
-			data-anchor-target="#slide_second"
-		><div class="image"></div></div>
+	<section class="slide second">
+		<div class="bg">
+			<div class="image masked"></div>
+		</div>
 	</section>
 	<section class="slide map">
 		<a name="map"></a>
@@ -190,7 +106,7 @@ ______ _____ _____  _   _____________ _________________
 						sind.
 					</p>
 					<dt>Adresse</dt>
-					<dd>Prühßstraße 90, 12109 Berlin-Tempelhof</dd>
+					<dd><address>Prühßstraße 90, 12109 Berlin-Tempelhof</address></dd>
 				</div>
 				<div class="col-xs-12 col-sm-5 col-md-4">
 					<dt>BVG-Anbindung</dt>
@@ -237,23 +153,24 @@ ______ _____ _____  _   _____________ _________________
 	<section class="slide sponsors" id="sponsors">
 		<div class="container sponsors">
 			<div class="row col-lg-12">
-				<h1>Sponsoren</h1>
 			</div>
 			<div class="row">
-				<div class="col-lg-7">
+				<div class="col-lg-6">
+					<h1>Unterstützer</h1>
 					<p>
-						Das der ROCKTREFF auch im 35. Jahr noch für den
-						Besucher bei freiem Eintritt stattfinden kann, ist
-						wohl vor allem dem Verdienst der vielen ehrenamtlichen
-						Helfer und Bands, die ohne Gage auftreten, zu
-						verdanken. Nur ein kleiner Teil des gesamten
-						benötigten Budgets wird vom Jugendamt Tempelhof-
-						Schöneberg getragen. Den Großteil des Etats für das
-						dreitägige Open Air stellen die akquirierten
-						Sponsoren.
+						Dass der 35. ROCKTREFF immer noch für alle Besucherinnen und Besucher bei
+						freiem Eintritt angeboten werden kann, verdanken wir den vielen ehrenamtlichen
+						Helferinnen und Helfern sowie den Musikerinnen und Musikern der Bands, die
+						ohne Gage auftreten und den vielen freien Trägern, die sich am Spielfest  mit
+						ihren Angeboten beteiligen. Für die Basisfinanzierung des ROCKTREFFS und
+						Spielfestes sorgt von Anfang an, also seit 1984, das Jugendamt Tempelhof-
+						Schöneberg als Veranstalter. Um die Gesamtkosten zu decken, sind darüber
+						hinaus viele kleinere und größere Sponsoren nötig. Alle zusammen machen den
+						ROCKTREFF und das Spielfest erst möglich. Dafür gebührt allen Unterstützern
+						ein herzliches Dankeschön.
 					</p>
 				</div>
-				<div class="main col-lg-5">
+				<div class="main col-lg-6">
 					{% for sponsor in site.data.sponsors %}
 						{% if sponsor.main %}
 						<a href="{{ sponsor.url }}" target="_blank">
@@ -265,7 +182,7 @@ ______ _____ _____  _   _____________ _________________
 			</div>
 			<div class="row">
 				<div class="other col-lg-12">
-					<h3>Weitere Sponsoren</h3>
+					<hr>
 					{% for sponsor in site.data.sponsors %}
 						{% unless sponsor.presenter %}
 						{% unless sponsor.main %}
@@ -279,12 +196,10 @@ ______ _____ _____  _   _____________ _________________
 			</div>
 		</div>
 	</section>
-	<section class="slide spielfest" id="spielfest">
-		<div class="bg"
-			data-bottom-top="top:-50%;"
-			data-top-bottom="top:50%;";
-			data-anchor-target="#spielfest"
-		><div class="image"></div></div>
+	<section class="slide spielfest">
+		<div class="bg">
+			<div class="image"></div>
+		</div>
 		<div class="logo"></div>
 		<div class="silhouetten"></div>
 	</section>
@@ -311,14 +226,12 @@ ______ _____ _____  _   _____________ _________________
 		<img src="https://static.rocktreff.de/sponsors/druckcenter_light.png">
 		<img src="https://static.rocktreff.de/sponsors/stilbrand_light.png">
 	</section>
-	<section class="slide foo" id="slide_foo">
-		<div class="bg"
-			data-bottom-top="top:-50%;"
-			data-top-bottom="top:50%;";
-			data-anchor-target="#slide_foo"
-		><div class="image"></div></div>
+	<section class="slide foo">
+		<div class="bg">
+			<div class="image masked"></div>
+		</div>
 	</section>
-	<section class="slide helfen" id="helfen">
+	<section class="slide helfen">
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12">
@@ -336,7 +249,6 @@ ______ _____ _____  _   _____________ _________________
 						zu 60 Leuten teils monatelang ebenfalls ohne Bezahlung, aber
 						mit viel Spaß an der Sache. <a class="link" href="https://www.flickr.com/photos/rocktreff/albums/72157676925025496/" target="blank">Hier die Bilder der Crew 2017</a>.
 					</p>
-
 				</div>
 				<div class="col-sm-2">
 					<div class="flickr gallery">
@@ -351,7 +263,6 @@ ______ _____ _____  _   _____________ _________________
 			</div>
 			<div class="row ways">
 				<div class="col-sm-4">
-
 					<h3>Du willst mitmachen?</h3>
 					<p>
 						Der ROCKTREFF bietet viele Möglichkeiten sich zu engagieren
@@ -406,12 +317,10 @@ ______ _____ _____  _   _____________ _________________
 			</div>
 		</div>
 	</section>
-	<section class="slide last" id="slide_last">
-		<div class="bg"
-			data-bottom-top="top:-50%;"
-			data-top-bottom="top:50%;";
-			data-anchor-target="#slide_last"
-		><div class="image"></div></div>
+	<section class="slide last">
+		<div class="bg">
+			<div class="image masked"></div>
+		</div>
 	</section>
 	<section class="slide footer" id="veranstalter">
 		<div class="container imprint">
@@ -428,8 +337,8 @@ ______ _____ _____  _   _____________ _________________
 							Jugendamt – Jug VM - Veranstaltungsmanagement <br>
 							Strelitzstraße 15 <br>
 							12105 Berlin <br>
-							<i class="icon-phone"></i> +49 30 90277 4804 <br>
-							<i class="icon-phone"></i> +49 30 90277 4805 <br>
+							<i class="icon-phone"></i> <a href="tel:+4930902774804">+49 30 90277 4804</a> <br>
+							<i class="icon-phone"></i> <a href="tel:+4930902774805">+49 30 90277 4805</a> <br>
 							<span class="email" domain="berlin.de">jugendamt.ts-vm</span><br>
 							Inhaltlich Verantwortlicher gem. § 55 RStV: <br>
 							Bezirksstadtrat Oliver Schworck
@@ -437,34 +346,37 @@ ______ _____ _____  _   _____________ _________________
 						<dt>Beauftragter des Jugendamtes für Veranstaltungsmanagement und Social Sponsoring</dt>
 							<dd>
 								Ed Koch (kommissarisch) <br>
-								<i class="icon-phone"></i> +49 170 626 7377
+								<i class="icon-phone"></i> <a href="tel:+491706267377">+49 170 626 7377</a>
 							</dd>
 					</dl>
 				</div>
 				<div class="col-sm-4 imprint">
 					<dl>
 						<dt>Träger der Veranstaltung<dt>
-							<dd>
-								CPYE e.V.<br>
-								Viktoriastraße 13 – 12105 Berlin <br>
-								verantwortlich: Andie Kraft, Vorsitzender
-							</dd>
+						<dd>
+							CPYE e.V.<br>
+							Viktoriastraße 13 – 12105 Berlin <br>
+							verantwortlich: Andie Kraft, Vorsitzender
+						</dd>
 						<dt>Kooperationspartner</dt>
-							<dd>
-								Catering Company
-							</dd>
+						<dd>
+							Catering Company
+						</dd>
 						<dt>Technische Veranstaltungsleitung</dt>
-							<dd>
-								Sven Perschmann
-							</dd>
+						<dd>
+							Sven Perschmann
+						</dd>
 						<dt>Presse & Akkreditierung</dt>
-							<dd>
+						<dd>
+							Robert Pagel
+						</dd>
+						<dd>
 							<span class="email">presse</span>
-							</dd>
+						</dd>
 						<dt>Kontakt</dt>
-							<dd>
-								<span class="email">kontakt</span>
-							</dd>
+						<dd>
+							<span class="email">kontakt</span>
+						</dd>
 					</dl>
 				</div>
 			</div>
@@ -479,50 +391,43 @@ ______ _____ _____  _   _____________ _________________
 		</div>
 
 	</section>
-</div>
-<script type="text/javascript" src="vendor/scrollreveal/dist/scrollreveal.min.js"></script>
-<script type="text/javascript" src="/vendor/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
-<script type="text/javascript" src="js/main.js"/></script>
-<script type="text/javascript">
-	var sr = ScrollReveal()
-	sr.reveal('.logo', { delay: 0, origin:'top', duration: 1000 }, 50 )
+	<script type="text/javascript" src="vendor/scrollreveal/dist/scrollreveal.min.js"></script>
+	<script type="text/javascript" src="/vendor/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+	<script type="text/javascript" src="js/main.js"/></script>
+	<script type="text/javascript">
+		var sr = ScrollReveal()
+		sr.reveal('.landing .presenter img', { delay: 500, origin:'right', duration: 1000 }, 100 )
+		sr.reveal('.landing .presented_by',  { delay: 1800, origin:'left', duration: 100 })
+		sr.reveal('.landing .info > *',   { delay: 1000, origin:'top', scale: 1, duration: 1000 })
+		sr.reveal('.landing .scrolldown', { delay: 3000, origin:'bottom', duration: 1000, opacity: 0 })
+		sr.reveal('.lineup .bands > *',  { delay: 0, origin:'top', scale: 1, duration: 1000 }, 500 )
+		sr.reveal('.sponsors .main img',  { delay: 0, origin:'right', scale: 1, duration: 600 }, 100 )
+		sr.reveal('.sponsors .other img', { delay: 700, origin:'right', scale: 1, duration: 1000 }, 100 )
+		sr.reveal('.helfen .ways > *',  { delay: 0, origin:'top', scale: 1, duration: 1000 }, 500 )
+		sr.reveal('.spielfest_sponsors img', { delay: 100, origin:'right', scale: 1, duration: 1000 }, 200 )
+		sr.reveal('.imprint img', { delay: 100, origin:'right', scale: 1, duration: 800 }, 200 )
 
-	sr.reveal('.landing .presenter img', { delay: 500, origin:'right', duration: 1000 }, 100 )
-	sr.reveal('.landing .presented_by',  { delay: 1800, origin:'left', duration: 100 })
-	sr.reveal('.landing .info > h1',   { delay: 2800, origin:'right', scale: 1, duration: 1000 })
-	sr.reveal('.landing .info > h2',   { delay: 2400, origin:'right', scale: 1, duration: 1000 })
-	sr.reveal('.landing .info > h3',   { delay: 2400, origin:'right', scale: 1, duration: 1000 })
-	sr.reveal('.landing .info > .box', { delay: 2000, origin:'right', scale: 1, duration: 1000 })
-	sr.reveal('.landing .scrolldown', { delay: 3000, origin:'bottom', duration: 1000, opacity: 0 })
-	sr.reveal('.lineup .bandauswahl-teaser', { delay: 1000, origin:'right', duration: 2000 })
-	sr.reveal('.lineup .col-md-push-8', { delay: 0, origin:'left', duration: 2000 })
-	sr.reveal('.sponsors .main img',  { delay: 0, origin:'right', scale: 1, duration: 600 }, 100 )
-	sr.reveal('.sponsors .other img', { delay: 700, origin:'right', scale: 1, duration: 1000 }, 100 )
-	sr.reveal('.helfen .ways > *',  { delay: 0, origin:'top', scale: 1, duration: 1000 }, 500 )
-	sr.reveal('.spielfest_sponsors img', { delay: 100, origin:'right', scale: 1, duration: 1000 }, 200 )
-	sr.reveal('.imprint img', { delay: 100, origin:'right', scale: 1, duration: 800 }, 200 )
+	</script>
+	<script type="text/javascript">
+		var nav = document.querySelector( '#navigation' )
+		var bands  = document.querySelector( '#bands' )
+		var scrolldown  = document.querySelector( '.scrolldown' )
 
-</script>
-<script type="text/javascript">
-	var nav = document.querySelector( '#navigation' )
-	var bands  = document.querySelector( '#bands' )
-	var scrolldown  = document.querySelector( '.scrolldown' )
+		nav.classList.add( 'hidden' )
+		window.addEventListener( "scroll", function () {
+			if ( window.pageYOffset >= bands.offsetTop - 100 ) {
+				nav.classList.remove( 'hidden' )
+			}
+			else if ( !nav.classList.contains( 'hidden' ) ){
+				nav.classList.add( 'hidden' )
+			}
 
-	nav.classList.add( 'hidden' )
-	window.addEventListener( "scroll", function () {
-		if ( window.pageYOffset >= bands.offsetTop - 100 ) {
-			nav.classList.remove( 'hidden' )
-		}
-		else if ( !nav.classList.contains( 'hidden' ) ){
-			nav.classList.add( 'hidden' )
-		}
-
-		if ( window.pageYOffset >= 10 ) {
-			scrolldown.classList.add( 'notvisible' )
-		} else {
-			scrolldown.classList.remove( 'notvisible' )
-		}
-	}, false )
-</script>
+			if ( window.pageYOffset >= 10 ) {
+				scrolldown.classList.add( 'notvisible' )
+			} else {
+				scrolldown.classList.remove( 'notvisible' )
+			}
+		}, false )
+	</script>
 </body>
 </html>
