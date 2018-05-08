@@ -50,9 +50,9 @@
 #   url: http://www.vattenfall.de/
 #   main: true
 
-- name: akzente
-  image: akzente.png
-  url: http://www.dieakzente-sozial.de/
+- name: marienpark
+  image: marienpark.png
+  url: https://marienpark-berlin.com/
   main: true
 
 - name: nitz-nitz
@@ -70,15 +70,26 @@
   url: http://www.druckcenter-berlin.de/
   main: true
 
-- name: vitasyn
-  image: vitasyn.png
-  url: http://www.vitasyn.de/
+- name: mediateam
+  image: mediateam.png
+  url: http://www.mediateam.de/
   main: true
 
 - name: stilbrand
   image: stilbrand.png
   url: http://www.stilbrand.de/
   main: true
+
+- name: vitasyn
+  image: vitasyn.png
+  url: http://www.vitasyn.de/
+  main: true
+
+- name: akzente
+  image: akzente.png
+  url: http://www.dieakzente-sozial.de/
+  main: true
+
 
 
 #        _   _
@@ -111,13 +122,14 @@
   image: rockstar_energy.png
   url: https://www.facebook.com/rockstarenergygermany/
 
+
 - name: radio moeller
   image: radio_moeller.png
   url: http://www.euronics.de/info/portal/vs=shop/dealer=201561-0/ZacCenter/main.ipm
 
-- name: edkoch
-  image: edkoch.png
-  url:
+# - name: edkoch
+#   image: edkoch.png
+#   url:
 
 # - name: kki
 #   image: kki.png
@@ -151,9 +163,9 @@
   image: ld.png
   url: http://www.ld-systems.com/
 
-- name: trio
-  image: triolution.png
-  url: http://www.triolution.de/
+- name: stone
+  image: stone.png
+  url: http://www.stonebrewing.eu/de/visit/bistros/berlin
 
 
 
