@@ -86,7 +86,7 @@
   main: true
 
 - name: akzente
-  image: akzente.png
+  image: socialelements_web.png
   url: http://www.dieakzente-sozial.de/
   main: true
 
@@ -124,7 +124,7 @@
 
 
 - name: radio moeller
-  image: radio_moeller.png
+  image: euronics_moeller_web.png
   url: http://www.euronics.de/info/portal/vs=shop/dealer=201561-0/ZacCenter/main.ipm
 
 # - name: edkoch
