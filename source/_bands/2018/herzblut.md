@@ -16,4 +16,8 @@ youtube: fs3lXqtDzE0
 #spotify:
 #bandcamp:
 ---
-Es ist unsere Schuld, dass sie auf dem Rocktreff 2018 spielen. Die fünf Berliner machen 101% Punk'n'Roll und haben auch noch richtig Spaß bei der Sache. Mit fetzigen Punk-Riffs und eingängigen deutschen Texten rasten sie auch mal aus. Den frühen Ärzten hätten sie eventuell Konkurrenz gemacht.
+
+Es ist unsere Schuld, dass sie auf dem Rocktreff 2018 spielen. Die fünf
+Berliner machen 101% Punk'n'Roll und haben auch noch richtig Spaß bei der
+Sache. Mit fetzigen Punk-Riffs und eingängigen deutschen Texten rasten sie
+auch mal aus. Den frühen Ärzten hätten sie eventuell Konkurrenz gemacht.

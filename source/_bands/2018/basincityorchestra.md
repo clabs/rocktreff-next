@@ -4,7 +4,6 @@ title: Basin City Orchestra
 
 
 website: https://www.facebook.com/BASINCITYORCHESTRA
-#website:
 style: Rock
 logo: basincityorchestra.png
 picture: basincityorchestra.jpg
@@ -16,4 +15,8 @@ youtube: OlMCgCP-0Hg
 #spotify:
 #bandcamp:
 ---
-Die drei Nürnberger machen Heavyrock und spielen mit Kontrasten. Lederjacken im Konzertsaal, klare und breite Stimmenvielfalt, Franken und gute Musik. Egal mit welchen Vorurteilen man ran geht, uns gefällt’s und Sie werden begeistern.
+
+Die drei Nürnberger Philip, Julian und Alex machen seit 2013 Heavy Rock und
+spielen mit Kontrasten. Lederjacken im Konzertsaal, klare und breite
+Stimmenvielfalt, Franken und gute Musik. Egal mit welchen Vorurteilen man ran
+geht, uns gefällt’s und Sie werden begeistern.

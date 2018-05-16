@@ -16,4 +16,8 @@ youtube: ex2d4T64Yrk
 #spotify:
 #bandcamp:
 ---
-Mit röhrenden Gitarren, fetzigen Drums, Stimmen aus einer anderen Welt, fetten Basslines und nicht zuletzt mit einer Liveshow, die Euch das Gesicht wegschmelzen wird, treten Opalaxy in Erscheinung. Die Band gibt es bereits seit fünf Jahren und sie machen Garage-Rock.
+
+Mit röhrenden Gitarren, fetzigen Drums, Stimmen aus einer anderen Welt, fetten
+Basslines und nicht zuletzt mit einer Liveshow, die Euch das Gesicht
+wegschmelzen wird, treten Opalaxy in Erscheinung. Die Band gibt es bereits
+seit fünf Jahren und sie machen Garage-Rock.

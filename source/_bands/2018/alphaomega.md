@@ -4,9 +4,8 @@ title: AlphaOmega
 
 
 website: https://www.facebook.com/AlphaOmegaBerlin
-#website:
 style: Metal
-logo: alphaomega.png
+logo: alphaomega.jpg
 picture: alphaomega.jpg
 year: 2018
 day: saturday
@@ -16,4 +15,10 @@ youtube: OazHNriuxqo
 #spotify:
 #bandcamp:
 ---
-AlphaOmega ist eine Alternativ-Metal-Band aus Berlin. Ihre neuste EP startet gerade durch. Rauchige und klare Vokalstimmen im Wechsel, elektronische Keyboard Klänge mit klarer Schlagzeug-Gitarren-Rock Note. Sie schaffen es von A-Z, das Genre Rock mit Wiedererkennungswert zu bedienen.
+
+AlphaOmega ist eine junge Berliner Alternativ-Metalband, die Anfang 2016 von
+Shouterin und Sängerin Lea und Gitarrist und Songwriter Chriss gegründet
+wurde. Mit der Veröffentlichung der ersten Single „To The Snakes“ aus ihrer
+Debüt-EP „AlphaOmega“ erzielten die beiden erste Aufmerksamkeit und positive
+Resonanz. Mit Schlagzeuger Nico, Gitarrist Dogus und Bassist Mike ist die Band
+nun komplett und die Arbeiten am Debütalbum haben begonnen.

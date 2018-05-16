@@ -6,8 +6,8 @@ title: The Artifical
 website: https://www.facebook.com/theartificialband
 #website: www.instagram.com/the_artificial_band
 style: Metal
-logo: artifical.png
-picture: artifical.jpg
+logo: theartificial.png
+picture: theartificial.jpg
 year: 2018
 day: saturday
 stagetime: Samstag, 30. Juni 2018, 20:00 Uhr

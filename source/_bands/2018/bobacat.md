@@ -4,7 +4,6 @@ title: Boba Cat
 
 
 website: https://www.facebook.com/bobacatband
-#website: http://
 style: Rock
 logo: bobacat.png
 picture: bobacat.jpg
@@ -16,4 +15,10 @@ youtube: SfZeSiaqnbc
 #spotify:
 #bandcamp:
 ---
-Steht für Spaßiges, albern sein, mit ein Hang zum Rock'n'Roll und das beweist Boba Cat seit 1969. Sie treten mit ähnlichen Bananen, wie „Inge und Heinz“ vor zwei Jahren auf dem Rocktreff spielten, auf. Sie nehmen sich nicht ganz so ernst aber machen eine verflucht gute, unterhaltsame Musik mit Showeinlage.
+
+Boba Cat – das bedeutet Sex, Drugs, Rock n Roll und Sex!
+Die Band brilliert mit knallhartem Entertainment und sexplodiert auf der Bühne zur Höchstform.
+Die vier Urgesteine im Showgeschäft sind seit 1969 unermüdlich unterwegs, obwohl sie alle schon
+über 70 sind und damit das Rentenalter schon längst erreicht hätten. Doch nicht Boba Cat. Sie
+kennen kein Altern, keinen Ruhestand und keine Pause. Oder doch? Pause machen sie schon
+manchmal – zwischen zwei Kopulationsakten. Nichts für schwache Nerven!
