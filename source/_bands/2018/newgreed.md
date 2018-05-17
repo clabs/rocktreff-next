@@ -17,7 +17,7 @@ youtube: VprRTi-r-wc
 #bandcamp:
 ---
 
-Energetische Riffs, abwechslungsreiche Songs und eine mitreißende Live- Performance - dafür steht New Greed.
+Energetische Riffs, abwechslungsreiche Songs und eine mitreißende Live-Performance - dafür steht New Greed.
 
 Die junge Band aus Berlin vereint vielseitige musikalische Einflüsse zu etwas Einzigartigem, das in keine Schublade passt. Das Spektrum reicht dabei von melancholischen und melodiösen Parts bis zu knallhartem Death Metal.
 

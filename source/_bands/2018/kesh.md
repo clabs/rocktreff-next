@@ -21,4 +21,4 @@ Der junge Rapper, aus der Nähe Berlins mischt seine deutschen Texte mit Genres 
 
 Hinter ihm steht eine Band, die mit groovigen Rhythmus, verträumten Gitarrenriffes und starken Solos die Musik zu steuert.
 
-Starke Texte und eine starke Band dahinter. Das ist Kesh
+Starke Texte und eine starke Band dahinter. Das ist Kesh.
