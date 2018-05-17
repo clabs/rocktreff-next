@@ -16,7 +16,8 @@ youtube: OlMCgCP-0Hg
 #bandcamp:
 ---
 
-Die drei Nürnberger Philip, Julian und Alex machen seit 2013 Heavy Rock und
-spielen mit Kontrasten. Lederjacken im Konzertsaal, klare und breite
-Stimmenvielfalt, Franken und gute Musik. Egal mit welchen Vorurteilen man ran
-geht, uns gefällt’s und Sie werden begeistern.
+Eine Gitarre. Ein Bass. Ein Schlagzeug. Nicht mehr und nicht weniger braucht man um ein Heavy Rock Orchester zu formen!
+
+Die drei Nürnberger Philip, Julian und Alex machen seit 2013 zusammen Heavy Rock und spielen mit Kontrasten.
+
+Ehrlich, straight und wuchtig, teilweise zurückhaltend gefühlvoll. Aber nur um dem Dampfhammer neuen Raum zu schaffen. Facettenreich und doch unverwechselbar. All das verbindet sich zu einem explosiven Live-Erlebnis. Einer Performance, die einfach jedes Publikum mitreißt.

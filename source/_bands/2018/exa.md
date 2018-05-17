@@ -17,8 +17,6 @@ youtube: IIiz28VYmxM
 #bandcamp:
 ---
 
-Harte Riffs, schnelle, abwechslungsreiche Beats und Shouten ist ihre Welt. Die
-vier Thrash-Metaller aus Berlin gibt es seit 2015 in dieser Besetzung.
-"Metallica" und "Pantera" prägen mit unter ihren Musikstil. Ihre neueste
-Single Ignite, bedeutet Entzündung eines Feuers und das auf dem Rocktreff
-2018.
+Harte Riffs, schnelle, abwechslungsreiche Beats sind ihre Welt. Die vier Berliner sind seit 2015 unterwegs um den Old - School Thrash Metal neu zu beleben.
+
+Ihre neueste Single ist Ignite, und damit versprechen die Jungs eine heiße und energiereiche Show auf dem Rocktreff.
