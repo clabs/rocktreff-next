@@ -18,7 +18,10 @@ youtube: i7LHq5Lv7h0
 ---
 
 Ihr Sound trifft Dich wie eine Welle, mit voller Wucht, unerwartet und mit
-lauter Emotionen. Sie traten bei vielen Nennenswerten deutschen Rock-Festivals
-und Konzerten auf. Die drei Berliner spielen ein emotionales Rock Crossover,
-vergleichbar mit Nirvana und ein paar Südstaaten Einflüssen, wie von „All time
-low”. Angehende Rockstars mit viel Herz zu ihren Fans.
+lauter Emotionen.
+
+Sie traten bei vielen Nennenswerten deutschen Rock-Festivals und Konzerten
+auf. Die drei Berliner spielen ein emotionales Rock Crossover, vergleichbar
+mit Nirvana und ein paar Südstaaten Einflüssen, wie von "All time low".
+
+Angehende Rockstars mit viel Herz zu ihren Fans.

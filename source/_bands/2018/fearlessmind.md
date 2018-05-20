@@ -17,9 +17,12 @@ youtube: ZhDh13bvjm4
 #bandcamp:
 ---
 
-Als Defend Post Punk beschreiben die fünf Jungs aus Berlin Ihre Musik. Die
-Band gibt es seit 2013 und sie spielen Pop Punk. Ihre Musik prägt Einflüsse
-von „Blink 182”, „Billy Talent” und „Papa Roach”. Schnelle tanzbare Musik mit
-viel Spaß am gemeinsam jammen. Das die Jungs Lust und Spaß daran haben was sie
-tun, bezweifelt man keine Sekunde, so Feuer und Flamme für den nächsten Gig
-sind sie.
+Die fünf Jungs aus Berlin spielen seit 2013 Pop Punk und orientieren sich
+damit an Blink 182, Billy Talent und Papa Roach. Eingängige Gesangsmelodien,
+spielerische Basslines und Gitarrenriffs sorgen für eine auditive Reise durch
+die Emotionen, die Hochs und Tiefs der heutigen Gesellschaft. Das ganze
+untermalt mit interessanten Beats am Schlagzeug.
+
+Schnelle tanzbare Musik mit viel Spaß am gemeinsam jammen. Dass die Jungs Lust
+und Spaß daran haben was sie tun, bezweifelt man keine Sekunde, so Feuer und
+Flamme für den nächsten Gig sind sie.

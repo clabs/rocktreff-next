@@ -16,6 +16,9 @@ youtube: OlMCgCP-0Hg
 #bandcamp:
 ---
 
+Eine Gitarre. Ein Bass. Ein Schlagzeug. Nicht mehr und nicht weniger braucht
+man um ein Heavy Rock Orchester zu formen!
+
 Die drei Nürnberger Philip, Julian und Alex machen seit 2013 Heavy Rock und
 spielen mit Kontrasten. Lederjacken im Konzertsaal, klare und breite
 Stimmenvielfalt, Franken und gute Musik. Egal mit welchen Vorurteilen man ran

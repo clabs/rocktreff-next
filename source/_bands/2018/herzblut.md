@@ -17,7 +17,8 @@ youtube: fs3lXqtDzE0
 #bandcamp:
 ---
 
-Es ist unsere Schuld, dass sie auf dem Rocktreff 2018 spielen. Die fünf
-Berliner machen 101% Punk'n'Roll und haben auch noch richtig Spaß bei der
-Sache. Mit fetzigen Punk-Riffs und eingängigen deutschen Texten rasten sie
-auch mal aus. Den frühen Ärzten hätten sie eventuell Konkurrenz gemacht.
+Herzblut, der Name ist Programm und so ist jedes Bandmitglied mit Herzblut bei
+der Sache. Die Band versteht sich darin den Punk, wie man ihn bisher von Bands
+wie den Toten Hosen oder Die Ärzte kannte, neu zu erfinden. Vom Punkrocker
+über den Metaller bis hin zum Pop-Hörer spricht die Band ein breites Publikum
+an. So entstand authentische Musik in ihrer ganz eigenen Art.

@@ -17,8 +17,10 @@ youtube: _NBaJQTFVhA
 #bandcamp:
 ---
 
-Bigband Feeling, Bongos, Reggae, Rap und echte deutsche Texte, so beschreibt
-man in kürze das breite Spektrum von der Band Kesh. Berliner Sommer im Park,
-ehrlich, geradeaus und mit dem Herz am richtigen Fleck. Der Frontsänger machte
-vor der Bandvereinigung Rap. Zusammen machen die Berliner seit 2014 gemeinsam
-erfolgreich Musik.
+Der junge Rapper, aus der Nähe Berlins mischt seine deutschen Texte mit Genres
+wie Funk,Rock und Pop.
+
+Hinter ihm steht eine Band, die mit groovigen Rhythmus, verträumten
+Gitarrenriffes und starken Solos die Musik zu steuert.
+
+Starke Texte und eine starke Band dahinter. Das ist Kesh.
