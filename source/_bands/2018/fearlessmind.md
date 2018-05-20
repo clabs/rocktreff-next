@@ -5,7 +5,7 @@ title: Fearless Mind
 
 website: https://www.facebook.com/fearless.mind.band
 #website: http://fearlessmind.de
-style: Punk/Ska
+style: Poppunk / Punkrock
 logo: fearlessmind.png
 picture: fearlessmind.jpg
 year: 2018

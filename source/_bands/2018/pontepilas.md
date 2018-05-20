@@ -5,7 +5,7 @@ title: Ponte Pilas
 
 #website: https://www.facebook.com/pontepilasband
 website: https://pontepilasband.wixsite.com/home
-style: Rock
+style: Old-school Rock'n'Roll
 logo: pontepilas.png
 picture: pontepilas.jpg
 year: 2018

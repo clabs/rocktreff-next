@@ -4,7 +4,7 @@ title: Boba Cat
 
 
 website: https://www.facebook.com/bobacatband
-style: Rock
+style: Rock'n'Roll
 logo: bobacat.png
 picture: bobacat.jpg
 year: 2018

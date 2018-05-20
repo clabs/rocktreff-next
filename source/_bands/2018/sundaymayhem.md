@@ -6,7 +6,7 @@ title: Sunday Mayhem
 website: http://www.sundaymayhem.rocks/
 #website: https://www.facebook.com/SundayMayhem
 #website: https://soundcloud.com/sunday-mayhem
-style: Rock
+style: Classic Rock
 logo: sundaymayhem.png
 picture: sundaymayhem.jpg
 year: 2018

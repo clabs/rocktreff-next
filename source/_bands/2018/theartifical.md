@@ -5,7 +5,7 @@ title: The Artifical
 
 website: https://www.facebook.com/theartificialband
 #website: www.instagram.com/the_artificial_band
-style: Metal
+style: Alternative Rock, Post-Hardcore, Metal
 logo: theartificial.png
 picture: theartificial.jpg
 year: 2018

@@ -5,7 +5,7 @@ title: JamPaX
 
 website: https://www.facebook.com/JamPaX.official/
 #website: https://jampax.jimdo.com/
-style: Alternative/Indie
+style: Alternativ Rock
 logo: jampax.png
 picture: jampax.jpg
 year: 2018

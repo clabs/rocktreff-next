@@ -6,7 +6,7 @@ title: Lucidreaming
 website: https://www.lucidreaming.de
 #website: www.facebook.com/Lucidreamingband
 #website: www.instagram.com/lucidreamingband
-style: Alternative/Indie
+style: Rock, Djent, Funk, Metal, Groove
 logo: lucidreaming.jpg
 picture: lucidreaming.jpg
 year: 2018

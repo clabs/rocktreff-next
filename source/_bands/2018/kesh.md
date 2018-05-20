@@ -5,7 +5,7 @@ title: Kesh
 
 website: https://www.kesh-music.de
 #website: http://www.facebook.com/KeshundBand
-style: Rock
+style: Rock-Funk-Rap
 logo: kesh.png
 picture: kesh.jpg
 year: 2018

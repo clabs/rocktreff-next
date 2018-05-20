@@ -5,7 +5,7 @@ title: EXA
 
 #website: https://www.facebook.com/EXABandpage
 website: https://exa-band.jimdo.com/
-style: Metal
+style: Thrash Metal
 logo: exa.png
 picture: exa.jpg
 year: 2018

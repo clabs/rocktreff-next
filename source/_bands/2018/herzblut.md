@@ -5,7 +5,7 @@ title: Herzblut
 
 website: http://www.herzblut.band/
 #website: www.facebook.com/Herzblut.101.PunknRoll
-style: Punk/Ska
+style: Punk'n'Roll
 logo: herzblut.png
 picture: herzblut.jpg
 year: 2018

@@ -5,7 +5,7 @@ title: TIDALWAVE
 
 #website: https://www.facebook.com/itsatidalwave/
 website: http://www.tidalwaveofficial.com/
-style: Alternative/Indie
+style: Alternative Rock
 #logo:
 picture: tidalwave.jpg
 year: 2018

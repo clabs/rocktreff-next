@@ -5,7 +5,7 @@ title: Opalaxy
 
 website: https://www.facebook.com/Opalaxy
 #website: http://www.opalaxy.de
-style: Alternative/Indie
+style: Indie Rock
 logo: opalaxy.png
 picture: opalaxy.jpg
 year: 2018

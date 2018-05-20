@@ -4,7 +4,7 @@ title: Basin City Orchestra
 
 
 website: https://www.facebook.com/BASINCITYORCHESTRA
-style: Rock
+style: Heavy Rock
 logo: basincityorchestra.png
 picture: basincityorchestra.jpg
 year: 2018
