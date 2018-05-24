@@ -21,7 +21,7 @@ permalink: '/'
   <link rel="icon" type="image/x-icon" href="./favicon.ico" />
   <link rel="stylesheet" type="text/css" href="styles/main.css">
   <link rel="stylesheet" href="/vendor/fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
-  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"/></script>
+  <script type="text/javascript" src="https://static.rocktreff.de/js/jquery-2.1.1.min.js"/></script>
 </head>
 <body style="background-color:#000">
   {% include navigation.html attribs="class='hidden-xs'"%}
@@ -48,6 +48,7 @@ permalink: '/'
       </div>
     </div>
     <div class="footer">
+      <a class="link" href="/datenschutz">Datenschutz</a> |
       <a class="link" href="#veranstalter">Veranstalter</a>
     </div>
     <div class="scrolldown">
@@ -199,7 +200,8 @@ permalink: '/'
       </div>
     </div>
   </section>
-  <section class="slide spielfest" id="spielfest">
+  <section class="slide spielfest">
+    <a name="spielfest"></a>
     <div class="bg">
       <div class="image"></div>
     </div>
@@ -237,7 +239,8 @@ permalink: '/'
       <div class="image masked"></div>
     </div>
   </section>
-  <section class="slide helfen" id="helfen">
+  <a name="helfen"></a>
+  <section class="slide helfen">
     <div class="container">
       <div class="row">
         <div class="col-sm-12">
@@ -264,7 +267,7 @@ permalink: '/'
           </div>
         </div>
         <div class="col-sm-4">
-          <iframe src="https://www.youtube.com/embed/PtxfyuMkA0k?wmode=transparent&fs=1&hl=en&modestbranding=1&iv_load_policy=3&showsearch=0&rel=1&theme=dark" frameborder="0" allowfullscreen style="height:13em;width:100%"></iframe>
+          <iframe src="https://www.youtube-nocookie.com/embed/PtxfyuMkA0k?wmode=transparent&fs=1&hl=en&modestbranding=1&iv_load_policy=3&showsearch=0&rel=1&theme=dark" frameborder="0" allowfullscreen style="height:13em;width:100%"></iframe>
         </div>
       </div>
       <div class="row ways">
@@ -424,7 +427,6 @@ permalink: '/'
       else if ( !nav.classList.contains( 'hidden' ) ){
         nav.classList.add( 'hidden' )
       }
-
       if ( window.pageYOffset >= 10 ) {
         scrolldown.classList.add( 'notvisible' )
       } else {
