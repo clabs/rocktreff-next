@@ -163,6 +163,10 @@
   image: ld.png
   url: http://www.ld-systems.com/
 
+- name: fjedn
+  image: fjedn.png
+  url: http://www.fjedn.berlin/
+
 - name: bilstein
   image: bilstein_trucking.png
   url: https://www.facebook.com/bilstein24.de/
