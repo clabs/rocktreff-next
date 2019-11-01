@@ -1,3 +1,4 @@
+---
 #                                 _
 #  _ __  _ __ ___  ___  ___ _ __ | |_ ___ _ __
 # | '_ \| '__/ _ \/ __|/ _ \ '_ \| __/ _ \ '__|
@@ -35,24 +36,20 @@
 # | '_ ` _ \ / _` | | '_ \
 # | | | | | | (_| | | | | |
 # |_| |_| |_|\__,_|_|_| |_|
-# - name: euref
-#   image: euref.png
-#   url: http://www.eurefcampus.de/
-#   main: true
 
 - name: faces
   image: faces.png
   url: http://www.facesvt.de/
   main: true
 
-# - name: vattenfall
-#   image: vattenfall.png
-#   url: http://www.vattenfall.de/
-#   main: true
-
 - name: marienpark
   image: marienpark.png
   url: https://marienpark-berlin.com/
+  main: true
+
+- name: amazon
+  image: amazon.png
+  url: http://www.amazon.de/
   main: true
 
 - name: nitz-nitz
@@ -60,36 +57,15 @@
   url: http://www.nitz-nitz.de/
   main: true
 
-# - name: schreiberlin
-#   image: schreiberlin.png
-#   url: http://www.schreiberlin.com/
-#   main: true
-
 - name: druckcenter
   image: druckcenter.png
   url: http://www.druckcenter-berlin.de/
-  main: true
-
-- name: mediateam
-  image: mediateam.png
-  url: http://www.mediateam.de/
   main: true
 
 - name: stilbrand
   image: stilbrand.png
   url: http://www.stilbrand.de/
   main: true
-
-- name: vitasyn
-  image: vitasyn.png
-  url: http://www.vitasyn.de/
-  main: true
-
-- name: akzente
-  image: socialelements_web.png
-  url: http://www.dieakzente-sozial.de/
-  main: true
-
 
 
 #        _   _
@@ -98,90 +74,70 @@
 # | (_) | |_| | | |  __/ |
 #  \___/ \__|_| |_|\___|_|
 
-- name: phrenetica
-  image: phrenetica.png
-  url: http://phrenetica.com/
-
-- name: kalle rock
-  image: kalle_rock.png
-  url: https://www.kalle-rock.de/
-
-- name: gewosued
-  image: gewosud.png
-  url: http://www.gewosued.de/
-
-- name: riemer
-  image: riemer_schultz.png
-  url: http://www.riemerschultz.de/
+- name: bilstein
+  image: bilstein_trucking.png
+  url: https://www.facebook.com/bilstein24.de/
 
 - name: popella
   image: popella.png
   url: http://www.popella.de/
 
-- name: rockstar
-  image: rockstar_energy.png
-  url: https://www.facebook.com/rockstarenergygermany/
-
+- name: mediateam
+  image: mediateam.png
+  url: http://www.mediateam.de/
 
 - name: radio moeller
   image: euronics_moeller_web.png
   url: http://www.euronics.de/info/portal/vs=shop/dealer=201561-0/ZacCenter/main.ipm
 
-# - name: edkoch
-#   image: edkoch.png
-#   url:
+- name: vitasyn
+  image: vitasyn.png
+  url: http://www.vitasyn.de/
 
-# - name: kki
-#   image: kki.png
-#   url: http://www.kki-gesellschaft.de/
+- name: rockstar
+  image: rockstar_energy.png
+  url: https://www.facebook.com/rockstarenergygermany/
 
-- name: maximilian
-  image: maximilian.png
-  url: http://www.maximilian.de/
+- name: phrenetica
+  image: phrenetica.png
+  url: http://phrenetica.com/
 
-- name: vierlande
-  image: vierlande.png
-  url: http://www.vierlande.de/
+- name: riemer
+  image: riemer_schultz.png
+  url: http://www.riemerschultz.de/
 
-- name: swi
-  image: swi.png
-  url: http://www.die-hauptstadtbauer.de/
-
-- name: hoppe
-  image: hoppe.png
-  url: http://leichtbrille.com/
-
-- name: tempelhoferjournal
-  image: tempelhoferjournal.png
-  url: http://tempelhoferjournal.de/
-
-- name: cameo
-  image: cameo.png
-  url: http://www.cameolight.com/
-
-- name: ld
-  image: ld.png
-  url: http://www.ld-systems.com/
-
-- name: fjedn
-  image: fjedn.png
-  url: http://www.fjedn.berlin/
-
-- name: bilstein
-  image: bilstein_trucking.png
-  url: https://www.facebook.com/bilstein24.de/
+- name: ui_tempelhoferdamm
+  image: ui_tempelhoferdamm.png
+  url: https://www.ui-tempelhoferdamm.de/
 
 - name: gpds
   image: gpds.png
   url: https://www.gpds.de/
 
-- name: alex
-  image: alex.png
-  url: https://www.alex-berlin.de/
+- name: swi
+  image: swi.png
+  url: http://www.die-hauptstadtbauer.de/
 
-- name: stone
-  image: stone.png
-  url: http://www.stonebrewing.eu/de/visit/bistros/berlin
+- name: vierlande
+  image: vierlande.png
+  url: http://www.vierlande.de/
 
+- name: fjedn
+  image: fjedn.png
+  url: http://www.fjedn.berlin/
 
+- name: gewosued
+  image: gewosud.png
+  url: http://www.gewosued.de/
 
+- name: hoppe
+  image: hoppe.png
+  url: http://leichtbrille.com/
+
+- name: efg_baerollenroth
+  image: efg_baerollenroth.png
+  url: https://www.efg-gruppe.de/de/unternehmen/efg-baer-ollenroth
+
+# - name: alex
+#   image: alex.png
+#   url: https://www.alex-berlin.de/
