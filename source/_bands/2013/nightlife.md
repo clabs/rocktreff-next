@@ -6,7 +6,7 @@ title: Nightlife
 style: Glam Metal
 year: 2013
 website: http://www.nightlaser.de/
-stagetime: Samstag, 15. Juli 2013, 16:00 Uhr
+stagetime: Samstag, 15. Juni 2013, 16:00 Uhr
 flickr: 72157650212874077
 youtube: MIrRiYOvKxg
 ---

@@ -10,6 +10,7 @@ website: http://stadtruhe.de/
 stagetime: Sonntag, 12. Juli 2015, 17:00 Uhr
 youtube: Iapjmo6Yfwk
 bandcamp: 1418341050
+flickr: 72157665028175922
 logo: stadtruhe.png
 picture: stadtruhe.jpg
 ---

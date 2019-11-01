@@ -9,6 +9,7 @@ day: sunday
 website: https://www.facebook.com/lewiston.tramps
 stagetime: Sonntag, 12. Juli 2015, 16:00 Uhr
 youtube: Dug3HBZmHzI
+flickr: 72157664636714340
 logo: lewiston_tramps.jpg
 picture: lewiston_tramps.jpg
 ---

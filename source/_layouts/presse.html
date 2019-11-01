@@ -12,16 +12,11 @@ ______ _____ _____  _   _____________ _________________
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
   <title>{{ page.title }} | {{ site.title }}</title>
-  <meta property="og:title" content="{{ page.title }} | {{ site.title }}" />
-  <meta property="og:site_name" content="ROCKTREFF"/>
-  <meta property="og:url" content="https://rocktreff.de{{page.url}}"/>
-  <meta property="og:type" content="website"/>
-  <meta property="og:image" content="https://rocktreff.de/images/og_image.jpg" />
-  <meta property="og:description" content="Der jährlich im Volksparkstadion Mariendorf stattfindende ROCKTREFF ist ein Open Air Festival, das sich ganz der handgemachten Musik verschrieben hat. Hier werden die Gitarren ausgepackt, die Verstärker hochgeregelt und gemeinsam das Haupthaar geschüttelt." />
+  {% include opengraph.html %}
   <link rel="stylesheet" type="text/css" href="/styles/main.css">
   <link rel="stylesheet" href="/vendor/fancybox/source/jquery.fancybox.css" type="text/css" media="screen" />
   <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"/></script>
+  <script type="text/javascript" src="https://static.rocktreff.de/js/jquery-2.1.1.min.js"/></script>
 </head>
 <body class="page press-page">
   {% include navigation.html %}
@@ -56,7 +51,7 @@ ______ _____ _____  _   _____________ _________________
         <div class="box inverse">
           <h3>Pressemitteilungen</h3>
           <ul class="pressreleases">
-          {% for release in site.presse reversed limit:5 %}
+          {% for release in site.presse reversed limit:6 %}
               <li>
                 <div class="date">{{ release.date | date: "%-d.%-m.%Y"}}</div>
                 <a class="link" href="{{ release.url }}">{{ release.title }}</a>
@@ -70,6 +65,5 @@ ______ _____ _____  _   _____________ _________________
 <script type="text/javascript" src="/vendor/fancybox/source/jquery.fancybox.pack.js"></script>
 <script type="text/javascript" src="/js/main.js"></script>
 <script type="text/javascript">$(function(){$('.picture > a').fancybox()})</script>
-{% include google.html %}
 </body>
 </html>

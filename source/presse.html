@@ -23,15 +23,14 @@ ______ _____ _____  _   _____________ _________________
   <link rel="stylesheet" href="/vendor/fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
   <link rel="stylesheet" type="text/css" href="/styles/main.css">
   <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"/></script>
+  <script type="text/javascript" src="https://static.rocktreff.de/js/jquery-2.1.1.min.js"/></script>
 </head>
 <body class="page press">
   {% include navigation.html%}
   <div class="container">
     <div class="row">
-      <div class="col-sm-8 col-sm-push-4">
+      <div class="col-sm-8">
         <div class="box top">
-          <h1>Presse</h1>
           <p>
             Hier findest Du regelmäßig die aktuellsten Presse-Informationen
             zum ROCKTREFF. Unsere aktuellen Pressemitteilungen kannst Du
@@ -49,7 +48,7 @@ ______ _____ _____  _   _____________ _________________
         <div class="box">
           <h3>Pressemitteilungen</h3>
           <ul class="pressreleases">
-          {% for release in site.presse reversed limit:5 %}
+          {% for release in site.presse reversed limit:6 %}
               <li>
                 <div class="date">{{ release.date | date: "%-d.%-m.%Y"}}</div>
                 <a class="link" href="{{ release.url }}">{{ release.title }}</a>
@@ -60,8 +59,8 @@ ______ _____ _____  _   _____________ _________________
         <div class="box">
           <h3>Pressematerial</h3>
           <ul>
-            <li>Logo 2015 (
-              <a class="link" href="https://static.rocktreff.de/presse/Rocktreff_2015_Logo_FX_1200.png" target="_blank">PNG</a>
+            <li>Logo 2016 (
+              <a class="link" href="https://static.rocktreff.de/presse/Rocktreff_2016_Logo_FX_1200.png" target="_blank">PNG</a>
               )
             </li>
             <li>Logo – Neutral (
@@ -72,7 +71,7 @@ ______ _____ _____  _   _____________ _________________
           </ul>
         </div>
       </div>
-      <div class="col-sm-4 col-sm-pull-8">
+      <div class="col-sm-4">
         <!-- rss feed -->
         <div class="box top">
           <h3>Immer aktuell</h3>
@@ -88,13 +87,14 @@ ______ _____ _____  _   _____________ _________________
         <div class="box inverse">
           <h3>Ansprechpartner</h3>
           <p>
-            <strong>Robert Pagel</strong> <br>
+            <strong>MArco Herrmann</strong> <br>
             Interviews, Akkreditierung <br>
             <span class="email">rob</span>
           </p>
           <p>
-            <strong>Philipp Mengel</strong> <br>
+            <strong>Ed Koch</strong> <br>
             Public Affairs <br>
+            <i class="icon-phone"></i> +49 170 626 7377 <br>
             <span class="email" domain="berlin.de">jugendamt.ts-vm</span>
           </p>
         </div>
@@ -108,7 +108,6 @@ ______ _____ _____  _   _____________ _________________
     </div>
   </div>
 <script type="text/javascript" src="/vendor/fancybox/source/jquery.fancybox.pack.js"></script>
-<script type="text/javascript" src="js/main.js"/></script>
-{% include google.html %}
+<script type="text/javascript" src="/js/main.js"/></script>
 </body>
 </html>

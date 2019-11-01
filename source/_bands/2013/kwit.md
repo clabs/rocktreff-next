@@ -6,7 +6,7 @@ title: KWIT
 style: ROCK
 year: 2013
 website: http://www.kwit-band.de/
-stagetime: Freitag, 14. Juli 2013, 18:00 Uhr
+stagetime: Freitag, 14. Juni 2013, 18:00 Uhr
 flickr: 72157650219102358
 youtube: B-gML_-mDvo
 logo: kwit.jpg

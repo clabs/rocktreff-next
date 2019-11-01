@@ -9,6 +9,7 @@ day: saturday
 website: http://stopeatingrobots.com/
 stagetime: Samstag, 11. Juli 2015, 18:00 Uhr
 youtube: 5rjHpbxD0C8
+flickr: 72157665027790402
 logo: stop_eating_robots.png
 picture: stop_eating_robots.jpg
 spotify: spotify:artist:1wk9Wh9tDPkVM0pYD60ZFd

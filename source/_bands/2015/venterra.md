@@ -9,6 +9,7 @@ day: sunday
 website: http://www.eurelieblingsband.de/
 stagetime: Sonntag, 12. Juli 2015, 18:00 Uhr
 youtube: CJ0sfyPYX3k
+flickr: 72157665157394956
 picture: venterra.jpg
 logo: venterra.png
 spotify: spotify:artist:6EIkSnnnda4qrv3pg7NXHa

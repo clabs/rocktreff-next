@@ -10,6 +10,7 @@ website: http://www.junkyard-rebellion.de/
 stagetime: Samstag, 11. Juli 2015, 19:00 Uhr
 spotify: spotify:album:6aAx9I8rjkucysPSe9W07L
 logo: junkyard_rebellion.png
+flickr: 72157662887759383
 youtube: diFdvH6fZ2M
 picture: junkyard_rebellion.jpg
 ---

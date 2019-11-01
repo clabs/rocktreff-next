@@ -4,12 +4,12 @@ title: Finalstair
 
 
 style: Rock
-website: http://www.facebook.com/finalstair
+website: http://www.finalstair.com/
 stagetime: Sonntag, 06. Juli 2014, 19:00 Uhr
 year: 2014
 spotify: spotify:artist:3puFTDrPNDEqVAyZUetejJ
 flickr: 72157645213833950
-youtube: OsyF3DnhqPg
+youtube: IfkSYRvGbOk
 ---
 
 Die Geschichte der Berliner Rockband finalstair beginnt trotz mehrerer Vorläufer erst so richtig mit der Neugründung Ende 2011. Da stieß Drummer Felix Kerkhoff zu den Zwillingen Istvan (voc./guit.) und Denes Vörös (bass), und seitdem arbeiten die drei studierten Musiker konsequent an „den Schritten in die 1. Liga“ (Zimbalam) und am „Weg nach ganz oben“ (Emergenza). Wenn auch Ähnlichkeiten zu Kings of Leon oder Mogwai (noch) von den neuen Fans nicht ganz unbegründet hergestellt werden – spätestens beim Hören des komplett allein arrangierten und produzierten Debutalbums „Sleeping Pilot“ ist die ureigene Handschrift vom kreativen Frontmann Istvan unverkennbar. Bereits der allererste Band-Auftritt im Januar 2012 bei der Open Mic Night erregte Aufmerksamkeit: Produzent René Rennefeld spendierte eine Woche Studioproduktion. Nun wuchs die Popularität von finalstair schnell: Club- und Privatkonzerte, kleinere Festivals ließen mehr als erahnen – hier präsentiert sich eine homgene Live-Band mit unbändiger Energie, die selbst die finalstaireigene Studio-Perfektion in den Hintergrund rücken läßt.

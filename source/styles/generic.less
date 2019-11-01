@@ -1,15 +1,12 @@
 body {
-	background-color: #000;
+	background-image: url(../images/bg.jpg);
+	background-size: 100% auto;
+	// background-attachment: fixed;
 	color: #fff;
-	font-size: 15px;
+	font-size: 14px;
 	font-family: 'PT Sans', sans-serif;
 	overflow-y: initial;
 	overflow-x: hidden;
-}
-
-::-moz-selection {
-	color: #000;
-	background: @gelb;
 }
 
 ::selection {
@@ -19,8 +16,40 @@ body {
 
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Oswald', Arial, sans-serif;
+	position: relative;
+	font-family: 'big_noodle_titling', Arial, sans-serif;
 	color: @gelb;
+}
+
+h1 {
+	color: white;
+	text-shadow: 0.02em 0.03em 0.1em black;
+	display: inline-block;
+	padding: 0em 0.7em 0em 0em;
+	line-height: 1.5em;
+
+	&:before {
+		position: absolute;
+		z-index: -1;
+		left: -0.3em;
+		right: 0.2em;
+		top: -0.1em;
+		bottom: -0.2em;
+		content: "";
+		background-image: url(../images/brushes/4.png);
+		background-blend-mode:lighten;
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+	}
+}
+
+h3 {
+	color: white;
+
+	&:after {
+		content: " __";
+		color: @gelb;
+	}
 }
 
 a.link, a.link:active, a.link:visited {
@@ -39,6 +68,10 @@ a.link, a.link:active, a.link:visited {
 
 .nobr {
 	white-space: nowrap;
+}
+
+.gelb {
+	color: @gelb;
 }
 
 
@@ -67,10 +100,6 @@ p.initial {
 	display: inline-block;
 	white-space: nowrap;
 	color: @gelb;
-	-webkit-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	-o-user-select: none;
 	user-select: none;
 	.transition;
 	padding: 0.1em 0.2em;

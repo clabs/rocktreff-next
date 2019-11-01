@@ -9,6 +9,7 @@ day: saturday
 website: http://www.sycon-metal.com/
 stagetime: Samstag, 11. Juli 2015, 22:00 Uhr
 youtube: OB2bI4g9L8k
+flickr: 72157664515063649
 logo: sycon.png
 picture: sycon.jpg
 ---

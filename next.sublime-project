@@ -4,7 +4,7 @@
 		{
 			"path": "./",
 			"name": "/",
-			"folder_exclude_patterns": [".git", ".tmp", "node_modules", "source", "plugins"]
+			"folder_exclude_patterns": [".git", ".tmp", ".cache", "node_modules", "source", "plugins"]
 		},
 		{
 			"path": "./source"

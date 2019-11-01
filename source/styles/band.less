@@ -1,19 +1,34 @@
 .page.band {
 	background-color: #222;
-	background-image: url('../images/bg_band.jpg');
-	background-size: cover;
-	background-attachment: fixed;
+	background-image: url('../images/bg.jpg');
+	background-size: 100% auto;
 	margin-bottom: 4em;
 
 
 	.picture {
-		margin: 0 1em 0.5em 0;
+		margin: 0.3em 1em 0.5em 0;
 		max-width: 100%;
 
 		@media (max-width: @screen-xs-max) and (max-aspect-ratio: 1/1) {
 			& {
 				width: 100%;
 			}
+		}
+	}
+
+
+	.bandhistory {
+		display: flex;
+		flex-direction: column-reverse;
+
+		> * {
+			&:after {
+				clear: both;
+			}
+		}
+
+		h3 {
+			margin: 10px -200px 15px !important;
 		}
 	}
 
@@ -32,8 +47,8 @@
 				a {
 					text-decoration: none;
 					.transform( scale(1.2) rotate(-2deg) );
-					background-color: #000;
-					color: @gelb;
+					background-color: @gelb;
+					color: black;
 				}
 			}
 
@@ -56,6 +71,18 @@
 			&:hover {
 				text-decoration: none;
 			}
+		}
+	}
+
+	.box.inverse {
+		.lineup {
+			li:hover {
+				a {
+					background-color: black;
+					color: @gelb;
+				}
+			}
+
 		}
 	}
 

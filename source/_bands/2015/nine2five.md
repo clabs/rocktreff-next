@@ -8,6 +8,7 @@ year: 2015
 day: saturday
 website: http://www.925rock.de/
 stagetime: Samstag, 11. Juli 2015, 17:00 Uhr
+flickr: 72157664636330540
 logo: nine2five.jpg
 picture: nine2five.jpg
 ---

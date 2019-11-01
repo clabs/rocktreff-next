@@ -9,6 +9,7 @@ day: friday
 website: http://www.ilovepussycatboys.com
 stagetime: Freitag, 10. Juli 2015, 21:00 Uhr
 logo: pussycat_boys.png
+flickr: 72157664636074820
 picture: pussycat_boys.jpg
 youtube: pSXY3vLQorI
 ---

@@ -9,6 +9,7 @@ day: saturday
 website: http://www.tonedownberlin.bandcamp.com/
 stagetime: Samstag, 11. Juli 2015, 20:00 Uhr
 bandcamp: 119365576
+flickr: 72157665229128545
 youtube: -Ddyl-vR7Ck
 picture: tonedown.jpg
 logo: tonedown.png
