@@ -42,10 +42,10 @@
   url: http://www.facesvt.de/
   main: true
 
-- name: marienpark
-  image: marienpark.png
-  url: https://marienpark-berlin.com/
-  main: true
+# - name: marienpark
+#   image: marienpark.png
+#   url: https://marienpark-berlin.com/
+#   main: true
 
 - name: amazon
   image: amazon.png
@@ -90,13 +90,13 @@
   image: euronics_moeller_web.png
   url: http://www.euronics.de/info/portal/vs=shop/dealer=201561-0/ZacCenter/main.ipm
 
-- name: vitasyn
-  image: vitasyn.png
-  url: http://www.vitasyn.de/
+# - name: vitasyn
+#   image: vitasyn.png
+#   url: http://www.vitasyn.de/
 
-- name: rockstar
-  image: rockstar_energy.png
-  url: https://www.facebook.com/rockstarenergygermany/
+# - name: rockstar
+#   image: rockstar_energy.png
+#   url: https://www.facebook.com/rockstarenergygermany/
 
 - name: phrenetica
   image: phrenetica.png
@@ -125,6 +125,10 @@
 - name: fjedn
   image: fjedn.png
   url: http://www.fjedn.berlin/
+
+- name: kalle
+  image: kalle.png
+  url: https://kalle-rock.de/
 
 - name: gewosued
   image: gewosud.png

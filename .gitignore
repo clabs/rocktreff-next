@@ -1,3 +1,4 @@
+source/.jekyll-cache
 source/vendor
 node_modules
 .tmp
