@@ -153,6 +153,6 @@ module.exports = function ( grunt ) {
 	grunt.registerTask( 'default', [ 'server' ] )
 	grunt.registerTask( 'css', [ 'less', 'postcss' ] )
 	grunt.registerTask( 'server', [ 'jekyll:dev', 'css', 'imagemin', 'connect', 'watch' ] )
-	grunt.registerTask( 'deploy', [ 'jekyll:dist', 'css', 'imagemin', 'rsync' ] )
+	grunt.registerTask( 'deploy', [ 'jekyll:dist', 'css', 'imagemin' ] )
 
 }
