@@ -1,5 +1,5 @@
 node_modules
-.tmp
+dist
 .jekyll-cache
 .jekyll-metadata
 _site
