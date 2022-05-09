@@ -1,0 +1,48 @@
+---
+id: 72157674081373411
+title: Die XYZ 2016
+photos:
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Die XYZ
+  url: https://farm9.staticflickr.com/8547/30343858371_023944b169_o.jpg
+  thumbnail_url: https://farm9.staticflickr.com/8547/30343858371_03fd548b2f_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Die XYZ
+  url: https://farm6.staticflickr.com/5595/30343864821_4a118eb7a2_o.jpg
+  thumbnail_url: https://farm6.staticflickr.com/5595/30343864821_e87ac2835e_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Die XYZ
+  url: https://farm6.staticflickr.com/5547/30343863821_a0cc8f83ee_o.jpg
+  thumbnail_url: https://farm6.staticflickr.com/5547/30343863821_d3c8368c4a_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Die XYZ
+  url: https://farm9.staticflickr.com/8416/30343862471_b7f1fabc94_o.jpg
+  thumbnail_url: https://farm9.staticflickr.com/8416/30343862471_34c2632bc9_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Die XYZ
+  url: https://farm9.staticflickr.com/8131/30343863091_de4625880e_o.jpg
+  thumbnail_url: https://farm9.staticflickr.com/8131/30343863091_5a53d67343_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Die XYZ
+  url: https://farm6.staticflickr.com/5717/30394112986_5ca8d0207d_o.jpg
+  thumbnail_url: https://farm6.staticflickr.com/5717/30394112986_8479d83152_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Die XYZ
+  url: https://farm9.staticflickr.com/8580/30343861791_d4af137602_o.jpg
+  thumbnail_url: https://farm9.staticflickr.com/8580/30343861791_d42aeee754_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Die XYZ
+  url: https://farm9.staticflickr.com/8557/29799389094_650e0054a2_o.jpg
+  thumbnail_url: https://farm9.staticflickr.com/8557/29799389094_7d70389226_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Die XYZ
+  url: https://farm9.staticflickr.com/8269/30343860491_b00e875089_o.jpg
+  thumbnail_url: https://farm9.staticflickr.com/8269/30343860491_3f02b2e771_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Die XYZ
+  url: https://farm6.staticflickr.com/5709/30343859761_b86d6d15e7_o.jpg
+  thumbnail_url: https://farm6.staticflickr.com/5709/30343859761_e5e5af8868_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Die XYZ
+  url: https://farm6.staticflickr.com/5656/30343859311_93b133e179_o.jpg
+  thumbnail_url: https://farm6.staticflickr.com/5656/30343859311_cf08d0b925_t.jpg

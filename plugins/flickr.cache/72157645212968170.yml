@@ -1,0 +1,96 @@
+---
+id: 72157645212968170
+title: Aeverium 2014
+photos:
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Aeverium
+  url: https://farm3.staticflickr.com/2910/14439298680_834fcaa19f_o.jpg
+  thumbnail_url: https://farm3.staticflickr.com/2910/14439298680_3edb472267_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Aeverium
+  url: https://farm3.staticflickr.com/2930/14439341969_6c89a9272d_o.jpg
+  thumbnail_url: https://farm3.staticflickr.com/2930/14439341969_f18a733eac_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Aeverium
+  url: https://farm6.staticflickr.com/5485/14625940755_0ae607a774_o.jpg
+  thumbnail_url: https://farm6.staticflickr.com/5485/14625940755_6447668257_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Aeverium
+  url: https://farm3.staticflickr.com/2914/14625466672_62620a9327_o.jpg
+  thumbnail_url: https://farm3.staticflickr.com/2914/14625466672_34e2787fb4_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Aeverium
+  url: https://farm4.staticflickr.com/3849/14622721201_7fae94d658_o.jpg
+  thumbnail_url: https://farm4.staticflickr.com/3849/14622721201_517c4042db_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Aeverium
+  url: https://farm6.staticflickr.com/5539/14645869273_503973f004_o.jpg
+  thumbnail_url: https://farm6.staticflickr.com/5539/14645869273_c909b25531_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Aeverium
+  url: https://farm4.staticflickr.com/3891/14622719471_79f1ef8378_o.jpg
+  thumbnail_url: https://farm4.staticflickr.com/3891/14622719471_0177b7d0a8_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Aeverium
+  url: https://farm6.staticflickr.com/5530/14623842534_1b1f4f15b9_o.jpg
+  thumbnail_url: https://farm6.staticflickr.com/5530/14623842534_b5a8905db0_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Aeverium
+  url: https://farm6.staticflickr.com/5560/14439290700_56d26eefb1_o.jpg
+  thumbnail_url: https://farm6.staticflickr.com/5560/14439290700_ed3e71a639_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Aeverium
+  url: https://farm4.staticflickr.com/3853/14645865483_5142bc92e3_o.jpg
+  thumbnail_url: https://farm4.staticflickr.com/3853/14645865483_8f8d3c5779_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Aeverium
+  url: https://farm6.staticflickr.com/5528/14625933015_12f0510798_o.jpg
+  thumbnail_url: https://farm6.staticflickr.com/5528/14625933015_1fb2474591_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Aeverium
+  url: https://farm4.staticflickr.com/3883/14439331869_24fb5ae8e3_o.jpg
+  thumbnail_url: https://farm4.staticflickr.com/3883/14439331869_2353c19ff0_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Aeverium
+  url: https://farm4.staticflickr.com/3875/14623836474_55ca0d401d_o.jpg
+  thumbnail_url: https://farm4.staticflickr.com/3875/14623836474_ab17460445_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Aeverium
+  url: https://farm3.staticflickr.com/2907/14439285070_b469c6f5ff_o.jpg
+  thumbnail_url: https://farm3.staticflickr.com/2907/14439285070_58f78dcd4f_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Aeverium
+  url: https://farm4.staticflickr.com/3911/14439534657_2278983f57_o.jpg
+  thumbnail_url: https://farm4.staticflickr.com/3911/14439534657_9d08fd1a4b_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Aeverium
+  url: https://farm3.staticflickr.com/2904/14623833114_bc953f7848_o.jpg
+  thumbnail_url: https://farm3.staticflickr.com/2904/14623833114_cb3d1c922d_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Aeverium
+  url: https://farm3.staticflickr.com/2903/14602929656_72686c9cdc_o.jpg
+  thumbnail_url: https://farm3.staticflickr.com/2903/14602929656_ebe810e887_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Aeverium
+  url: https://farm6.staticflickr.com/5472/14625925375_e3139bbf21_o.jpg
+  thumbnail_url: https://farm6.staticflickr.com/5472/14625925375_b9a8408735_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Aeverium
+  url: https://farm4.staticflickr.com/3910/14439323438_a57bccbe00_o.jpg
+  thumbnail_url: https://farm4.staticflickr.com/3910/14439323438_047ae0fe06_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Aeverium
+  url: https://farm6.staticflickr.com/5581/14645854903_faf29dcfbd_o.jpg
+  thumbnail_url: https://farm6.staticflickr.com/5581/14645854903_e653b3b643_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Aeverium
+  url: https://farm4.staticflickr.com/3845/14625922675_fa45d3dc2e_o.jpg
+  thumbnail_url: https://farm4.staticflickr.com/3845/14625922675_f616262576_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Aeverium
+  url: https://farm4.staticflickr.com/3849/14625447142_7502d320ae_o.jpg
+  thumbnail_url: https://farm4.staticflickr.com/3849/14625447142_53a06dc08c_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Aeverium
+  url: https://farm6.staticflickr.com/5572/14622702601_702aa7cf8e_o.jpg
+  thumbnail_url: https://farm6.staticflickr.com/5572/14622702601_daf6695895_t.jpg

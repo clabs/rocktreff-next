@@ -1,0 +1,84 @@
+---
+id: 72157675420028425
+title: DivaKollektiv 2016
+photos:
+- !ruby/object:Jekyll::FlickrPhoto
+  title: DivaKollektiv
+  url: https://farm9.staticflickr.com/8273/29798637373_0d4b78d33e_o.jpg
+  thumbnail_url: https://farm9.staticflickr.com/8273/29798637373_e615cef593_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: DivaKollektiv
+  url: https://farm6.staticflickr.com/5574/29798632253_c036b0c339_o.jpg
+  thumbnail_url: https://farm6.staticflickr.com/5574/29798632253_65095eecf6_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: DivaKollektiv
+  url: https://farm6.staticflickr.com/5771/30430421995_36e4d9b238_o.jpg
+  thumbnail_url: https://farm6.staticflickr.com/5771/30430421995_9bd210c559_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: DivaKollektiv
+  url: https://farm6.staticflickr.com/5583/30394257796_88959aedcb_o.jpg
+  thumbnail_url: https://farm6.staticflickr.com/5583/30394257796_55625d3eca_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: DivaKollektiv
+  url: https://farm6.staticflickr.com/5760/30394255896_9b9fda0b97_o.jpg
+  thumbnail_url: https://farm6.staticflickr.com/5760/30394255896_0ed23408d7_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: DivaKollektiv
+  url: https://farm6.staticflickr.com/5342/30394255586_97d91340c2_o.jpg
+  thumbnail_url: https://farm6.staticflickr.com/5342/30394255586_76172f5fc8_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: DivaKollektiv
+  url: https://farm6.staticflickr.com/5731/30394270726_eb7ed09ce4_o.jpg
+  thumbnail_url: https://farm6.staticflickr.com/5731/30394270726_894fcdbdc1_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: DivaKollektiv
+  url: https://farm6.staticflickr.com/5487/30344033611_099ce6806b_o.jpg
+  thumbnail_url: https://farm6.staticflickr.com/5487/30344033611_dfe0629c3d_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: DivaKollektiv
+  url: https://farm6.staticflickr.com/5628/29798618863_035f89ea5b_o.jpg
+  thumbnail_url: https://farm6.staticflickr.com/5628/29798618863_3b26eaaa75_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: DivaKollektiv
+  url: https://farm6.staticflickr.com/5812/30430400925_f82f20d5b1_o.jpg
+  thumbnail_url: https://farm6.staticflickr.com/5812/30430400925_f1d764570b_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: DivaKollektiv
+  url: https://farm6.staticflickr.com/5651/30133482750_029d2e024d_o.jpg
+  thumbnail_url: https://farm6.staticflickr.com/5651/30133482750_10248e04af_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: DivaKollektiv
+  url: https://farm6.staticflickr.com/5452/29798612743_47a56f9156_o.jpg
+  thumbnail_url: https://farm6.staticflickr.com/5452/29798612743_609c87ecc3_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: DivaKollektiv
+  url: https://farm6.staticflickr.com/5686/30394271446_c61e95280e_o.jpg
+  thumbnail_url: https://farm6.staticflickr.com/5686/30394271446_ece695d678_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: DivaKollektiv
+  url: https://farm6.staticflickr.com/5583/29798610113_5052076ab5_o.jpg
+  thumbnail_url: https://farm6.staticflickr.com/5583/29798610113_c2f72857d6_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: DivaKollektiv
+  url: https://farm6.staticflickr.com/5702/29798609013_43c56dc821_o.jpg
+  thumbnail_url: https://farm6.staticflickr.com/5702/29798609013_cda9216144_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: DivaKollektiv
+  url: https://farm9.staticflickr.com/8550/30344021491_785a13d0e2_o.jpg
+  thumbnail_url: https://farm9.staticflickr.com/8550/30344021491_47eae80456_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: DivaKollektiv
+  url: https://farm6.staticflickr.com/5590/30133469840_bd71a79185_o.jpg
+  thumbnail_url: https://farm6.staticflickr.com/5590/30133469840_f253cb2ec5_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: DivaKollektiv
+  url: https://farm6.staticflickr.com/5452/30133467700_7cf8e2b4db_o.jpg
+  thumbnail_url: https://farm6.staticflickr.com/5452/30133467700_3cc9d1c34a_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: DivaKollektiv
+  url: https://farm6.staticflickr.com/5567/30343990341_c5c397e323_o.jpg
+  thumbnail_url: https://farm6.staticflickr.com/5567/30343990341_52f112518c_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: DivaKollektiv
+  url: https://farm6.staticflickr.com/5681/30133465240_2c675fdb78_o.jpg
+  thumbnail_url: https://farm6.staticflickr.com/5681/30133465240_f3c1002527_t.jpg

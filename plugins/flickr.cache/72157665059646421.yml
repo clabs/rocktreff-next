@@ -1,0 +1,44 @@
+---
+id: 72157665059646421
+title: WORKING CLASS MONKEY 2015
+photos:
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Working_Class_Monkey
+  url: https://farm2.staticflickr.com/1540/25326248296_504f5fbf9d_o.jpg
+  thumbnail_url: https://farm2.staticflickr.com/1540/25326248296_023f40a126_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Working_Class_Monkey_1
+  url: https://farm2.staticflickr.com/1625/25352442285_cb9fe50729_o.jpg
+  thumbnail_url: https://farm2.staticflickr.com/1625/25352442285_5feab92545_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Working_Class_Monkey_2
+  url: https://farm2.staticflickr.com/1442/24721824774_29517704f8_o.jpg
+  thumbnail_url: https://farm2.staticflickr.com/1442/24721824774_0984193598_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Working_Class_Monkey_3
+  url: https://farm2.staticflickr.com/1446/24984782409_c48d46ffa4_o.jpg
+  thumbnail_url: https://farm2.staticflickr.com/1446/24984782409_4a648710fc_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Working_Class_Monkey_4
+  url: https://farm2.staticflickr.com/1686/25234175482_a7be601307_o.jpg
+  thumbnail_url: https://farm2.staticflickr.com/1686/25234175482_1cc0a5423c_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Working_Class_Monkey_5
+  url: https://farm2.staticflickr.com/1583/24725691683_e112047da3_o.jpg
+  thumbnail_url: https://farm2.staticflickr.com/1583/24725691683_21d237dbae_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Working_Class_Monkey_6
+  url: https://farm2.staticflickr.com/1541/25234174392_d223f2c405_o.jpg
+  thumbnail_url: https://farm2.staticflickr.com/1541/25234174392_d100537a39_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Working_Class_Monkey_7
+  url: https://farm2.staticflickr.com/1616/24725690913_eb827cb4df_o.jpg
+  thumbnail_url: https://farm2.staticflickr.com/1616/24725690913_8e77cd5e81_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Working_Class_Monkey_8
+  url: https://farm2.staticflickr.com/1480/25056831660_54c838eacb_o.jpg
+  thumbnail_url: https://farm2.staticflickr.com/1480/25056831660_e7be14e948_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Working_Class_Monkey_9
+  url: https://farm2.staticflickr.com/1536/24984780429_1c6179441d_o.jpg
+  thumbnail_url: https://farm2.staticflickr.com/1536/24984780429_ef9fb66a20_t.jpg

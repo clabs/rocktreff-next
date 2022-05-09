@@ -1,0 +1,48 @@
+---
+id: 72157645213285060
+title: Maskulini 2014
+photos:
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Maskulini
+  url: https://farm4.staticflickr.com/3844/14439691137_1a05a48aa6_o.jpg
+  thumbnail_url: https://farm4.staticflickr.com/3844/14439691137_188bd6c1e4_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Maskulini
+  url: https://farm4.staticflickr.com/3878/14603089506_51d66fbc87_o.jpg
+  thumbnail_url: https://farm4.staticflickr.com/3878/14603089506_0b472ea226_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Maskulini
+  url: https://farm3.staticflickr.com/2928/14439483139_f4541da493_o.jpg
+  thumbnail_url: https://farm3.staticflickr.com/2928/14439483139_d1cf8aeeee_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Maskulini
+  url: https://farm3.staticflickr.com/2900/14626084815_e62afb8483_o.jpg
+  thumbnail_url: https://farm3.staticflickr.com/2900/14626084815_3a4aed6b9e_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Maskulini
+  url: https://farm6.staticflickr.com/5555/14625606582_73c43edbc2_o.jpg
+  thumbnail_url: https://farm6.staticflickr.com/5555/14625606582_9c3c55f245_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Maskulini
+  url: https://farm4.staticflickr.com/3856/14439686447_9e04dd5d14_o.jpg
+  thumbnail_url: https://farm4.staticflickr.com/3856/14439686447_1875314605_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Maskulini
+  url: https://farm4.staticflickr.com/3904/14603084546_2daf8f80c0_o.jpg
+  thumbnail_url: https://farm4.staticflickr.com/3904/14603084546_437b775dea_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Maskulini
+  url: https://farm6.staticflickr.com/5580/14626081315_9bbbee3e37_o.jpg
+  thumbnail_url: https://farm6.staticflickr.com/5580/14626081315_69e38f16c7_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Maskulini
+  url: https://farm4.staticflickr.com/3913/14439431060_8e81c7d8bb_o.jpg
+  thumbnail_url: https://farm4.staticflickr.com/3913/14439431060_1064f27010_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Maskulini
+  url: https://farm3.staticflickr.com/2935/14439682027_93085ed46b_o.jpg
+  thumbnail_url: https://farm3.staticflickr.com/2935/14439682027_244d8262fc_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Maskulini
+  url: https://farm6.staticflickr.com/5522/14439429530_4be1249a1c_o.jpg
+  thumbnail_url: https://farm6.staticflickr.com/5522/14439429530_31d8d78075_t.jpg

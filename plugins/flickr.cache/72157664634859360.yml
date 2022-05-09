@@ -1,0 +1,36 @@
+---
+id: 72157664634859360
+title: Right Away 2015
+photos:
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Right Away
+  url: https://farm2.staticflickr.com/1596/25258444851_49a87ddca1_o.jpg
+  thumbnail_url: https://farm2.staticflickr.com/1596/25258444851_856ddcecdb_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Right_Away_1
+  url: https://farm2.staticflickr.com/1718/25351533215_b8aea9c5ff_o.jpg
+  thumbnail_url: https://farm2.staticflickr.com/1718/25351533215_e7a5862193_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Right_Away_2
+  url: https://farm2.staticflickr.com/1467/25258444231_b1b68983d5_o.jpg
+  thumbnail_url: https://farm2.staticflickr.com/1467/25258444231_4054625fa5_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Right_Away_4
+  url: https://farm2.staticflickr.com/1688/25055927140_a4a2dc3c5c_o.jpg
+  thumbnail_url: https://farm2.staticflickr.com/1688/25055927140_7ea8d52fc3_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Right_Away_5
+  url: https://farm2.staticflickr.com/1530/24983871409_5bbc066ebb_o.jpg
+  thumbnail_url: https://farm2.staticflickr.com/1530/24983871409_a53051ca9f_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Right_Away_6
+  url: https://farm2.staticflickr.com/1606/25055926340_21559bd2e4_o.jpg
+  thumbnail_url: https://farm2.staticflickr.com/1606/25055926340_7b96b95c3f_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Right_Away_7
+  url: https://farm2.staticflickr.com/1527/25351530895_c3865dc3d6_o.jpg
+  thumbnail_url: https://farm2.staticflickr.com/1527/25351530895_da5dbdf85b_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Right_Away_3
+  url: https://farm2.staticflickr.com/1606/25233273572_99ae5ceeae_o.jpg
+  thumbnail_url: https://farm2.staticflickr.com/1606/25233273572_9ec5886e0e_t.jpg

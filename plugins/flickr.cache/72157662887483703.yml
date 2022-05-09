@@ -1,0 +1,56 @@
+---
+id: 72157662887483703
+title: CYBORG 2015
+photos:
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Cyborg
+  url: https://farm2.staticflickr.com/1602/25259546881_9cbd20a074_o.jpg
+  thumbnail_url: https://farm2.staticflickr.com/1602/25259546881_fae0967bcc_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Cyborg_1
+  url: https://farm2.staticflickr.com/1522/24722017474_90d9dec25f_o.jpg
+  thumbnail_url: https://farm2.staticflickr.com/1522/24722017474_2c2493c1db_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Cyborg_10
+  url: https://farm2.staticflickr.com/1532/25234366662_74795f3340_o.jpg
+  thumbnail_url: https://farm2.staticflickr.com/1532/25234366662_a59d2a2c61_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Cyborg_11
+  url: https://farm2.staticflickr.com/1539/25259545931_fda4432a78_o.jpg
+  thumbnail_url: https://farm2.staticflickr.com/1539/25259545931_be50268e3a_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Cyborg_12
+  url: https://farm2.staticflickr.com/1539/24722013664_18635a3a37_o.jpg
+  thumbnail_url: https://farm2.staticflickr.com/1539/24722013664_829420f68c_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Cyborg_2
+  url: https://farm2.staticflickr.com/1666/25057026210_12b0481d0d_o.jpg
+  thumbnail_url: https://farm2.staticflickr.com/1666/25057026210_a83fa9e217_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Cyborg_3
+  url: https://farm2.staticflickr.com/1598/25326440226_94cd705378_o.jpg
+  thumbnail_url: https://farm2.staticflickr.com/1598/25326440226_3b20e54049_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Cyborg_4
+  url: https://farm2.staticflickr.com/1630/24984975119_d0c010bb70_o.jpg
+  thumbnail_url: https://farm2.staticflickr.com/1630/24984975119_9e6596ea0e_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Cyborg_5
+  url: https://farm2.staticflickr.com/1523/25234364962_3bb29ac714_o.jpg
+  thumbnail_url: https://farm2.staticflickr.com/1523/25234364962_3c497641ba_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Cyborg_6
+  url: https://farm2.staticflickr.com/1588/25057023870_d4a5356eb7_o.jpg
+  thumbnail_url: https://farm2.staticflickr.com/1588/25057023870_6547b3437d_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Cyborg_7
+  url: https://farm2.staticflickr.com/1655/24725883923_29c0009eeb_o.jpg
+  thumbnail_url: https://farm2.staticflickr.com/1655/24725883923_1f88f6efd2_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Cyborg_8
+  url: https://farm2.staticflickr.com/1484/25326436866_7ea8ba38a3_o.jpg
+  thumbnail_url: https://farm2.staticflickr.com/1484/25326436866_65703f90dd_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Cyborg_9
+  url: https://farm2.staticflickr.com/1631/24725882873_bd2579b5e3_o.jpg
+  thumbnail_url: https://farm2.staticflickr.com/1631/24725882873_efebf57145_t.jpg

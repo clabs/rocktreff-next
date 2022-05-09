@@ -1,0 +1,52 @@
+---
+id: 72157664515063649
+title: Sycon 2015
+photos:
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Sycon
+  url: https://farm2.staticflickr.com/1452/24722274104_d423d8765a_o.jpg
+  thumbnail_url: https://farm2.staticflickr.com/1452/24722274104_99da34d0c6_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Sycon_1
+  url: https://farm2.staticflickr.com/1465/25057282860_fe828daed1_o.jpg
+  thumbnail_url: https://farm2.staticflickr.com/1465/25057282860_725580592a_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Sycon_10
+  url: https://farm2.staticflickr.com/1593/25352890625_1bee47170b_o.jpg
+  thumbnail_url: https://farm2.staticflickr.com/1593/25352890625_2863a9a776_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Sycon_11
+  url: https://farm2.staticflickr.com/1614/25234623482_ef2dfde94c_o.jpg
+  thumbnail_url: https://farm2.staticflickr.com/1614/25234623482_10270e5233_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Sycon_2
+  url: https://farm2.staticflickr.com/1716/25259800481_8a6bcb9670_o.jpg
+  thumbnail_url: https://farm2.staticflickr.com/1716/25259800481_7aabea605f_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Sycon_3
+  url: https://farm2.staticflickr.com/1661/25326691516_6527b22d36_o.jpg
+  thumbnail_url: https://farm2.staticflickr.com/1661/25326691516_8d03493839_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Sycon_4
+  url: https://farm2.staticflickr.com/1591/24985229269_1a72cf7ae9_o.jpg
+  thumbnail_url: https://farm2.staticflickr.com/1591/24985229269_33e20501e4_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Sycon_5
+  url: https://farm2.staticflickr.com/1536/24726143573_f64f9771d0_o.jpg
+  thumbnail_url: https://farm2.staticflickr.com/1536/24726143573_ac4620a569_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Sycon_6
+  url: https://farm2.staticflickr.com/1639/24722271814_26a0dbf52c_o.jpg
+  thumbnail_url: https://farm2.staticflickr.com/1639/24722271814_bbf30fa332_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Sycon_7
+  url: https://farm2.staticflickr.com/1463/24985228239_02779fe1cf_o.jpg
+  thumbnail_url: https://farm2.staticflickr.com/1463/24985228239_c86f031508_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Sycon_8
+  url: https://farm2.staticflickr.com/1692/24726142153_3b396eb6ec_o.jpg
+  thumbnail_url: https://farm2.staticflickr.com/1692/24726142153_8cbdc16651_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Sycon_9
+  url: https://farm2.staticflickr.com/1522/25326691136_4067c63d54_o.jpg
+  thumbnail_url: https://farm2.staticflickr.com/1522/25326691136_8c5b356b4c_t.jpg

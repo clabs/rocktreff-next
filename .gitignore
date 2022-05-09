@@ -1,8 +1,6 @@
-source/.jekyll-cache
-source/vendor
 node_modules
 .tmp
-.cache
+.jekyll-cache
 .jekyll-metadata
 _site
 yarn.lock

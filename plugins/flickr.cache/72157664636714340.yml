@@ -1,0 +1,44 @@
+---
+id: 72157664636714340
+title: Lewiston Tramps 2015
+photos:
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Lewiston_Tramps
+  url: https://farm2.staticflickr.com/1621/24722344624_68ed33d087_o.jpg
+  thumbnail_url: https://farm2.staticflickr.com/1621/24722344624_270ba9ca63_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Lewiston_Tramps_1
+  url: https://farm2.staticflickr.com/1441/25234694502_bd045b2906_o.jpg
+  thumbnail_url: https://farm2.staticflickr.com/1441/25234694502_7d47efa035_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Lewiston_Tramps_2
+  url: https://farm2.staticflickr.com/1458/24726214413_0613343a12_o.jpg
+  thumbnail_url: https://farm2.staticflickr.com/1458/24726214413_3a70ca83ac_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Lewiston_Tramps_3
+  url: https://farm2.staticflickr.com/1694/25259872571_6e980eb256_o.jpg
+  thumbnail_url: https://farm2.staticflickr.com/1694/25259872571_a4c10b8473_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Lewiston_Tramps_4
+  url: https://farm2.staticflickr.com/1690/25057352940_a8d58de19a_o.jpg
+  thumbnail_url: https://farm2.staticflickr.com/1690/25057352940_0d0be8252a_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Lewiston_Tramps_5
+  url: https://farm2.staticflickr.com/1530/24726215593_6d13e95463_o.jpg
+  thumbnail_url: https://farm2.staticflickr.com/1530/24726215593_31cf589673_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Lewiston_Tramps_6
+  url: https://farm2.staticflickr.com/1673/25352960625_cf6d578dcc_o.jpg
+  thumbnail_url: https://farm2.staticflickr.com/1673/25352960625_d4c9a864e7_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Lewiston_Tramps_7
+  url: https://farm2.staticflickr.com/1513/25259871411_6b478625ac_o.jpg
+  thumbnail_url: https://farm2.staticflickr.com/1513/25259871411_8e6c579085_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Lewiston_Tramps_8
+  url: https://farm2.staticflickr.com/1480/25259871001_d994aea25a_o.jpg
+  thumbnail_url: https://farm2.staticflickr.com/1480/25259871001_cac0fe4214_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Lewiston_Tramps_9
+  url: https://farm2.staticflickr.com/1587/25326763316_262ec027ac_o.jpg
+  thumbnail_url: https://farm2.staticflickr.com/1587/25326763316_d88f039ae9_t.jpg

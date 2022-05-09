@@ -37,7 +37,7 @@ class FlickrPhotoset
 
     def initialize( config, id )
         self.id = id
-        self.cache_dir = '.cache'
+        self.cache_dir = 'plugins/flickr.cache'
         self.cache_file = "#{self.cache_dir}/#{self.id}.yml"
         self.photos = Array.new
         self.config = config

@@ -1,0 +1,60 @@
+---
+id: 72157675419819985
+title: Partyfleisch 2016
+photos:
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Partyfleisch
+  url: https://farm6.staticflickr.com/5606/30430314095_15e727703d_o.jpg
+  thumbnail_url: https://farm6.staticflickr.com/5606/30430314095_86bde0d998_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Partyfleisch
+  url: https://farm6.staticflickr.com/5466/30394193296_d0426c4048_o.jpg
+  thumbnail_url: https://farm6.staticflickr.com/5466/30394193296_98dbe7e9bb_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Partyfleisch
+  url: https://farm6.staticflickr.com/5447/30394192946_4b2148e066_o.jpg
+  thumbnail_url: https://farm6.staticflickr.com/5447/30394192946_89ce7378e2_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Partyfleisch
+  url: https://farm6.staticflickr.com/5726/29798559303_ed286f0d75_o.jpg
+  thumbnail_url: https://farm6.staticflickr.com/5726/29798559303_d748d00718_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Partyfleisch
+  url: https://farm6.staticflickr.com/5575/30313689412_3053375f40_o.jpg
+  thumbnail_url: https://farm6.staticflickr.com/5575/30313689412_50982764ea_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Partyfleisch
+  url: https://farm6.staticflickr.com/5518/29798558143_619410a67c_o.jpg
+  thumbnail_url: https://farm6.staticflickr.com/5518/29798558143_35a85cc1d4_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Partyfleisch
+  url: https://farm6.staticflickr.com/5713/29799468354_742d030691_o.jpg
+  thumbnail_url: https://farm6.staticflickr.com/5713/29799468354_fbab065c68_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Partyfleisch
+  url: https://farm6.staticflickr.com/5793/29799465494_766764f1aa_o.jpg
+  thumbnail_url: https://farm6.staticflickr.com/5793/29799465494_2c3c24b9a0_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Partyfleisch
+  url: https://farm6.staticflickr.com/5650/29799465064_38c2bd1462_o.jpg
+  thumbnail_url: https://farm6.staticflickr.com/5650/29799465064_51d5043072_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Partyfleisch
+  url: https://farm9.staticflickr.com/8129/30343921531_52ecb2dd4b_o.jpg
+  thumbnail_url: https://farm9.staticflickr.com/8129/30343921531_ab97493684_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Partyfleisch
+  url: https://farm6.staticflickr.com/5493/30430313635_5dd49e1a8b_o.jpg
+  thumbnail_url: https://farm6.staticflickr.com/5493/30430313635_ca34a75abe_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Partyfleisch
+  url: https://farm6.staticflickr.com/5546/29798544553_bb49009962_o.jpg
+  thumbnail_url: https://farm6.staticflickr.com/5546/29798544553_022ab3bd82_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Partyfleisch
+  url: https://farm9.staticflickr.com/8637/29798543973_12fb7646e4_o.jpg
+  thumbnail_url: https://farm9.staticflickr.com/8637/29798543973_75e2c089f8_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Partyfleisch
+  url: https://farm9.staticflickr.com/8418/29798543553_148ea801c7_o.jpg
+  thumbnail_url: https://farm9.staticflickr.com/8418/29798543553_9beceb318a_t.jpg

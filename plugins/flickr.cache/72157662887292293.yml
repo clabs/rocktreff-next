@@ -1,0 +1,64 @@
+---
+id: 72157662887292293
+title: ARISING 2015
+photos:
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Arising_9
+  url: https://farm2.staticflickr.com/1629/24725499573_f72a78aa32_o.jpg
+  thumbnail_url: https://farm2.staticflickr.com/1629/24725499573_af53cee93a_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Arising_8
+  url: https://farm2.staticflickr.com/1519/25233985922_74272589b1_o.jpg
+  thumbnail_url: https://farm2.staticflickr.com/1519/25233985922_49376d5b10_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Arising_7
+  url: https://farm2.staticflickr.com/1555/24984591979_72ee56146d_o.jpg
+  thumbnail_url: https://farm2.staticflickr.com/1555/24984591979_fd2e8a57cc_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Arising_6
+  url: https://farm2.staticflickr.com/1500/25326055186_31e2f4da38_o.jpg
+  thumbnail_url: https://farm2.staticflickr.com/1500/25326055186_292da3fb5f_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Arising_5
+  url: https://farm2.staticflickr.com/1597/25233987252_e427bbde8d_o.jpg
+  thumbnail_url: https://farm2.staticflickr.com/1597/25233987252_f9d523caf2_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Arising_4
+  url: https://farm2.staticflickr.com/1589/25233987772_5d2cb1c8d1_o.jpg
+  thumbnail_url: https://farm2.staticflickr.com/1589/25233987772_18e8f44236_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Arising_3
+  url: https://farm2.staticflickr.com/1609/24984593269_d5c4a44fe9_o.jpg
+  thumbnail_url: https://farm2.staticflickr.com/1609/24984593269_37ab6d49be_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Arising_2
+  url: https://farm2.staticflickr.com/1474/25056645060_a62ccf566c_o.jpg
+  thumbnail_url: https://farm2.staticflickr.com/1474/25056645060_7268de5ce5_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Arising_14
+  url: https://farm2.staticflickr.com/1571/25056645490_052404064e_o.jpg
+  thumbnail_url: https://farm2.staticflickr.com/1571/25056645490_0ffc2234df_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Arising_13
+  url: https://farm2.staticflickr.com/1697/24984594189_b77f8e5977_o.jpg
+  thumbnail_url: https://farm2.staticflickr.com/1697/24984594189_6c740fcaa4_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Arising_12
+  url: https://farm2.staticflickr.com/1716/25056642280_ae1c040be6_o.jpg
+  thumbnail_url: https://farm2.staticflickr.com/1716/25056642280_e4d0a795b8_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Arising_11
+  url: https://farm2.staticflickr.com/1463/25233989822_f053c376e3_o.jpg
+  thumbnail_url: https://farm2.staticflickr.com/1463/25233989822_ca5e39b510_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Arising_10
+  url: https://farm2.staticflickr.com/1657/24984594829_8e8781f12a_o.jpg
+  thumbnail_url: https://farm2.staticflickr.com/1657/24984594829_de66025df4_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Arising_1
+  url: https://farm2.staticflickr.com/1446/25352252555_696f7680df_o.jpg
+  thumbnail_url: https://farm2.staticflickr.com/1446/25352252555_6fae9fd4af_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Arising
+  url: https://farm2.staticflickr.com/1716/25326059346_ab93da5525_o.jpg
+  thumbnail_url: https://farm2.staticflickr.com/1716/25326059346_56b9fd1f6f_t.jpg

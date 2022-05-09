@@ -1,0 +1,52 @@
+---
+id: 72157665157394956
+title: Venterra 2015
+photos:
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Venterra
+  url: https://farm2.staticflickr.com/1688/25259951011_f0fdc194c7_o.jpg
+  thumbnail_url: https://farm2.staticflickr.com/1688/25259951011_ff0123492e_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Venterra_1
+  url: https://farm2.staticflickr.com/1673/24722416444_03d91917b6_o.jpg
+  thumbnail_url: https://farm2.staticflickr.com/1673/24722416444_f0ef7b97fa_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Venterra_10
+  url: https://farm2.staticflickr.com/1469/25259950701_7c19acbeec_o.jpg
+  thumbnail_url: https://farm2.staticflickr.com/1469/25259950701_c4a3b500cc_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Venterra_11
+  url: https://farm2.staticflickr.com/1674/25259949751_01d3b807a6_o.jpg
+  thumbnail_url: https://farm2.staticflickr.com/1674/25259949751_59e5a0a049_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Venterra_2
+  url: https://farm2.staticflickr.com/1645/24726294633_44da6a49a1_o.jpg
+  thumbnail_url: https://farm2.staticflickr.com/1645/24726294633_2db4762e43_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Venterra_3
+  url: https://farm2.staticflickr.com/1510/24985378949_98eb2170ca_o.jpg
+  thumbnail_url: https://farm2.staticflickr.com/1510/24985378949_6962796ca8_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Venterra_4
+  url: https://farm2.staticflickr.com/1505/25234767972_27a533bddb_o.jpg
+  thumbnail_url: https://farm2.staticflickr.com/1505/25234767972_560c03ce6a_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Venterra_5
+  url: https://farm2.staticflickr.com/1468/25057429170_079e492450_o.jpg
+  thumbnail_url: https://farm2.staticflickr.com/1468/25057429170_c28302aeef_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Venterra_6
+  url: https://farm2.staticflickr.com/1453/25234767222_56b0466663_o.jpg
+  thumbnail_url: https://farm2.staticflickr.com/1453/25234767222_3992d2ef7a_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Venterra_7
+  url: https://farm2.staticflickr.com/1443/25234766902_e118d495c3_o.jpg
+  thumbnail_url: https://farm2.staticflickr.com/1443/25234766902_b25c8b8fd8_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Venterra_8
+  url: https://farm2.staticflickr.com/1586/25234766442_c336ccf509_o.jpg
+  thumbnail_url: https://farm2.staticflickr.com/1586/25234766442_3b0db9965d_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Venterra_9
+  url: https://farm2.staticflickr.com/1670/24985375669_19e439fc37_o.jpg
+  thumbnail_url: https://farm2.staticflickr.com/1670/24985375669_a8470bb0fa_t.jpg

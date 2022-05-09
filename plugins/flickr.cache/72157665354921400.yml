@@ -1,0 +1,24 @@
+---
+id: 72157665354921400
+title: Erinnerungen
+photos:
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Erinnerungen
+  url: https://farm2.staticflickr.com/1720/25170346313_9c3ca280c4_o.jpg
+  thumbnail_url: https://farm2.staticflickr.com/1720/25170346313_524096c610_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Erinnerungen
+  url: https://farm2.staticflickr.com/1653/25796978855_77f5b2b584_o.jpg
+  thumbnail_url: https://farm2.staticflickr.com/1653/25796978855_b74fd5ca81_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Erinnerungen
+  url: https://farm2.staticflickr.com/1686/25675984072_ba953d3658_o.jpg
+  thumbnail_url: https://farm2.staticflickr.com/1686/25675984072_c29bc18d0a_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Erinnerungen
+  url: https://farm2.staticflickr.com/1586/25170345503_ed598d61b5_o.jpg
+  thumbnail_url: https://farm2.staticflickr.com/1586/25170345503_6ed889f66c_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Erinnerungen
+  url: https://farm2.staticflickr.com/1635/25675983262_80b901dcfd_o.jpg
+  thumbnail_url: https://farm2.staticflickr.com/1635/25675983262_d3375d2960_t.jpg

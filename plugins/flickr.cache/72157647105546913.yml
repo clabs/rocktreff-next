@@ -1,0 +1,32 @@
+---
+id: 72157647105546913
+title: Pressebilder
+photos:
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Impressionen
+  url: https://farm4.staticflickr.com/3899/14603748026_e38ab48f2c_o.jpg
+  thumbnail_url: https://farm4.staticflickr.com/3899/14603748026_314009649f_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Finalstair
+  url: https://farm4.staticflickr.com/3875/14439725229_77b0c74449_o.jpg
+  thumbnail_url: https://farm4.staticflickr.com/3875/14439725229_c70fccd30e_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Cyrcus
+  url: https://farm4.staticflickr.com/3888/14624093114_7887dcf96b_o.jpg
+  thumbnail_url: https://farm4.staticflickr.com/3888/14624093114_1ab89aca2e_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Impressionen
+  url: https://farm6.staticflickr.com/5560/14646681933_3ef108a85d_o.jpg
+  thumbnail_url: https://farm6.staticflickr.com/5560/14646681933_322f3af112_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Impressionen
+  url: https://farm4.staticflickr.com/3858/14603763056_d58737d1c2_o.jpg
+  thumbnail_url: https://farm4.staticflickr.com/3858/14603763056_7b3c74aec9_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Impressionen
+  url: https://farm4.staticflickr.com/3912/14646683393_4d661e7567_o.jpg
+  thumbnail_url: https://farm4.staticflickr.com/3912/14646683393_e43b67d9b7_t.jpg
+- !ruby/object:Jekyll::FlickrPhoto
+  title: Impressionen
+  url: https://farm4.staticflickr.com/3839/14624640694_f0d8fa4bd2_o.jpg
+  thumbnail_url: https://farm4.staticflickr.com/3839/14624640694_b74b8e676a_t.jpg
