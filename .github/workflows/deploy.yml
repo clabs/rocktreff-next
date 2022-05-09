@@ -42,7 +42,7 @@ jobs:
           -v "${{ github.workspace }}:/app:Z" \
           -w /app \
           deryabinsergey/postcss:latest \
-          postcss --no-map -o dist/styles/main.css .tmp/styles/*.css
+          postcss --no-map -o dist/styles/main.css dist/styles/*.css
 
     - name: Upload
       uses: jakejarvis/s3-sync-action@master
