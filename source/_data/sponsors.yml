@@ -47,10 +47,10 @@
 #   url: https://marienpark-berlin.com/
 #   main: true
 
-- name: amazon
-  image: amazon.png
-  url: http://www.amazon.de/
-  main: true
+# - name: amazon
+#   image: amazon.png
+#   url: http://www.amazon.de/
+#   main: true
 
 - name: nitz-nitz
   image: nitz-nitz.png
@@ -82,13 +82,13 @@
   image: popella.png
   url: http://www.popella.de/
 
-- name: mediateam
-  image: mediateam.png
-  url: http://www.mediateam.de/
+# - name: mediateam
+#   image: mediateam.png
+#   url: http://www.mediateam.de/
 
-- name: radio moeller
-  image: euronics_moeller_web.png
-  url: http://www.euronics.de/info/portal/vs=shop/dealer=201561-0/ZacCenter/main.ipm
+# - name: radio moeller
+#   image: euronics_moeller_web.png
+#   url: http://www.euronics.de/info/portal/vs=shop/dealer=201561-0/ZacCenter/main.ipm
 
 # - name: vitasyn
 #   image: vitasyn.png
@@ -130,13 +130,13 @@
   image: kalle.png
   url: https://kalle-rock.de/
 
-- name: gewosued
-  image: gewosud.png
-  url: http://www.gewosued.de/
+# - name: gewosued
+#   image: gewosud.png
+#   url: http://www.gewosued.de/
 
-- name: hoppe
-  image: hoppe.png
-  url: http://leichtbrille.com/
+# - name: hoppe
+#   image: hoppe.png
+#   url: http://leichtbrille.com/
 
 - name: efg_baerollenroth
   image: efg_baerollenroth.png
