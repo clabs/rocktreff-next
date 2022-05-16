@@ -3,14 +3,14 @@ layout: band
 title: Amalia
 
 
-website: https://sector5music.myportfolio.com/
+website: https://www.instagram.com/amaliaband
 style: tba
 logo: amalia.png
 picture: amalia.jpg
 year: 2022
 day: saturday
 stagetime: Samstag, 2. Juli 2022, 17:00 Uhr
-youtube: 9MOVTN7o-88
+youtube: K5ak7n8QUho
 #soundcloud:
 #spotify:
 #bandcamp:

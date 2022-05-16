@@ -5,8 +5,8 @@ title: Robin
 
 website: https://www.robinband.de
 style: tba
-logo: elevenyears.png
-picture: elevenyears.jpg
+logo: robin.png
+picture: robin.jpg
 year: 2022
 day: saturday
 stagetime: Samstag, 2. Juli 2022, 20:00 Uhr
