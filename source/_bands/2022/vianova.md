@@ -5,7 +5,7 @@ title: Vianova
 
 website: https://vianova-berlin.bandcamp.com/
 style: tba
-# logo: vianova.png
+logo: vianova.png
 picture: vianova.jpg
 year: 2022
 day: friday
