@@ -12,7 +12,7 @@ day: sunday
 stagetime: Sonntag, 3. Juli 2022, 19:00 Uhr
 #youtube:
 #soundcloud:
-spotify: 7c9EeOyW7L8PdYfLefsdDI
+spotify: spotify:artist:7c9EeOyW7L8PdYfLefsdDI
 #bandcamp:
 ---
 

@@ -13,7 +13,7 @@ stagetime: Freitag, 1. Juli 2022, 19:00 Uhr
 #youtube:
 #soundcloud:
 #spotify:
-bandcamp: kassettenricardo
+bandcamp: 3772890539
 ---
 
 „Haben die ‘ne Macke?“ „Was ist das denn für ein merkwürdiger Bandname?“
