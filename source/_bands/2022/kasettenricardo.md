@@ -1,6 +1,6 @@
 ---
 layout: band
-title: Kasettenricardo
+title: Kassettenricardo
 
 
 website: https://kassettenricardo.de
