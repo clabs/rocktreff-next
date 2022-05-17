@@ -57,9 +57,9 @@
   url: http://www.nitz-nitz.de/
   main: true
 
-- name: druckcenter
-  image: druckcenter.png
-  url: http://www.druckcenter-berlin.de/
+- name: piereg
+  image: piereg.png
+  url: http://www.piereg.de/
   main: true
 
 - name: stilbrand
@@ -102,9 +102,9 @@
   image: phrenetica.png
   url: http://phrenetica.com/
 
-- name: riemer
-  image: riemer_schultz.png
-  url: http://www.riemerschultz.de/
+#- name: riemer
+#  image: riemer_schultz.png
+#  url: http://www.riemerschultz.de/
 
 - name: ui_tempelhoferdamm
   image: ui_tempelhoferdamm.png
@@ -118,9 +118,9 @@
   image: swi.png
   url: http://www.die-hauptstadtbauer.de/
 
-- name: vierlande
-  image: vierlande.png
-  url: http://www.vierlande.de/
+#- name: vierlande
+#  image: vierlande.png
+#  url: http://www.vierlande.de/
 
 - name: fjedn
   image: fjedn.png
@@ -145,3 +145,7 @@
 # - name: alex
 #   image: alex.png
 #   url: https://www.alex-berlin.de/
+
+- name: edeka
+  image: edeka.png
+  url: https://www.edeka.de/eh/minden-hannover/edeka-lenkeit-rixdorfer-str.-67-69/index.jsp
