@@ -5,12 +5,12 @@ title: Kassettenricardo
 
 website: https://kassettenricardo.de
 style: tba
-logo: kasettenricardo.png
+logo: kassettenricardo.png
 picture: kasettenricardo.jpg
 year: 2022
 day: friday
 stagetime: Freitag, 1. Juli 2022, 19:00 Uhr
-#youtube:
+youtube: WEPwoxFcWxU
 #soundcloud:
 #spotify:
 bandcamp: 3772890539
