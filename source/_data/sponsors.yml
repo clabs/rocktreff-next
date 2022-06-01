@@ -102,6 +102,10 @@
   image: phrenetica.png
   url: https://phrenetica.com/
 
+- name: excuba
+  image: excuba.png
+  url: https://www.excuba.com
+
 #- name: riemer
 #  image: riemer_schultz.png
 #  url: http://www.riemerschultz.de/
@@ -113,6 +117,10 @@
 - name: gpds
   image: gpds.png
   url: https://www.gpds.de/
+
+- name: binss
+  image: binss.png
+  url: https://binss.de
 
 - name: swi
   image: swi.png
@@ -149,10 +157,6 @@
 - name: edeka
   image: edeka.png
   url: https://www.edeka.de/eh/minden-hannover/edeka-lenkeit-rixdorfer-str.-67-69/index.jsp
-
-- name: binss
-  image: binss.png
-  url: https://binss.de
 
 - name: sg-kdv
   image: sg-kdv.png
