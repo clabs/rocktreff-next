@@ -7,27 +7,27 @@
 # |_|
 - name: jugendamt
   image: jugendamt.png
-  url: http://www.bruecken-bauen.info/
+  url: "#"
   presenter: true
 
 - name: starfm
   image: star_fm.png
-  url: http://starfm.de/
+  url: https://starfm.de/
   presenter: true
 
 - name: psd bank
   image: psd.png
-  url: http://www.psd-berlin-brandenburg.de/
+  url: https://www.psd-berlin-brandenburg.de/
   presenter: true
 
 - name: catering company
   image: catering_company.png
-  url: http://catering-company-berlin.de/
+  url: https://catering-company-berlin.de/
   presenter: true
 
 - name: cpye
   image: cpye.png
-  url: http://cpye.de/
+  url: https://cpye.de/
   presenter: true
 
 
@@ -39,7 +39,7 @@
 
 - name: faces
   image: faces.png
-  url: http://www.facesvt.de/
+  url: https://www.facesvt.de/
   main: true
 
 # - name: marienpark
@@ -54,17 +54,17 @@
 
 - name: nitz-nitz
   image: nitz-nitz.png
-  url: http://www.nitz-nitz.de/
+  url: https://www.nitz-nitz.de/
   main: true
 
 - name: piereg
   image: piereg.png
-  url: http://www.piereg.de/
+  url: https://www.piereg.de/
   main: true
 
 - name: stilbrand
   image: stilbrand.png
-  url: http://www.stilbrand.de/
+  url: https://www.stilbrand.de/
   main: true
 
 
@@ -80,7 +80,7 @@
 
 - name: popella
   image: popella.png
-  url: http://www.popella.de/
+  url: https://www.popella.de/
 
 # - name: mediateam
 #   image: mediateam.png
@@ -100,7 +100,7 @@
 
 - name: phrenetica
   image: phrenetica.png
-  url: http://phrenetica.com/
+  url: https://phrenetica.com/
 
 #- name: riemer
 #  image: riemer_schultz.png
@@ -116,7 +116,7 @@
 
 - name: swi
   image: swi.png
-  url: http://www.die-hauptstadtbauer.de/
+  url: https://www.die-hauptstadtbauer.de/
 
 #- name: vierlande
 #  image: vierlande.png
@@ -124,7 +124,7 @@
 
 - name: fjedn
   image: fjedn.png
-  url: http://www.fjedn.berlin/
+  url: https://www.fjedn.berlin/
 
 - name: kalle
   image: kalle.png
@@ -149,3 +149,11 @@
 - name: edeka
   image: edeka.png
   url: https://www.edeka.de/eh/minden-hannover/edeka-lenkeit-rixdorfer-str.-67-69/index.jsp
+
+- name: binss
+  image: binss.png
+  url: https://binss.de
+
+- name: sg-kdv
+  image: sg-kdv.png
+  url: https://gurkasch.com
