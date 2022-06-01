@@ -154,10 +154,10 @@
 #   image: alex.png
 #   url: https://www.alex-berlin.de/
 
-- name: edeka
-  image: edeka.png
-  url: https://www.edeka.de/eh/minden-hannover/edeka-lenkeit-rixdorfer-str.-67-69/index.jsp
-
 - name: sg-kdv
   image: sg-kdv.png
   url: https://gurkasch.com
+
+- name: edeka
+  image: edeka.png
+  url: https://www.edeka.de/eh/minden-hannover/edeka-lenkeit-rixdorfer-str.-67-69/index.jsp
