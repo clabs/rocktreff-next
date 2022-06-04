@@ -103,7 +103,7 @@
   url: https://phrenetica.com/
 
 - name: excuba
-  image: excuba.png
+  image: excuba2.png
   url: https://www.excuba.com
 
 #- name: riemer
@@ -165,3 +165,7 @@
 - name: Ed_Koch
   image: paperpress_ed_koch.png
   url: https://www.paperpress-newsletter.de/
+  
+- name: tranzept
+  image: tranzept.png
+  url: https://www.tranzept.de/
