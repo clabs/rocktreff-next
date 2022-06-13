@@ -169,3 +169,7 @@
 - name: tranzept
   image: tranzept.png
   url: https://www.tranzept.de/
+
+- name: idealo
+  image: idealo.png
+  url: https://www.idealo.de/
