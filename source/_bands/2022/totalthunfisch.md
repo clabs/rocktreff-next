@@ -40,6 +40,6 @@ hat - Triff uns einfach an der Bar nach dem Konzert und wir feiern bis der
 nächste Morgen beginnt.
 
 
-Das Total Thunfisch Terror Team steht für eine tolerante Saufkultur, jegliches
+Das Total Thunfisch Terror Team steht für eine tolerante Saufkultur. Jegliches
 rechtes Gedankengut, ausgrenzendes Verhalten und Rassismus wird auf unseren
 Shows nicht toleriert. Kein Bier für Nazis!
