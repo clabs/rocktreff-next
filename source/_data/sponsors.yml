@@ -173,3 +173,7 @@
 - name: idealo
   image: idealo.png
   url: https://www.idealo.de/
+
+- name: jhfinanz
+  image: jhfinanz.png
+  url: "#"
