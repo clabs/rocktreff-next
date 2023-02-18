@@ -9,10 +9,10 @@
   image: jugendamt.png
   url: "#"
   presenter: true
-
-- name: starfm
-  image: star_fm.png
-  url: https://starfm.de/
+  
+- name: strandbad luebars
+  image: strandbad.png
+  url: https://www.strandbad-luebars.de/
   presenter: true
 
 - name: psd bank
@@ -20,9 +20,9 @@
   url: https://www.psd-berlin-brandenburg.de/
   presenter: true
 
-- name: strandbad luebars
-  image: strandbad.png
-  url: https://www.strandbad-luebars.de/
+- name: starfm
+  image: star_fm.png
+  url: https://starfm.de/
   presenter: true
 
 - name: cpye
