@@ -37,10 +37,10 @@
 # | | | | | | (_| | | | | |
 # |_| |_| |_|\__,_|_|_| |_|
 
-- name: faces
-  image: faces.png
-  url: https://www.facesvt.de/
-  main: true
+# - name: faces
+#   image: faces.png
+#   url: https://www.facesvt.de/
+#   main: true
 
 # - name: marienpark
 #   image: marienpark.png
@@ -74,9 +74,9 @@
 # | (_) | |_| | | |  __/ |
 #  \___/ \__|_| |_|\___|_|
 
-- name: bilstein
-  image: bilstein_trucking.png
-  url: https://www.facebook.com/bilstein24.de/
+# - name: bilstein
+#   image: bilstein_trucking.png
+#   url: https://www.facebook.com/bilstein24.de/
 
 - name: popella
   image: popella.png
@@ -98,9 +98,9 @@
 #   image: rockstar_energy.png
 #   url: https://www.facebook.com/rockstarenergygermany/
 
-- name: phrenetica
-  image: phrenetica.png
-  url: https://phrenetica.com/
+# - name: phrenetica
+#   image: phrenetica.png
+#   url: https://phrenetica.com/
 
 - name: excuba
   image: excuba2.png
@@ -158,9 +158,9 @@
   image: sg-kdv.png
   url: https://gurkasch.com
 
-- name: edeka
-  image: edeka.png
-  url: https://www.edeka.de/eh/minden-hannover/edeka-lenkeit-rixdorfer-str.-67-69/index.jsp
+# - name: edeka
+#   image: edeka.png
+#   url: https://www.edeka.de/eh/minden-hannover/edeka-lenkeit-rixdorfer-str.-67-69/index.jsp
   
 - name: Ed_Koch
   image: paperpress_ed_koch.png
@@ -170,9 +170,9 @@
   image: tranzept.png
   url: https://www.tranzept.de/
 
-- name: idealo
-  image: idealo.png
-  url: https://www.idealo.de/
+# - name: idealo
+#   image: idealo.png
+#   url: https://www.idealo.de/
 
 - name: jhfinanz
   image: jhfinanz.png
