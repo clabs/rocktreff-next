@@ -154,6 +154,10 @@
 #   image: alex.png
 #   url: https://www.alex-berlin.de/
 
+- name: zimmer_und_partner
+  image: zup.png
+  url: "#"
+
 - name: sg-kdv
   image: sg-kdv.png
   url: https://gurkasch.com
