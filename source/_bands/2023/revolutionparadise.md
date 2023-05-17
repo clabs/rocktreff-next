@@ -10,7 +10,7 @@ picture: revolutionparadise.jpg
 year: 2023
 day: friday
 stagetime: Freitag, 30. Juni 2023, 18:00 Uhr
-youtube:
+youtube: nk9DlPFrNC0
 #soundcloud:
 #spotify:
 #bandcamp:
