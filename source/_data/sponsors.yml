@@ -110,9 +110,9 @@
 #  image: riemer_schultz.png
 #  url: http://www.riemerschultz.de/
 
-- name: ui_tempelhoferdamm
-  image: ui_tempelhoferdamm.png
-  url: https://www.ui-tempelhoferdamm.de/
+#- name: ui_tempelhoferdamm
+#  image: ui_tempelhoferdamm.png
+#  url: https://www.ui-tempelhoferdamm.de/
 
 - name: gpds
   image: gpds.png
