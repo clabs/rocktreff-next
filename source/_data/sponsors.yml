@@ -134,9 +134,9 @@
   image: fjedn.png
   url: https://www.fjedn.berlin/
 
-- name: kalle
-  image: kalle.png
-  url: https://kalle-rock.de/
+# - name: kalle
+#  image: kalle.png
+#  url: https://kalle-rock.de/
 
 # - name: gewosued
 #   image: gewosud.png
