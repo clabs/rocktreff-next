@@ -74,49 +74,21 @@
 # | (_) | |_| | | |  __/ |
 #  \___/ \__|_| |_|\___|_|
 
-# - name: bilstein
-#   image: bilstein_trucking.png
-#   url: https://www.facebook.com/bilstein24.de/
-
-- name: popella
-  image: popella.png
-  url: https://www.popella.de/
-
-# - name: mediateam
-#   image: mediateam.png
-#   url: http://www.mediateam.de/
-
-# - name: radio moeller
-#   image: euronics_moeller_web.png
-#   url: http://www.euronics.de/info/portal/vs=shop/dealer=201561-0/ZacCenter/main.ipm
-
-# - name: vitasyn
-#   image: vitasyn.png
-#   url: http://www.vitasyn.de/
-
-# - name: rockstar
-#   image: rockstar_energy.png
-#   url: https://www.facebook.com/rockstarenergygermany/
+# - name: popella
+#  image: popella.png
+#  url: https://www.popella.de/
 
 # - name: phrenetica
 #   image: phrenetica.png
 #   url: https://phrenetica.com/
 
-- name: excuba
-  image: excuba2.png
-  url: https://www.excuba.com
+# - name: excuba
+#  image: excuba2.png
+#  url: https://www.excuba.com
 
-#- name: riemer
-#  image: riemer_schultz.png
-#  url: http://www.riemerschultz.de/
-
-#- name: ui_tempelhoferdamm
-#  image: ui_tempelhoferdamm.png
-#  url: https://www.ui-tempelhoferdamm.de/
-
-- name: gpds
-  image: gpds.png
-  url: https://www.gpds.de/
+# - name: gpds
+#  image: gpds.png
+#  url: https://www.gpds.de/
 
 - name: binss
   image: binss.png
@@ -126,33 +98,21 @@
   image: swi.png
   url: https://www.die-hauptstadtbauer.de/
 
-#- name: vierlande
-#  image: vierlande.png
-#  url: http://www.vierlande.de/
+- name: gemeinde
+  image: gemeinde.png
+  url: https://www.mariendorf-evangelisch.de/
 
 - name: fjedn
   image: fjedn.png
   url: https://www.fjedn.berlin/
 
-# - name: kalle
-#  image: kalle.png
-#  url: https://kalle-rock.de/
-
-# - name: gewosued
-#   image: gewosud.png
-#   url: http://www.gewosued.de/
-
-# - name: hoppe
-#   image: hoppe.png
-#   url: http://leichtbrille.com/
+- name: ksd
+  image: ksd.png
+  url: https://ksd24.berlin/
 
 - name: efg_baerollenroth
   image: efg_baerollenroth.png
   url: https://www.efg-gruppe.de/de/unternehmen/efg-baer-ollenroth
-
-# - name: alex
-#   image: alex.png
-#   url: https://www.alex-berlin.de/
 
 - name: zimmer_und_partner
   image: zup.png
@@ -161,26 +121,10 @@
 - name: sg-kdv
   image: sg-kdv.png
   url: https://gurkasch.com
-
-# - name: edeka
-#   image: edeka.png
-#   url: https://www.edeka.de/eh/minden-hannover/edeka-lenkeit-rixdorfer-str.-67-69/index.jsp
-  
-# - name: Ed_Koch
-#   image: paperpress_ed_koch.png
-#   url: https://www.paperpress-newsletter.de/
   
 - name: tranzept
   image: tranzept.png
   url: https://www.tranzept.de/
-
-# - name: idealo
-#   image: idealo.png
-#   url: https://www.idealo.de/
-
-# - name: jhfinanz
-#   image: jhfinanz.png
-#   url: "#"
 
 - name: Hildebrandt
   image: hildebrandt.png
