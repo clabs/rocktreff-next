@@ -16,6 +16,11 @@ youtube: k5HRzT3f-TQ
 # bandcamp:
 ---
 
-Berlin, Deutschland - Während der Quarantäne haben Nacho und Lukas ihr Musikprojekt "Ocean Fire" ins Leben gerufen. Ihre Musik ist von Rock- und Metal-Bands der 90er und 2000er Jahre inspiriert. Lukas nutzt dieses Projekt, um seine musikalischen Ideen umzusetzen, und Nacho bringt seine Leidenschaft und Experimentierfreude für Gesang ein.
-
-Die Live-Shows versuchen Ocean Fire sich abzuheben. Unterstützt von Chris und Steven von der Band NOX an Gitarre und Bass, gestaltet die Band ihre Auftritte mit atmosphärischen Sounds, der die Zuschauer tief in die Welt des Alternative Rock/Metal zieht. Diese Auftritte bieten mehr als nur Musik; sie sind eine Reise, die dem Publikum in Erinnerung bleiben soll.
+Eine berliner Alternative-Metal Band, die sich in kürzester Zeit einen Namen in
+der Underground-szene ihrer Heimatstadt machen konnte. Nachdem alle 5 Mitglieder*innen
+in vorherigen Projekt 10 Jahre Erfahrung sammeln konnten, schlossen Sie sich 2022
+zusammen und gründeten MAGNOLIA. Bei ihren Konzerten stand niemand, weder auf
+noch vor der Bühne still. Das sprach sich rum. Heute ist dieser Name in der
+Hauptstadt ein Synonym für eine ansteckende Live-Performance, mächtigen Gitarren,
+energiegeladenen Synths und einprägsamen Gesangsmelodien. Vor allem aber steht
+MAGNOLIA für eine Sache: Eine ehrliche Verbindung mit ihren Fans.
