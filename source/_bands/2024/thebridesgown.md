@@ -6,7 +6,7 @@ title: The Bridesgown
 website: https://www.instagram.com/the_bridesgown/
 # style: tba
 logo: thebridesgown.png
-# picture: thebridesgown.jpg
+picture: thebridesgown.jpg
 year: 2024
 day: saturday
 stagetime: Samstag, 6. Juli 2024, 17:00 Uhr
