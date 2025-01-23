@@ -34,7 +34,7 @@ permalink: '/'
       {% for sponsor in site.data.sponsors %}
         {% if sponsor.presenter %}
         <a href="{{ sponsor.url }}" target="_blank">
-          <img src="https://static.rocktreff.de/sponsors/{{sponsor.image}}">
+          <img src="https://static.rocktreff.de/sponsors/{{sponsor.image}}" alt="Sponsor Logo {{sponsor.name}}">
         </a>
         {% endif %}
       {% endfor %}
@@ -175,7 +175,7 @@ permalink: '/'
           {% for sponsor in site.data.sponsors %}
             {% if sponsor.main %}
             <a href="{{ sponsor.url }}" target="_blank">
-              <img src="https://static.rocktreff.de/sponsors/{{sponsor.image}}">
+              <img src="https://static.rocktreff.de/sponsors/{{sponsor.image}}" alt="Sponsor Logo {{sponsor.name}}">
             </a>
             {% endif %}
           {% endfor %}
@@ -256,8 +256,8 @@ permalink: '/'
         </div>
         <div class="col-sm-2">
           <div class="flickr gallery">
-            <a class="fancybox" rel="group" href="https://static.rocktreff.de/crew/crew2022.jpg" alt="Rocktreff Crewfoto 2022">
-              <img src="https://static.rocktreff.de/crew/crew2022.jpg" style="width:100%;height:auto">
+            <a class="fancybox" rel="group" href="https://static.rocktreff.de/crew/crew2022.jpg">
+              <img src="https://static.rocktreff.de/crew/crew2022.jpg" style="width:100%;height:auto" alt="Rocktreff Crewfoto 2022">
             </a>
           </div>
         </div>
