@@ -10,9 +10,9 @@
   url: "#"
   presenter: true
   
-- name: strandbad luebars
-  image: strandbad.png
-  url: https://www.strandbad-luebars.de/
+- name: catering company
+  image: catering_company.png
+  url: https://www.catering-company-berlin.de/
   presenter: true
 
 - name: psd bank
