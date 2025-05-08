@@ -8,7 +8,7 @@ logo: dersonnezunah.png
 picture: dersonnezunah.jpg
 year: 2025
 day: sunday
-stagetime: Sonntag, 13. Juli 2024, 19:00 Uhr
+stagetime: Sonntag, 13. Juli 2025, 19:00 Uhr
 youtube: HL9sWQtykmQ
 ---
 
