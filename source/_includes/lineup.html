@@ -36,7 +36,7 @@
 		<div class="timeslot">22:00</div>
 		<div class="timeslot">23:00</div>
 	</div>
-	{% assign bands = site.bands | where: 'year', 2024 | sort: 'stagetime'  %}
+	{% assign bands = site.bands | where: 'year', 2025 | sort: 'stagetime'  %}
 	<div class="col-xs-3 day friday">
 		{% for band in bands %}
 			{% if band.stagetime contains 'Freitag' %}
