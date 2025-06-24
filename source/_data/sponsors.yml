@@ -74,58 +74,70 @@
 # | (_) | |_| | | |  __/ |
 #  \___/ \__|_| |_|\___|_|
 
-# - name: popella
-#  image: popella.png
-#  url: https://www.popella.de/
-
-# - name: phrenetica
-#   image: phrenetica.png
-#   url: https://phrenetica.com/
-
-# - name: excuba
-#  image: excuba2.png
-#  url: https://www.excuba.com
-
-# - name: gpds
-#  image: gpds.png
-#  url: https://www.gpds.de/
+- name: Kawasaki Ducati Berlin
+  image: kawasaki-ducati-berlin.png
+  url: https://kawasaki-holzhauser.de/
 
 - name: binss
   image: binss.png
   url: https://binss.de
 
+- name: API
+  image: api.png
+  url: https://www.apide.de/
+
+- name: tranzept
+  image: tranzept.png
+  url: https://www.tranzept.de/
+
+- name: MyLager
+  image: mylager.png
+  url: https://www.mylager.de/
+
+- name: Lange GP
+  image: LANGE-GP.png
+  url: http://www.lange-gp.de/
+
+- name: No Cosmetics
+  image: Cosmetics.png
+  url: https://www.no-cosmetics.de/
+
+- name: gemeinde
+  image: evgemeindemariendorf.png
+  url: https://www.mariendorf-evangelisch.de/
+
 - name: swi
   image: swi.png
   url: https://www.die-hauptstadtbauer.de/
 
-- name: gemeinde
-  image: gemeinde.png
-  url: https://www.mariendorf-evangelisch.de/
+- name: ksd
+  image: ksd24.berlin.png
+  url: https://ksd24.berlin/  
+
+- name: zimmer_und_partner
+  image: zup.png
+  url: "#"
+  
+- name: gpds
+  image: gpds.png
+  url: https://www.gpds.de/
+
+- name: Liebheit
+  image: liebheit.png
+  url: https://liebheit.de/
+
+- name: Tims kanadische Backwaren
+  image: timskanadischebackwaren.png
+  url: https://timsbackwaren.de/
 
 - name: fjedn
   image: fjedn.png
   url: https://www.fjedn.berlin/
 
-- name: ksd
-  image: ksd.png
-  url: https://ksd24.berlin/
-
-- name: efg_baerollenroth
-  image: efg_baerollenroth.png
-  url: https://www.efg-gruppe.de/de/unternehmen/efg-baer-ollenroth
-
-- name: zimmer_und_partner
-  image: zup.png
-  url: "#"
-
 - name: sg-kdv
   image: sg-kdv.png
   url: https://gurkasch.com
   
-- name: tranzept
-  image: tranzept.png
-  url: https://www.tranzept.de/
-
-- name: Hildebrandt
-  image: hildebrandt.png
-  url: https://hildebrandt-veranstaltungstechnik.de/
+- name: Berlin gegen Nazis
+  image: Berlin-gegen-Nazis.png
+  url: https://berlin-gegen-nazis.de/
