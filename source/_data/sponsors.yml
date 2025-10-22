@@ -15,10 +15,10 @@
   url: https://www.catering-company-berlin.de/
   presenter: true
 
-- name: psd bank
-  image: psd.png
-  url: https://www.psd-berlin-brandenburg.de/
-  presenter: true
+# - name: psd bank
+#  image: psd.png
+#  url: https://www.psd-berlin-brandenburg.de/
+#  presenter: true
 
 - name: starfm
   image: star_fm.png
