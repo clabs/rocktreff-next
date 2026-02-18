@@ -52,15 +52,15 @@
 #   url: http://www.amazon.de/
 #   main: true
 
-- name: nitz-nitz
-  image: nitz-nitz.png
-  url: https://www.nitz-nitz.de/
-  main: true
+#- name: nitz-nitz
+#  image: nitz-nitz.png
+#  url: https://www.nitz-nitz.de/
+#  main: true
 
-- name: piereg
-  image: piereg.png
-  url: https://www.piereg.de/
-  main: true
+#- name: piereg
+#  image: piereg.png
+#  url: https://www.piereg.de/
+#  main: true
 
 - name: stilbrand
   image: stilbrand.png
@@ -74,69 +74,69 @@
 # | (_) | |_| | | |  __/ |
 #  \___/ \__|_| |_|\___|_|
 
-- name: Kawasaki Ducati Berlin
-  image: kawasaki-ducati-berlin.png
-  url: https://kawasaki-holzhauser.de/
+#- name: Kawasaki Ducati Berlin
+#  image: kawasaki-ducati-berlin.png
+#  url: https://kawasaki-holzhauser.de/
 
-- name: binss
-  image: binss.png
-  url: https://binss.de
+#- name: binss
+#  image: binss.png
+#  url: https://binss.de
 
-- name: API
-  image: api.png
-  url: https://www.apide.de/
+#- name: API
+#  image: api.png
+#  url: https://www.apide.de/
 
-- name: tranzept
-  image: tranzept.png
-  url: https://www.tranzept.de/
+#- name: tranzept
+#  image: tranzept.png
+#  url: https://www.tranzept.de/
 
-- name: MyLager
-  image: mylager.png
-  url: https://www.mylager.de/
+#- name: MyLager
+#  image: mylager.png
+#  url: https://www.mylager.de/
 
-- name: Lange GP
-  image: LANGE-GP.png
-  url: http://www.lange-gp.de/
+#- name: Lange GP
+#  image: LANGE-GP.png
+#  url: http://www.lange-gp.de/
 
-- name: No Cosmetics
-  image: Cosmetics.png
-  url: https://www.no-cosmetics.de/
+#- name: No Cosmetics
+#  image: Cosmetics.png
+#  url: https://www.no-cosmetics.de/
 
 - name: gemeinde
   image: evgemeindemariendorf.png
   url: https://www.mariendorf-evangelisch.de/
 
-- name: swi
-  image: swi.png
-  url: https://www.die-hauptstadtbauer.de/
+#- name: swi
+#  image: swi.png
+#  url: https://www.die-hauptstadtbauer.de/
 
-- name: ksd
-  image: ksd24.berlin.png
-  url: https://ksd24.berlin/  
+#- name: ksd
+#  image: ksd24.berlin.png
+#  url: https://ksd24.berlin/  
 
-- name: zimmer_und_partner
-  image: zimmerundpartner.png
-  url: "#"
+#- name: zimmer_und_partner
+#  image: zimmerundpartner.png
+#  url: "#"
   
-- name: gpds
-  image: gpds.png
-  url: https://www.gpds.de/
+#- name: gpds
+#  image: gpds.png
+#  url: https://www.gpds.de/
 
-- name: Liebheit
-  image: liebheit.png
-  url: https://liebheit.de/
+#- name: Liebheit
+#  image: liebheit.png
+#  url: https://liebheit.de/
 
-- name: Tims kanadische Backwaren
-  image: timskanadischebackwaren.png
-  url: https://timsbackwaren.de/
+#- name: Tims kanadische Backwaren
+#  image: timskanadischebackwaren.png
+#  url: https://timsbackwaren.de/
 
 - name: fjedn
   image: fjedn.png
   url: https://www.fjedn.berlin/
 
-- name: sg-kdv
-  image: sg-kdv.png
-  url: https://gurkasch.com
+#- name: sg-kdv
+#  image: sg-kdv.png
+#  url: https://gurkasch.com
   
 - name: Berlin gegen Nazis
   image: Berlin-gegen-Nazis.png
