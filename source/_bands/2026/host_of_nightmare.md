@@ -11,7 +11,7 @@ day: saturday
 stagetime: Samstag, 4. Juli 2026, 22:00 Uhr
 youtube: 2gfQe6NLbn4
 ---
-ie moderne Metal-Band Host of Nightmare, ehemals bekannt als Lost Ember, wurde
+Die moderne Metal-Band Host of Nightmare, ehemals bekannt als Lost Ember, wurde
 2019 in Deutschland gegründet. Von Anfang an verfolgte die Band eine klare
 Vision: modernen Metal zu erschaffen, der sich von starren Genregrenzen löst
 und stattdessen ein breites Spektrum musikalischer Einflüsse in sich vereint.
