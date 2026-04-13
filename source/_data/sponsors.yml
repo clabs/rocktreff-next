@@ -15,11 +15,6 @@
   url: https://www.catering-company-berlin.de/
   presenter: true
 
-# - name: psd bank
-#  image: psd.png
-#  url: https://www.psd-berlin-brandenburg.de/
-#  presenter: true
-
 - name: starfm
   image: star_fm.png
   url: https://starfm.de/
@@ -37,34 +32,34 @@
 # | | | | | | (_| | | | | |
 # |_| |_| |_|\__,_|_|_| |_|
 
-# - name: faces
-#   image: faces.png
-#   url: https://www.facesvt.de/
-#   main: true
+- name: BB Bank
+  image: BBBank.png
+  url: https://www.bbbank.de/
+  main: true
 
-# - name: marienpark
-#   image: marienpark.png
-#   url: https://marienpark-berlin.com/
-#   main: true
+- name: nitz-nitz
+  image: nitz-nitz.png
+  url: https://www.nitz-nitz.de/
+  main: true
 
-# - name: amazon
-#   image: amazon.png
-#   url: http://www.amazon.de/
-#   main: true
-
-#- name: nitz-nitz
-#  image: nitz-nitz.png
-#  url: https://www.nitz-nitz.de/
-#  main: true
-
-#- name: piereg
-#  image: piereg.png
-#  url: https://www.piereg.de/
-#  main: true
+- name: piereg
+  image: piereg.png
+  url: https://www.piereg.de/
+  main: true
 
 - name: stilbrand
   image: stilbrand.png
   url: https://www.stilbrand.de/
+  main: true
+
+- name: API
+  image: api.png
+  url: https://www.apide.de/
+  main: true
+
+- name: MyLager
+  image: mylager.png
+  url: https://www.mylager.de/
   main: true
 
 
@@ -78,21 +73,13 @@
 #  image: kawasaki-ducati-berlin.png
 #  url: https://kawasaki-holzhauser.de/
 
-#- name: binss
-#  image: binss.png
-#  url: https://binss.de
-
-#- name: API
-#  image: api.png
-#  url: https://www.apide.de/
+- name: binss
+  image: binss.png
+  url: https://binss.de
 
 #- name: tranzept
 #  image: tranzept.png
 #  url: https://www.tranzept.de/
-
-#- name: MyLager
-#  image: mylager.png
-#  url: https://www.mylager.de/
 
 #- name: Lange GP
 #  image: LANGE-GP.png
@@ -106,17 +93,17 @@
   image: evgemeindemariendorf.png
   url: https://www.mariendorf-evangelisch.de/
 
-#- name: swi
-#  image: swi.png
-#  url: https://www.die-hauptstadtbauer.de/
+- name: swi
+  image: swi.png
+  url: https://www.die-hauptstadtbauer.de/
 
 #- name: ksd
 #  image: ksd24.berlin.png
 #  url: https://ksd24.berlin/  
 
-#- name: zimmer_und_partner
-#  image: zimmerundpartner.png
-#  url: "#"
+- name: zimmer_und_partner
+  image: zimmerundpartner.png
+  url: "#"
   
 #- name: gpds
 #  image: gpds.png
@@ -126,9 +113,9 @@
 #  image: liebheit.png
 #  url: https://liebheit.de/
 
-#- name: Tims kanadische Backwaren
-#  image: timskanadischebackwaren.png
-#  url: https://timsbackwaren.de/
+- name: Metality
+  image: metality.png
+  url: https://metality.org/projekte/foerderprojekte/ynra
 
 - name: fjedn
   image: fjedn.png
