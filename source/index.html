@@ -84,6 +84,52 @@ permalink: '/'
       </div>
     </div>
   </section>
+  <section class="slide sponsors" id="sponsors">
+    <div class="container sponsors">
+      <div class="row col-lg-12">
+        <h1>Unterstützer</h1>
+      </div>
+      <div class="row">
+        <div class="col-lg-6">
+          <p>
+            Dass der 41. ROCKTREFF immer noch für alle Besucherinnen und Besucher bei
+            freiem Eintritt angeboten werden kann, verdanken wir den vielen ehrenamtlichen
+            Helferinnen und Helfern sowie den Musikerinnen und Musikern der Bands, die
+            ohne Gage auftreten und den vielen freien Trägern, die sich am Spielfest mit
+            ihren Angeboten beteiligen. Für die Basisfinanzierung des ROCKTREFFS und
+            Spielfestes sorgt von Anfang an, also seit 1984, das Jugendamt Tempelhof-
+            Schöneberg als Veranstalter. Um die Gesamtkosten zu decken, sind darüber
+            hinaus viele kleinere und größere Sponsoren nötig. Alle zusammen machen den
+            ROCKTREFF und das Spielfest erst möglich. Dafür gebührt allen Unterstützern
+            ein herzliches Dankeschön.
+          </p>
+        </div>
+        <div class="main col-lg-6">
+          {% for sponsor in site.data.sponsors %}
+            {% if sponsor.main %}
+            <a href="{{ sponsor.url }}" target="_blank">
+              <img src="https://static.rocktreff.de/sponsors/{{sponsor.image}}" alt="Sponsor Logo {{sponsor.name}}">
+            </a>
+            {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+      <div class="row">
+        <div class="other col-lg-12">
+          <hr>
+          {% for sponsor in site.data.sponsors %}
+            {% unless sponsor.presenter %}
+            {% unless sponsor.main %}
+            <a href="{{ sponsor.url }}" target="_blank">
+              <img src="https://static.rocktreff.de/sponsors/{{sponsor.image}}" alt="Sponsor Logo {{sponsor.name}}">
+            </a>
+            {% endunless %}
+            {% endunless %}
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </section>
   <section class="slide second">
     <div class="bg">
       <div class="image masked"></div>
@@ -91,24 +137,6 @@ permalink: '/'
   </section>
   <section class="slide map">
     <a name="map"></a>
-    <div class="container verbote">
-      <div class="row">
-        <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
-          <h3>
-             Aus Sicherheits- und Versicherungsrelevanten Gründen ist die Mitnahme der folgenden Gegenstände nicht gestattet
-          </h3>
-          <img src="/images/rt_verbote.png">
-          <p>
-            Ebenfalls verboten sind Waffen, Pyrotechnik, Laser Pointer, Drohnen,
-            Lärminstrumente (Megaphone, Handsiren, Gasdruckfanfahren, Lautsprecher),
-            Fahnen, Transparente, Banner und Drogen. Der Rocktreff ist ein sicher
-            Ort für jede Ethnie, jedes Geschlecht und jede sexuelle Orientierung:
-            Rassismus, Sexismus oder Homophobie wird bei uns nicht toleriert und
-            kann zum Hausverbot führen.
-          </p>
-        </div>
-      </div>
-    </div>
     <div class="container approach">
       <div class="row">
         <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
@@ -169,48 +197,22 @@ permalink: '/'
       $( '.slide.map .noscroll' ).on( 'click', onMapClickHandler )
     </script>
   </section>
-  <section class="slide sponsors" id="sponsors">
-    <div class="container sponsors">
-      <div class="row col-lg-12">
-        <h1>Unterstützer</h1>
-      </div>
+  <section class="slide verbote">
+    <div class="container verbote">
       <div class="row">
-        <div class="col-lg-6">
+        <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+          <h3>
+             Aus Sicherheits- und Versicherungsrelevanten Gründen ist die Mitnahme der folgenden Gegenstände nicht gestattet
+          </h3>
+          <img src="/images/rt_verbote.png">
           <p>
-            Dass der 41. ROCKTREFF immer noch für alle Besucherinnen und Besucher bei
-            freiem Eintritt angeboten werden kann, verdanken wir den vielen ehrenamtlichen
-            Helferinnen und Helfern sowie den Musikerinnen und Musikern der Bands, die
-            ohne Gage auftreten und den vielen freien Trägern, die sich am Spielfest mit
-            ihren Angeboten beteiligen. Für die Basisfinanzierung des ROCKTREFFS und
-            Spielfestes sorgt von Anfang an, also seit 1984, das Jugendamt Tempelhof-
-            Schöneberg als Veranstalter. Um die Gesamtkosten zu decken, sind darüber
-            hinaus viele kleinere und größere Sponsoren nötig. Alle zusammen machen den
-            ROCKTREFF und das Spielfest erst möglich. Dafür gebührt allen Unterstützern
-            ein herzliches Dankeschön.
+            Ebenfalls verboten sind Waffen, Pyrotechnik, Laser Pointer, Drohnen,
+            Lärminstrumente (Megaphone, Handsiren, Gasdruckfanfahren, Lautsprecher),
+            Fahnen, Transparente, Banner und Drogen. Der Rocktreff ist ein sicher
+            Ort für jede Ethnie, jedes Geschlecht und jede sexuelle Orientierung:
+            Rassismus, Sexismus oder Homophobie wird bei uns nicht toleriert und
+            kann zum Hausverbot führen.
           </p>
-        </div>
-        <div class="main col-lg-6">
-          {% for sponsor in site.data.sponsors %}
-            {% if sponsor.main %}
-            <a href="{{ sponsor.url }}" target="_blank">
-              <img src="https://static.rocktreff.de/sponsors/{{sponsor.image}}" alt="Sponsor Logo {{sponsor.name}}">
-            </a>
-            {% endif %}
-          {% endfor %}
-        </div>
-      </div>
-      <div class="row">
-        <div class="other col-lg-12">
-          <hr>
-          {% for sponsor in site.data.sponsors %}
-            {% unless sponsor.presenter %}
-            {% unless sponsor.main %}
-            <a href="{{ sponsor.url }}" target="_blank">
-              <img src="https://static.rocktreff.de/sponsors/{{sponsor.image}}" alt="Sponsor Logo {{sponsor.name}}">
-            </a>
-            {% endunless %}
-            {% endunless %}
-          {% endfor %}
         </div>
       </div>
     </div>
