@@ -9,7 +9,7 @@ picture: gruessevonmicha.jpg
 year: 2026
 day: saturday
 stagetime: Samstag, 4. Juli 2026, 21:00 Uhr
-youtube: ZA2Kc_w2il4
+youtube: ZA2Kc_w2iI4
 ---
 grüßevonmicha verbinden Rap, Metal & Elektro mit konsequent dumm-intelligenten
 Lyrics – irgendwo zwischen Deichkind, The Butcher Sisters und Knorkator. Die

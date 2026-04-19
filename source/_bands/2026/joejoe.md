@@ -3,12 +3,13 @@ layout: band
 title: JoeJoe
 
 
-website:
+website: https://linktr.ee/joejoe_music
 logo: joejoe.png
 picture: joejoe.jpg
 year: 2026
 day: saturday
 stagetime: Samstag, 4. Juli 2026, 16:00 Uhr
+spotify: spotify:artist:11Dh4tK58PqWjTJZsHIVOy
 ---
 JoeJoe ist eine Pop-Punk-Band aus Berlin mit einem energiegeladenen, modernen
 und facettenreichen Sound.

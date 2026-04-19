@@ -3,7 +3,7 @@ layout: band
 title: PIGEONS
 
 
-website:
+website: https://www.pigeonsberlin.de/
 logo: pigeons.png
 picture: pigeons.jpg
 year: 2026
