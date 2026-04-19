@@ -21,7 +21,7 @@ permalink: '/'
   <link rel="icon" type="image/x-icon" href="./favicon.ico" />
   <link rel="stylesheet" type="text/css" href="styles/main.css">
   <link rel="stylesheet" href="/vendor/fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
-  <script type="text/javascript" src="https://static.rocktreff.de/js/jquery-2.1.1.min.js"/></script>
+  <script type="text/javascript" src="/js/jquery-2.1.1.min.js"/></script>
 </head>
 <body style="background-color:#000">
   {% include navigation.html attribs="class='hidden-xs'"%}
@@ -34,7 +34,7 @@ permalink: '/'
       {% for sponsor in site.data.sponsors %}
         {% if sponsor.presenter %}
         <a href="{{ sponsor.url }}" target="_blank">
-          <img src="https://static.rocktreff.de/sponsors/{{sponsor.image}}" alt="Sponsor Logo {{sponsor.name}}">
+          <img src="/static/sponsors/{{sponsor.image}}" alt="Sponsor Logo {{sponsor.name}}">
         </a>
         {% endif %}
       {% endfor %}
@@ -193,7 +193,7 @@ permalink: '/'
           {% for sponsor in site.data.sponsors %}
             {% if sponsor.main %}
             <a href="{{ sponsor.url }}" target="_blank">
-              <img src="https://static.rocktreff.de/sponsors/{{sponsor.image}}" alt="Sponsor Logo {{sponsor.name}}">
+              <img src="/static/sponsors/{{sponsor.image}}" alt="Sponsor Logo {{sponsor.name}}">
             </a>
             {% endif %}
           {% endfor %}
@@ -206,7 +206,7 @@ permalink: '/'
             {% unless sponsor.presenter %}
             {% unless sponsor.main %}
             <a href="{{ sponsor.url }}" target="_blank">
-              <img src="https://static.rocktreff.de/sponsors/{{sponsor.image}}" alt="Sponsor Logo {{sponsor.name}}">
+              <img src="/static/sponsors/{{sponsor.image}}" alt="Sponsor Logo {{sponsor.name}}">
             </a>
             {% endunless %}
             {% endunless %}
@@ -240,12 +240,12 @@ permalink: '/'
     </div>
   </section>
   <section class="slide spielfest_sponsors">
-    <img src="https://static.rocktreff.de/sponsors/catering_company_light.png" alt="Catering Company Logo">
-    <img src="https://static.rocktreff.de/sponsors/stilbrand_light.png" alt="Stilbrand Logo">
-    <img src="https://static.rocktreff.de/sponsors/piereg_light.png" alt="Piereg Logo">
-    <img src="https://static.rocktreff.de/sponsors/stadtundland.png" alt="Stadt und Land Logo">
-    <img src="https://static.rocktreff.de/sponsors/nitz-nitz-pos.png" alt="Nitz und Nitz Logo">
-    <img src="https://static.rocktreff.de/sponsors/binss.png" alt="B.I.N.S.S. LOGO">
+    <img src="/static/sponsors/catering_company_light.png" alt="Catering Company Logo">
+    <img src="/static/sponsors/stilbrand_light.png" alt="Stilbrand Logo">
+    <img src="/static/sponsors/piereg_light.png" alt="Piereg Logo">
+    <img src="/static/sponsors/stadtundland.png" alt="Stadt und Land Logo">
+    <img src="/static/sponsors/nitz-nitz-pos.png" alt="Nitz und Nitz Logo">
+    <img src="/static/sponsors/binss.png" alt="B.I.N.S.S. LOGO">
   </section>
   <section class="slide foo">
     <div class="bg">
@@ -274,8 +274,8 @@ permalink: '/'
         </div>
         <div class="col-sm-2">
           <div class="flickr gallery">
-            <a class="fancybox" rel="group" href="https://static.rocktreff.de/crew/crew2022.jpg">
-              <img src="https://static.rocktreff.de/crew/crew2022.jpg" style="width:100%;height:auto" alt="Rocktreff Crewfoto 2022">
+            <a class="fancybox" rel="group" href="/static/crew/crew2022.jpg">
+              <img src="/static/crew/crew2022.jpg" style="width:100%;height:auto" alt="Rocktreff Crewfoto 2022">
             </a>
           </div>
         </div>
@@ -311,7 +311,7 @@ permalink: '/'
             Spenden von Sponsoren akquirieren. Hilf uns bitte dabei!
           </p>
           <p>
-            Sponsoring-Interessierte kontaktieren bitte für Details 
+            Sponsoring-Interessierte kontaktieren bitte für Details
             <span class="email" domain="rocktreff.de">sponsoring</span>
           </p>
         </div>
@@ -394,10 +394,10 @@ permalink: '/'
       </div>
       <div style="text-align:center;margin-top:2em">
         <a href="" target="_blank">
-          <img src="https://static.rocktreff.de/sponsors/jugendamt.png" width="200" alt="Jugendamt Tempelhof Schoeneberg Logo">
+          <img src="/static/sponsors/jugendamt.png" width="200" alt="Jugendamt Tempelhof Schoeneberg Logo">
         </a>
         <a href="http://www.cpye.de/" target="_blank">
-          <img src="https://static.rocktreff.de/sponsors/cpye_inv.png" alt="CPYE e.V. Logo">
+          <img src="/static/sponsors/cpye_inv.png" alt="CPYE e.V. Logo">
         </a>
       </div>
     </div>

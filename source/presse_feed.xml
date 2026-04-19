@@ -18,13 +18,13 @@ permalink: /presse/feed.xml
 				<guid isPermaLink="false">{{ site.url }}{{ release.url }}</guid>
 				<description>
 					{% if release.picture %}
-					&lt;img src="https://static.rocktreff.de/presse/bilder/{{ release.picture }}"&gt;
+          &lt;img src="https:/www.rocktreff.de/static/presse/bilder/{{ release.picture }}"&gt;
 					{% endif %}
 					{{ release.content | xml_escape }}
 				</description>
 				<content:encoded><![CDATA[
 					{% if release.picture %}
-					&lt;img src="https://static.rocktreff.de/presse/bilder/{{ release.picture }}"&gt;
+          &lt;img src="https://www.rocktreff.de/static/presse/bilder/{{ release.picture }}"&gt;
 					{% endif %}
 					{{ release.content | xml_escape }}
 				]]>
