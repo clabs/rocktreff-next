@@ -15,16 +15,11 @@ ______ _____ _____  _   _____________ _________________
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
   <title>Helfen | ROCKTREFF</title>
-  <meta property="og:title" content="Der ROCKTREFF braucht Hilfe!" />
-  <meta property="og:site_name" content="ROCKTREFF"/>
-  <meta property="og:url" content="https://rocktreff.de{{page.url}}"/>
-  <meta property="og:type" content="website"/>
-  <meta property="og:image" content="https://rocktreff.de/images/og_image.jpg" />
-  <meta property="og:description" content="Der jährlich im Volksparkstadion Mariendorf stattfindende ROCKTREFF ist ein Open Air Festival, das sich ganz der handgemachten Musik verschrieben hat. Hier werden die Gitarren ausgepackt, die Verstärker hochgeregelt und gemeinsam das Haupthaar geschüttelt." />
+  {% include opengraph.html %}
   <link rel="stylesheet" type="text/css" href="/styles/main.css">
   <link rel="stylesheet" href="/vendor/fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
   <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-  <script type="text/javascript" src="https://static.rocktreff.de/js/jquery-2.1.1.min.js"/></script>
+  <script type="text/javascript" src="/js/jquery-2.1.1.min.js"/></script>
 </head>
 <body class="page help">
   {% include navigation.html%}
@@ -96,8 +91,8 @@ ______ _____ _____  _   _____________ _________________
           <h3>Crew 2015</h3>
 
           <div class="flickr gallery" style="float:left;padding-right: 0.2em;">
-            <a class="fancybox" rel="group" href="https://static.rocktreff.de/crew/crew2015.jpg">
-              <img src="https://static.rocktreff.de/crew/crew2015.jpg">
+            <a class="fancybox" rel="group" href="/static/crew/crew2015.jpg">
+              <img src="/static/crew/crew2015.jpg">
             </a>
           </div>
           Fast 60 Leute stark war unsere Crew 2015! <a class="link" href="https://www.flickr.com/photos/rocktreff/albums/72157658561531956/" target="blank">Hier die Bilder</a>.

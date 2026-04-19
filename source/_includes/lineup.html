@@ -40,7 +40,7 @@
 	<div class="col-xs-3 day friday">
 		{% for band in bands %}
 			{% if band.stagetime contains 'Freitag' %}
-			<a href="{{ band.url }}" class="thumb" style="background-image:url('https://static.rocktreff.de/bands/pictures/{{ band.picture }}')">
+			<a href="{{ band.url }}" class="thumb" style="background-image:url('/static/bands/pictures/{{ band.picture }}')">
 				<div class="name">{{ band.title }}</div>
 			</a>
 			{% endif %}
@@ -49,7 +49,7 @@
 	<div class="col-xs-3 day saturday">
 		{% for band in bands  %}
 			{% if band.stagetime contains 'Samstag' %}
-			<a href="{{ band.url }}" class="thumb" style="background-image:url('https://static.rocktreff.de/bands/pictures/{{ band.picture }}')">
+			<a href="{{ band.url }}" class="thumb" style="background-image:url('/static/bands/pictures/{{ band.picture }}')">
 				<div class="name">{{ band.title }}</div>
 			</a>
 			{% endif %}
@@ -58,7 +58,7 @@
 	<div class="col-xs-3 day sunday">
 		{% for band in bands %}
 			{% if band.stagetime contains 'Sonntag' %}
-			<a href="{{ band.url }}" class="thumb" style="background-image:url('https://static.rocktreff.de/bands/pictures/{{ band.picture }}')">
+			<a href="{{ band.url }}" class="thumb" style="background-image:url('/static/bands/pictures/{{ band.picture }}')">
 				<div class="name">{{ band.title }}</div>
 			</a>
 			{% endif %}
