@@ -109,9 +109,9 @@
 #  image: gpds.png
 #  url: https://www.gpds.de/
 
-#- name: Liebheit
-#  image: liebheit.png
-#  url: https://liebheit.de/
+- name: Liebheit
+  image: liebheit.png
+  url: https://liebheit.de/
 
 - name: Metality
   image: metality.png
