@@ -121,9 +121,9 @@
   image: fjedn.png
   url: https://www.fjedn.berlin/
 
-#- name: sg-kdv
-#  image: sg-kdv.png
-#  url: https://gurkasch.com
+- name: sg-kdv
+  image: sg-kdv.png
+  url: https://gurkasch.com
   
 - name: Berlin gegen Nazis
   image: Berlin-gegen-Nazis.png
