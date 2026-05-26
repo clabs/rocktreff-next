@@ -3,7 +3,7 @@ name: Build & Upload rocktreff.de
 on:
   push:
     branches:
-    - master
+    - feat/gh-pages-deploy
 
 jobs:
   deploy:
