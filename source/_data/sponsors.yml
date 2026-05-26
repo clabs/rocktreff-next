@@ -105,6 +105,14 @@
   image: sg-kdv.png
   url: https://gurkasch.com
 
+- name: Code Alliance
+  image: code-alliance.png
+  url: https://www.code-alliance.de/
+
+- name: Phrenetica
+  image: phrenetica.png
+  url: https://www.instagram.com/phrenetica/
+
 - name: fjedn
   image: fjedn.png
   url: https://www.fjedn.berlin/
