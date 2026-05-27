@@ -1,14 +1,12 @@
 ---
+day: friday
 layout: band
-title: katie drives
-
-
-website: https://katiedrives.com/
 logo: katie_drives.png
 picture: katie_drives.jpg
-year: 2025
-day: friday
 stagetime: Freitag, 11. Juli 2025, 21:00 Uhr
+title: katie drives
+website: https://katiedrives.com/
+year: 2025
 youtube: Fctk06gH3xg
 ---
 

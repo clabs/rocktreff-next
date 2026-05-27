@@ -1,14 +1,12 @@
 ---
+day: saturday
 layout: band
-title: Elivra
-
-
-website: https://elivra.de/
 logo: elivra.png
 picture: elivra.jpg
-year: 2025
-day: saturday
 stagetime: Samstag, 12. Juli 2025, 22:00 Uhr
+title: Elivra
+website: https://elivra.de/
+year: 2025
 ---
 
 Elivra ist eine Melodic-Metalcore-Band aus Berlin, gegründet 2024. Ihr Sound

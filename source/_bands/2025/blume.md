@@ -1,14 +1,12 @@
 ---
+day: sunday
 layout: band
-title: BLŪMĒ
-
-
-website: https://bandblume.bandcamp.com/
 logo: blume.png
 picture: blume.jpg
-year: 2025
-day: sunday
 stagetime: Sonntag, 13. Juli 2025, 16:00 Uhr
+title: BLŪMĒ
+website: https://bandblume.bandcamp.com/
+year: 2025
 youtube: 9n3coVTxPzo
 ---
 

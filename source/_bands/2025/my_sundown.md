@@ -1,21 +1,19 @@
 ---
+day: friday
 layout: band
-title: My Sundown
-
-
-website: https://www.mysundown.de
 logo: my_sundown.png
 picture: my_sundown.jpg
-year: 2025
-day: friday
 stagetime: Freitag, 11. Juli 2025, 22:00 Uhr
+title: My Sundown
+website: https://www.mysundown.de
+year: 2025
 youtube: kfJunNTzKjo
 ---
 
 My Sundown sind vier Freunde aus Berlin, die seit Ende 2018 die Bühnen der Welt
 unsicher machen.
 
-Ihren Stil beschreiben sie als Alternative Metal, was bedeutet das in  ihrer
+Ihren Stil beschreiben sie als Alternative Metal, was bedeutet das in ihrer
 Musik viel Platz für unterschiedliche Einflüsse gelassen wird. Egal ob Nu Metal,
 Alternative Rock oder Me-talcore, sie spielen worauf sie gerade Lust haben. Und
 obwohl ihr Sound modern klingt, verneigt er sich dabei immer vor den Vorbildern

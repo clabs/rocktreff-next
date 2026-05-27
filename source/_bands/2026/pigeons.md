@@ -1,15 +1,14 @@
 ---
+day: friday
 layout: band
-title: PIGEONS
-
-
-website: https://www.pigeonsberlin.de/
 logo: pigeons.png
 picture: pigeons.jpg
-year: 2026
-day: friday
 stagetime: Freitag, 3. Juli 2026, 19:00 Uhr
+title: PIGEONS
+website: https://www.pigeonsberlin.de/
+year: 2026
 ---
+
 Berlin, Oktober 2024: Fünf Frauen schnappen sich ihre Instrumente und gründen
 eine Band. Kein halbes Jahr später standen sie schon auf der Bühne – warum auch
 Zeit verschwenden? Seitdem ist viel passiert, ein Gig folgt dem nächsten und

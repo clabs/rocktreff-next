@@ -1,19 +1,17 @@
 ---
-layout: band
-title: What's Left Behind
-
-
-website: https://www.facebook.com/Whatsleftbehindband
-style: tba
-logo: whatsleftbehind.png
-picture: whatsleftbehind.jpg
-year: 2023
-day: friday
-stagetime: Freitag, 30. Juni 2023, 21:00 Uhr
-youtube: sXioRSGptVA
+#bandcamp:
 #soundcloud:
 #spotify:
-#bandcamp:
+day: friday
+layout: band
+logo: whatsleftbehind.png
+picture: whatsleftbehind.jpg
+stagetime: Freitag, 30. Juni 2023, 21:00 Uhr
+style: tba
+title: What's Left Behind
+website: https://www.facebook.com/Whatsleftbehindband
+year: 2023
+youtube: sXioRSGptVA
 ---
 
 What's Left Behind ist Metalcore mit Leidenschaft. Seit ihrer Gründung in 2013

@@ -1,14 +1,12 @@
 ---
+day: saturday
 layout: band
-title: MØMNT
-
-
-website: https://www.instagram.com/momnt_music/
 logo: momnt.png
 picture: momnt.jpg
-year: 2025
-day: saturday
 stagetime: Samstag, 12. Juli 2025, 16:00 Uhr
+title: MØMNT
+website: https://www.instagram.com/momnt_music/
+year: 2025
 youtube: zbQUppW-lGw
 ---
 
@@ -17,7 +15,7 @@ flag fly!“ MØMNT wollen mit ihrer Musik einen Safe Space kreieren. Ein Ort, a
 dem Menschen zusammenkommen. Ein Ort, an dem wir einander respektieren, einander
 wertschätzen und an dem wir zusammen Spaß haben können. Egal ob mit heavy
 Breakdowns, Technobeats oder poppigen Melodien. Das Leben ist Vielfalt, genauso
-ist die Musik von MØMNT. 
+ist die Musik von MØMNT.
 
 Mit deutschen Texten erzählen sie von den Herausforderungen einer sich permanent
 verändernden Welt ohne dabei die Hoffnung zu verlieren. MØMNT spielen seit 2024

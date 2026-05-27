@@ -1,19 +1,17 @@
 ---
-layout: band
-title: Chapter 16
-
-
-website: https://linktr.ee/chapter16
-style: tba
-logo: chapter16.png
-picture: chapter16.jpg
-year: 2023
-day: sunday
-stagetime: Sonntag, 2. Juli 2023, 16:00 Uhr
-youtube: uEdEXOfYjw4
+#bandcamp:
 #soundcloud:
 #spotify:
-#bandcamp:
+day: sunday
+layout: band
+logo: chapter16.png
+picture: chapter16.jpg
+stagetime: Sonntag, 2. Juli 2023, 16:00 Uhr
+style: tba
+title: Chapter 16
+website: https://linktr.ee/chapter16
+year: 2023
+youtube: uEdEXOfYjw4
 ---
 
 Chapter 16 ist eine junge, aufstrebende Schülerband aus Berlin. Seit 2016

@@ -1,19 +1,17 @@
 ---
-layout: band
-title: Dukes
-
-
-website: https://dukes.de/
-style: tba
-logo: dukes.png
-picture: dukes.jpg
-year: 2023
-day: saturday
-stagetime: Samstag, 1. Juli 2023, 21:00 Uhr
-youtube: 1pULTuIpud8
+#bandcamp:
 #soundcloud:
 #spotify:
-#bandcamp:
+day: saturday
+layout: band
+logo: dukes.png
+picture: dukes.jpg
+stagetime: Samstag, 1. Juli 2023, 21:00 Uhr
+style: tba
+title: Dukes
+website: https://dukes.de/
+year: 2023
+youtube: 1pULTuIpud8
 ---
 
 Harte Riffs, Berlin, Rock and Roll. Die DUKES gehören zu dieser Stadt wie Lemmy
@@ -29,9 +27,9 @@ Spaß am Leben und lebt laut!!
 Aktuell haben die DUKES ihre Debüt Platte “Hot Enough” veröffentlicht. Es hat
 lange gedauert, das Live Biest DUKES in einen Recording Raum und vor allem
 Studio Aufnahmen zu quetschen. Entstanden sind 11 kraftvolle, gewaltige Rock
-Hymnen, die mit Punk Rock anstoßen und mit Glam Rock ins Bett steigen, ohne
-ihre Herkunft im Blues- und Hardrock zu vernachlässigen.
+Hymnen, die mit Punk Rock anstoßen und mit Glam Rock ins Bett steigen, ohne ihre
+Herkunft im Blues- und Hardrock zu vernachlässigen.
 
 DUKES aus Berlin auf dem Rocktreff Berlin, das heißt Triebwerke zünden auf
-vollen Schub im Auge des Sturms! Zu Hause lässt sich das Leben am Besten
-feiern: Invite the Family, it’s Showtime! We’re Gonna Kick Some Ass Tonight!
+vollen Schub im Auge des Sturms! Zu Hause lässt sich das Leben am Besten feiern:
+Invite the Family, it’s Showtime! We’re Gonna Kick Some Ass Tonight!

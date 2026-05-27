@@ -1,21 +1,19 @@
 ---
-layout: band
-title: Sunday Mayhem
-
-
-website: http://www.sundaymayhem.rocks/
-#website: https://www.facebook.com/SundayMayhem
-#website: https://soundcloud.com/sunday-mayhem
-style: Classic Rock
-logo: sundaymayhem.png
-picture: sundaymayhem.jpg
-year: 2018
-day: saturday
-stagetime: Samstag, 30. Juni 2018, 18:00 Uhr
-youtube: HfHl4_pcxkc
+#bandcamp:
 #soundcloud:
 #spotify:
-#bandcamp:
+#website: https://soundcloud.com/sunday-mayhem
+#website: https://www.facebook.com/SundayMayhem
+day: saturday
+layout: band
+logo: sundaymayhem.png
+picture: sundaymayhem.jpg
+stagetime: Samstag, 30. Juni 2018, 18:00 Uhr
+style: Classic Rock
+title: Sunday Mayhem
+website: http://www.sundaymayhem.rocks/
+year: 2018
+youtube: HfHl4_pcxkc
 ---
 
 Fünf brennende Seelen, die in den 80er durch Motorradunfälle und Drogenexzesse

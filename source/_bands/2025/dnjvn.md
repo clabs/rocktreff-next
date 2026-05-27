@@ -1,14 +1,12 @@
 ---
+day: saturday
 layout: band
-title: DNJVN
-
-
-website: https://dnjvn.de/
 logo: dnjvn.png
 picture: dnjvn.jpg
-year: 2025
-day: saturday
 stagetime: Samstag, 12. Juli 2025, 17:00 Uhr
+title: DNJVN
+website: https://dnjvn.de/
+year: 2025
 youtube: HsJ8MGHVg4M
 ---
 
@@ -16,7 +14,7 @@ Durch Trompeten- und Saxophonhooks angetrieben, präsentieren DNJVN tanz- und
 mitsingbare Songs, die auf Punkrock basieren, aber gerne Ausflüge in benachbarte
 Genres unternehmen. Linus Volkmann bezeichnete die Musik als Powerpop zwischen
 Montreal und Turbostaat. Auch thematisch vielfältig, findet die Band zwischen
-Klamauk, Ironie und Gesellschaftskritik einen angenehm abgeklärten Tonfall. 
+Klamauk, Ironie und Gesellschaftskritik einen angenehm abgeklärten Tonfall.
 
 Wären DNJVN keine Band, wären sie wahrscheinlich die Protagonisten eines
 90er-Jahre-Kinder-Detektiv-Hörspiels. Sie sind auch außerhalb des Proberaums

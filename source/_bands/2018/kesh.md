@@ -1,20 +1,18 @@
 ---
-layout: band
-title: Kesh
-
-
-website: https://www.kesh-music.de
-#website: http://www.facebook.com/KeshundBand
-style: Rock-Funk-Rap
-logo: kesh.png
-picture: kesh.jpg
-year: 2018
-day: sunday
-stagetime: Sonntag, 1. Juli 2018, 18:00 Uhr
-youtube: _NBaJQTFVhA
+#bandcamp:
 #soundcloud:
 #spotify:
-#bandcamp:
+#website: http://www.facebook.com/KeshundBand
+day: sunday
+layout: band
+logo: kesh.png
+picture: kesh.jpg
+stagetime: Sonntag, 1. Juli 2018, 18:00 Uhr
+style: Rock-Funk-Rap
+title: Kesh
+website: https://www.kesh-music.de
+year: 2018
+youtube: _NBaJQTFVhA
 ---
 
 Der junge Rapper, aus der Nähe Berlins mischt seine deutschen Texte mit Genres
