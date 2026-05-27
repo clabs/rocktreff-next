@@ -1020,3 +1020,31 @@ body.page.band .stagetime::before {
 
 /* ---- Privacy page ---- */
 body.page.privacy .box h3 { margin: 1em 0; padding: 0; }
+
+/* ---- 404 page ---- */
+body.page.error-404 .error-box {
+  margin-top: 4em;
+  text-align: center;
+  padding: 3em 2em;
+}
+body.page.error-404 .error-number {
+  font-size: 6em;
+  display: block;
+}
+body.page.error-404 .error-msg {
+  font-size: 1.3em;
+  color: #fff;
+  margin: 1em 0 2em;
+}
+body.page.error-404 .error-cta {
+  display: inline-block;
+  background: var(--gelb);
+  color: #000;
+  font-family: 'big_noodle_titling', Arial, sans-serif;
+  font-size: 1.2em;
+  padding: 0.5em 1.5em;
+  text-decoration: none;
+}
+body.page.error-404 .error-cta:hover {
+  background: var(--gelb-mid);
+}
