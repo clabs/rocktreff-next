@@ -2,7 +2,7 @@
 day: saturday
 layout: band
 logo: junkyard_rebellion.png
-photos: https://gallery.rocktreff.de/gallery/yVwl4HHMj0WiG8glZATZhgCV
+gallery_id: yVwl4HHMj0WiG8glZATZhgCV
 picture: junkyard_rebellion.jpg
 spotify: spotify:album:6aAx9I8rjkucysPSe9W07L
 stagetime: Samstag, 11. Juli 2015, 19:00 Uhr

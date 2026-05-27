@@ -1,7 +1,7 @@
 ---
 layout: band
 logo: hurricane_of_change.jpg
-photos: https://gallery.rocktreff.de/gallery/RSgE49BITWl9AG7pVHRTyokW
+gallery_id: RSgE49BITWl9AG7pVHRTyokW
 stagetime: Samstag, 15. Juni 2013, 22:00 Uhr
 style: Metalcore
 title: Hurricane of Change

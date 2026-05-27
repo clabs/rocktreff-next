@@ -1,7 +1,7 @@
 ---
 layout: band
 logo: maskulini.jpg
-photos: https://gallery.rocktreff.de/gallery/UIF5rVfXth6vZZUuSWy3-1jp
+gallery_id: UIF5rVfXth6vZZUuSWy3-1jp
 spotify: spotify:artist:0aVOiJkOFmqFxoNlo5RZuN
 stagetime: Samstag, 05. Juli 2014, 18:00 Uhr
 style: Funk Rock

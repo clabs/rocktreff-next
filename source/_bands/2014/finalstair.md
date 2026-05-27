@@ -1,6 +1,6 @@
 ---
 layout: band
-photos: https://gallery.rocktreff.de/gallery/KxJXS8E0b_AJgRe5HrP-llQm
+gallery_id: KxJXS8E0b_AJgRe5HrP-llQm
 spotify: spotify:artist:3puFTDrPNDEqVAyZUetejJ
 stagetime: Sonntag, 06. Juli 2014, 19:00 Uhr
 style: Rock

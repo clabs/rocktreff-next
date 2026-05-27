@@ -2,7 +2,7 @@
 day: saturday
 layout: band
 logo: were_all_thieves.png
-photos: https://gallery.rocktreff.de/gallery/vRd_pHRZq2peaMPX3gVOO_Rj
+gallery_id: vRd_pHRZq2peaMPX3gVOO_Rj
 picture: were_all_thieves.jpg
 stagetime: Samstag, 11. Juli 2015, 16:00 Uhr
 style: Heavy Pop Punk

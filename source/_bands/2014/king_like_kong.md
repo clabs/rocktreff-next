@@ -1,7 +1,7 @@
 ---
 layout: band
 logo: kinglikekong.jpg
-photos: https://gallery.rocktreff.de/gallery/zdPp7soyYZUK6ERskihFUHCb
+gallery_id: zdPp7soyYZUK6ERskihFUHCb
 stagetime: Sonntag, 06. Juli 2014, 17:00 Uhr
 style: Rock, Electro, Heavy Pop
 title: King Like Kong

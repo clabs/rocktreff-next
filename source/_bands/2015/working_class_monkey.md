@@ -1,7 +1,7 @@
 ---
 day: friday
 layout: band
-photos: https://gallery.rocktreff.de/gallery/PMy_ElcUJRwQimhVxvThCrTF
+gallery_id: PMy_ElcUJRwQimhVxvThCrTF
 picture: working_class_monkey.jpg
 soundcloud: users/7206768
 stagetime: Freitag, 10. Juli 2015, 20:00 Uhr

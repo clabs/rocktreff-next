@@ -2,7 +2,7 @@
 day: friday
 layout: band
 logo: do_i_smell_cupcakes.png
-photos: https://gallery.rocktreff.de/gallery/1mSmMgzzwtYrAxJkw0vssVpW
+gallery_id: 1mSmMgzzwtYrAxJkw0vssVpW
 picture: doismellcupcakes.jpg
 soundcloud: users/2521655
 stagetime: Freitag, 08. Juli 2016, 19:00 Uhr

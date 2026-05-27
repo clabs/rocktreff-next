@@ -1,7 +1,7 @@
 ---
 layout: band
 logo: live_karaoke.png
-photos: https://gallery.rocktreff.de/gallery/xJ9y9FHkJQIfLw6ok8bINHNX
+gallery_id: xJ9y9FHkJQIfLw6ok8bINHNX
 stagetime: Samstag, 15. Juni 2013, 20:00 Uhr
 style: Fetter Rock mit Karaoke
 title: LIVEkaraoke

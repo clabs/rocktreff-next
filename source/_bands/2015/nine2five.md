@@ -2,7 +2,7 @@
 day: saturday
 layout: band
 logo: nine2five.jpg
-photos: https://gallery.rocktreff.de/gallery/rT4AWDLO8CAW3qDMJk775YG4
+gallery_id: rT4AWDLO8CAW3qDMJk775YG4
 picture: nine2five.jpg
 stagetime: Samstag, 11. Juli 2015, 17:00 Uhr
 style: Alternative Punkrock

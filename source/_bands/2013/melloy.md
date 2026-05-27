@@ -1,7 +1,7 @@
 ---
 layout: band
 logo: melloy.png
-photos: https://gallery.rocktreff.de/gallery/wGTjagQcrYmB0bXh93g2tVzP
+gallery_id: wGTjagQcrYmB0bXh93g2tVzP
 spotify: spotify:artist:426yu11Q7nfM43rKb7mVxI
 stagetime: Samstag, 15. Juni 2013, 21:00 Uhr
 style: Rock-Pop

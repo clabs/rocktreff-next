@@ -2,7 +2,7 @@
 day: saturday
 layout: band
 logo: taina.png
-photos: https://gallery.rocktreff.de/gallery/D9ROlLuVeI0lzxBl4DQRCpJg
+gallery_id: D9ROlLuVeI0lzxBl4DQRCpJg
 picture: taina.jpg
 soundcloud: null
 stagetime: Samstag, 09. Juli 2016, 22:00 Uhr

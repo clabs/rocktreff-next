@@ -1,6 +1,6 @@
 ---
 layout: band
-photos: https://gallery.rocktreff.de/gallery/c2OLha57ZQe-Ixjq1Ix2olXu
+gallery_id: c2OLha57ZQe-Ixjq1Ix2olXu
 spotify: spotify:artist:0tv3bPOXEoiSvJbMhCGg45
 stagetime: Sonntag, 16:00 Uhr
 style: Sexy Blues Rock

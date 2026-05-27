@@ -2,7 +2,7 @@
 day: friday
 layout: band
 logo: janara.png
-photos: https://gallery.rocktreff.de/gallery/TpO2DYqiUyxcFGRgT3WNNE9F
+gallery_id: TpO2DYqiUyxcFGRgT3WNNE9F
 picture: janara.jpg
 spotify: spotify:artist:4MI0jyt90xZjWdFJ25sCKJ
 stagetime: Freitag, 08. Juli 2016, 22:00 Uhr

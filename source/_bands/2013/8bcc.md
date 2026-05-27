@@ -1,7 +1,7 @@
 ---
 layout: band
 logo: 8bcc.png
-photos: https://gallery.rocktreff.de/gallery/lCJVx6YuyjutA3clH9gxYdYV
+gallery_id: lCJVx6YuyjutA3clH9gxYdYV
 spotify: spotify:artist:4O73io7uA5TmCZ7MSvgbQd
 stagetime: Samstag, 15. Juni 2013, 18:00 Uhr
 style: Rock/8-Bit

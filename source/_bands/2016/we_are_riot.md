@@ -2,7 +2,7 @@
 day: saturday
 layout: band
 logo: weareriot.png
-photos: https://gallery.rocktreff.de/gallery/HFmQknZ3FFVOw8T-9uzZj-Xd
+gallery_id: HFmQknZ3FFVOw8T-9uzZj-Xd
 picture: weareriot.jpg
 spotify: spotify:artist:49vwGeo0HEHSyUnFVQgnkf
 stagetime: Samstag, 09. Juli 2016, 16:00 Uhr

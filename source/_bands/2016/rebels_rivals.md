@@ -2,7 +2,7 @@
 day: saturday
 layout: band
 logo: rebelrivals.png
-photos: https://gallery.rocktreff.de/gallery/D8YoxFiRe5ABX6-Uy09CpHGc
+gallery_id: D8YoxFiRe5ABX6-Uy09CpHGc
 picture: rebelsrivals.jpg
 soundcloud: tracks/213979057
 stagetime: Samstag, 09. Juli 2016, 20:00 Uhr

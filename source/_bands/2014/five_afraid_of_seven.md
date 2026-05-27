@@ -1,6 +1,6 @@
 ---
 layout: band
-photos: https://gallery.rocktreff.de/gallery/kkcYVuaMcalaOJuCYXNrXdWt
+gallery_id: kkcYVuaMcalaOJuCYXNrXdWt
 title: Five Afraid of Seven
 year: 2014
 ---

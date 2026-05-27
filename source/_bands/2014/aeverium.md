@@ -1,7 +1,7 @@
 ---
 layout: band
 logo: aeverium.jpg
-photos: https://gallery.rocktreff.de/gallery/6ZokjLeCQakoJsjAdFboIPsz
+gallery_id: 6ZokjLeCQakoJsjAdFboIPsz
 spotify: spotify:artist:6ShQAewrb42W6tOALKwstw
 stagetime: Freitag, 21:00 Uhr
 style: Modern Gothic Metal

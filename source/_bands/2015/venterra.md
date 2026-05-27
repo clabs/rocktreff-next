@@ -2,7 +2,7 @@
 day: sunday
 layout: band
 logo: venterra.png
-photos: https://gallery.rocktreff.de/gallery/Ko-s7-vFMd1Uw8Q2dww12_YG
+gallery_id: Ko-s7-vFMd1Uw8Q2dww12_YG
 picture: venterra.jpg
 spotify: spotify:artist:6EIkSnnnda4qrv3pg7NXHa
 stagetime: Sonntag, 12. Juli 2015, 18:00 Uhr

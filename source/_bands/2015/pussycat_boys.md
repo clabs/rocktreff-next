@@ -2,7 +2,7 @@
 day: friday
 layout: band
 logo: pussycat_boys.png
-photos: https://gallery.rocktreff.de/gallery/-owQS-e835wGS8RGhGEvNDz_
+gallery_id: -owQS-e835wGS8RGhGEvNDz_
 picture: pussycat_boys.jpg
 stagetime: Freitag, 10. Juli 2015, 21:00 Uhr
 style: Boygroup-Heavy-Metal

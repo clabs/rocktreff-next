@@ -1,7 +1,7 @@
 ---
 layout: band
 logo: logars_diary.png
-photos: https://gallery.rocktreff.de/gallery/Y_uRTMZaeigOIoIx-J3DSdaq
+gallery_id: Y_uRTMZaeigOIoIx-J3DSdaq
 stagetime: Freitag, 14. Juni 2013, 22:00 Uhr
 style: Metal / Mittelalter
 title: Logar's Diary

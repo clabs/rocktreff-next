@@ -2,7 +2,7 @@
 day: saturday
 layout: band
 logo: sycon.png
-photos: https://gallery.rocktreff.de/gallery/ksMu448AxU-hqUFltu0XRO0q
+gallery_id: ksMu448AxU-hqUFltu0XRO0q
 picture: sycon.jpg
 stagetime: Samstag, 11. Juli 2015, 22:00 Uhr
 style: Metal

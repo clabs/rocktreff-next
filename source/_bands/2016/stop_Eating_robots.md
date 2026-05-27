@@ -2,7 +2,7 @@
 day: saturday
 layout: band
 logo: stop_eating_robots.png
-photos: https://gallery.rocktreff.de/gallery/WynGJuAdgQqt8pHJx2hZql6D
+gallery_id: WynGJuAdgQqt8pHJx2hZql6D
 picture: stop_eating_robots.jpg
 spotify: spotify:artist:1wk9Wh9tDPkVM0pYD60ZFd
 stagetime: Freitag, 08. Juli 2016, 18:00 Uhr

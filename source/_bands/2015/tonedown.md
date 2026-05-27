@@ -3,7 +3,7 @@ bandcamp: 119365576
 day: saturday
 layout: band
 logo: tonedown.png
-photos: https://gallery.rocktreff.de/gallery/KUhG4BpF7t3GZSwR14qSp9J9
+gallery_id: KUhG4BpF7t3GZSwR14qSp9J9
 picture: tonedown.jpg
 stagetime: Samstag, 11. Juli 2015, 20:00 Uhr
 style: Old School Hardcore

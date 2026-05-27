@@ -1,7 +1,7 @@
 ---
 layout: band
 logo: destroyline.png
-photos: https://gallery.rocktreff.de/gallery/EV7XrBOX8Up_lx892Sr815hB
+gallery_id: EV7XrBOX8Up_lx892Sr815hB
 soundcloud: users/5893901
 stagetime: Freitag, 14. Juni 2013, 20:00 Uhr
 style: Hardcore / Crossover

@@ -3,7 +3,7 @@ bandcamp: 1418341050
 day: sunday
 layout: band
 logo: stadtruhe.png
-photos: https://gallery.rocktreff.de/gallery/8PMqsPvkSWPa7Q7hGn-bEO8z
+gallery_id: 8PMqsPvkSWPa7Q7hGn-bEO8z
 picture: stadtruhe.jpg
 stagetime: Sonntag, 12. Juli 2015, 17:00 Uhr
 style: Deutsch-Rock/Pop

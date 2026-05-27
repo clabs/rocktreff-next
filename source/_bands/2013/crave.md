@@ -2,7 +2,7 @@
 bandcamp: 2235619157
 layout: band
 logo: crave.jpg
-photos: https://gallery.rocktreff.de/gallery/KmKbtGkLASheeo7HRy9w4DSx
+gallery_id: KmKbtGkLASheeo7HRy9w4DSx
 stagetime: Freitag, 14. Juni 2013, 21:00 Uhr
 style: Rock'n'Roll
 title: CRAVE

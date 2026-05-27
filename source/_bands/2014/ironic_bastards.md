@@ -1,6 +1,6 @@
 ---
 layout: band
-photos: https://gallery.rocktreff.de/gallery/-qTPZc5vKkqJluyzGJ3pXMHL
+gallery_id: -qTPZc5vKkqJluyzGJ3pXMHL
 spotify: spotify:album:2fUmLbtPAvSlRVVSbIFCX5
 stagetime: Samstag, 19:00 Uhr
 style: Melodic Hardcore Punk

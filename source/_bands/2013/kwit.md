@@ -1,7 +1,7 @@
 ---
 layout: band
 logo: kwit.jpg
-photos: https://gallery.rocktreff.de/gallery/7eSiYWc9bpoeuN7VHimxBtQc
+gallery_id: 7eSiYWc9bpoeuN7VHimxBtQc
 stagetime: Freitag, 14. Juni 2013, 18:00 Uhr
 style: ROCK
 title: KWIT
