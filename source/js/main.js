@@ -32,7 +32,7 @@ $(function(){
 	}
 
 
-	$( '.nav.visible-xs .glyphicon-menu-hamburger, .nav a' )
+	$( '.nav.menu-toggle .nav-hamburger, .nav-small .nav a' )
 		.on( 'click', function () {
 			$( '.nav-small' ).toggleClass( 'in' )
 		})

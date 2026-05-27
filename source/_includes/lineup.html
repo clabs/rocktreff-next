@@ -1,6 +1,6 @@
-<div class="row dates">
-    <div class="col-xs-2"></div>
-    <div class="col-xs-3">
+<div class="lineup-grid dates">
+    <div></div>
+    <div>
         <span class="hidden-xs-portrait">
             Freitag, 3. Juli
         </span>
@@ -8,7 +8,7 @@
             Fr, 3.7.
         </span>
     </div>
-    <div class="col-xs-3">
+    <div>
         <span class="hidden-xs-portrait">
             Samstag, 4. Juli
         </span>
@@ -16,7 +16,7 @@
             Sa, 4.7.
         </span>
     </div>
-    <div class="col-xs-3">
+    <div>
         <span class="hidden-xs-portrait">
             Sonntag, 5. Juli
         </span>
@@ -25,8 +25,8 @@
         </span>
     </div>
 </div>
-<div class="row">
-    <div class="col-xs-2">
+<div class="lineup-grid">
+    <div class="lineup-times">
         <div class="timeslot">16:00</div>
         <div class="timeslot">17:00</div>
         <div class="timeslot">18:00</div>
@@ -37,7 +37,7 @@
         <div class="timeslot">23:00</div>
     </div>
     {% assign bands = site.bands | where: 'year', 2026 | sort: 'stagetime' %}
-    <div class="col-xs-3 day friday">
+    <div class="day friday">
         {% for band in bands %}
         {% if band.stagetime contains 'Freitag' %}
         <a href="{{ band.url }}" class="thumb"
@@ -47,7 +47,7 @@
         {% endif %}
         {% endfor %}
     </div>
-    <div class="col-xs-3 day saturday">
+    <div class="day saturday">
         {% for band in bands %}
         {% if band.stagetime contains 'Samstag' %}
         <a href="{{ band.url }}" class="thumb"
@@ -57,7 +57,7 @@
         {% endif %}
         {% endfor %}
     </div>
-    <div class="col-xs-3 day sunday">
+    <div class="day sunday">
         {% for band in bands %}
         {% if band.stagetime contains 'Sonntag' %}
         <a href="{{ band.url }}" class="thumb"
