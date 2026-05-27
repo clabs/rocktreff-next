@@ -40,8 +40,10 @@
     <div class="day friday">
         {% for band in bands %}
         {% if band.stagetime contains 'Freitag' %}
+        {% assign hour = band.stagetime | split: ', ' | last | split: ' ' | first | split: ':' | first | plus: 0 %}
+        {% assign row = hour | minus: 15 %}
         <a href="{{ band.url }}" class="thumb"
-            style="background-image:url('/static/bands/pictures/{{ band.picture }}')">
+            style="grid-row:{{ row }};background-image:url('/static/bands/pictures/{{ band.picture }}')">
             <div class="name">{{ band.title }}</div>
         </a>
         {% endif %}
@@ -50,8 +52,10 @@
     <div class="day saturday">
         {% for band in bands %}
         {% if band.stagetime contains 'Samstag' %}
+        {% assign hour = band.stagetime | split: ', ' | last | split: ' ' | first | split: ':' | first | plus: 0 %}
+        {% assign row = hour | minus: 15 %}
         <a href="{{ band.url }}" class="thumb"
-            style="background-image:url('/static/bands/pictures/{{ band.picture }}')">
+            style="grid-row:{{ row }};background-image:url('/static/bands/pictures/{{ band.picture }}')">
             <div class="name">{{ band.title }}</div>
         </a>
         {% endif %}
@@ -60,8 +64,10 @@
     <div class="day sunday">
         {% for band in bands %}
         {% if band.stagetime contains 'Sonntag' %}
+        {% assign hour = band.stagetime | split: ', ' | last | split: ' ' | first | split: ':' | first | plus: 0 %}
+        {% assign row = hour | minus: 15 %}
         <a href="{{ band.url }}" class="thumb"
-            style="background-image:url('/static/bands/pictures/{{ band.picture }}')">
+            style="grid-row:{{ row }};background-image:url('/static/bands/pictures/{{ band.picture }}')">
             <div class="name">{{ band.title }}</div>
         </a>
         {% endif %}
