@@ -1,6 +1,6 @@
 ---
 layout: band
-photos: https://gallery.rocktreff.de/gallery/O2pu7L8cFRzsza39o8lHnXeC
+gallery_id: O2pu7L8cFRzsza39o8lHnXeC
 stagetime: Samstag, 15. Juni 2013, 16:00 Uhr
 style: Glam Metal
 title: Nightlife

@@ -1,6 +1,6 @@
 ---
 layout: band
-photos: https://gallery.rocktreff.de/gallery/sFpgsMXSC6iYsMnuLxj_-ySE
+gallery_id: sFpgsMXSC6iYsMnuLxj_-ySE
 stagetime: Freitag, 14. Juni 2013, 19:00 Uhr
 style: PopRock
 title: Ballerinas

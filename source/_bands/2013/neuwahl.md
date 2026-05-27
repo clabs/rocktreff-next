@@ -1,7 +1,7 @@
 ---
 layout: band
 logo: neuwahl.jpg
-photos: https://gallery.rocktreff.de/gallery/FtyQU6WH4KaijPkeIDzySiZu
+gallery_id: FtyQU6WH4KaijPkeIDzySiZu
 stagetime: Sonntag, 16. Juni 2013, 17:00 Uhr
 style: Punk
 title: NeuWahl

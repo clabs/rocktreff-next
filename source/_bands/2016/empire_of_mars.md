@@ -2,7 +2,7 @@
 day: saturday
 layout: band
 logo: empireofmars.jpg
-photos: https://gallery.rocktreff.de/gallery/Yc2IYjNtKMrrOasp6FQMALa6
+gallery_id: Yc2IYjNtKMrrOasp6FQMALa6
 picture: empireofmars.jpg
 soundcloud: null
 stagetime: Samstag, 09. Juli 2016, 18:00 Uhr

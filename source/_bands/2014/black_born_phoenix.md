@@ -1,7 +1,7 @@
 ---
 layout: band
 logo: blackbornphoenix.jpg
-photos: https://gallery.rocktreff.de/gallery/drS9365GSeorhJ4ri6OxpupF
+gallery_id: drS9365GSeorhJ4ri6OxpupF
 spotify: spotify:artist:786oKGaMQ811LWtb2RM8gM
 stagetime: Freitag, 04. Juli 2014, 22:00 Uhr
 style: Modern Gothic Metal

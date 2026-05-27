@@ -2,7 +2,7 @@
 day: sunday
 layout: band
 logo: myarms.png
-photos: https://gallery.rocktreff.de/gallery/i-Nd0k_jUuAIZcexyZRWZA-3
+gallery_id: i-Nd0k_jUuAIZcexyZRWZA-3
 picture: myarms.jpg
 soundcloud: users/141027607
 stagetime: Sonntag, 10. Juli 2016, 16:00 Uhr

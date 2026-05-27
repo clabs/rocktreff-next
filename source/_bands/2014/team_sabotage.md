@@ -2,7 +2,7 @@
 bandcamp: 1524263895
 layout: band
 logo: team_sabotage.jpg
-photos: https://gallery.rocktreff.de/gallery/eV55Qw_KVukgpvZc65LzCBRb
+gallery_id: eV55Qw_KVukgpvZc65LzCBRb
 stagetime: Samstag, 21:00 Uhr
 style: Rap-Rock
 title: Team Sabotage

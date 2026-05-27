@@ -2,7 +2,7 @@
 day: friday
 layout: band
 logo: cyborg.png
-photos: https://gallery.rocktreff.de/gallery/AHZ0HJiLNzhFDxaYfHbN2XGK
+gallery_id: AHZ0HJiLNzhFDxaYfHbN2XGK
 picture: cyborg.jpg
 soundcloud: users/125513599
 stagetime: Freitag, 10. Juli 2015, 22:00 Uhr

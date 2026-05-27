@@ -2,7 +2,7 @@
 day: saturday
 layout: band
 logo: unglaublichervorfall.png
-photos: https://gallery.rocktreff.de/gallery/vHpT9R9vm4JMym2UgIDq46qZ
+gallery_id: vHpT9R9vm4JMym2UgIDq46qZ
 picture: unglaublichervorfall.jpg
 soundcloud: users/7659365
 stagetime: Samstag, 09. Juli 2016, 17:00 Uhr

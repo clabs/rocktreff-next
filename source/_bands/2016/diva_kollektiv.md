@@ -2,7 +2,7 @@
 day: sunday
 layout: band
 logo: divakollektiv.png
-photos: https://gallery.rocktreff.de/gallery/8WQXP_eTcBd0RkEik7HRAWxr
+gallery_id: 8WQXP_eTcBd0RkEik7HRAWxr
 picture: divakollektiv.jpg
 soundcloud: users/45428075
 stagetime: Sonntag, 10. Juli 2016, 19:00 Uhr

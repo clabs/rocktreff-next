@@ -2,7 +2,7 @@
 day: friday
 layout: band
 logo: right_away.png
-photos: https://gallery.rocktreff.de/gallery/uAJbG-xDIucNWlco1v6qpJ58
+gallery_id: uAJbG-xDIucNWlco1v6qpJ58
 picture: right_away.jpg
 soundcloud: tracks/209199274
 stagetime: Freitag, 10. Juli 2015, 18:00 Uhr

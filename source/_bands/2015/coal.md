@@ -2,7 +2,7 @@
 day: saturday
 layout: band
 logo: coal.jpg
-photos: https://gallery.rocktreff.de/gallery/Vo8TH9hH4XPCOjAQ2Wv8FWOO
+gallery_id: Vo8TH9hH4XPCOjAQ2Wv8FWOO
 picture: coal.jpg
 soundcloud: users/148693576
 stagetime: Samstag, 11. Juli 2015, 21:00 Uhr

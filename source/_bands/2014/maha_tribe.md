@@ -1,7 +1,7 @@
 ---
 layout: band
 logo: maha_tribe.jpg
-photos: https://gallery.rocktreff.de/gallery/Py2R4woo7m7MhF-QELN2Jqvt
+gallery_id: Py2R4woo7m7MhF-QELN2Jqvt
 stagetime: Samstag, 05. Juli 2014, 17:00 Uhr
 style: Alternative
 title: Maha Tribe

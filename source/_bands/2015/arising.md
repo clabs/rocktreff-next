@@ -2,7 +2,7 @@
 day: friday
 layout: band
 logo: arising.jpg
-photos: https://gallery.rocktreff.de/gallery/tGaRTN6ixVgf8OdrNDH_iCfn
+gallery_id: tGaRTN6ixVgf8OdrNDH_iCfn
 picture: arising.jpg
 stagetime: Freitag, 10. Juli 2015, 19:00 Uhr
 style: Rock

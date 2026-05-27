@@ -2,7 +2,7 @@
 day: saturday
 layout: band
 logo: stop_eating_robots.png
-photos: https://gallery.rocktreff.de/gallery/V4zpoIKgybw9M2FJlOVIAZcg
+gallery_id: V4zpoIKgybw9M2FJlOVIAZcg
 picture: stop_eating_robots.jpg
 spotify: spotify:artist:1wk9Wh9tDPkVM0pYD60ZFd
 stagetime: Samstag, 11. Juli 2015, 18:00 Uhr

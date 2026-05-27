@@ -1,6 +1,6 @@
 ---
 layout: band
-photos: https://gallery.rocktreff.de/gallery/UWb97o-h7HVK9BQglJ36l6uH
+gallery_id: UWb97o-h7HVK9BQglJ36l6uH
 title: Neusprech
 year: 2014
 ---

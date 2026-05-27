@@ -1,6 +1,6 @@
 ---
 layout: band
-photos: https://gallery.rocktreff.de/gallery/GGi_t5y5JuXpJF56wDh6Zvh6
+gallery_id: GGi_t5y5JuXpJF56wDh6Zvh6
 title: Fryday
 year: 2014
 ---

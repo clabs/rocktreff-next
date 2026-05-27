@@ -2,7 +2,7 @@
 day: friday
 layout: band
 logo: diewertenherren.png
-photos: https://gallery.rocktreff.de/gallery/99fzntwvEIhdDXXKpCy9wJ9H
+gallery_id: 99fzntwvEIhdDXXKpCy9wJ9H
 picture: diewertenherren.jpg
 soundcloud: users/133900041
 stagetime: Freitag, 08. Juli 2016, 20:00 Uhr

@@ -1,6 +1,6 @@
 ---
 layout: band
-photos: https://gallery.rocktreff.de/gallery/7tqT_89Av4AkKtrgLR9irWX_
+gallery_id: 7tqT_89Av4AkKtrgLR9irWX_
 title: Les Blaques Pearlz
 year: 2014
 ---

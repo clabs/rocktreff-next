@@ -2,7 +2,7 @@
 day: saturday
 layout: band
 logo: phasex.png
-photos: https://gallery.rocktreff.de/gallery/CI6ZtYvoiHiWbBhJE4IH194r
+gallery_id: CI6ZtYvoiHiWbBhJE4IH194r
 picture: phasex.jpg
 soundcloud: users/126927452
 stagetime: Samstag, 09. Juli 2016, 19:00 Uhr

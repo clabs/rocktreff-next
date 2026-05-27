@@ -2,7 +2,7 @@
 day: sunday
 layout: band
 logo: partyfleisch.png
-photos: https://gallery.rocktreff.de/gallery/FCrb53rNd7a0ILxrpQgNt8R2
+gallery_id: FCrb53rNd7a0ILxrpQgNt8R2
 picture: partyfleisch.jpg
 soundcloud: users/89421758
 stagetime: Sonntag, 10. Juli 2016, 18:00 Uhr

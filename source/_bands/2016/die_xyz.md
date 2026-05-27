@@ -2,7 +2,7 @@
 day: sunday
 layout: band
 logo: xyz.png
-photos: https://gallery.rocktreff.de/gallery/CSiuqLungjb5mvhlQ76WN-ZA
+gallery_id: CSiuqLungjb5mvhlQ76WN-ZA
 picture: xyz.jpg
 soundcloud: users/150696972
 stagetime: Sonntag, 10. Juli 2016, 17:00 Uhr

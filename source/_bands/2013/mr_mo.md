@@ -1,6 +1,6 @@
 ---
 layout: band
-photos: https://gallery.rocktreff.de/gallery/OoNij1EVlp8YpkcZIis9vBth
+gallery_id: OoNij1EVlp8YpkcZIis9vBth
 soundcloud: users/6499510
 stagetime: Samstag, 15. Juni 2013, 19:00 Uhr
 style: Rock mit einer Portion Mojo

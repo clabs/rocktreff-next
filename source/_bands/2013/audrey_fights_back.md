@@ -1,7 +1,7 @@
 ---
 layout: band
 logo: audrey_fights_back.jpg
-photos: https://gallery.rocktreff.de/gallery/WdwbN5Niya1Ce8-tYAwy_0Te
+gallery_id: WdwbN5Niya1Ce8-tYAwy_0Te
 spotify: spotify:artist:3V5A7PpDbYyatq6n7uzxgu
 stagetime: Sonntag, 16. Juni 2013, 19:00 Uhr
 style: Cinematic-Hardcore

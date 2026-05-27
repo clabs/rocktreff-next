@@ -2,7 +2,7 @@
 day: friday
 layout: band
 logo: logars_diary.png
-photos: https://gallery.rocktreff.de/gallery/ERZwIV--TLaafrlpv88h7_Ls
+gallery_id: ERZwIV--TLaafrlpv88h7_Ls
 picture: logarsdiary.jpg
 soundcloud: null
 stagetime: Freitag, 08. Juli 2016, 21:00 Uhr

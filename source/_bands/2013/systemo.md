@@ -1,7 +1,7 @@
 ---
 layout: band
 logo: systemo.png
-photos: https://gallery.rocktreff.de/gallery/qFKNv4ESCPP13zndAkr5Pu5v
+gallery_id: qFKNv4ESCPP13zndAkr5Pu5v
 stagetime: Sonntag, 16. Juni 2013, 18:00 Uhr
 style: Partypunk
 title: SYSTEMO

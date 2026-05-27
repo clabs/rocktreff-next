@@ -1,7 +1,7 @@
 ---
 layout: band
 logo: zeitrausch.png
-photos: https://gallery.rocktreff.de/gallery/WJYZnBOgk3kbc3kajLglnZ0X
+gallery_id: WJYZnBOgk3kbc3kajLglnZ0X
 stagetime: Sonntag, 16. Juni 2013, 16:00 Uhr
 style: Deutschrock/Pop
 title: Zeitrausch

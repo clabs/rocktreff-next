@@ -2,7 +2,7 @@
 day: saturday
 layout: band
 logo: blackwaterhorizon.png
-photos: https://gallery.rocktreff.de/gallery/wRkxN87WJNGKZ2gn92SfsltM
+gallery_id: wRkxN87WJNGKZ2gn92SfsltM
 picture: blackwaterhorizon.jpg
 soundcloud: users/50833204
 stagetime: Samstag, 09. Juli 2016, 21:00 Uhr

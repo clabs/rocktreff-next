@@ -2,7 +2,7 @@
 day: sunday
 layout: band
 logo: inge_heinz.png
-photos: https://gallery.rocktreff.de/gallery/14WwXEwsT0YsyIi8QFwHBrCA
+gallery_id: 14WwXEwsT0YsyIi8QFwHBrCA
 picture: inge_heinz.jpg
 stagetime: Sonntag, 12. Juli 2015, 19:00 Uhr
 style: Brutal Hardschlager

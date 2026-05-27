@@ -1,7 +1,7 @@
 ---
 layout: band
 logo: cyrcus_bubble.jpg
-photos: https://gallery.rocktreff.de/gallery/g7w4XcLLA9bj1rQcYN5UBm5N
+gallery_id: g7w4XcLLA9bj1rQcYN5UBm5N
 spotify: spotify:album:1R10ztyntplzZX5acLGivW
 stagetime: Samstag, 05. Juli 2014, 22:00 Uhr
 style: Bubblecore Metal

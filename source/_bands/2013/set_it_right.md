@@ -1,7 +1,7 @@
 ---
 layout: band
 logo: set_it_right.jpg
-photos: https://gallery.rocktreff.de/gallery/9w2xgHriRlZqIzkIQFBV8jt4
+gallery_id: 9w2xgHriRlZqIzkIQFBV8jt4
 spotify: spotify:artist:37uxZBPMtHOV4B2ktxwUxm
 stagetime: Samstag, 15. Juni 2013, 17:00 Uhr
 style: Pop-Punk

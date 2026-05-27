@@ -1,7 +1,7 @@
 ---
 layout: band
 logo: right_up_your_street.png
-photos: https://gallery.rocktreff.de/gallery/zDDcxtLiH-q7hFpoHLrN6Zwi
+gallery_id: zDDcxtLiH-q7hFpoHLrN6Zwi
 spotify: spotify:album:2CH31xBRLLlMiAsurnt8P4
 stagetime: Samstag, 16:00 Uhr
 style: Pop-Punk
