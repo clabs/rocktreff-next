@@ -138,19 +138,6 @@ a { background-color: transparent; }
   .media-grid,
   .grid-equal,
   .grid-3col { grid-template-columns: 1fr; }
-
-  /* background-attachment: fixed is broken on mobile — revert to scroll */
-  body {
-    background-attachment: scroll;
-    background-size: 100% auto;
-  }
-  .slide .bg .image {
-    background-attachment: scroll;
-  }
-
-  /* prevent sponsor logos from overflowing viewport */
-  .slide.sponsors img,
-  .slide.sponsors .main img { max-width: 100%; height: auto; max-height: none; }
 }
 @media (max-width: 767px) and (max-aspect-ratio: 1/1) {
   .lineup-grid { grid-template-columns: 2fr 30% 30% 30%; grid-template-rows: repeat(8, 75px); }
@@ -1062,4 +1049,24 @@ body.page.error-404 .error-cta {
 }
 body.page.error-404 .error-cta:hover {
   background: var(--gelb-mid);
+}
+
+/* ---- Mobile overrides (must be last — same specificity, source order wins) ---- */
+@media (max-width: 767px) {
+  /* background-attachment: fixed broken on mobile */
+  body {
+    background-attachment: scroll;
+    background-size: 100% auto;
+  }
+  .slide .bg .image {
+    background-attachment: scroll;
+  }
+
+  /* sponsor logos: scale down to fit viewport */
+  .slide.sponsors img,
+  .slide.sponsors .main img {
+    max-width: 100%;
+    height: auto;
+    max-height: none;
+  }
 }
