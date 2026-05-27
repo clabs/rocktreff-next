@@ -11,114 +11,113 @@ ______ _____ _____  _   _____________ _________________
 \_| \_|\___/ \____/\_| \_/ \_/ \_| \_\____/\_|   \_|
 -->
 <html lang="de-DE">
+
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-  <title>Presse | ROCKTREFF</title>
-  {% include opengraph.html %}
-  <link rel="stylesheet" href="/vendor/fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
-  <link rel="stylesheet" type="text/css" href="/styles/main.css">
-  <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-  <!-- Lychee Photo Stream Embed v1.0.0 -->
-  <link rel="stylesheet" href="https://gallery.rocktreff.de/embed/lychee-embed.css?v=1.0.0">
-  <script src="https://gallery.rocktreff.de/embed/lychee-embed.js?v=1.0.0"></script>
-  <script type="text/javascript" src="/js/jquery-2.1.1.min.js"/></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <title>Presse | ROCKTREFF</title>
+    {% include opengraph.html %}
+    <link rel="stylesheet" href="/vendor/fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="/styles/main.css">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <!-- Lychee Photo Stream Embed v1.0.0 -->
+    <link rel="stylesheet" href="https://gallery.rocktreff.de/embed/lychee-embed.css?v=1.0.0">
+    <script src="https://gallery.rocktreff.de/embed/lychee-embed.js?v=1.0.0"></script>
+    <script type="text/javascript" src="/js/jquery-2.1.1.min.js" />
+    </script>
 </head>
+
 <body class="page press">
-  {% include navigation.html%}
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-8">
-        <div class="box top">
-          <p>
-            Hier findest Du regelmäßig die aktuellsten Presse-Informationen
-            zum ROCKTREFF. Unsere aktuellen Pressemitteilungen kannst Du
-            einfach und bequem per Feed-Reader abonnieren.
-          </p>
-          <p>
-            Wenn Du für die redaktionelle Berichterstattung Fotos, Grafiken,
-            Logos oder Illustrationen verwenden möchtest, kannst Du das hier
-            verlinkte Material unverändert verwenden. Solltest Du weiteres
-            Material oder hochauflösende Bilder benötigen, wende Dich bitte
-            direkt an die Pressestelle: <span class="email">presse</span>
-          </p>
-        </div>
+    {% include navigation.html%}
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8">
+                <div class="box top">
+                    <p>
+                        Hier findest Du regelmäßig die aktuellsten Presse-Informationen
+                        zum ROCKTREFF. Unsere aktuellen Pressemitteilungen kannst Du
+                        einfach und bequem per Feed-Reader abonnieren.
+                    </p>
+                    <p>
+                        Wenn Du für die redaktionelle Berichterstattung Fotos, Grafiken,
+                        Logos oder Illustrationen verwenden möchtest, kannst Du das hier
+                        verlinkte Material unverändert verwenden. Solltest Du weiteres
+                        Material oder hochauflösende Bilder benötigen, wende Dich bitte
+                        direkt an die Pressestelle: <span class="email">presse</span>
+                    </p>
+                </div>
 
-        <div class="box">
-          <h3>Pressemitteilungen</h3>
-          <ul class="pressreleases">
-          {% for release in site.presse reversed limit:6 %}
-              <li>
-                <div class="date">{{ release.date | date: "%-d.%-m.%Y"}}</div>
-                <a class="link" href="{{ release.url }}">{{ release.title }}</a>
-              </li>
-          {% endfor %}
-          </ul>
-        </div>
-        <div class="box">
-          <h3>Pressematerial</h3>
-          <ul>
-            <li>Logo 2016 (
-              <a class="link" href="/static/presse/Rocktreff_2016_Logo_FX_1200.png" target="_blank">PNG</a>
-              )
-            </li>
-            <li>Logo – Neutral (
-              <a class="link" href="/static/presse/RT_neutral_vector.eps" target="_blank">EPS</a>,
-              <a class="link" href="/static/presse/RT_neutral_vector.pdf" target="_blank">PDF</a>
-              )
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div class="col-sm-4">
-        <!-- rss feed -->
-        <div class="box top">
-          <h3>Immer aktuell</h3>
-          Du kannst die Pressemitteilungen des ROCKTREFF als RSS-Feed abonnieren.
-          <div>
-            <a class="link" href="feed://{{ site.url }}/presse/feed.xml">
-              <i class="icon-feed2"></i>
-              Pressemitteilungen
-            </a>
-          </div>
-        </div>
-        <!-- kontaktdaten -->
-        <div class="box inverse">
-          <h3>Ansprechpartner</h3>
-          <p>
-            <strong>MArco Herrmann</strong> <br>
-            Interviews, Akkreditierung <br>
-            <span class="email">rob</span>
-          </p>
-          <p>
-            <strong>Ed Koch</strong> <br>
-            Public Affairs <br>
-            <i class="icon-phone"></i> +49 170 626 7377 <br>
-            <span class="email" domain="berlin.de">jugendamt.ts-vm</span>
-          </p>
-        </div>
-        <!-- medien -->
-        <div class="box">
-          <h3>Pressebilder</h3>
-          <a href="https://gallery.rocktreff.de/gallery/1AcSAX6OXEIjnGf1vZwXlmAv" target="_blank" rel="noopener">Zur Fotogalerie</a>
-          <div
-            data-lychee-embed
-            data-api-url="https://gallery.rocktreff.de"
-            data-mode="album"
-            data-album-id="1AcSAX6OXEIjnGf1vZwXlmAv"
-            data-layout="justified"
-            data-spacing="8"
-            data-target-row-height="200"
-            data-max-photos="none"
-            data-sort-order="desc"
-            data-header-placement="none"
-          ></div>
-        </div>
-      </div>
+                <div class="box">
+                    <h3>Pressemitteilungen</h3>
+                    <ul class="pressreleases">
+                        {% for release in site.presse reversed limit:6 %}
+                        <li>
+                            <div class="date">{{ release.date | date: "%-d.%-m.%Y"}}</div>
+                            <a class="link" href="{{ release.url }}">{{ release.title }}</a>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                <div class="box">
+                    <h3>Pressematerial</h3>
+                    <ul>
+                        <li>Logo 2016 (
+                            <a class="link" href="/static/presse/Rocktreff_2016_Logo_FX_1200.png"
+                                target="_blank">PNG</a>
+                            )
+                        </li>
+                        <li>Logo – Neutral (
+                            <a class="link" href="/static/presse/RT_neutral_vector.eps" target="_blank">EPS</a>,
+                            <a class="link" href="/static/presse/RT_neutral_vector.pdf" target="_blank">PDF</a>
+                            )
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <!-- rss feed -->
+                <div class="box top">
+                    <h3>Immer aktuell</h3>
+                    Du kannst die Pressemitteilungen des ROCKTREFF als RSS-Feed abonnieren.
+                    <div>
+                        <a class="link" href="feed://{{ site.url }}/presse/feed.xml">
+                            <i class="icon-feed2"></i>
+                            Pressemitteilungen
+                        </a>
+                    </div>
+                </div>
+                <!-- kontaktdaten -->
+                <div class="box inverse">
+                    <h3>Ansprechpartner</h3>
+                    <p>
+                        <strong>MArco Herrmann</strong> <br>
+                        Interviews, Akkreditierung <br>
+                        <span class="email">rob</span>
+                    </p>
+                    <p>
+                        <strong>Ed Koch</strong> <br>
+                        Public Affairs <br>
+                        <i class="icon-phone"></i> +49 170 626 7377 <br>
+                        <span class="email" domain="berlin.de">jugendamt.ts-vm</span>
+                    </p>
+                </div>
+                <!-- medien -->
+                <div class="box">
+                    <h3>Pressebilder</h3>
+                    <a href="https://gallery.rocktreff.de/gallery/1AcSAX6OXEIjnGf1vZwXlmAv" target="_blank"
+                        rel="noopener">Zur Fotogalerie</a>
+                    <div data-lychee-embed data-api-url="https://gallery.rocktreff.de" data-mode="album"
+                        data-album-id="1AcSAX6OXEIjnGf1vZwXlmAv" data-layout="justified" data-spacing="8"
+                        data-target-row-height="200" data-max-photos="none" data-sort-order="desc"
+                        data-header-placement="none"></div>
+                </div>
+            </div>
 
+        </div>
     </div>
-  </div>
-<script type="text/javascript" src="/vendor/fancybox/source/jquery.fancybox.pack.js"></script>
-<script type="text/javascript" src="/js/main.js"/></script>
+    <script type="text/javascript" src="/vendor/fancybox/source/jquery.fancybox.pack.js"></script>
+    <script type="text/javascript" src="/js/main.js" />
+    </script>
 </body>
+
 </html>

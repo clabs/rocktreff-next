@@ -9,7 +9,7 @@
   image: jugendamt.png
   url: "#"
   presenter: true
-  
+
 - name: catering company
   image: catering_company.png
   url: https://www.catering-company-berlin.de/
@@ -24,7 +24,6 @@
   image: cpye.png
   url: https://cpye.de/
   presenter: true
-
 
 #                  _
 #  _ __ ___   __ _(_)_ __
@@ -62,7 +61,6 @@
   url: https://www.mylager.de/
   main: true
 
-
 #        _   _
 #   ___ | |_| |__   ___ _ __
 #  / _ \| __| '_ \ / _ \ '__|
@@ -87,12 +85,12 @@
 
 - name: ksd
   image: ksd24.berlin.png
-  url: https://ksd24.berlin/  
+  url: https://ksd24.berlin/
 
 - name: zimmer_und_partner
   image: zimmerundpartner.png
   url: "#"
-  
+
 - name: gpds
   image: gpds.png
   url: https://www.gpds.de/
@@ -124,7 +122,7 @@
 - name: Metality
   image: metality.png
   url: https://metality.org/projekte/foerderprojekte/ynra
-  
+
 - name: Berlin gegen Nazis
   image: Berlin-gegen-Nazis.png
   url: https://berlin-gegen-nazis.de/
