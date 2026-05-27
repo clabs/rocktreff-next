@@ -1094,28 +1094,6 @@ body.page.band .stagetime::before {
   font-family: Impact;
 }
 
-/* ---- Press page ---- */
-body.page.press .box.top:first-of-type { padding-top: 30px; }
-body.page.press .pressreleases {
-  margin-top: 2em;
-  list-style: none;
-  padding-left: 0;
-}
-body.page.press .pressreleases .date {
-  width: 6em;
-  color: #fff;
-  display: inline-block;
-  text-align: left;
-  font-size: var(--text-sm);
-}
-body.page.press .pressreleases .date a { margin-left: 6em; }
-
-.press-page .pressreleases { list-style: disc; padding-left: 1.1em; }
-.press-page .pressreleases a { display: inline; }
-.press-page .pressreleases .date { display: none; }
-.press-page .date { font-size: var(--text-sm); margin-bottom: 0.6em; }
-.press-page .picture { margin-left: 0.5em; margin-bottom: 0.4em; border-radius: 4px; }
-
 /* ---- Fancybox gallery ---- */
 .gallery a.fancybox {
   display: inline-block;
@@ -1131,42 +1109,6 @@ body.page.press .pressreleases .date a { margin-left: 6em; }
 .gallery img { height: 50px; }
 .slide.helfen .gallery img { height: auto; width: 100%; }
 .slide.helfen .gallery a.fancybox:hover { transform: scale(1.02); z-index: 2; }
-
-.press-page .picture { float: right; margin-right: 0.5em; }
-.press-page .picture img { max-width: 200px; height: auto; }
-
-/* ---- Live page ---- */
-body.page.live { background: black; }
-body.page.live > .stage {
-  position: absolute;
-  top: 50px;
-  left: 0;
-  right: 0;
-  bottom: 0;
-}
-body.page.live > .stage .video-js {
-  width: 100% !important;
-  height: 100% !important;
-}
-body.page.live > .stage .video-js .vjs-big-play-button {
-  top: 50%;
-  left: 50%;
-  margin-top: -0.75em;
-  margin-left: -1.5em;
-  color: black;
-  background-color: rgba(255,243,0,0.8);
-  border-color: var(--gelb-deep);
-  box-shadow: 0 0 40px var(--gelb-dim);
-}
-body.page.live > .stage .video-js .vjs-control-bar {
-  background-color: var(--gelb);
-  color: black;
-}
-body.page.live > .stage .video-js .vjs-load-progress { background: rgba(0,0,0,0.3); }
-body.page.live > .stage .video-js .vjs-play-progress { background: black; }
-
-/* ---- Media page ---- */
-body.page.media { background-image: url('../images/bg_press.jpg'); }
 
 /* ---- Privacy page ---- */
 body.page.privacy .box h3 { margin: 1em 0; padding: 0; }
