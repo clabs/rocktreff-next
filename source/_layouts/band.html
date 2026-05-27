@@ -46,10 +46,10 @@ ______ _____ _____  _   _____________ _________________
           {% endfor %}
           </ul>
         </div>
-        {% if page.flickr %}
+        {% if page.photos %}
         <div class="box">
           <h3>Fotos</h3>
-          {% flickr page.flickr %}
+          <a href="{{ page.photos }}" target="_blank" rel="noopener">Zur Fotogalerie</a>
         </div>
         {% endif %}
       </div>

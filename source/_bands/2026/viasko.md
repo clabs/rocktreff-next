@@ -1,18 +1,17 @@
 ---
+day: sunday
 layout: band
-title: VIASKO
-
-
-website: https://www.instagram.com/viasko.band
 logo: viasko.png
 picture: viasko.jpg
-year: 2026
-day: sunday
 stagetime: Sonntag, 5. Juli 2026, 16:00 Uhr
+title: VIASKO
+website: https://www.instagram.com/viasko.band
+year: 2026
 youtube: ux71EUGf63Q
 ---
-VIASKO ist eine junge Rockband aus dem Bundesland Brandenburg, die modernen
-Rock mit Pop Punk und Metal Einflüssen, starken Hooks und emotionaler Tiefe
+
+VIASKO ist eine junge Rockband aus dem Bundesland Brandenburg, die modernen Rock
+mit Pop Punk und Metal Einflüssen, starken Hooks und emotionaler Tiefe
 verbindet. Die Band steht für kraftvolle Songs, mehrstimmigen Gesang,
 atmosphärische Elemente und eine energiegeladene Live-Präsenz. Ein starkes Team
 aus fünf Herzblut Musikern, bestehend aus den Drillingsschwestern Vanity

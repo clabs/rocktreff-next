@@ -1,20 +1,18 @@
 ---
-layout: band
-title: The Artifical
-
-
-website: https://www.facebook.com/theartificialband
-#website: www.instagram.com/the_artificial_band
-style: Alternative Rock, Post-Hardcore, Metal
-logo: theartificial.png
-picture: theartificial.jpg
-year: 2018
-day: saturday
-stagetime: Samstag, 30. Juni 2018, 20:00 Uhr
-youtube: Bi6rX38Qtv0
+#bandcamp:
 #soundcloud:
 #spotify:
-#bandcamp:
+#website: www.instagram.com/the_artificial_band
+day: saturday
+layout: band
+logo: theartificial.png
+picture: theartificial.jpg
+stagetime: Samstag, 30. Juni 2018, 20:00 Uhr
+style: Alternative Rock, Post-Hardcore, Metal
+title: The Artifical
+website: https://www.facebook.com/theartificialband
+year: 2018
+youtube: Bi6rX38Qtv0
 ---
 
 Eine neue Rock/Post-Hardcore Band erobert im Sturm Berlin.

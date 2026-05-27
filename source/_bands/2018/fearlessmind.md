@@ -1,24 +1,22 @@
 ---
-layout: band
-title: Fearless Mind
-
-
-website: https://www.facebook.com/fearless.mind.band
-#website: http://fearlessmind.de
-style: Poppunk / Punkrock
-logo: fearlessmind.png
-picture: fearlessmind.jpg
-year: 2018
-day: friday
-stagetime: Freitag, 29. Juni 2018, 19:00 Uhr
-youtube: ZhDh13bvjm4
+#bandcamp:
 #soundcloud:
 #spotify:
-#bandcamp:
+#website: http://fearlessmind.de
+day: friday
+layout: band
+logo: fearlessmind.png
+picture: fearlessmind.jpg
+stagetime: Freitag, 29. Juni 2018, 19:00 Uhr
+style: Poppunk / Punkrock
+title: Fearless Mind
+website: https://www.facebook.com/fearless.mind.band
+year: 2018
+youtube: ZhDh13bvjm4
 ---
 
-Die fünf Jungs aus Berlin spielen seit 2013 Pop Punk und orientieren sich
-damit an Blink 182, Billy Talent und Papa Roach. Eingängige Gesangsmelodien,
+Die fünf Jungs aus Berlin spielen seit 2013 Pop Punk und orientieren sich damit
+an Blink 182, Billy Talent und Papa Roach. Eingängige Gesangsmelodien,
 spielerische Basslines und Gitarrenriffs sorgen für eine auditive Reise durch
 die Emotionen, die Hochs und Tiefs der heutigen Gesellschaft. Das ganze
 untermalt mit interessanten Beats am Schlagzeug.

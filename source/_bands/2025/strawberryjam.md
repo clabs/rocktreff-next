@@ -1,14 +1,12 @@
 ---
+day: sunday
 layout: band
-title: StrawberryJam
-
-
-website: https://sjamsound.wixsite.com/strawberryjam
 logo: strawberryjam.png
 picture: strawberryjam.jpg
-year: 2025
-day: sunday
 stagetime: Sonntag, 13. Juli 2025, 18:00 Uhr
+title: StrawberryJam
+website: https://sjamsound.wixsite.com/strawberryjam
+year: 2025
 youtube: A9yPwwWPvgk
 ---
 
@@ -29,4 +27,4 @@ Aktuell recorden sie ihr erstes Album und schreiben bereits das Zweite. Das
 erste Album vereint eine Sammlung von sozialkritischen Songs und spiegelt eine
 zynische, aber auch hoffnungsvolle Haltung gegenüber der Welt wider. Ihr zweites
 Album wird ein Konzeptalbum, das sich auf die Geschichte von Kassandra aus der
-griechischen Mythologie stützt. 
+griechischen Mythologie stützt.

@@ -1,20 +1,18 @@
 ---
-layout: band
-title: Opalaxy
-
-
-website: https://www.facebook.com/Opalaxy
-#website: http://www.opalaxy.de
-style: Indie/Grunge Rock
-logo: opalaxy.png
-picture: opalaxy.jpg
-year: 2018
-day: sunday
-stagetime: Sonntag, 1. Juli 2018, 16:00 Uhr
-youtube: ex2d4T64Yrk
+#bandcamp:
 #soundcloud:
 #spotify:
-#bandcamp:
+#website: http://www.opalaxy.de
+day: sunday
+layout: band
+logo: opalaxy.png
+picture: opalaxy.jpg
+stagetime: Sonntag, 1. Juli 2018, 16:00 Uhr
+style: Indie/Grunge Rock
+title: Opalaxy
+website: https://www.facebook.com/Opalaxy
+year: 2018
+youtube: ex2d4T64Yrk
 ---
 
 Mit röhrenden Gitarren, fetzigen Drums, Stimmen aus einer anderen Welt, fetten

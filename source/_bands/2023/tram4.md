@@ -1,25 +1,23 @@
 ---
-layout: band
-title: Tram4
-
-
-website: https://tram4.de
-style: tba
-logo: tram4.png
-picture: tram4.jpg
-year: 2023
-day: saturday
-stagetime: Samstag, 1. Juli 2023, 18:00 Uhr
-youtube: Lq-ln7cROx0
+#bandcamp:
 #soundcloud:
 #spotify:
-#bandcamp:
+day: saturday
+layout: band
+logo: tram4.png
+picture: tram4.jpg
+stagetime: Samstag, 1. Juli 2023, 18:00 Uhr
+style: tba
+title: Tram4
+website: https://tram4.de
+year: 2023
+youtube: Lq-ln7cROx0
 ---
 
 Es begab sich im Jahr 2012, dass sich vier Freunde aus Berlin / Hohenschönhausen
 zusammenschlossen, um die Band Tram4 zu gründen. Aus den verschiedenen
-Einflüssen der Musiker von Ska bis Metal, kristallisierte sich nach einiger
-Zeit der melodische Skate-Punk heraus, den die Band heute spielt.
+Einflüssen der Musiker von Ska bis Metal, kristallisierte sich nach einiger Zeit
+der melodische Skate-Punk heraus, den die Band heute spielt.
 
 Während Anthony und Robin zuvor bereits in der Band Valdera spielten, sammelten
 Tino und Vincent Erfahrung mit ihrer Band Maximum Pwnage. Im Jahr 2014 verließ

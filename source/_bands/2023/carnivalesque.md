@@ -1,19 +1,17 @@
 ---
-layout: band
-title: Carnivalesque
-
-
-website: https://www.carnivalesque.de
-style: tba
-logo: carnivalesque.png
-picture: carnivalesque.jpg
-year: 2023
-day: saturday
-stagetime: Samstag, 1. Juli 2023, 17:00 Uhr
-youtube: C9HOv2_agrM
+#bandcamp:
 #soundcloud:
 #spotify:
-#bandcamp:
+day: saturday
+layout: band
+logo: carnivalesque.png
+picture: carnivalesque.jpg
+stagetime: Samstag, 1. Juli 2023, 17:00 Uhr
+style: tba
+title: Carnivalesque
+website: https://www.carnivalesque.de
+year: 2023
+youtube: C9HOv2_agrM
 ---
 
 Die Berliner Band Carnivalesque wurde von dem britischen Komponisten und
@@ -24,8 +22,8 @@ Genre: Rock Bizarre.
 
 An der Spitze des Carnivalesque-Sounds steht die kraftvolle Stimme von Marta
 Owczarek, die mit ihrem leidenschaftlichen Gesang und ihrem mitreißenden
-Geigenspiel pure Energie auf die Bühne bringt. Das kraftvolle Fundament der
-Band bilden Hans Köbler am Bass und Erik Hansen am Schlagzeug.
+Geigenspiel pure Energie auf die Bühne bringt. Das kraftvolle Fundament der Band
+bilden Hans Köbler am Bass und Erik Hansen am Schlagzeug.
 
 Die Musik von Carnivalesque ist geprägt von sozialem Bewusstsein und politischem
 Engagement. Ihre Texte verkörpern die Frustration der Millennials und der

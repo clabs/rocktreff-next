@@ -1,19 +1,17 @@
 ---
-layout: band
-title: Vianova
-
-
-website: https://vianova-berlin.bandcamp.com/
-style: tba
-logo: vianova.png
-picture: vianova.jpg
-year: 2022
-day: friday
-stagetime: Freitag, 1. Juli 2022, 22:00 Uhr
-youtube: 3t_9pXrnDMQ
+#bandcamp:
 #soundcloud:
 #spotify:
-#bandcamp:
+day: friday
+layout: band
+logo: vianova.png
+picture: vianova.jpg
+stagetime: Freitag, 1. Juli 2022, 22:00 Uhr
+style: tba
+title: Vianova
+website: https://vianova-berlin.bandcamp.com/
+year: 2022
+youtube: 3t_9pXrnDMQ
 ---
 
 Die Idee Vianova entstand als die Brüder Felix und Paul Vogelgesang 2014
@@ -27,8 +25,8 @@ zu entwerfen, sowohl musikalisch als auch visuell.
 
 Die Songs, die in dieser Zeit geschrieben wurden, sind daher technischer,
 wilder, verspielter und fantasievoller als das bisherige Material der Band.
-Groovige Riffs, nostalgische Synth-Passagen und facettenreiche Vocals
-definieren den Sound von Vianova, der sich von zu Song zu Song stetig
-weiterentwickelt. Für 2022 plant Vianova die Veröffentlichung des in der
-Pandemie geschriebenen Materials und diverse Konzerte, um sich in die Herzen
-der deutschen und internationalen Metal-Community zu spielen.
+Groovige Riffs, nostalgische Synth-Passagen und facettenreiche Vocals definieren
+den Sound von Vianova, der sich von zu Song zu Song stetig weiterentwickelt. Für
+2022 plant Vianova die Veröffentlichung des in der Pandemie geschriebenen
+Materials und diverse Konzerte, um sich in die Herzen der deutschen und
+internationalen Metal-Community zu spielen.

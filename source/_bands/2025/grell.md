@@ -1,14 +1,12 @@
 ---
+day: saturday
 layout: band
-title: GRELL
-
-
-website: https://grellmusik.de
 logo: grell.png
 picture: grell.jpg
-year: 2025
-day: saturday
 stagetime: Samstag, 12. Juli 2025, 20:00 Uhr
+title: GRELL
+website: https://grellmusik.de
+year: 2025
 youtube: LNKixikD_pY
 ---
 

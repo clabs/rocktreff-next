@@ -1,25 +1,23 @@
 ---
+day: saturday
 layout: band
-title: Dekadenza
-
-
-website: https://dekadenzaofficial.com
 logo: dekadenza.png
 picture: dekadenza.jpg
-year: 2025
-day: saturday
 stagetime: Samstag, 12. Juli 2025, 21:00 Uhr
+title: Dekadenza
+website: https://dekadenzaofficial.com
+year: 2025
 youtube: p6b4dHrz3no
 ---
 
 Der Cellist Raphy fühlte sich in der sehr akademischen klassischen Welt als
-Metalhead über Jah-re eingeschränkt und gefangen. Während seines Klassik Studiums
-ging er mit seinem Bruder Adry am Saxophon als Crossover-Duo in ganz Deutschland
-über die Bühnen. Über die Jahre schrieben sie Songs, dessen Riffs immer schneller,
-härter und virtuoser wurden. Bis kein Zweifel mehr bestand: Sie spielten Metal
-mit Cello und Saxophon. In ihrer düsteren Heimatstadt Berlin lauerten schon die
-wichtigen Ergänzungen auf sie: Ishay am fünf-saitigen Bass, Kara an der Gitarre
-und Cosmo am Schlagzeug.
+Metalhead über Jah-re eingeschränkt und gefangen. Während seines Klassik
+Studiums ging er mit seinem Bruder Adry am Saxophon als Crossover-Duo in ganz
+Deutschland über die Bühnen. Über die Jahre schrieben sie Songs, dessen Riffs
+immer schneller, härter und virtuoser wurden. Bis kein Zweifel mehr bestand: Sie
+spielten Metal mit Cello und Saxophon. In ihrer düsteren Heimatstadt Berlin
+lauerten schon die wichtigen Ergänzungen auf sie: Ishay am fünf-saitigen Bass,
+Kara an der Gitarre und Cosmo am Schlagzeug.
 
 Stark beeinflusst von Apocalyptica, Airbourne und Motörhead, bezeichnen sie ihre
 Musik als Epic Groove Metal. Man kann sich die Musik so vorstellen: Epische

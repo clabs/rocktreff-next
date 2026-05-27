@@ -1,19 +1,17 @@
 ---
-layout: band
-title: DAMN!ESCAPE
-
-
-website: https://www.damn-escape.de
-style: tba
-logo: damnescape.png
-picture: damnescape.jpg
-year: 2023
-day: saturday
-stagetime: Samstag, 1. Juli 2023, 22:00 Uhr
-youtube: qWjAONdLgps
+#bandcamp:
 #soundcloud:
 #spotify:
-#bandcamp:
+day: saturday
+layout: band
+logo: damnescape.png
+picture: damnescape.jpg
+stagetime: Samstag, 1. Juli 2023, 22:00 Uhr
+style: tba
+title: DAMN!ESCAPE
+website: https://www.damn-escape.de
+year: 2023
+youtube: qWjAONdLgps
 ---
 
 Power up your life mit DAMN!ESCAPE: Energetic Kickass Rock der jede
@@ -32,7 +30,6 @@ gute Zeit haben und Energie tanken – darum geht es DAMN!ESCAPE. Auch in Songs,
 die Enttäuschung und Herzschmerz zum Thema haben, verbreitet DAMN!ESCAPE pure
 Lebenskraft.
 
-Oder um es mit den Worten von RockAntenne Hamburg zu sagen:
-„Für eine gute Portion arsch-kickenden Classic-Rock muss man nicht bis in die
- Achtziger reisen: DAMN!ESCAPE […] versetzen uns direkt in verrauchte
- Biker-Bars.“
+Oder um es mit den Worten von RockAntenne Hamburg zu sagen: „Für eine gute
+Portion arsch-kickenden Classic-Rock muss man nicht bis in die Achtziger reisen:
+DAMN!ESCAPE […] versetzen uns direkt in verrauchte Biker-Bars.“
