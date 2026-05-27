@@ -20,15 +20,14 @@ permalink: '/'
     <title>ROCKTREFF 2026 | 3.Juli-5.Juli 2026 | Eintritt frei | Open Air Festival im Fußballstadion Volksparkstadion
         Mariendorf</title>
     {% include opengraph.html %}
-    <link rel="icon" type="image/x-icon" href="./favicon.ico" />
-    <link rel="stylesheet" type="text/css" href="styles/main.css">
-    <link rel="stylesheet" href="/vendor/fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
-    <script type="text/javascript" src="/js/jquery-2.1.1.min.js" />
-    </script>
+    <link rel="icon" href="./favicon.ico">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="/vendor/fancybox/source/jquery.fancybox.css?v=2.1.5" media="screen">
+    <script src="/js/jquery-2.1.1.min.js"></script>
 </head>
 
-<body style="background-color:#000">
-    {% include navigation.html attribs="class='mobile-hidden'"%}
+<body>
+    {% include navigation.html attribs="class='mobile-hidden hidden'"%}
     <section class="slide landing" id="slide_landing">
         <div class="back"></div>
         <div class="presenter">
@@ -90,8 +89,7 @@ permalink: '/'
             <div class="image masked"></div>
         </div>
     </section>
-    <section class="slide map">
-        <a name="map"></a>
+    <section class="slide map" id="map">
         <div class="container verbote">
             <div class="col-centered">
                 <h3>
@@ -131,7 +129,7 @@ permalink: '/'
                     <dt>BVG-Anbindung</dt>
                     <dd>
                         <p>
-                            <span class="nobr bvg u6">U6</span> Alt-Mariendorf</br>
+                            <span class="nobr bvg u6">U6</span> Alt-Mariendorf<br>
                             <span class="nobr bvg bus">181</span>
                             <span class="nobr bvg mbus">M76</span>
                             <span class="nobr bvg bus">179</span>
@@ -140,7 +138,7 @@ permalink: '/'
                             <span class="nobr bvg mbus">M77</span>
                         </p>
                         <p>
-                            <span class="nobr bvg u6">U6</span> Westphalweg</br>
+                            <span class="nobr bvg u6">U6</span> Westphalweg<br>
                             <span class="nobr bvg bus">282</span>
                         </p>
                     </dd>
@@ -150,23 +148,8 @@ permalink: '/'
         <div class="noscroll">
             <iframe
                 src="//www.openstreetmap.org/export/embed.html?bbox=13.307018280029299%2C52.40671270231479%2C13.483829498291017%2C52.480480243443196&amp;layer=mapnik&amp;marker=52.443611913070406%2C13.395423889160156"
-                width="100%" height="400" frameborder="0" style="border:0;pointer-events:none" scrolling="no"></iframe>
+                width="100%" height="400" frameborder="0" class="map-embed" scrolling="no"></iframe>
         </div>
-        <script type="text/javascript">
-            var onMapMouseleaveHandler = function (event) {
-                var self = $(this)
-                self.on('click', onMapClickHandler)
-                self.off('mouseleave', onMapMouseleaveHandler)
-                self.find('iframe').css('pointer-events', 'none')
-            }
-            var onMapClickHandler = function (event) {
-                var self = $(this)
-                self.off('click', onMapClickHandler)
-                self.find('iframe').css('pointer-events', 'auto')
-                self.on('mouseleave', onMapMouseleaveHandler)
-            }
-            $('.slide.map .noscroll').on('click', onMapClickHandler)
-        </script>
     </section>
     <section class="slide sponsors" id="sponsors">
         <div class="container sponsors">
@@ -212,8 +195,7 @@ permalink: '/'
             </div>
         </div>
     </section>
-    <section class="slide spielfest">
-        <a name="spielfest"></a>
+    <section class="slide spielfest" id="spielfest">
         <div class="bg">
             <div class="image"></div>
         </div>
@@ -249,8 +231,7 @@ permalink: '/'
             <div class="image masked"></div>
         </div>
     </section>
-    <a name="helfen"></a>
-    <section class="slide helfen">
+    <section class="slide helfen" id="helfen">
         <div class="container">
             <div>
                 <h1>Der ROCKTREFF braucht Hilfe!</h1>
@@ -272,7 +253,7 @@ permalink: '/'
                 <div>
                     <div class="flickr gallery">
                         <a class="fancybox" rel="group" href="/static/crew/crew2025.jpg">
-                            <img src="/static/crew/crew2025.jpg" style="width:100%;height:auto"
+                            <img src="/static/crew/crew2025.jpg"
                                 alt="Rocktreff Crewfoto 2025">
                         </a>
                     </div>
@@ -280,7 +261,7 @@ permalink: '/'
                 <div>
                     <iframe
                         src="https://www.youtube-nocookie.com/embed/wmLPKZUEp80?wmode=transparent&fs=1&hl=en&modestbranding=1&iv_load_policy=3&showsearch=0&rel=1&theme=dark"
-                        frameborder="0" allowfullscreen style="height:13em;width:100%"></iframe>
+                        frameborder="0" allowfullscreen class="youtube-embed"></iframe>
                 </div>
             </div>
             <div class="grid-3col ways">
@@ -312,7 +293,7 @@ permalink: '/'
                     </p>
                     <p>
                         Sponsoring-Interessierte kontaktieren bitte für Details
-                        <span class="email" domain="rocktreff.de">sponsoring</span>
+                        <span class="email" data-domain="rocktreff.de">sponsoring</span>
                     </p>
                 </div>
                 <div>
@@ -333,7 +314,7 @@ permalink: '/'
                     <strong>Zweck:</strong> Spende ROCKTREFF
                     <p>
                         Ab 100€ stellen wir gerne eine Spendenquittung aus. Schreibe dazu bitte eine Mail
-                        an <span class="email" domain="rocktreff.de">spenden</span>
+                        an <span class="email" data-domain="rocktreff.de">spenden</span>
                     </p>
                 </div>
             </div>
@@ -349,7 +330,7 @@ permalink: '/'
             <div class="col-centered">
                 <h1>Impressum</h1>
             </div>
-            <div class="grid-imprint">
+            <div class="grid-approach">
                 <div class="imprint">
                     <dl>
                         <dt>Veranstalter</dt>
@@ -362,7 +343,7 @@ permalink: '/'
                             Bezirksstadtrat Oliver Schworck <br>
                             Leiter der Abteilung für Jugend und Gesundheit <br>
                             Telefon: (030) 90277 8701 <br>
-                            <span class="email" domain="ba-ts.berlin.de">jugendamtsleitung</span><br>
+                            <span class="email" data-domain="ba-ts.berlin.de">jugendamtsleitung</span><br>
                         </dd>
                     </dl>
                 </div>
@@ -375,7 +356,7 @@ permalink: '/'
                             Friedenstraße 20 – 12107 Berlin <br>
                             Registernummer: VR 9634 B Amtsgericht Charlottenburg <br>
                             Telefon: (030) 62930945 <br>
-                            <span class="email" domain="cpye.de">info</span><br>
+                            <span class="email" data-domain="cpye.de">info</span><br>
                             vertreten durch: Bernd Puhlmann, Marco Herrmann, Alexander Franke, Louisa Richter, Björn
                             Müller <br>
                         </dd>
@@ -394,7 +375,7 @@ permalink: '/'
                     </dl>
                 </div>
             </div>
-            <div style="text-align:center;margin-top:2em">
+            <div class="imprint-logos">
                 <a href="" target="_blank">
                     <img src="/static/sponsors/jugendamt.png" width="200" alt="Jugendamt Tempelhof Schoeneberg Logo">
                 </a>
@@ -405,11 +386,10 @@ permalink: '/'
         </div>
 
     </section>
-    <script type="text/javascript" src="/vendor/scrollreveal/dist/scrollreveal.min.js"></script>
-    <script type="text/javascript" src="/vendor/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
-    <script type="text/javascript" src="js/main.js" />
-    </script>
-    <script type="text/javascript">
+    <script src="/vendor/scrollreveal/dist/scrollreveal.min.js"></script>
+    <script src="/vendor/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+    <script src="js/main.js"></script>
+    <script>
         var sr = ScrollReveal()
         sr.reveal('.landing .presenter img', { delay: 500, origin: 'right', duration: 1000 }, 100)
         sr.reveal('.landing .presented_by', { delay: 1800, origin: 'left', duration: 100 })
@@ -422,26 +402,6 @@ permalink: '/'
         sr.reveal('.spielfest_sponsors img', { delay: 100, origin: 'right', scale: 1, duration: 1000 }, 200)
         sr.reveal('.imprint img', { delay: 100, origin: 'right', scale: 1, duration: 800 }, 200)
 
-    </script>
-    <script type="text/javascript">
-        var nav = document.querySelector('#navigation')
-        var bands = document.querySelector('#bands')
-        var scrolldown = document.querySelector('.scrolldown')
-
-        nav.classList.add('hidden')
-        window.addEventListener("scroll", function () {
-            if (window.pageYOffset >= bands.offsetTop - 100) {
-                nav.classList.remove('hidden')
-            }
-            else if (!nav.classList.contains('hidden')) {
-                nav.classList.add('hidden')
-            }
-            if (window.pageYOffset >= 10) {
-                scrolldown.classList.add('notvisible')
-            } else {
-                scrolldown.classList.remove('notvisible')
-            }
-        }, false)
     </script>
 </body>
 
