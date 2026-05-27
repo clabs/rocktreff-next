@@ -138,6 +138,19 @@ a { background-color: transparent; }
   .media-grid,
   .grid-equal,
   .grid-3col { grid-template-columns: 1fr; }
+
+  /* background-attachment: fixed is broken on mobile — revert to scroll */
+  body {
+    background-attachment: scroll;
+    background-size: 100% auto;
+  }
+  .slide .bg .image {
+    background-attachment: scroll;
+  }
+
+  /* prevent sponsor logos from overflowing viewport */
+  .slide.sponsors img,
+  .slide.sponsors .main img { max-width: 100%; height: auto; max-height: none; }
 }
 @media (max-width: 767px) and (max-aspect-ratio: 1/1) {
   .lineup-grid { grid-template-columns: 2fr 30% 30% 30%; grid-template-rows: repeat(8, 75px); }
