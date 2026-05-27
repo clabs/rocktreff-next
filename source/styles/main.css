@@ -147,7 +147,8 @@ a { background-color: transparent; }
 body {
   background-color: #000;
   background-image: url(../images/bg.jpg);
-  background-size: 100% auto;
+  background-size: cover;
+  background-attachment: fixed;
   color: #fff;
   font-family: 'PT Sans', sans-serif;
   overflow-y: initial;
@@ -520,6 +521,7 @@ body.page .box.clear {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
   width: 100%;
   height: 100%;
 }
@@ -884,23 +886,23 @@ body.page .box.clear {
 .slide.spielfest .bg .image { background-image: url('../images/landing_2.jpg'); }
 .slide.spielfest .logo {
   background-image: url('../images/spielfest_logo.png');
-  width: 50vw;
-  height: 8.5vw;
-  background-size: cover;
+  width: 100vw;
+  height: 13vw;
+  background-size: contain;
   background-repeat: no-repeat;
-  margin-top: 25%;
-  margin-left: 25%;
+  background-position: center;
   position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
   z-index: 1;
-  background-color: rgba(255,255,255,0.25);
-  border-radius: 4px;
+  background-color: rgba(255,255,255,0.65);
 }
 @media (max-width: 767px) and (max-aspect-ratio: 1/1) {
   .slide.spielfest .logo {
-    width: 98vw;
-    height: 15vh;
-    margin-top: 35vh;
-    margin-left: 1vw;
+    width: 100vw;
+    height: 20vh;
+    left: 0;
     background-size: contain;
   }
 }
@@ -939,7 +941,7 @@ body.page .box.clear {
   background: linear-gradient(to bottom, #d6efd3 0%, #ffffff 20%);
   text-align: center;
 }
-.slide.spielfest_sponsors img { max-height: var(--logo-height); width: auto; margin: 10px 0; }
+.slide.spielfest_sponsors img { max-height: var(--logo-height-lg); width: auto; margin: 10px 0; }
 
 /* ---- Band page ---- */
 body.page.band {
