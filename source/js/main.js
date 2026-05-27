@@ -20,10 +20,20 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // Nav hamburger toggle (mobile)
-  document.querySelectorAll('.nav.menu-toggle .nav-hamburger, .nav-small .nav a')
-    .forEach(el => el.addEventListener('click', () => {
-      document.querySelector('.nav-small')?.classList.toggle('in')
-    }))
+  const nav = document.querySelector('#navigation')
+  const navToggle = document.querySelector('.nav-toggle')
+  if (navToggle && nav) {
+    navToggle.addEventListener('click', () => {
+      const open = nav.classList.toggle('open')
+      navToggle.setAttribute('aria-expanded', open)
+    })
+    nav.querySelectorAll('.nav-links a').forEach(a =>
+      a.addEventListener('click', () => {
+        nav.classList.remove('open')
+        navToggle.setAttribute('aria-expanded', 'false')
+      })
+    )
+  }
 
   // Map iframe — click to enable scroll, mouseleave to disable
   const mapWrap = document.querySelector('.slide.map .noscroll')
@@ -43,7 +53,6 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // Nav hide/show on scroll (index page only)
-  const nav = document.querySelector('#navigation')
   const bands = document.querySelector('#bands')
   if (nav && bands) {
     const scrolldown = document.querySelector('.scrolldown')
