@@ -4,7 +4,7 @@ email: kontakt@rocktreff.de
 description: ""
 baseurl: ""
 url: "https://rocktreff.de"
-exclude: [ "styles" ]
+exclude: []
 
 default_locale: "de"
 

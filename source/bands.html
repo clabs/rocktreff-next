@@ -11,70 +11,65 @@ ______ _____ _____  _   _____________ _________________
 \_| \_|\___/ \____/\_| \_/ \_/ \_| \_\____/\_|   \_|
 -->
 <html lang="de-DE">
+
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-  <title>Alle Bands | ROCKTREFF</title>
-  {% include opengraph.html %}
-  <link rel="stylesheet" type="text/css" href="/styles/main.css">
-  <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-  <link rel="stylesheet" href="/vendor/fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
-  <!-- Lychee Photo Stream Embed v1.0.0 -->
-  <link rel="stylesheet" href="https://gallery.rocktreff.de/embed/lychee-embed.css?v=1.0.0">
-  <script src="https://gallery.rocktreff.de/embed/lychee-embed.js?v=1.0.0"></script>
-  <script type="text/javascript" src="/js/jquery-2.1.1.min.js"/></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <title>Alle Bands | ROCKTREFF</title>
+    {% include opengraph.html %}
+    <link rel="stylesheet" href="/styles/main.css">
+    <link rel="icon" href="/favicon.ico">
+    <link rel="stylesheet" href="/vendor/fancybox/source/jquery.fancybox.css?v=2.1.5" media="screen">
+    <!-- Lychee Photo Stream Embed v1.0.0 -->
+    <link rel="stylesheet" href="https://gallery.rocktreff.de/embed/lychee-embed.css?v=1.0.0">
+    <script src="https://gallery.rocktreff.de/embed/lychee-embed.js?v=1.0.0"></script>
+    <script src="/js/jquery-2.1.1.min.js"></script>
 </head>
+
 <body class="page band">
-  {% include navigation.html%}
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-8">
-        <div class="box top bandhistory">
-          <div>
-            <h3>... 1984</h3>
-            mehr als 350 weitere Bands
-          </div>
-          {% assign bands = site.bands | sort: 'year' %}
-          {% for band in bands %}
-            {% capture currentyear %}{{band.year}}{% endcapture %}
-            {% if currentyear != year %}
-              {% unless forloop.first %}</ul></div>{% endunless %}
-              <div>
-                <h3>{{ currentyear }}</h3>
-                <ul class="lineup">
-              {% capture year %}{{currentyear}}{% endcapture %}
-            {% endif %}
-              <li><a class="link" href="{{ band.url }}">{{ band.title }}</a></li>
-          {% endfor %}
-          </ul>
-          </div>
+    {% include navigation.html%}
+    <div class="content-wrap">
+        <div class="grid-main">
+            <div>
+                <div class="box top bandhistory">
+                    <div>
+                        <h3>... 1984</h3>
+                        mehr als 350 weitere Bands
+                    </div>
+                    {% assign bands = site.bands | sort: 'year' %}
+                    {% for band in bands %}
+                    {% capture currentyear %}{{band.year}}{% endcapture %}
+                    {% if currentyear != year %}
+                    {% unless forloop.first %}</ul>
+                </div>{% endunless %}
+                <div>
+                    <h3>{{ currentyear }}</h3>
+                    <ul class="lineup">
+                        {% capture year %}{{currentyear}}{% endcapture %}
+                        {% endif %}
+                        <li><a class="link" href="{{ band.url }}">{{ band.title }}</a></li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
         </div>
-      </div>
-      <div class="col-sm-4">
-        <div class="box top">
-          <h1>36 Jahre Erinnerungen!</h1>
-          <p>
-            Der ROCKTREFF hat in seinen 36 Jahren weit über 2000 Musikern in
-            etwa 500 Bands eine Bühne geboten. Für viele war oder ist es das
-            erste Mal auf einer großen Bühne in einem Stadion zu stehen.
-          </p>
-          <div
-            data-lychee-embed
-            data-api-url="https://gallery.rocktreff.de"
-            data-mode="album"
-            data-album-id="Es847bq2-GAhvbWE0a_e3ciQ"
-            data-layout="justified"
-            data-spacing="8"
-            data-target-row-height="200"
-            data-max-photos="none"
-            data-sort-order="desc"
-            data-header-placement="none"
-          ></div>
+        <div>
+            <div class="box top">
+                <h1>36 Jahre Erinnerungen!</h1>
+                <p>
+                    Der ROCKTREFF hat in seinen 36 Jahren weit über 2000 Musikern in
+                    etwa 500 Bands eine Bühne geboten. Für viele war oder ist es das
+                    erste Mal auf einer großen Bühne in einem Stadion zu stehen.
+                </p>
+                <div data-lychee-embed data-api-url="https://gallery.rocktreff.de" data-mode="album"
+                    data-album-id="Es847bq2-GAhvbWE0a_e3ciQ" data-layout="justified" data-spacing="8"
+                    data-target-row-height="200" data-max-photos="none" data-sort-order="desc"
+                    data-header-placement="none"></div>
+            </div>
         </div>
-      </div>
     </div>
-  </div>
-<script type="text/javascript" src="/vendor/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
-<script type="text/javascript" src="/js/main.js"/></script>
+    <script src="/vendor/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+    <script src="/js/main.js"></script>
 </body>
+
 </html>

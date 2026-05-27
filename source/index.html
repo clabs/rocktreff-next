@@ -13,432 +13,390 @@ permalink: '/'
  \/
 -->
 <html lang="de-DE">
+
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-  <title>ROCKTREFF 2026 | 3.Juli-5.Juli 2026 | Eintritt frei | Open Air Festival im Fußballstadion Volksparkstadion Mariendorf</title>
-  {% include opengraph.html %}
-  <link rel="icon" type="image/x-icon" href="./favicon.ico" />
-  <link rel="stylesheet" type="text/css" href="styles/main.css">
-  <link rel="stylesheet" href="/vendor/fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
-  <script type="text/javascript" src="/js/jquery-2.1.1.min.js"/></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <title>ROCKTREFF 2026 | 3.Juli-5.Juli 2026 | Eintritt frei | Open Air Festival im Fußballstadion Volksparkstadion
+        Mariendorf</title>
+    {% include opengraph.html %}
+    <link rel="icon" href="./favicon.ico">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="/vendor/fancybox/source/jquery.fancybox.css?v=2.1.5" media="screen">
+    <script src="/js/jquery-2.1.1.min.js"></script>
 </head>
-<body style="background-color:#000">
-  {% include navigation.html attribs="class='hidden-xs'"%}
-  <section class="slide landing" id="slide_landing">
-    <div class="back"></div>
-    <div class="presenter">
-      <div class="presented_by">
-        <span class="hidden-xs">präsentiert von</span>
-      </div>
-      {% for sponsor in site.data.sponsors %}
-        {% if sponsor.presenter %}
-        <a href="{{ sponsor.url }}" target="_blank">
-          <img src="/static/sponsors/{{sponsor.image}}" alt="Sponsor Logo {{sponsor.name}}">
-        </a>
-        {% endif %}
-      {% endfor %}
-    </div>
-    <div class="front">
-      <div class="logo"></div>
-      <div class="info">
-        <div>3.Juli-5.Juli 2026</div>
-        <div>Im Volkspark Mariendorf</div>
-        <div>16 Bands Live - Eintritt Frei!</div>
-      </div>
-    </div>
-    <div class="footer">
-      <a class="link" href="/datenschutz">Datenschutz</a> |
-      <a class="link" href="#veranstalter">Veranstalter</a>
-    </div>
-    <div class="scrolldown">
-      <span class="glyphicon glyphicon-chevron-down"></span></a>
-    </div>
-  </section>
-  <section class="slide lineup bordertop" id="bands">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-8">
-          {% include lineup.html %}
-        </div>
 
-        <div class="col-md-4">
-          <h1>Drei Tage volles Programm</h1>
-          <h3>16 Bands Live!</h3>
-          Der jährlich im Volksparkstadion Mariendorf stattfindende
-          ROCKTREFF ist ein Open Air Festival, dass sich ganz der
-          handgemachten Musik verschrieben hat. Hier werden die
-          Gitarren ausgepackt, die Verstärker hochgeregelt und
-          gemeinsam das Haupthaar geschüttelt. Ziel des Rocktreffs
-          ist es, Amateurbands eine geeignete Bühne zu bieten, sich
-          einem größtmöglichen Publikum zu präsentieren und auf der
-          anderen Seite einer breiten Öffentlichkeit ein kostenloses
-          Event zu bieten. Der ROCKTREFF ist eines der größten reinen
-          Amateurbandfestivals Deutschlands.<br><br>
-
-          Aus jährlich hunderten Bewerbungen werden 16 Bands ausgewählt,
-          die an drei Tagen des Festivals das Line-Up stellen.
-          <br><br>
-          <a href="/bands">Übersicht aller Bands</a>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="slide second">
-    <div class="bg">
-      <div class="image masked"></div>
-    </div>
-  </section>
-  <section class="slide map">
-    <a name="map"></a>
-    <div class="container verbote">
-      <div class="row">
-        <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
-          <h3>
-             Aus Sicherheits- und Versicherungsrelevanten Gründen ist die Mitnahme der folgenden Gegenstände nicht gestattet
-          </h3>
-          <img src="/images/rt_verbote.png">
-          <p>
-            Ebenfalls verboten sind Waffen, Pyrotechnik, Laser Pointer, Drohnen,
-            Lärminstrumente (Megaphone, Handsiren, Gasdruckfanfahren, Lautsprecher),
-            Fahnen, Transparente, Banner und Drogen. Der Rocktreff ist ein sicher
-            Ort für jede Ethnie, jedes Geschlecht und jede sexuelle Orientierung:
-            Rassismus, Sexismus oder Homophobie wird bei uns nicht toleriert und
-            kann zum Hausverbot führen.
-          </p>
-        </div>
-      </div>
-    </div>
-    <div class="container approach">
-      <div class="row">
-        <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
-          <h1>Anfahrt</h1>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-xs-12 col-sm-5 col-sm-offset-1 col-md-4 col-md-offset-2">
-          <p>
-            Der Volkspark befindet sich direkt am Mariendorfer
-            Damm zwischen den U-Bahnhöfen Alt-Mariendorf und
-            Westphalweg. Wir empfehlen in jedem Fall die Anfahrt
-            mit der BVG, da nur sehr begrenzt Parkplätze vorhanden
-            sind.
-          </p>
-          <dt>Adresse</dt>
-          <dd><address>Prühßstraße 90, 12109 Berlin-Tempelhof</address></dd>
-        </div>
-        <div class="col-xs-12 col-sm-5 col-md-4">
-          <dt>BVG-Anbindung</dt>
-          <dd>
-            <p>
-              <span class="nobr bvg u6">U6</span> Alt-Mariendorf</br>
-              <span class="nobr bvg bus">181</span>
-              <span class="nobr bvg mbus">M76</span>
-              <span class="nobr bvg bus">179</span>
-              <span class="nobr bvg bus">277</span>
-              <span class="nobr bvg xbus">X76</span>
-              <span class="nobr bvg mbus">M77</span>
-            </p>
-            <p>
-              <span class="nobr bvg u6">U6</span> Westphalweg</br>
-              <span class="nobr bvg bus">282</span>
-            </p>
-          </dd>
-        </div>
-      </div>
-    </div>
-    <div class="noscroll">
-      <iframe
-        src="//www.openstreetmap.org/export/embed.html?bbox=13.307018280029299%2C52.40671270231479%2C13.483829498291017%2C52.480480243443196&amp;layer=mapnik&amp;marker=52.443611913070406%2C13.395423889160156"
-        width="100%" height="400" frameborder="0" style="border:0;pointer-events:none" scrolling="no"
-      ></iframe>
-    </div>
-    <script type="text/javascript">
-      var onMapMouseleaveHandler = function ( event ) {
-        var self = $( this )
-        self.on( 'click', onMapClickHandler )
-        self.off( 'mouseleave', onMapMouseleaveHandler )
-        self.find( 'iframe' ).css( 'pointer-events' , 'none' )
-      }
-      var onMapClickHandler = function ( event ) {
-        var self = $( this )
-        self.off( 'click', onMapClickHandler )
-        self.find( 'iframe' ).css( 'pointer-events', 'auto' )
-        self.on( 'mouseleave', onMapMouseleaveHandler )
-      }
-      $( '.slide.map .noscroll' ).on( 'click', onMapClickHandler )
-    </script>
-  </section>
-  <section class="slide sponsors" id="sponsors">
-    <div class="container sponsors">
-      <div class="row col-lg-12">
-        <h1>Unterstützer</h1>
-      </div>
-      <div class="row">
-        <div class="col-lg-6">
-          <p>
-            Dass der 41. ROCKTREFF immer noch für alle Besucherinnen und Besucher bei
-            freiem Eintritt angeboten werden kann, verdanken wir den vielen ehrenamtlichen
-            Helferinnen und Helfern sowie den Musikerinnen und Musikern der Bands, die
-            ohne Gage auftreten und den vielen freien Trägern, die sich am Spielfest mit
-            ihren Angeboten beteiligen. Für die Basisfinanzierung des ROCKTREFFS und
-            Spielfestes sorgt von Anfang an, also seit 1984, das Jugendamt Tempelhof-
-            Schöneberg als Veranstalter. Um die Gesamtkosten zu decken, sind darüber
-            hinaus viele kleinere und größere Sponsoren nötig. Alle zusammen machen den
-            ROCKTREFF und das Spielfest erst möglich. Dafür gebührt allen Unterstützern
-            ein herzliches Dankeschön.
-          </p>
-        </div>
-        <div class="main col-lg-6">
-          {% for sponsor in site.data.sponsors %}
-            {% if sponsor.main %}
+<body>
+    {% include navigation.html hidden=true %}
+    <section class="slide landing" id="slide_landing">
+        <div class="back"></div>
+        <div class="presenter">
+            <div class="presented_by">
+                <span class="desktop-only">präsentiert von</span>
+            </div>
+            {% for sponsor in site.data.sponsors %}
+            {% if sponsor.presenter %}
             <a href="{{ sponsor.url }}" target="_blank">
-              <img src="/static/sponsors/{{sponsor.image}}" alt="Sponsor Logo {{sponsor.name}}">
+                <img src="/static/sponsors/{{sponsor.image}}" alt="Sponsor Logo {{sponsor.name}}">
             </a>
             {% endif %}
-          {% endfor %}
+            {% endfor %}
         </div>
-      </div>
-      <div class="row">
-        <div class="other col-lg-12">
-          <hr>
-          {% for sponsor in site.data.sponsors %}
-            {% unless sponsor.presenter %}
-            {% unless sponsor.main %}
-            <a href="{{ sponsor.url }}" target="_blank">
-              <img src="/static/sponsors/{{sponsor.image}}" alt="Sponsor Logo {{sponsor.name}}">
-            </a>
-            {% endunless %}
-            {% endunless %}
-          {% endfor %}
+        <div class="front">
+            <div class="logo"></div>
+            <div class="info">
+                <div>3.Juli-5.Juli 2026</div>
+                <div>Im Volkspark Mariendorf</div>
+                <div>16 Bands Live - Eintritt Frei!</div>
+            </div>
         </div>
-      </div>
-    </div>
-  </section>
-  <section class="slide spielfest">
-    <a name="spielfest"></a>
-    <div class="bg">
-      <div class="image"></div>
-    </div>
-    <div class="logo"></div>
-    <div class="silhouetten"></div>
-  </section>
-  <section class="slide spielfest_info">
-    <div class="container">
-      <div class="col-sm-8 col-sm-offset-2">
-        <p>
-          Im Rahmen des ROCKTREFFs findet auf dem selben Gelände am
-          Samstag und Sonntag von 12:00 Uhr bis 18:00 Uhr das
-          Spielfest statt. Die Kleinsten der Rocker können sich bei
-          zahlreichen tollen Attraktionen austoben, während ihren
-          Eltern ein buntes Angebot an Gastronomie und Kunsthandwerk
-          geboten wird. Der Schirmherr des Spielfestes ist der
-          Bezirksbürgermeister Herr Jörn Oltmann.
-          <a class="link" href="https://www.spielfest-mariendorf.de/" target="_blank">Mehr Infos …</a>
-        </p>
-      </div>
-    </div>
-  </section>
-  <section class="slide spielfest_sponsors">
-    <img src="/static/sponsors/catering_company_light.png" alt="Catering Company Logo">
-    <img src="/static/sponsors/stilbrand_light.png" alt="Stilbrand Logo">
-    <img src="/static/sponsors/piereg_light.png" alt="Piereg Logo">
-    <img src="/static/sponsors/stadtundland.png" alt="Stadt und Land Logo">
-    <img src="/static/sponsors/nitz-nitz-pos.png" alt="Nitz und Nitz Logo">
-    <img src="/static/sponsors/binss.png" alt="B.I.N.S.S. LOGO">
-  </section>
-  <section class="slide foo">
-    <div class="bg">
-      <div class="image masked"></div>
-    </div>
-  </section>
-  <a name="helfen"></a>
-  <section class="slide helfen">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <h1>Der ROCKTREFF braucht Hilfe!</h1>
+        <div class="footer">
+            <a class="link" href="/datenschutz">Datenschutz</a> |
+            <a class="link" href="#veranstalter">Veranstalter</a>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-6">
-          <p>
-            Der ROCKTREFF ist ein nicht-kommerzielles Festival, das sich
-            ausschließlich mit Zuwendungen, Sponsoren und der Hilfe von
-            ehrenamtlichen Helfern trägt. Deswegen sind wir jedes Jahr aufs
-            Neue darauf angewiesen, dass uns zahlreiche Leute helfen. Alle
-            Bands und Künstler treten ohne Gage auf. Die Crew ackert mit bis
-            zu 60 Leuten teils monatelang ebenfalls ohne Bezahlung, aber
-            mit viel Spaß an der Sache. <a class="link" href="https://gallery.rocktreff.de/gallery/x-r9GFK8wXoCPDh4Rp2OYw_x" target="blank">Hier die Bilder der Crew 2025</a>.
-          </p>
-        </div>
-        <div class="col-sm-2">
-          <div class="flickr gallery">
-            <a class="fancybox" rel="group" href="/static/crew/crew2025.jpg">
-              <img src="/static/crew/crew2025.jpg" style="width:100%;height:auto" alt="Rocktreff Crewfoto 2025">
-            </a>
-          </div>
-        </div>
-        <div class="col-sm-4">
-          <iframe src="https://www.youtube-nocookie.com/embed/wmLPKZUEp80?wmode=transparent&fs=1&hl=en&modestbranding=1&iv_load_policy=3&showsearch=0&rel=1&theme=dark" frameborder="0" allowfullscreen style="height:13em;width:100%"></iframe>
-        </div>
-      </div>
-      <div class="row ways">
-        <div class="col-sm-4">
-          <h3>Du willst mitmachen?</h3>
-          <p>
-            Der ROCKTREFF bietet viele Möglichkeiten sich zu engagieren
-            und dabei den eigenen Horizont zu erweitern. Neben den
-            klassischen Tätigkeitsbereichen wie Licht &amp; Ton suchen wir
-            immer Leute für Bandbetreuung, Catering und viele weitere
-            Bereiche.
-          </p>
-          <p>
-            Für die Helfer beginnt der ROCKTREFF bereits viele Tage vor der
-            Veranstaltung. Wir errichten eine komplette kleine Stadt, die
-            für die ROCKTREFF-Woche auch unser Zuhause ist.
-          </p>
-          <p>
-            Interesse? Dann schreib eine Mail an
-            <span class="email">crew</span>
-          </p>
-        </div>
-        <div class="col-sm-4">
-          <h3>Sponsor werden</h3>
-          <p>
-            Das Bezirksamt Tempelhof-Schöneberg sorgt für die Basisfinanzierung
-            der Veranstaltung. Den größeren Teil der Kosten müssen wir aus
-            Spenden von Sponsoren akquirieren. Hilf uns bitte dabei!
-          </p>
-          <p>
-            Sponsoring-Interessierte kontaktieren bitte für Details
-            <span class="email" domain="rocktreff.de">sponsoring</span>
-          </p>
-        </div>
-        <div class="col-sm-4">
-          <h3>Spenden</h3>
-          Eine Überweisung auf unser Konto ist uns die liebste Form, da sie keinerlei zusätzliche Gebühren aufwirft.
-          <div class="code">
-            <a href="bank://singlepaymentsepa?name=CPYE%20e.%20V.&reason=Spende%20ROCKTREFF&iban=DE51100100100015333103&bic=PBNKDEFFXXX&amount=23%2C00">
-            <img src="/images/bezahlcode.png" class="bezahlcode">
-            </a>
-          </div>
-          <strong>Inhaber:</strong> CPYE e.V. <br>
-          <strong>Konto:</strong> 15 333 103 (Postbank Berlin) <br>
-          <strong>BLZ:</strong> 100 100 10 <br>
-          <strong>IBAN:</strong> DE51100100100015333103 <br>
-          <strong>BIC:</strong> PBNKDEFFXXX <br>
-          <strong>Zweck:</strong> Spende ROCKTREFF
-          <p>
-            Ab 100€ stellen wir gerne eine Spendenquittung aus. Schreibe dazu bitte eine Mail
-            an <span class="email" domain="rocktreff.de">spenden</span>
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="slide last">
-    <div class="bg">
-      <div class="image masked"></div>
-    </div>
-  </section>
-  <section class="slide footer" id="veranstalter">
-    <div class="container imprint">
-      <div class="row">
-        <div class="col-sm-10 col-sm-offset-2">
-          <h1>Impressum</h1>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-4 col-sm-offset-2 imprint">
-          <dl>
-            <dt>Veranstalter</dt>
-            <dd>
-              Bezirksamt Tempelhof-Schöneberg von Berlin <br>
-              Abteilung für Jugend und Gesundheit <br>
-              -Jugendamt- <br>
-              Strelitzstraße 15 - 12105 Berlin <br>
-              vertreten durch und inhaltlich Verantwortlicher gem. § 18 MStV: <br>
-              Bezirksstadtrat Oliver Schworck <br>
-              Leiter der Abteilung für Jugend und Gesundheit <br>
-              Telefon: (030) 90277 8701 <br>
-              <span class="email" domain="ba-ts.berlin.de">jugendamtsleitung</span><br>
-            </dd>
-          </dl>
-        </div>
-        <div class="col-sm-4 imprint">
-          <dl>
-            <dt>Träger der Veranstaltung<dt>
-            <dd>
-              CPYE e.V.<br>
-              Friedenstraße 20 – 12107 Berlin <br>
-              Registernummer: VR 9634 B Amtsgericht Charlottenburg <br>
-              Telefon: (030) 62930945 <br>
-              <span class="email" domain="cpye.de">info</span><br>
-              vertreten durch: Bernd Puhlmann, Marco Herrmann, Alexander Franke, Louisa Richter, Björn Müller <br>
-            </dd>
-            <dt>Presse & Akkreditierung</dt>
-            <dd>
-              Marco Herrmann
-            </dd>
-            <dd>
-              <span class="email">presse</span>
-            </dd>
-            <dt>Kontakt</dt>
-            <dd>
-              <span class="email">kontakt</span><br>
-              Kontakt für Bands: <span class="email">booking</span>
-            </dd>
-          </dl>
-        </div>
-      </div>
-      <div style="text-align:center;margin-top:2em">
-        <a href="" target="_blank">
-          <img src="/static/sponsors/jugendamt.png" width="200" alt="Jugendamt Tempelhof Schoeneberg Logo">
-        </a>
-        <a href="http://www.cpye.de/" target="_blank">
-          <img src="/static/sponsors/cpye_inv.png" alt="CPYE e.V. Logo">
-        </a>
-      </div>
-    </div>
+        <div class="scrolldown">&#9660;</div>
+    </section>
+    <section class="slide lineup bordertop" id="bands">
+        <div class="content-wrap">
+            <div class="grid-main">
+                <div>
+                    {% include lineup.html %}
+                </div>
+                <div>
+                    <h1>Drei Tage volles Programm</h1>
+                    <h3>16 Bands Live!</h3>
+                    Der jährlich im Volksparkstadion Mariendorf stattfindende
+                    ROCKTREFF ist ein Open Air Festival, dass sich ganz der
+                    handgemachten Musik verschrieben hat. Hier werden die
+                    Gitarren ausgepackt, die Verstärker hochgeregelt und
+                    gemeinsam das Haupthaar geschüttelt. Ziel des Rocktreffs
+                    ist es, Amateurbands eine geeignete Bühne zu bieten, sich
+                    einem größtmöglichen Publikum zu präsentieren und auf der
+                    anderen Seite einer breiten Öffentlichkeit ein kostenloses
+                    Event zu bieten. Der ROCKTREFF ist eines der größten reinen
+                    Amateurbandfestivals Deutschlands.<br><br>
 
-  </section>
-  <script type="text/javascript" src="/vendor/scrollreveal/dist/scrollreveal.min.js"></script>
-  <script type="text/javascript" src="/vendor/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
-  <script type="text/javascript" src="js/main.js"/></script>
-  <script type="text/javascript">
-    var sr = ScrollReveal()
-    sr.reveal('.landing .presenter img', { delay: 500, origin:'right', duration: 1000 }, 100 )
-    sr.reveal('.landing .presented_by',  { delay: 1800, origin:'left', duration: 100 })
-    sr.reveal('.landing .info > *',   { delay: 1000, origin:'top', scale: 1, duration: 1000 })
-    sr.reveal('.landing .scrolldown', { delay: 3000, origin:'bottom', duration: 1000, opacity: 0 })
-    sr.reveal('.lineup .bands > *',  { delay: 0, origin:'top', scale: 1, duration: 1000 }, 500 )
-    sr.reveal('.sponsors .main img',  { delay: 0, origin:'right', scale: 1, duration: 600 }, 100 )
-    sr.reveal('.sponsors .other img', { delay: 700, origin:'right', scale: 1, duration: 1000 }, 100 )
-    sr.reveal('.helfen .ways > *',  { delay: 0, origin:'top', scale: 1, duration: 1000 }, 500 )
-    sr.reveal('.spielfest_sponsors img', { delay: 100, origin:'right', scale: 1, duration: 1000 }, 200 )
-    sr.reveal('.imprint img', { delay: 100, origin:'right', scale: 1, duration: 800 }, 200 )
+                    Aus jährlich hunderten Bewerbungen werden 16 Bands ausgewählt,
+                    die an drei Tagen des Festivals das Line-Up stellen.
+                    <br><br>
+                    <a href="/bands" class="link">Übersicht aller Bands</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="slide second">
+        <div class="bg">
+            <div class="image masked"></div>
+        </div>
+    </section>
+    <section class="slide map" id="map">
+        <div class="content-wrap verbote">
+            <h3>
+                Aus Sicherheits- und Versicherungsrelevanten Gründen ist die Mitnahme der folgenden Gegenstände
+                nicht gestattet
+            </h3>
+            <img src="/images/rt_verbote.png">
+            <p>
+                Ebenfalls verboten sind Waffen, Pyrotechnik, Laser Pointer, Drohnen,
+                Lärminstrumente (Megaphone, Handsiren, Gasdruckfanfahren, Lautsprecher),
+                Fahnen, Transparente, Banner und Drogen. Der Rocktreff ist ein sicher
+                Ort für jede Ethnie, jedes Geschlecht und jede sexuelle Orientierung:
+                Rassismus, Sexismus oder Homophobie wird bei uns nicht toleriert und
+                kann zum Hausverbot führen.
+            </p>
+        </div>
+        <div class="content-wrap approach">
+            <h1>Anfahrt</h1>
+            <div class="grid-equal">
+                <div>
+                    <p>
+                        Der Volkspark befindet sich direkt am Mariendorfer
+                        Damm zwischen den U-Bahnhöfen Alt-Mariendorf und
+                        Westphalweg. Wir empfehlen in jedem Fall die Anfahrt
+                        mit der BVG, da nur sehr begrenzt Parkplätze vorhanden
+                        sind.
+                    </p>
+                    <dt>Adresse</dt>
+                    <dd>
+                        <address>Prühßstraße 90, 12109 Berlin-Tempelhof</address>
+                    </dd>
+                </div>
+                <div>
+                    <dt>BVG-Anbindung</dt>
+                    <dd>
+                        <p>
+                            <span class="nobr bvg u6">U6</span> Alt-Mariendorf<br>
+                            <span class="nobr bvg bus">181</span>
+                            <span class="nobr bvg mbus">M76</span>
+                            <span class="nobr bvg bus">179</span>
+                            <span class="nobr bvg bus">277</span>
+                            <span class="nobr bvg xbus">X76</span>
+                            <span class="nobr bvg mbus">M77</span>
+                        </p>
+                        <p>
+                            <span class="nobr bvg u6">U6</span> Westphalweg<br>
+                            <span class="nobr bvg bus">282</span>
+                        </p>
+                    </dd>
+                </div>
+            </div>
+        </div>
+        <div class="noscroll">
+            <iframe
+                src="//www.openstreetmap.org/export/embed.html?bbox=13.307018280029299%2C52.40671270231479%2C13.483829498291017%2C52.480480243443196&amp;layer=mapnik&amp;marker=52.443611913070406%2C13.395423889160156"
+                width="100%" height="400" frameborder="0" class="map-embed" scrolling="no"></iframe>
+        </div>
+    </section>
+    <section class="slide sponsors" id="sponsors">
+        <div class="content-wrap sponsors">
+            <div>
+                <h1>Unterstützer</h1>
+            </div>
+            <div class="grid-equal">
+                <div>
+                    <p>
+                        Dass der 41. ROCKTREFF immer noch für alle Besucherinnen und Besucher bei
+                        freiem Eintritt angeboten werden kann, verdanken wir den vielen ehrenamtlichen
+                        Helferinnen und Helfern sowie den Musikerinnen und Musikern der Bands, die
+                        ohne Gage auftreten und den vielen freien Trägern, die sich am Spielfest mit
+                        ihren Angeboten beteiligen. Für die Basisfinanzierung des ROCKTREFFs und
+                        Spielfestes sorgt von Anfang an, also seit 1984, das Jugendamt Tempelhof-
+                        Schöneberg als Veranstalter. Um die Gesamtkosten zu decken, sind darüber
+                        hinaus viele kleinere und größere Sponsoren nötig. Alle zusammen machen den
+                        ROCKTREFF und das Spielfest erst möglich. Dafür gebührt allen Unterstützern
+                        ein herzliches Dankeschön.
+                    </p>
+                </div>
+                <div class="main">
+                    {% for sponsor in site.data.sponsors %}
+                    {% if sponsor.main %}
+                    <a href="{{ sponsor.url }}" target="_blank">
+                        <img src="/static/sponsors/{{sponsor.image}}" alt="Sponsor Logo {{sponsor.name}}">
+                    </a>
+                    {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
+            <div class="other">
+                <hr>
+                {% for sponsor in site.data.sponsors %}
+                {% unless sponsor.presenter %}
+                {% unless sponsor.main %}
+                <a href="{{ sponsor.url }}" target="_blank">
+                    <img src="/static/sponsors/{{sponsor.image}}" alt="Sponsor Logo {{sponsor.name}}">
+                </a>
+                {% endunless %}
+                {% endunless %}
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+    <section class="slide spielfest" id="spielfest">
+        <div class="bg">
+            <div class="image masked"></div>
+        </div>
+        <div class="logo"></div>
+        <div class="silhouetten"></div>
+    </section>
+    <section class="slide spielfest_info">
+        <div class="content-wrap">
+                <p>
+                    Im Rahmen des ROCKTREFFs findet auf dem selben Gelände am
+                    Samstag und Sonntag von 12:00 Uhr bis 18:00 Uhr das
+                    Spielfest statt. Die Kleinsten der Rocker können sich bei
+                    zahlreichen tollen Attraktionen austoben, während ihren
+                    Eltern ein buntes Angebot an Gastronomie und Kunsthandwerk
+                    geboten wird. Der Schirmherr des Spielfestes ist der
+                    Bezirksbürgermeister Herr Jörn Oltmann.
+                    <a class="link" href="https://spielfest-mariendorf.de/" target="_blank">Mehr Infos …</a>
+                </p>
+        </div>
+    </section>
+    <section class="slide spielfest_sponsors">
+        <img src="/static/sponsors/catering_company_light.png" alt="Catering Company Logo">
+        <img src="/static/sponsors/stilbrand_light.png" alt="Stilbrand Logo">
+        <img src="/static/sponsors/piereg_light.png" alt="Piereg Logo">
+        <img src="/static/sponsors/stadtundland.png" alt="Stadt und Land Logo">
+        <img src="/static/sponsors/nitz-nitz-pos.png" alt="Nitz und Nitz Logo">
+        <img src="/static/sponsors/binss.png" alt="B.I.N.S.S. LOGO">
+    </section>
+    <section class="slide foo">
+        <div class="bg">
+            <div class="image masked"></div>
+        </div>
+    </section>
+    <section class="slide helfen" id="helfen">
+        <div class="content-wrap">
+            <div>
+                <h1>Der ROCKTREFF braucht Hilfe!</h1>
+            </div>
+            <div class="grid-equal">
+                <div>
+                    <p>
+                        Der ROCKTREFF ist ein nicht-kommerzielles Festival, das sich
+                        ausschließlich mit Zuwendungen, Sponsoren und der Hilfe von
+                        ehrenamtlichen Helfern trägt. Deswegen sind wir jedes Jahr aufs
+                        Neue darauf angewiesen, dass uns zahlreiche Leute helfen. Alle
+                        Bands und Künstler treten ohne Gage auf. Die Crew ackert mit bis
+                        zu 60 Leuten teils monatelang ebenfalls ohne Bezahlung, aber
+                        mit viel Spaß an der Sache. <a class="link"
+                            href="https://gallery.rocktreff.de/gallery/x-r9GFK8wXoCPDh4Rp2OYw_x" target="blank">Hier die
+                            Bilder der Crew 2025</a>.
+                    </p>
+                </div>
+                <div>
+                    <div class="gallery">
+                        <a class="fancybox" rel="group" href="/static/crew/crew2025.jpg">
+                            <img src="/static/crew/crew2025.jpg"
+                                alt="Rocktreff Crewfoto 2025">
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <iframe
+                        src="https://www.youtube-nocookie.com/embed/wmLPKZUEp80?wmode=transparent&fs=1&hl=en&modestbranding=1&iv_load_policy=3&showsearch=0&rel=1&theme=dark"
+                        frameborder="0" allowfullscreen class="youtube-embed"></iframe>
+                </div>
+            </div>
+            <div class="grid-3col ways">
+                <div>
+                    <h3>Du willst mitmachen?</h3>
+                    <p>
+                        Der ROCKTREFF bietet viele Möglichkeiten sich zu engagieren
+                        und dabei den eigenen Horizont zu erweitern. Neben den
+                        klassischen Tätigkeitsbereichen wie Licht &amp; Ton suchen wir
+                        immer Leute für Bandbetreuung, Catering und viele weitere
+                        Bereiche.
+                    </p>
+                    <p>
+                        Für die Helfer beginnt der ROCKTREFF bereits viele Tage vor der
+                        Veranstaltung. Wir errichten eine komplette kleine Stadt, die
+                        für die ROCKTREFF-Woche auch unser Zuhause ist.
+                    </p>
+                    <p>
+                        Interesse? Dann schreib eine Mail an
+                        <span class="email">crew</span>
+                    </p>
+                </div>
+                <div>
+                    <h3>Sponsor werden</h3>
+                    <p>
+                        Das Bezirksamt Tempelhof-Schöneberg sorgt für die Basisfinanzierung
+                        der Veranstaltung. Den größeren Teil der Kosten müssen wir aus
+                        Spenden von Sponsoren akquirieren. Hilf uns bitte dabei!
+                    </p>
+                    <p>
+                        Sponsoring-Interessierte kontaktieren bitte für Details
+                        <span class="email" data-domain="rocktreff.de">sponsoring</span>
+                    </p>
+                </div>
+                <div>
+                    <h3>Spenden</h3>
+                    Eine Überweisung auf unser Konto ist uns die liebste Form, da sie keinerlei zusätzliche Gebühren
+                    aufwirft.
+                    <div class="code">
+                        <a
+                            href="bank://singlepaymentsepa?name=CPYE%20e.%20V.&reason=Spende%20ROCKTREFF&iban=DE51100100100015333103&bic=PBNKDEFFXXX&amount=23%2C00">
+                            <img src="/images/bezahlcode.png" class="bezahlcode">
+                        </a>
+                    </div>
+                    <strong>Inhaber:</strong> CPYE e.V. <br>
+                    <strong>Konto:</strong> 15 333 103 (Postbank Berlin) <br>
+                    <strong>BLZ:</strong> 100 100 10 <br>
+                    <strong>IBAN:</strong> DE51100100100015333103 <br>
+                    <strong>BIC:</strong> PBNKDEFFXXX <br>
+                    <strong>Zweck:</strong> Spende ROCKTREFF
+                    <p>
+                        Ab 100€ stellen wir gerne eine Spendenquittung aus. Schreibe dazu bitte eine Mail
+                        an <span class="email" data-domain="rocktreff.de">spenden</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="slide last">
+        <div class="bg">
+            <div class="image masked"></div>
+        </div>
+    </section>
+    <section class="slide footer" id="veranstalter">
+        <div class="content-wrap imprint">
+            <div class="centered">
+                <h1>Impressum</h1>
+                <div class="grid-equal">
+                    <div class="imprint">
+                        <dl>
+                            <dt>Veranstalter</dt>
+                            <dd>
+                                Bezirksamt Tempelhof-Schöneberg von Berlin <br>
+                                Abteilung für Jugend und Gesundheit <br>
+                                -Jugendamt- <br>
+                                Strelitzstraße 15 - 12105 Berlin <br>
+                                vertreten durch und inhaltlich Verantwortlicher gem. § 18 MStV: <br>
+                                Bezirksstadtrat Oliver Schworck <br>
+                                Leiter der Abteilung für Jugend und Gesundheit <br>
+                                Telefon: (030) 90277 8701 <br>
+                                <span class="email" data-domain="ba-ts.berlin.de">jugendamtsleitung</span><br>
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="imprint">
+                        <dl>
+                            <dt>Träger der Veranstaltung
+                            <dt>
+                            <dd>
+                                CPYE e.V.<br>
+                                Friedenstraße 20 – 12107 Berlin <br>
+                                Registernummer: VR 9634 B Amtsgericht Charlottenburg <br>
+                                Telefon: (030) 62930945 <br>
+                                <span class="email" data-domain="cpye.de">info</span><br>
+                                vertreten durch: Bernd Puhlmann, Marco Herrmann, Alexander Franke, Louisa Richter, Björn
+                                Müller <br>
+                            </dd>
+                            <dt>Presse & Akkreditierung</dt>
+                            <dd>
+                                Marco Herrmann
+                            </dd>
+                            <dd>
+                                <span class="email">presse</span>
+                            </dd>
+                            <dt>Kontakt</dt>
+                            <dd>
+                                <span class="email">kontakt</span><br>
+                                Kontakt für Bands: <span class="email">booking</span>
+                            </dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+            <div class="imprint-logos">
+                <a href="https://www.berlin.de/ba-tempelhof-schoeneberg/politik-und-verwaltung/aemter/jugendamt/" target="_blank">
+                    <img src="/static/sponsors/jugendamt.png" alt="Jugendamt Tempelhof Schoeneberg Logo">
+                </a>
+                <a href="https://cpye.de/" target="_blank">
+                    <img src="/static/sponsors/cpye_inv.png" alt="CPYE e.V. Logo">
+                </a>
+            </div>
+        </div>
 
-  </script>
-  <script type="text/javascript">
-    var nav = document.querySelector( '#navigation' )
-    var bands  = document.querySelector( '#bands' )
-    var scrolldown  = document.querySelector( '.scrolldown' )
+    </section>
+    <script src="/vendor/scrollreveal/dist/scrollreveal.min.js"></script>
+    <script src="/vendor/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+    <script src="js/main.js"></script>
+    <script>
+        var sr = ScrollReveal()
+        sr.reveal('.landing .presenter img', { delay: 500, origin: 'right', duration: 1000 }, 100)
+        sr.reveal('.landing .presented_by', { delay: 1800, origin: 'left', duration: 100 })
+        sr.reveal('.landing .info > *', { delay: 1000, origin: 'top', scale: 1, duration: 1000 })
+        sr.reveal('.landing .scrolldown', { delay: 3000, origin: 'bottom', duration: 1000, opacity: 0 })
+        sr.reveal('.lineup .bands > *', { delay: 0, origin: 'top', scale: 1, duration: 1000 }, 500)
+        sr.reveal('.sponsors .main img', { delay: 0, origin: 'right', scale: 1, duration: 600 }, 100)
+        sr.reveal('.sponsors .other img', { delay: 700, origin: 'right', scale: 1, duration: 1000 }, 100)
+        sr.reveal('.helfen .ways > *', { delay: 0, origin: 'top', scale: 1, duration: 1000 }, 500)
+        sr.reveal('.spielfest_sponsors img', { delay: 100, origin: 'right', scale: 1, duration: 1000 }, 200)
+        sr.reveal('.imprint img', { delay: 100, origin: 'right', scale: 1, duration: 800 }, 200)
 
-    nav.classList.add( 'hidden' )
-    window.addEventListener( "scroll", function () {
-      if ( window.pageYOffset >= bands.offsetTop - 100 ) {
-        nav.classList.remove( 'hidden' )
-      }
-      else if ( !nav.classList.contains( 'hidden' ) ){
-        nav.classList.add( 'hidden' )
-      }
-      if ( window.pageYOffset >= 10 ) {
-        scrolldown.classList.add( 'notvisible' )
-      } else {
-        scrolldown.classList.remove( 'notvisible' )
-      }
-    }, false )
-  </script>
+    </script>
 </body>
+
 </html>

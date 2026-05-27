@@ -35,23 +35,6 @@ jobs:
           jess/imagemin:latest \
           imagemin source/images --out-dir=dist/images
 
-    - name: Compile CSS
-      run: |
-        docker run --rm \
-          -v "${{ github.workspace }}:/app:Z" \
-          -w /app \
-          finalgene/lessc:latest \
-          lessc source/styles/main.less dist/styles/main.css
-
-    - name: PostCSS
-      if: ${{ false }}
-      run: |
-        docker run --rm \
-          -v "${{ github.workspace }}:/app:Z" \
-          -w /app \
-          deryabinsergey/postcss:latest \
-          postcss --no-map -o dist/styles/main.css dist/styles/*.css
-
     - name: Upload Pages artifact
       uses: actions/upload-pages-artifact@v3
       with:
