@@ -77,36 +77,3 @@ Converts all JPEGs and PNGs in a directory to WebP and AVIF. JPEGs use lossy enc
 ```
 
 Output files are written next to the originals (`hero.jpg` → `hero.webp`, `hero.avif`).
-
----
-
-### `scripts/create-image-set.sh` — responsive set from one image
-
-Generates WebP, AVIF, and JPEG variants at multiple widths from a single source image. Never upscales — widths larger than the source are skipped. Prints a ready-to-paste `<picture>` snippet at the end.
-
-```bash
-./scripts/create-image-set.sh <source_image> [quality] [widths]
-```
-
-| Argument       | Default                 | Description                     |
-| -------------- | ----------------------- | ------------------------------- |
-| `source_image` | —                       | path to source image (required) |
-| `quality`      | `80`                    | lossy quality 1–100             |
-| `widths`       | `320,640,960,1280,1920` | comma-separated pixel widths    |
-
-**Examples:**
-
-```bash
-# responsive set at default widths
-./scripts/create-image-set.sh static/img/hero.jpg
-
-# custom widths and quality
-./scripts/create-image-set.sh static/img/hero.jpg 85 480,960,1440
-
-# graphic/logo (PNG auto-detected as lossless)
-./scripts/create-image-set.sh static/img/logo.png
-```
-
-Output naming: `hero@320w.webp`, `hero@320w.avif`, `hero@320w.jpg`, etc. — written next to the source file.
-
-The script prints a `<picture>` element with `srcset` attributes ready to paste into a template.
