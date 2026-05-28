@@ -1,9 +1,9 @@
-name: Build & Upload rocktreff.de
+name: Build & Deploy rocktreff.de
 
 on:
   push:
     branches:
-    - main
+      - main
 
 jobs:
   deploy:
@@ -16,30 +16,41 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
-    - uses: actions/checkout@master
+      - name: Setup Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: "22"
+          cache: "npm"
 
-    - name: Build Site
-      run: |
-        docker run --rm \
-          -v "${{ github.workspace }}:/app:Z" \
-          -w /app \
-          jekyll/builder:4.1.0 \
-          /bin/bash -c "chmod -R 777 . && jekyll build -s source -d dist -c config.yml"
+      - name: Install npm dependencies
+        run: npm ci
 
-    - name: Minify Images
-      run: |
-        docker run --rm\
-          -v "${{ github.workspace }}:/app:Z" \
-          -w /app \
-          jess/imagemin:latest \
-          imagemin source/images --out-dir=dist/images
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: "0.162.0"
+          extended: false
 
-    - name: Upload Pages artifact
-      uses: actions/upload-pages-artifact@v3
-      with:
-        path: ./dist
+      - name: Cache Hugo resources
+        uses: actions/cache@v5
+        with:
+          path: ~/.cache/hugo_cache
+          key: ${{ runner.os }}-hugo-${{ hashFiles('layouts/**', 'assets/**', 'content/**') }}
+          restore-keys: |
+            ${{ runner.os }}-hugo-
 
-    - name: Deploy to GitHub Pages
-      id: deployment
-      uses: actions/deploy-pages@v4
+      - name: Build
+        run: hugo --minify
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./public
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

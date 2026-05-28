@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!--
+______ _____ _____  _   _____________ _________________
+| ___ \  _  /  __ \| | / /_   _| ___ \  ___|  ___|  ___|
+| |_/ / | | | /  \/| |/ /  | | | |_/ / |__ | |_  | |_
+|    /| | | | |    |    \  | | |    /|  __||  _| |  _|
+| |\ \\ \_/ / \__/\| |\  \ | | | |\ \| |___| |   | |
+\_| \_|\___/ \____/\_| \_/ \_/ \_| \_\____/\_|   \_|
+-->
+<html lang="de-DE">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="theme-color" content="#fff300">
+    <title>Alle Bands | ROCKTREFF</title>
+    {{ partial "opengraph.html" . }}
+    {{- $css := resources.Get "css/main.css" | css.PostCSS | fingerprint -}}
+    <link rel="stylesheet" href="{{ $css.RelPermalink }}">
+    <link rel="icon" href="/favicon.ico">
+</head>
+
+<body class="page band">
+    {{ partial "navigation.html" (dict "Page" .) }}
+    <div class="content-wrap">
+        <div class="grid-main">
+            <div>
+                <div class="box top bandhistory">
+                    <div>
+                        <h3>... 1984</h3>
+                        mehr als 350 weitere Bands
+                    </div>
+                    {{- $pages := .RegularPages -}}
+                    {{- $years := slice -}}
+                    {{- range $pages -}}
+                      {{- if not (in $years .Params.year) -}}
+                        {{- $years = $years | append .Params.year -}}
+                      {{- end -}}
+                    {{- end -}}
+                    {{- $years = sort $years -}}
+                    {{ range $years -}}
+                    {{- $year := . -}}
+                    <div>
+                        <h3>{{ $year }}</h3>
+                        <ul class="lineup">
+                            {{- range where $pages "Params.year" $year -}}
+                            <li><a class="link" href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+                            {{- end -}}
+                        </ul>
+                    </div>
+                    {{ end }}
+                </div>
+            </div>
+            <div>
+                <div class="box top">
+                    <h1>36 Jahre Erinnerungen!</h1>
+                    <p>
+                        Der ROCKTREFF hat in seinen 36 Jahren weit über 2000 Musikern in
+                        etwa 500 Bands eine Bühne geboten. Für viele war oder ist es das
+                        erste Mal auf einer großen Bühne in einem Stadion zu stehen.
+                    </p>
+                    {{ partial "gallery-embed.html" "Es847bq2-GAhvbWE0a_e3ciQ" }}
+                </div>
+            </div>
+        </div>
+    </div>
+    {{- $js := resources.Get "js/main.js" | js.Build | fingerprint -}}
+    <script src="{{ $js.RelPermalink }}"></script>
+</body>
+
+</html>

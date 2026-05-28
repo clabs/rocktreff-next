@@ -1,0 +1,21 @@
+baseURL: "https://rocktreff.de"
+locale: "de-DE"
+defaultContentLanguage: de
+title: "ROCKTREFF"
+
+params:
+  email: "kontakt@rocktreff.de"
+  currentYear: 2026
+  # bewerbungPhase controls the band application widget.
+  # Values: "open" | "teaser" | "geschlossen" | "" (empty = hidden)
+  bewerbungPhase: "teaser"
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+disableKinds:
+  - rss
+  - taxonomy
+  - term

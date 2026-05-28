@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "8.0.0",
+    "autoprefixer": "10.5.0",
+    "postcss": "8.5.15",
+    "postcss-cli": "11.0.1"
+  },
+  "dependencies": {
+    "scrollreveal": "4.0.9"
+  }
+}

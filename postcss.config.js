@@ -1,6 +1,9 @@
 module.exports = {
   plugins: [
-    require( 'autoprefixer' )({browsers: '> 5%'}),
-    require( 'cssnano' )()
+    require('autoprefixer'),
+    require('@fullhuman/postcss-purgecss')({
+      content: ['./layouts/**/*.html', './content/**/*.md'],
+      safelist: { standard: [/^skrollr/, /^sr-/] }
+    })
   ]
 }
