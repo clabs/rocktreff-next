@@ -286,6 +286,7 @@ nav {
 }
 nav.hidden {
   transform: translateY(-100%);
+  box-shadow: none;
 }
 
 .nav-logo {
