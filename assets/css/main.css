@@ -487,8 +487,10 @@ nav.hidden {
     height: auto;
     font-size: 1.4em;
     transform: translateX(-100%);
-    transition: transform var(--easing-time) var(--easing-fn);
     z-index: -1;
+  }
+  .nav-menu.animating {
+    transition: transform var(--easing-time) var(--easing-fn);
   }
   nav.open .nav-menu {
     transform: none;

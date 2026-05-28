@@ -39,15 +39,16 @@ document.addEventListener('DOMContentLoaded', () => {
   const nav = document.querySelector('#navigation')
   const navToggle = document.querySelector('.nav-toggle')
   if (navToggle && nav) {
-    navToggle.addEventListener('click', () => {
-      const open = nav.classList.toggle('open')
-      navToggle.setAttribute('aria-expanded', open)
-    })
+    const navMenu = nav.querySelector('.nav-menu')
+    const animateToggle = (open) => {
+      navMenu.classList.add('animating')
+      navMenu.addEventListener('transitionend', () => navMenu.classList.remove('animating'), { once: true })
+      nav.classList.toggle('open', open)
+      navToggle.setAttribute('aria-expanded', String(open))
+    }
+    navToggle.addEventListener('click', () => animateToggle(!nav.classList.contains('open')))
     nav.querySelectorAll('.nav-links a').forEach(a =>
-      a.addEventListener('click', () => {
-        nav.classList.remove('open')
-        navToggle.setAttribute('aria-expanded', 'false')
-      })
+      a.addEventListener('click', () => animateToggle(false))
     )
   }
 
