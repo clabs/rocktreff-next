@@ -34,13 +34,11 @@ permalink: '/'
             <div class="presented_by">
                 <span class="desktop-only">präsentiert von</span>
             </div>
-            {% for sponsor in site.data.sponsors %}
-            {% if sponsor.presenter %}
-            <a href="{{ sponsor.url }}" target="_blank">
-                <img src="/static/sponsors/{{sponsor.image}}" alt="Sponsor Logo {{sponsor.name}}">
-            </a>
-            {% endif %}
-            {% endfor %}
+            {%- for sponsor in site.data.sponsors -%}
+            {%- if sponsor.presenter -%}
+            <a href="{{ sponsor.url }}" target="_blank"><img src="/static/sponsors/{{sponsor.image}}" alt="Sponsor Logo {{sponsor.name}}"></a>
+            {%- endif -%}
+            {%- endfor -%}
         </div>
         <div class="front">
             <div class="logo"></div>
