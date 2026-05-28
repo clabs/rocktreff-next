@@ -688,25 +688,15 @@ body.page .box.clear {
   .slide.landing .front {
     top: 25vh;
     right: 8vw;
-    font-size: 1.8vh;
+    font-size: min(1.8vh, 3.2vw);
   }
   .slide.landing .front .info { font-size: min(5vh, 10vw); }
-  .slide.landing .logo {
-    width: min(26.36em, 84vw);
-    height: auto;
-    aspect-ratio: 26.36 / 10;
-  }
 }
 @media (max-width: 767px) and (min-aspect-ratio: 1/1) {
   .slide.landing .front {
     top: 15vh;
     right: 34vw;
-    font-size: 3.5vh;
-  }
-  .slide.landing .logo {
-    width: min(26.36em, 62vw);
-    height: auto;
-    aspect-ratio: 26.36 / 10;
+    font-size: min(3.5vh, 2.3vw);
   }
 }
 .slide.landing .logo {
