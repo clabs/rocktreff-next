@@ -664,11 +664,11 @@ body.page .box.clear {
   position: absolute;
   width: 100vw;
   height: 100vh;
-  background: url('../images/landing_front@320w.jpg') black;
+  background: url('../images/landing_front.jpg') black;
   background: image-set(
-    url('../images/landing_front@320w.avif') type('image/avif'),
-    url('../images/landing_front@320w.webp') type('image/webp'),
-    url('../images/landing_front@320w.jpg') type('image/jpeg')
+    url('../images/landing_front.avif') type('image/avif'),
+    url('../images/landing_front.webp') type('image/webp'),
+    url('../images/landing_front.jpg') type('image/jpeg')
   ) black;
   background-position: right bottom;
   background-size: auto 120%;
@@ -781,49 +781,10 @@ body.page .box.clear {
 }
 
 /* Slide variants */
-.slide.second   .bg .image { background-image: url('../images/landing_0@320w.jpg'); background-image: image-set(url('../images/landing_0@320w.avif') type('image/avif'), url('../images/landing_0@320w.webp') type('image/webp'), url('../images/landing_0@320w.jpg') type('image/jpeg')); }
-.slide.foo      .bg .image { background-image: url('../images/landing_3@320w.jpg'); background-image: image-set(url('../images/landing_3@320w.avif') type('image/avif'), url('../images/landing_3@320w.webp') type('image/webp'), url('../images/landing_3@320w.jpg') type('image/jpeg')); }
-.slide.last     .bg .image { background-image: url('../images/landing_1@320w.jpg'); background-image: image-set(url('../images/landing_1@320w.avif') type('image/avif'), url('../images/landing_1@320w.webp') type('image/webp'), url('../images/landing_1@320w.jpg') type('image/jpeg')); }
-.slide.verboten .bg .image { background-image: url('../images/landing_4@320w.jpg'); background-image: image-set(url('../images/landing_4@320w.avif') type('image/avif'), url('../images/landing_4@320w.webp') type('image/webp'), url('../images/landing_4@320w.jpg') type('image/jpeg')); }
-@media (min-width: 641px) {
-  .slide.second   .bg .image { background-image: image-set(url('../images/landing_0@640w.avif') type('image/avif'), url('../images/landing_0@640w.webp') type('image/webp'), url('../images/landing_0@640w.jpg') type('image/jpeg')); }
-  .slide.foo      .bg .image { background-image: image-set(url('../images/landing_3@640w.avif') type('image/avif'), url('../images/landing_3@640w.webp') type('image/webp'), url('../images/landing_3@640w.jpg') type('image/jpeg')); }
-  .slide.last     .bg .image { background-image: image-set(url('../images/landing_1@640w.avif') type('image/avif'), url('../images/landing_1@640w.webp') type('image/webp'), url('../images/landing_1@640w.jpg') type('image/jpeg')); }
-  .slide.verboten .bg .image { background-image: image-set(url('../images/landing_4@640w.avif') type('image/avif'), url('../images/landing_4@640w.webp') type('image/webp'), url('../images/landing_4@640w.jpg') type('image/jpeg')); }
-}
-@media (min-width: 961px) {
-  .slide.second   .bg .image { background-image: image-set(url('../images/landing_0@960w.avif') type('image/avif'), url('../images/landing_0@960w.webp') type('image/webp'), url('../images/landing_0@960w.jpg') type('image/jpeg')); }
-  .slide.foo      .bg .image { background-image: image-set(url('../images/landing_3@960w.avif') type('image/avif'), url('../images/landing_3@960w.webp') type('image/webp'), url('../images/landing_3@960w.jpg') type('image/jpeg')); }
-  .slide.last     .bg .image { background-image: image-set(url('../images/landing_1@960w.avif') type('image/avif'), url('../images/landing_1@960w.webp') type('image/webp'), url('../images/landing_1@960w.jpg') type('image/jpeg')); }
-  .slide.verboten .bg .image { background-image: image-set(url('../images/landing_4@960w.avif') type('image/avif'), url('../images/landing_4@960w.webp') type('image/webp'), url('../images/landing_4@960w.jpg') type('image/jpeg')); }
-}
-@media (min-width: 1281px) {
-  .slide.second   .bg .image { background-image: image-set(url('../images/landing_0@1280w.avif') type('image/avif'), url('../images/landing_0@1280w.webp') type('image/webp'), url('../images/landing_0@1280w.jpg') type('image/jpeg')); }
-  .slide.foo      .bg .image { background-image: image-set(url('../images/landing_3@1280w.avif') type('image/avif'), url('../images/landing_3@1280w.webp') type('image/webp'), url('../images/landing_3@1280w.jpg') type('image/jpeg')); }
-  .slide.last     .bg .image { background-image: image-set(url('../images/landing_1@1280w.avif') type('image/avif'), url('../images/landing_1@1280w.webp') type('image/webp'), url('../images/landing_1@1280w.jpg') type('image/jpeg')); }
-  .slide.verboten .bg .image { background-image: image-set(url('../images/landing_4@1280w.avif') type('image/avif'), url('../images/landing_4@1280w.webp') type('image/webp'), url('../images/landing_4@1280w.jpg') type('image/jpeg')); }
-}
-@media (min-width: 1501px) {
-  .slide.second   .bg .image { background-image: image-set(url('../images/landing_0@1500w.avif') type('image/avif'), url('../images/landing_0@1500w.webp') type('image/webp'), url('../images/landing_0@1500w.jpg') type('image/jpeg')); }
-  .slide.foo      .bg .image { background-image: image-set(url('../images/landing_3@1599w.avif') type('image/avif'), url('../images/landing_3@1599w.webp') type('image/webp'), url('../images/landing_3@1599w.jpg') type('image/jpeg')); }
-  .slide.last     .bg .image { background-image: image-set(url('../images/landing_1@1500w.avif') type('image/avif'), url('../images/landing_1@1500w.webp') type('image/webp'), url('../images/landing_1@1500w.jpg') type('image/jpeg')); }
-  .slide.verboten .bg .image { background-image: image-set(url('../images/landing_4@1500w.avif') type('image/avif'), url('../images/landing_4@1500w.webp') type('image/webp'), url('../images/landing_4@1500w.jpg') type('image/jpeg')); }
-}
-@media (min-width: 641px) {
-  .slide.landing .back { background-image: image-set(url('../images/landing_front@640w.avif') type('image/avif'), url('../images/landing_front@640w.webp') type('image/webp'), url('../images/landing_front@640w.jpg') type('image/jpeg')); }
-}
-@media (min-width: 961px) {
-  .slide.landing .back { background-image: image-set(url('../images/landing_front@960w.avif') type('image/avif'), url('../images/landing_front@960w.webp') type('image/webp'), url('../images/landing_front@960w.jpg') type('image/jpeg')); }
-}
-@media (min-width: 1281px) {
-  .slide.landing .back { background-image: image-set(url('../images/landing_front@1280w.avif') type('image/avif'), url('../images/landing_front@1280w.webp') type('image/webp'), url('../images/landing_front@1280w.jpg') type('image/jpeg')); }
-}
-@media (min-width: 1921px) {
-  .slide.landing .back { background-image: image-set(url('../images/landing_front@1920w.avif') type('image/avif'), url('../images/landing_front@1920w.webp') type('image/webp'), url('../images/landing_front@1920w.jpg') type('image/jpeg')); }
-}
-@media (min-width: 2001px) {
-  .slide.landing .back { background-image: image-set(url('../images/landing_front@2000w.avif') type('image/avif'), url('../images/landing_front@2000w.webp') type('image/webp'), url('../images/landing_front@2000w.jpg') type('image/jpeg')); }
-}
+.slide.second   .bg .image { background-image: url('../images/landing_0.jpg'); background-image: image-set(url('../images/landing_0.avif') type('image/avif'), url('../images/landing_0.webp') type('image/webp'), url('../images/landing_0.jpg') type('image/jpeg')); }
+.slide.foo      .bg .image { background-image: url('../images/landing_3.jpg'); background-image: image-set(url('../images/landing_3.avif') type('image/avif'), url('../images/landing_3.webp') type('image/webp'), url('../images/landing_3.jpg') type('image/jpeg')); }
+.slide.last     .bg .image { background-image: url('../images/landing_1.jpg'); background-image: image-set(url('../images/landing_1.avif') type('image/avif'), url('../images/landing_1.webp') type('image/webp'), url('../images/landing_1.jpg') type('image/jpeg')); }
+.slide.verboten .bg .image { background-image: url('../images/landing_4.jpg'); background-image: image-set(url('../images/landing_4.avif') type('image/avif'), url('../images/landing_4.webp') type('image/webp'), url('../images/landing_4.jpg') type('image/jpeg')); }
 
 .slide.foo  { margin-top: -9vh; z-index: 2; }
 .slide.last { z-index: 1; }
@@ -1030,11 +991,7 @@ body.page .box.clear {
 }
 
 /* ---- Spielfest ---- */
-.slide.spielfest .bg .image { background-image: url('../images/landing_2@320w.jpg'); background-image: image-set(url('../images/landing_2@320w.avif') type('image/avif'), url('../images/landing_2@320w.webp') type('image/webp'), url('../images/landing_2@320w.jpg') type('image/jpeg')); }
-@media (min-width: 641px)  { .slide.spielfest .bg .image { background-image: image-set(url('../images/landing_2@640w.avif') type('image/avif'), url('../images/landing_2@640w.webp') type('image/webp'), url('../images/landing_2@640w.jpg') type('image/jpeg')); } }
-@media (min-width: 961px)  { .slide.spielfest .bg .image { background-image: image-set(url('../images/landing_2@960w.avif') type('image/avif'), url('../images/landing_2@960w.webp') type('image/webp'), url('../images/landing_2@960w.jpg') type('image/jpeg')); } }
-@media (min-width: 1281px) { .slide.spielfest .bg .image { background-image: image-set(url('../images/landing_2@1280w.avif') type('image/avif'), url('../images/landing_2@1280w.webp') type('image/webp'), url('../images/landing_2@1280w.jpg') type('image/jpeg')); } }
-@media (min-width: 1501px) { .slide.spielfest .bg .image { background-image: image-set(url('../images/landing_2@1500w.avif') type('image/avif'), url('../images/landing_2@1500w.webp') type('image/webp'), url('../images/landing_2@1500w.jpg') type('image/jpeg')); } }
+.slide.spielfest .bg .image { background-image: url('../images/landing_2.jpg'); background-image: image-set(url('../images/landing_2.avif') type('image/avif'), url('../images/landing_2.webp') type('image/webp'), url('../images/landing_2.jpg') type('image/jpeg')); }
 .slide.spielfest .logo {
   background-image: image-set(
     url('../images/spielfest_logo.avif') type('image/avif'),

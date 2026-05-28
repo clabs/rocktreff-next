@@ -140,7 +140,7 @@ ______ _____ _____  _   _____________ _________________
             </div>
         </div>
     </div>
-    {{- $js := resources.Get "js/main.js" | js.Build | fingerprint -}}
+    {{- $js := resources.Get "js/main.js" | js.Build (dict "minify" hugo.IsProduction) | fingerprint -}}
     <script src="{{ $js.RelPermalink }}"></script>
 </body>
 
