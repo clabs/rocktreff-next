@@ -685,17 +685,24 @@ body.page .box.clear {
 }
 
 /* Slide variants */
-.slide.second .bg .image        { background-image: url('../images/landing_0.jpg'); }
-.slide.foo    .bg .image        { background-image: url('../images/landing_3.jpg'); }
-.slide.last   .bg .image        { background-image: url('../images/landing_1.jpg'); }
+.slide.second   .bg .image      { background-image: url('../images/landing_0.jpg'); }
+.slide.foo      .bg .image      { background-image: url('../images/landing_3.jpg'); }
+.slide.last     .bg .image      { background-image: url('../images/landing_1.jpg'); }
+.slide.verboten .bg .image      { background-image: url('../images/landing_4.jpg'); }
 
 .slide.foo  { margin-top: -9vh; z-index: 2; }
 .slide.last { z-index: 1; }
+.slide.verboten { z-index: 1; }
 
 .slide.map { min-height: auto; }
-.slide.map .verbote { padding-top: var(--space-md); }
-.slide.map .verbote img { width: 100%; margin: 2em 0; }
 .slide.map .approach { padding-top: var(--space-sm); padding-bottom: var(--space-lg); }
+
+.slide.verboten_info {
+  padding-top: var(--space-lg);
+  padding-bottom: var(--space-lg);
+  min-height: auto;
+}
+.slide.verboten_info .verbote img { width: 100%; margin: 2em 0; }
 .slide.map dt { color: var(--gelb); }
 .slide.map .bvg::before {
   display: inline-block;
@@ -722,7 +729,7 @@ body.page .box.clear {
   text-align: left;
   color: #ccc;
 }
-.slide.sponsors p { line-height: 2.2em; }
+
 .slide.sponsors .main {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -896,7 +903,7 @@ body.page .box.clear {
   left: 0;
   transform: translateY(-50%);
   z-index: 1;
-  background-color: rgba(255,255,255,0.65);
+  background-color: rgba(255,255,255,0.60);
 }
 @media (max-width: 767px) and (max-aspect-ratio: 1/1) {
   .slide.spielfest .logo {
