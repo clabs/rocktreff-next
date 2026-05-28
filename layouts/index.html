@@ -18,7 +18,8 @@
         Mariendorf</title>
     {{ partial "opengraph.html" . }}
     <link rel="icon" href="./favicon.ico">
-    <link rel="stylesheet" href="styles/main.css">
+    {{- $css := resources.Get "css/main.css" | css.PostCSS | fingerprint -}}
+    <link rel="stylesheet" href="{{ $css.RelPermalink }}">
 </head>
 
 <body>
@@ -31,7 +32,7 @@
             </div>
             {{- range hugo.Data.sponsors -}}
             {{- if .presenter -}}
-            <a href="{{ .url }}" target="_blank"><img src="/static/sponsors/{{ .image }}" alt="Sponsor Logo {{ .name }}"></a>
+            {{- $sUrl := .url -}}{{- $sName := .name -}}{{- with resources.Get (printf "sponsors/%s" .image) -}}<a href="{{ $sUrl }}" target="_blank"><img src="{{ .RelPermalink }}" alt="Sponsor Logo {{ $sName }}"></a>{{- end -}}
             {{- end -}}
             {{- end -}}
         </div>
@@ -148,9 +149,12 @@
                 <div class="main">
                     {{ range hugo.Data.sponsors }}
                     {{ if .main }}
-                    <a href="{{ .url }}" target="_blank">
-                        <img src="/static/sponsors/{{ .image }}" alt="Sponsor Logo {{ .name }}">
+                    {{- $sUrl := .url -}}{{- $sName := .name -}}
+                    {{- with resources.Get (printf "sponsors/%s" .image) -}}
+                    <a href="{{ $sUrl }}" target="_blank">
+                        <img src="{{ .RelPermalink }}" alt="Sponsor Logo {{ $sName }}">
                     </a>
+                    {{- end -}}
                     {{ end }}
                     {{ end }}
                 </div>
@@ -160,9 +164,12 @@
                 {{ range hugo.Data.sponsors }}
                 {{ if not .presenter }}
                 {{ if not .main }}
-                <a href="{{ .url }}" target="_blank">
-                    <img src="/static/sponsors/{{ .image }}" alt="Sponsor Logo {{ .name }}">
+                {{- $sUrl := .url -}}{{- $sName := .name -}}
+                {{- with resources.Get (printf "sponsors/%s" .image) -}}
+                <a href="{{ $sUrl }}" target="_blank">
+                    <img src="{{ .RelPermalink }}" alt="Sponsor Logo {{ $sName }}">
                 </a>
+                {{- end -}}
                 {{ end }}
                 {{ end }}
                 {{ end }}
@@ -191,12 +198,12 @@
         </div>
     </section>
     <section class="slide spielfest_sponsors">
-        <img src="/static/sponsors/catering_company_light.png" alt="Catering Company Logo">
-        <img src="/static/sponsors/stilbrand_light.png" alt="Stilbrand Logo">
-        <img src="/static/sponsors/piereg_light.png" alt="Piereg Logo">
-        <img src="/static/sponsors/stadtundland.png" alt="Stadt und Land Logo">
-        <img src="/static/sponsors/nitz-nitz-pos.png" alt="Nitz und Nitz Logo">
-        <img src="/static/sponsors/binss.png" alt="B.I.N.S.S. LOGO">
+        {{- with resources.Get "sponsors/catering_company_light.png" }}<img src="{{ .RelPermalink }}" alt="Catering Company Logo">{{ end }}
+        {{- with resources.Get "sponsors/stilbrand_light.png" }}<img src="{{ .RelPermalink }}" alt="Stilbrand Logo">{{ end }}
+        {{- with resources.Get "sponsors/piereg_light.png" }}<img src="{{ .RelPermalink }}" alt="Piereg Logo">{{ end }}
+        {{- with resources.Get "sponsors/stadtundland.png" }}<img src="{{ .RelPermalink }}" alt="Stadt und Land Logo">{{ end }}
+        {{- with resources.Get "sponsors/nitz-nitz-pos.png" }}<img src="{{ .RelPermalink }}" alt="Nitz und Nitz Logo">{{ end }}
+        {{- with resources.Get "sponsors/binss.png" }}<img src="{{ .RelPermalink }}" alt="B.I.N.S.S. LOGO">{{ end }}
     </section>
     <section class="slide foo">
         <div class="bg">
@@ -224,10 +231,12 @@
                 </div>
                 <div>
                     <div class="gallery">
-                        <a href="/static/crew/crew2025.jpg">
-                            <img src="/static/crew/crew2025.jpg"
+                        {{- with resources.Get "crew/crew2025.jpg" -}}
+                        <a href="{{ .RelPermalink }}">
+                            <img src="{{ .RelPermalink }}"
                                 alt="Rocktreff Crewfoto 2025">
                         </a>
+                        {{- end -}}
                     </div>
                 </div>
                 <div>
@@ -371,10 +380,10 @@
             </div>
             <div class="imprint-logos">
                 <a href="https://www.berlin.de/ba-tempelhof-schoeneberg/politik-und-verwaltung/aemter/jugendamt/" target="_blank">
-                    <img src="/static/sponsors/jugendamt.png" alt="Jugendamt Tempelhof Schoeneberg Logo">
+                    {{- with resources.Get "sponsors/jugendamt.png" }}<img src="{{ .RelPermalink }}" alt="Jugendamt Tempelhof Schoeneberg Logo">{{ end }}
                 </a>
                 <a href="https://cpye.de/" target="_blank">
-                    <img src="/static/sponsors/cpye_inv.png" alt="CPYE e.V. Logo">
+                    {{- with resources.Get "sponsors/cpye_inv.png" }}<img src="{{ .RelPermalink }}" alt="CPYE e.V. Logo">{{ end }}
                 </a>
             </div>
             <div class="imprint-footer-links">
@@ -383,21 +392,8 @@
         </div>
 
     </section>
-    <script src="js/scrollreveal.min.js"></script>
-    <script src="js/main.js"></script>
-    <script>
-        var sr = ScrollReveal()
-        sr.reveal('.landing .presenter img', { delay: 500, origin: 'right', duration: 1000 }, 100)
-        sr.reveal('.landing .presented_by', { delay: 1800, origin: 'left', duration: 100 })
-        sr.reveal('.landing .info > *', { delay: 1000, origin: 'top', scale: 1, duration: 1000 })
-        sr.reveal('.lineup .bands > *', { delay: 0, origin: 'top', scale: 1, duration: 1000 }, 500)
-        sr.reveal('.sponsors .main img', { delay: 0, origin: 'right', scale: 1, duration: 600 }, 100)
-        sr.reveal('.sponsors .other img', { delay: 700, origin: 'right', scale: 1, duration: 1000 }, 100)
-        sr.reveal('.helfen .ways > *', { delay: 0, origin: 'top', scale: 1, duration: 1000 }, 500)
-        sr.reveal('.spielfest_sponsors img', { delay: 100, origin: 'right', scale: 1, duration: 1000 }, 200)
-        sr.reveal('.imprint img', { delay: 100, origin: 'right', scale: 1, duration: 800 }, 200)
-
-    </script>
+    {{- $js := resources.Get "js/main.js" | js.Build | fingerprint -}}
+    <script src="{{ $js.RelPermalink }}"></script>
 </body>
 
 </html>

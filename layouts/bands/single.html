@@ -15,7 +15,8 @@ ______ _____ _____  _   _____________ _________________
     <meta name="theme-color" content="#fff300">
     <title>{{ .Title }} | {{ .Site.Title }}</title>
     {{ partial "opengraph.html" . }}
-    <link rel="stylesheet" href="/styles/main.css">
+    {{- $css := resources.Get "css/main.css" | css.PostCSS | fingerprint -}}
+    <link rel="stylesheet" href="{{ $css.RelPermalink }}">
     <link rel="icon" href="/favicon.ico">
 </head>
 
@@ -24,11 +25,11 @@ ______ _____ _____  _   _____________ _________________
     <div class="content-wrap">
         <div class="band-layout">
             <div class="band-sidebar">
-                {{ if .Params.logo }}
+                {{- if .Params.logo -}}{{- with resources.Get (printf "bands/logos/%s" .Params.logo) }}
                 <div class="box">
-                    <img src="/static/bands/logos/{{ .Params.logo }}">
+                    <img src="{{ .RelPermalink }}">
                 </div>
-                {{ end }}
+                {{- end }}{{- end }}
                 <div class="box">
                     <div>
                         <span class="stagetime">{{ .Params.stagetime }}</span>
@@ -58,9 +59,9 @@ ______ _____ _____  _   _____________ _________________
             <div class="band-main">
                 <div class="box">
                     <h1>{{ .Title }}</h1>
-                    {{ if .Params.picture }}
-                    <img class="picture" src="/static/bands/pictures/{{ .Params.picture }}">
-                    {{ end }}
+                    {{- if .Params.picture -}}{{- with resources.Get (printf "bands/pictures/%s" .Params.picture) }}
+                    <img class="picture" src="{{ .RelPermalink }}">
+                    {{- end }}{{- end }}
                     {{ .Content }}
                 </div>
                 {{ if .Params.gallery_id }}
@@ -123,7 +124,8 @@ ______ _____ _____  _   _____________ _________________
             </div>
         </div>
     </div>
-    <script src="/js/main.js"></script>
+    {{- $js := resources.Get "js/main.js" | js.Build | fingerprint -}}
+    <script src="{{ $js.RelPermalink }}"></script>
 </body>
 
 </html>

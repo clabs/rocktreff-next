@@ -1,3 +1,5 @@
+import ScrollReveal from 'scrollreveal'
+
 document.addEventListener('DOMContentLoaded', () => {
 
   // Scroll-down arrow button
@@ -105,6 +107,20 @@ document.addEventListener('DOMContentLoaded', () => {
       })
     }, { threshold: 0.3 })
     spySections.forEach(el => observer.observe(el))
+  }
+
+  // ScrollReveal animations (index page only)
+  if (document.querySelector('.landing')) {
+    const sr = ScrollReveal()
+    sr.reveal('.landing .presenter img', { delay: 500, origin: 'right', duration: 1000 }, 100)
+    sr.reveal('.landing .presented_by', { delay: 1800, origin: 'left', duration: 100 })
+    sr.reveal('.landing .info > *', { delay: 1000, origin: 'top', scale: 1, duration: 1000 })
+    sr.reveal('.lineup .bands > *', { delay: 0, origin: 'top', scale: 1, duration: 1000 }, 500)
+    sr.reveal('.sponsors .main img', { delay: 0, origin: 'right', scale: 1, duration: 600 }, 100)
+    sr.reveal('.sponsors .other img', { delay: 700, origin: 'right', scale: 1, duration: 1000 }, 100)
+    sr.reveal('.helfen .ways > *', { delay: 0, origin: 'top', scale: 1, duration: 1000 }, 500)
+    sr.reveal('.spielfest_sponsors img', { delay: 100, origin: 'right', scale: 1, duration: 1000 }, 200)
+    sr.reveal('.imprint img', { delay: 100, origin: 'right', scale: 1, duration: 800 }, 200)
   }
 
 })

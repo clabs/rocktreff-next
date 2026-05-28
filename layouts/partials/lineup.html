@@ -48,8 +48,9 @@
         {{- $timeStr := index (split $timePart " ") 0 -}}
         {{- $hour := int (index (split $timeStr ":") 0) -}}
         {{- $row := sub $hour 15 -}}
+        {{- $bandImg := cond (ne .Params.picture "") (resources.Get (printf "bands/pictures/%s" .Params.picture)) nil -}}
         <a href="{{ .RelPermalink }}" class="thumb"
-            style="grid-row:{{ $row }};background-image:url('/static/bands/pictures/{{ .Params.picture }}')">
+            {{ if $bandImg }}style="grid-row:{{ $row }};background-image:url('{{ $bandImg.RelPermalink }}')"{{ end }}>
             <div class="name">{{ .Title }}</div>
         </a>
         {{ end }}
@@ -63,8 +64,9 @@
         {{- $timeStr := index (split $timePart " ") 0 -}}
         {{- $hour := int (index (split $timeStr ":") 0) -}}
         {{- $row := sub $hour 15 -}}
+        {{- $bandImg := cond (ne .Params.picture "") (resources.Get (printf "bands/pictures/%s" .Params.picture)) nil -}}
         <a href="{{ .RelPermalink }}" class="thumb"
-            style="grid-row:{{ $row }};background-image:url('/static/bands/pictures/{{ .Params.picture }}')">
+            {{ if $bandImg }}style="grid-row:{{ $row }};background-image:url('{{ $bandImg.RelPermalink }}')"{{ end }}>
             <div class="name">{{ .Title }}</div>
         </a>
         {{ end }}
@@ -78,8 +80,9 @@
         {{- $timeStr := index (split $timePart " ") 0 -}}
         {{- $hour := int (index (split $timeStr ":") 0) -}}
         {{- $row := sub $hour 15 -}}
+        {{- $bandImg := cond (ne .Params.picture "") (resources.Get (printf "bands/pictures/%s" .Params.picture)) nil -}}
         <a href="{{ .RelPermalink }}" class="thumb"
-            style="grid-row:{{ $row }};background-image:url('/static/bands/pictures/{{ .Params.picture }}')">
+            {{ if $bandImg }}style="grid-row:{{ $row }};background-image:url('{{ $bandImg.RelPermalink }}')"{{ end }}>
             <div class="name">{{ .Title }}</div>
         </a>
         {{ end }}

@@ -15,7 +15,8 @@ ______ _____ _____  _   _____________ _________________
     <meta name="theme-color" content="#fff300">
     <title>{{ .Title }} | {{ .Site.Title }}</title>
     {{ partial "opengraph.html" . }}
-    <link rel="stylesheet" href="/styles/main.css">
+    {{- $css := resources.Get "css/main.css" | css.PostCSS | fingerprint -}}
+    <link rel="stylesheet" href="{{ $css.RelPermalink }}">
     <link rel="icon" href="/favicon.ico">
 </head>
 
@@ -29,7 +30,8 @@ ______ _____ _____  _   _____________ _________________
             </div>
         </div>
     </div>
-    <script src="/js/main.js"></script>
+    {{- $js := resources.Get "js/main.js" | js.Build | fingerprint -}}
+    <script src="{{ $js.RelPermalink }}"></script>
 </body>
 
 </html>

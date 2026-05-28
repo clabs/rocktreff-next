@@ -1,9 +1,84 @@
 /* ============================================================
    ROCKTREFF — main.css
-   Native CSS3, no framework, no preprocessor
    ============================================================ */
 
-@import url('fonts.css');
+/* ---- @font-face ---- */
+@font-face {
+  font-family: '321impact';
+  src: url('../fonts/321impact/321impact.ttf') format('ttf'),
+       url('../fonts/321impact/321impact.otf') format('otf'),
+       url('../fonts/321impact/321impact.woff') format('woff');
+}
+@font-face {
+  font-family: 'big_noodle_titling';
+  src: url('../fonts/big-noodle/big_noodle_titling.ttf') format('ttf'),
+       url('../fonts/big-noodle/big_noodle_titling.otf') format('otf'),
+       url('../fonts/big-noodle/big_noodle_titling.woff') format('woff');
+}
+@font-face {
+  font-family: 'Chunkfive';
+  src: url('../fonts/chunkfive/Chunkfive.otf') format('otf'),
+       url('../fonts/chunkfive/Chunkfive.woff') format('woff'),
+       url('../fonts/chunkfive/Chunkfive.woff2') format('woff2');
+}
+
+/* PT Sans — latin + latin-ext only */
+@font-face { font-family: 'PT Sans'; font-style: italic;  font-weight: 400; src: url('../fonts/pt-sans/latin-ext/PTSans-400-italic.woff2') format('woff2'); unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family: 'PT Sans'; font-style: italic;  font-weight: 400; src: url('../fonts/pt-sans/latin/PTSans-400-italic.woff2') format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family: 'PT Sans'; font-style: italic;  font-weight: 700; src: url('../fonts/pt-sans/latin-ext/PTSans-700-italic.woff2') format('woff2'); unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family: 'PT Sans'; font-style: italic;  font-weight: 700; src: url('../fonts/pt-sans/latin/PTSans-700-italic.woff2') format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family: 'PT Sans'; font-style: normal;  font-weight: 400; src: url('../fonts/pt-sans/latin-ext/PTSans-400.woff2') format('woff2'); unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family: 'PT Sans'; font-style: normal;  font-weight: 400; src: url('../fonts/pt-sans/latin/PTSans-400.woff2') format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family: 'PT Sans'; font-style: normal;  font-weight: 700; src: url('../fonts/pt-sans/latin-ext/PTSans-700.woff2') format('woff2'); unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family: 'PT Sans'; font-style: normal;  font-weight: 700; src: url('../fonts/pt-sans/latin/PTSans-700.woff2') format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+/* Oswald — latin + latin-ext only */
+@font-face { font-family: 'Oswald'; font-style: normal; font-weight: 200 700; src: url('../fonts/oswald/latin-ext/Oswald-VariableFont_wght.woff2') format('woff2'); unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family: 'Oswald'; font-style: normal; font-weight: 200 700; src: url('../fonts/oswald/latin/Oswald-VariableFont_wght.woff2') format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+/* ---- icomoon icon font ---- */
+@font-face {
+  font-family: 'icomoon';
+  src: url('../fonts/icomoon/icomoon.eot');
+  src: url('../fonts/icomoon/icomoon.eot') format('embedded-opentype'),
+       url('../fonts/icomoon/icomoon.woff') format('woff'),
+       url('../fonts/icomoon/icomoon.ttf') format('truetype'),
+       url('../fonts/icomoon/icomoon.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'icomoon';
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-phone:before    { content: "\e600"; }
+.icon-envelope:before { content: "\e601"; }
+.icon-print:before    { content: "\e617"; }
+.icon-facebook:before { content: "\e602"; }
+.icon-facebook2:before{ content: "\e603"; }
+.icon-twitter:before  { content: "\e604"; }
+.icon-feed:before     { content: "\e605"; }
+.icon-feed2:before    { content: "\e606"; }
+.icon-feed3:before    { content: "\e607"; }
+.icon-youtube:before  { content: "\e608"; }
+.icon-youtube2:before { content: "\e609"; }
+.icon-vimeo:before    { content: "\e60a"; }
+.icon-vimeo2:before   { content: "\e60b"; }
+.icon-picassa:before  { content: "\e60e"; }
+.icon-picassa2:before { content: "\e60f"; }
+.icon-tumblr:before   { content: "\e610"; }
+.icon-tumblr2:before  { content: "\e611"; }
+.icon-soundcloud:before  { content: "\e612"; }
+.icon-soundcloud2:before { content: "\e613"; }
+.icon-pinterest:before   { content: "\e614"; }
+.icon-pinterest2:before  { content: "\e615"; }
+.icon-paypal:before      { content: "\e616"; }
 
 /* ---- Custom properties ---- */
 :root {
