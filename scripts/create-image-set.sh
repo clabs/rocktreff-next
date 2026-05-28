@@ -91,12 +91,21 @@ mode=$(detect_mode "$SRC")
 if [[ "$mode" == "lossless" ]]; then
   webp_args=(-define webp:lossless=true)
   avif_args=(-quality 100)
+  jpeg_args=(-quality 90)
   mode_label="lossless"
 else
   webp_args=(-quality "$QUALITY")
   avif_args=(-quality "$QUALITY")
+  jpeg_args=(-quality "$QUALITY")
   mode_label="lossy q${QUALITY}"
 fi
+
+# Always include native resolution
+if ! printf '%s\n' "${WIDTHS[@]}" | grep -qx "$src_width"; then
+  WIDTHS+=("$src_width")
+fi
+# Sort widths numerically
+IFS=$'\n' WIDTHS=($(printf '%s\n' "${WIDTHS[@]}" | sort -n)); unset IFS
 
 echo "📄  Source:   $filename  (${src_width}×${src_height}, $(human_size "$src_size"))"
 echo "📁  Output:   $OUTPUT_DIR"
@@ -118,11 +127,20 @@ for w in "${WIDTHS[@]}"; do
 
   webp_out="$OUTPUT_DIR/${stem}@${w}w.webp"
   avif_out="$OUTPUT_DIR/${stem}@${w}w.avif"
+  jpeg_out="$OUTPUT_DIR/${stem}@${w}w.jpg"
 
   # Resize flag: scale to width, preserve aspect ratio
   resize_arg="${w}x>"
 
   printf "\n  📐 %s@%sw\n" "$stem" "$w"
+
+  # JPEG
+  if "$MAGICK" "$SRC" -resize "$resize_arg" "${jpeg_args[@]}" "$jpeg_out" 2>/dev/null; then
+    printf "     ✅ jpg   %s\n" "$(size_info "$jpeg_out")"
+  else
+    printf "     ❌ jpg   conversion failed\n"
+    ERRORS=$(( ERRORS + 1 ))
+  fi
 
   # WebP
   if "$MAGICK" "$SRC" -resize "$resize_arg" "${webp_args[@]}" "$webp_out" 2>/dev/null; then
@@ -186,5 +204,17 @@ for w in "${WIDTHS[@]}"; do
 done
 printf "\">\n"
 
-echo "  <img src=\"${stem}@${WIDTHS[0]}w.webp\" alt=\"\">"
+# JPEG srcset for <img> fallback
+printf "  <img src=\"%s@%sw.jpg\"\n       srcset=\"" "$stem" "${WIDTHS[0]}"
+first=true
+for w in "${WIDTHS[@]}"; do
+  (( w > src_width )) && continue
+  if [[ "$first" == true ]]; then
+    printf "%s@%sw.jpg %sw" "$stem" "$w" "$w"
+    first=false
+  else
+    printf ",\n               %s@%sw.jpg %sw" "$stem" "$w" "$w"
+  fi
+done
+printf "\" alt=\"\">\n"
 echo "</picture>"
