@@ -1,5 +1,6 @@
 baseURL: "https://rocktreff.de"
 locale: "de-DE"
+defaultContentLanguage: de
 title: "ROCKTREFF"
 
 params:
@@ -8,6 +9,11 @@ params:
   # bewerbungPhase controls the band application widget.
   # Values: "open" | "teaser" | "geschlossen" | "" (empty = hidden)
   bewerbungPhase: "teaser"
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
 
 disableKinds:
   - rss
