@@ -221,7 +221,11 @@ a { background-color: transparent; }
 /* ---- Generic styles ---- */
 body {
   background-color: #000;
-  background-image: url(../images/bg.jpg);
+  background-image: image-set(
+    url('../images/bg.avif') type('image/avif'),
+    url('../images/bg.webp') type('image/webp'),
+    url('../images/bg.jpg') type('image/jpeg')
+  );
   background-size: cover;
   background-attachment: fixed;
   color: #fff;
@@ -256,7 +260,11 @@ h1::before {
   top: -0.1em;
   bottom: -0.2em;
   content: "";
-  background-image: url(../images/brushes/4.png);
+  background-image: image-set(
+    url('../images/brushes/4.avif') type('image/avif'),
+    url('../images/brushes/4.webp') type('image/webp'),
+    url('../images/brushes/4.png') type('image/png')
+  );
   background-blend-mode: lighten;
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -609,7 +617,11 @@ body.page .box.clear {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-image: url(../images/bg_light.jpg);
+  background-image: image-set(
+    url('../images/bg_light.avif') type('image/avif'),
+    url('../images/bg_light.webp') type('image/webp'),
+    url('../images/bg_light.jpg') type('image/jpeg')
+  );
   background-size: 100% 100%;
   mix-blend-mode: multiply;
   opacity: 0.65;
@@ -654,7 +666,11 @@ body.page .box.clear {
   position: absolute;
   width: 100vw;
   height: 100vh;
-  background: url(../images/landing_front.jpg) black;
+  background: image-set(
+    url('../images/landing_front.avif') type('image/avif'),
+    url('../images/landing_front.webp') type('image/webp'),
+    url('../images/landing_front.jpg') type('image/jpeg')
+  ) black;
   background-position: right bottom;
   background-size: auto 120%;
   background-repeat: no-repeat;
@@ -766,10 +782,10 @@ body.page .box.clear {
 }
 
 /* Slide variants */
-.slide.second   .bg .image      { background-image: url('../images/landing_0.jpg'); }
-.slide.foo      .bg .image      { background-image: url('../images/landing_3.jpg'); }
-.slide.last     .bg .image      { background-image: url('../images/landing_1.jpg'); }
-.slide.verboten .bg .image      { background-image: url('../images/landing_4.jpg'); }
+.slide.second   .bg .image      { background-image: image-set(url('../images/landing_0.avif') type('image/avif'), url('../images/landing_0.webp') type('image/webp'), url('../images/landing_0.jpg') type('image/jpeg')); }
+.slide.foo      .bg .image      { background-image: image-set(url('../images/landing_3.avif') type('image/avif'), url('../images/landing_3.webp') type('image/webp'), url('../images/landing_3.jpg') type('image/jpeg')); }
+.slide.last     .bg .image      { background-image: image-set(url('../images/landing_1.avif') type('image/avif'), url('../images/landing_1.webp') type('image/webp'), url('../images/landing_1.jpg') type('image/jpeg')); }
+.slide.verboten .bg .image      { background-image: image-set(url('../images/landing_4.avif') type('image/avif'), url('../images/landing_4.webp') type('image/webp'), url('../images/landing_4.jpg') type('image/jpeg')); }
 
 .slide.foo  { margin-top: -9vh; z-index: 2; }
 .slide.last { z-index: 1; }
@@ -794,10 +810,10 @@ body.page .box.clear {
   background-repeat: no-repeat;
   background-size: contain;
 }
-.slide.map .bvg.u6::before   { width: 1.6em; background-image: url('../images/bvg-u6.png'); }
-.slide.map .bvg.bus::before  { background-image: url('../images/bvg-bus.png'); }
-.slide.map .bvg.mbus::before { background-image: url('../images/bvg-m-bus.png'); }
-.slide.map .bvg.xbus::before { background-image: url('../images/bvg-x-bus.png'); }
+.slide.map .bvg.u6::before   { width: 1.6em; background-image: image-set(url('../images/bvg-u6.avif') type('image/avif'), url('../images/bvg-u6.webp') type('image/webp'), url('../images/bvg-u6.png') type('image/png')); }
+.slide.map .bvg.bus::before  { background-image: image-set(url('../images/bvg-bus.avif') type('image/avif'), url('../images/bvg-bus.webp') type('image/webp'), url('../images/bvg-bus.png') type('image/png')); }
+.slide.map .bvg.mbus::before { background-image: image-set(url('../images/bvg-m-bus.avif') type('image/avif'), url('../images/bvg-m-bus.webp') type('image/webp'), url('../images/bvg-m-bus.png') type('image/png')); }
+.slide.map .bvg.xbus::before { background-image: image-set(url('../images/bvg-x-bus.avif') type('image/avif'), url('../images/bvg-x-bus.webp') type('image/webp'), url('../images/bvg-x-bus.png') type('image/png')); }
 
 .slide.sponsors {
   padding-top: var(--space-lg);
@@ -962,7 +978,11 @@ body.page .box.clear {
 
 .slide.lineup .teaser h2 { margin-top: 0; }
 .slide.lineup .teaser .bandbewerbung {
-  background-image: url(../images/bg_bandauswahl.jpg);
+  background-image: image-set(
+    url('../images/bg_bandauswahl.avif') type('image/avif'),
+    url('../images/bg_bandauswahl.webp') type('image/webp'),
+    url('../images/bg_bandauswahl.jpg') type('image/jpeg')
+  );
   background-size: contain;
   background-repeat: no-repeat;
   width: 100%;
@@ -972,9 +992,13 @@ body.page .box.clear {
 }
 
 /* ---- Spielfest ---- */
-.slide.spielfest .bg .image { background-image: url('../images/landing_2.jpg'); }
+.slide.spielfest .bg .image { background-image: image-set(url('../images/landing_2.avif') type('image/avif'), url('../images/landing_2.webp') type('image/webp'), url('../images/landing_2.jpg') type('image/jpeg')); }
 .slide.spielfest .logo {
-  background-image: url('../images/spielfest_logo.png');
+  background-image: image-set(
+    url('../images/spielfest_logo.avif') type('image/avif'),
+    url('../images/spielfest_logo.webp') type('image/webp'),
+    url('../images/spielfest_logo.png') type('image/png')
+  );
   width: 100vw;
   height: 13vw;
   background-size: contain;
@@ -996,7 +1020,11 @@ body.page .box.clear {
   }
 }
 .slide.spielfest .silhouetten {
-  background-image: url('../images/spielfest_silhouetten.png');
+  background-image: image-set(
+    url('../images/spielfest_silhouetten.avif') type('image/avif'),
+    url('../images/spielfest_silhouetten.webp') type('image/webp'),
+    url('../images/spielfest_silhouetten.png') type('image/png')
+  );
   background-size: auto 100%;
   width: 100vw;
   height: 170px;
@@ -1035,7 +1063,11 @@ body.page .box.clear {
 /* ---- Band page ---- */
 body.page.band {
   background-color: #222;
-  background-image: url('../images/bg.jpg');
+  background-image: image-set(
+    url('../images/bg.avif') type('image/avif'),
+    url('../images/bg.webp') type('image/webp'),
+    url('../images/bg.jpg') type('image/jpeg')
+  );
   background-size: 100% auto;
   margin-bottom: 4em;
 }
