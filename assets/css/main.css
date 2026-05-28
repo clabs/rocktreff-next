@@ -412,6 +412,7 @@ nav.hidden {
 }
 .nav-links li {
   text-transform: uppercase;
+  font-weight: bold;
   transition: transform var(--easing-time) var(--easing-fn),
               background-color var(--easing-time) var(--easing-fn);
 }
@@ -426,6 +427,7 @@ nav.hidden {
   display: inline-block;
   padding: 0 7.5px;
   color: black;
+  font-weight: bold;
 }
 .nav-links li:hover {
   transform: rotate(-3deg) scale(1.3);
@@ -434,7 +436,6 @@ nav.hidden {
 }
 .nav-links li:hover a {
   color: var(--gelb);
-  font-weight: bold;
   text-decoration: none;
 }
 
@@ -512,7 +513,7 @@ nav.hidden {
     transform: none;
     background-color: transparent;
   }
-  .nav-links li:hover a { color: white; font-weight: normal; }
+  .nav-links li:hover a { color: white; }
 
   .nav-social { display: none; }
 }
@@ -689,13 +690,23 @@ body.page .box.clear {
     right: 8vw;
     font-size: 1.8vh;
   }
-  .slide.landing .front .info { font-size: 5vh; }
+  .slide.landing .front .info { font-size: min(5vh, 10vw); }
+  .slide.landing .logo {
+    width: min(26.36em, 84vw);
+    height: auto;
+    aspect-ratio: 26.36 / 10;
+  }
 }
 @media (max-width: 767px) and (min-aspect-ratio: 1/1) {
   .slide.landing .front {
     top: 15vh;
     right: 34vw;
     font-size: 3.5vh;
+  }
+  .slide.landing .logo {
+    width: min(26.36em, 62vw);
+    height: auto;
+    aspect-ratio: 26.36 / 10;
   }
 }
 .slide.landing .logo {
