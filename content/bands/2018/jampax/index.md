@@ -1,0 +1,24 @@
+---
+#bandcamp:
+#soundcloud:
+#spotify:
+#website: https://www.facebook.com/JamPaX.official/
+day: friday
+logo: jampax.png
+picture: jampax.jpg
+stagetime: Freitag, 29. Juni 2018, 18:00 Uhr
+style: Alternativ Rock
+title: JamPaX
+website: https://jampax.jimdo.com/
+year: 2018
+youtube: V7G06v7iczw
+---
+
+Die vier Jungs aus Berlin-Spandau machen seit 4 Jahren gemeinsam Rockmusik, die
+Band hat sich im Dezember 2014 gegründet. Sie nennen Green Day und Muse als ihre
+musikalischen Vorbilder und haben ihren eigenen Stil gefunden: Rockmusik mit
+Funfaktor!
+
+Die Schülerband besucht die 11. Klasse der Martin-Buber-Oberschule und träumen
+davon große Bühnen zu erobern. Sie arbeiten hart daran Ihre eigenen Songs vor
+tausenden Fans zum besten geben zu können.

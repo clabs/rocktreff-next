@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<!--
+______ _____ _____  _   _____________ _________________
+| ___ \  _  /  __ \| | / /_   _| ___ \  ___|  ___|  ___|
+| |_/ / | | | /  \/| |/ /  | | | |_/ / |__ | |_  | |_
+|    /| | | | |    |    \  | | |    /|  __||  _| |  _|
+| |\ \\ \_/ / \__/\| |\  \ | | | |\ \| |___| |   | |
+\_| \_|\___/ \____/\_| \_/ \_/ \_| \_\____/\_|   \_|
+-->
+<html lang="de-DE">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="theme-color" content="#fff300">
+    <title>{{ .Title }} | {{ .Site.Title }}</title>
+    {{ partial "opengraph.html" . }}
+    <link rel="stylesheet" href="/styles/main.css">
+    <link rel="icon" href="/favicon.ico">
+</head>
+
+<body class="page band">
+    {{ partial "navigation.html" (dict "Page" .) }}
+    <div class="content-wrap">
+        <div class="band-layout">
+            <div class="band-sidebar">
+                {{ if .Params.logo }}
+                <div class="box">
+                    <img src="/static/bands/logos/{{ .Params.logo }}">
+                </div>
+                {{ end }}
+                <div class="box">
+                    <div>
+                        <span class="stagetime">{{ .Params.stagetime }}</span>
+                    </div>
+                    <div>
+                        <a class="link" href="{{ .Params.website }}" target="_blank">{{ .Params.website }}</a>
+                    </div>
+                </div>
+                <div class="box inverse desktop-only">
+                    <h3>LINEUP {{ .Params.year }}</h3>
+                    <ul class="lineup">
+                        {{ range where .Site.RegularPages "Type" "bands" }}
+                        {{ if eq .Params.year $.Params.year }}
+                        <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+                        {{ end }}
+                        {{ end }}
+                    </ul>
+                </div>
+                {{ if .Params.gallery_id }}
+                <div class="box">
+                    <h3>Fotos</h3>
+                    <a href="https://gallery.rocktreff.de/gallery/{{ .Params.gallery_id }}" target="_blank"
+                        rel="noopener">Zur Fotogalerie</a>
+                </div>
+                {{ end }}
+            </div>
+            <div class="band-main">
+                <div class="box">
+                    <h1>{{ .Title }}</h1>
+                    {{ if .Params.picture }}
+                    <img class="picture" src="/static/bands/pictures/{{ .Params.picture }}">
+                    {{ end }}
+                    {{ .Content }}
+                </div>
+                {{ if .Params.gallery_id }}
+                <div class="box">
+                    {{ partial "gallery-embed.html" .Params.gallery_id }}
+                </div>
+                {{ end }}
+                <div class="media-grid">
+                    {{ if .Params.youtube }}
+                    <div class="box">
+                        <iframe class="youtube-embed"
+                            src="https://www.youtube-nocookie.com/embed/{{ .Params.youtube }}?wmode=transparent&fs=1&hl=en&modestbranding=1&iv_load_policy=3&showsearch=0&rel=1&theme=dark"
+                            frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    {{ end }}
+
+                    {{ if .Params.vimeo }}
+                    <div class="box">
+                        <iframe class="youtube-embed"
+                            src="//player.vimeo.com/video/{{ .Params.vimeo }}?byline=0&amp;color=ffef04" frameborder="0"
+                            allowfullscreen></iframe>
+                    </div>
+                    {{ end }}
+
+                    {{ if .Params.spotify }}
+                    <div class="box">
+                        <h3>Aufs Ohr!</h3>
+                        <iframe class="bandcamp-embed" src="https://embed.spotify.com/?uri={{ .Params.spotify }}"
+                            frameborder="0"></iframe>
+                    </div>
+                    {{ end }}
+
+                    {{ if .Params.soundcloud }}
+                    <div class="box">
+                        <h3>Aufs Ohr!</h3>
+                        <iframe class="youtube-embed" scrolling="no" frameborder="no"
+                            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/{{ .Params.soundcloud }}&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+                    </div>
+                    {{ end }}
+
+                    {{ if .Params.bandcamp }}
+                    <div class="box">
+                        <h3>Aufs Ohr!</h3>
+                        <iframe class="bandcamp-embed"
+                            src="https://bandcamp.com/EmbeddedPlayer/album={{ .Params.bandcamp }}/size=small/bgcol=111111/linkcol=ffef03/transparent=true/"></iframe>
+                    </div>
+                    {{ end }}
+                </div>
+
+                <div class="box inverse mobile-only">
+                    <h3>LINEUP {{ .Params.year }}</h3>
+                    <ul class="lineup">
+                        {{ range where .Site.RegularPages "Type" "bands" }}
+                        {{ if eq .Params.year $.Params.year }}
+                        <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+                        {{ end }}
+                        {{ end }}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/js/main.js"></script>
+</body>
+
+</html>

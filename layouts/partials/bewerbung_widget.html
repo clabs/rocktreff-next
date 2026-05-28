@@ -1,0 +1,5 @@
+{{ $phase := .Site.Params.bewerbungPhase }}
+{{ if eq $phase "open" }}{{ partial "bewerbung.html" . }}
+{{ else if eq $phase "teaser" }}{{ partial "bewerbung_teaser.html" . }}
+{{ else if eq $phase "geschlossen" }}{{ partial "bewerbung_geschlossen.html" . }}
+{{ end }}

@@ -1,9 +1,9 @@
-name: Build & Upload rocktreff.de
+name: Build & Deploy rocktreff.de
 
 on:
   push:
     branches:
-    - main
+      - main
 
 jobs:
   deploy:
@@ -16,30 +16,24 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
-    - uses: actions/checkout@master
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: "0.162.0"
+          extended: false
 
-    - name: Build Site
-      run: |
-        docker run --rm \
-          -v "${{ github.workspace }}:/app:Z" \
-          -w /app \
-          jekyll/builder:4.1.0 \
-          /bin/bash -c "chmod -R 777 . && jekyll build -s source -d dist -c config.yml"
+      - name: Build
+        run: hugo --minify
 
-    - name: Minify Images
-      run: |
-        docker run --rm\
-          -v "${{ github.workspace }}:/app:Z" \
-          -w /app \
-          jess/imagemin:latest \
-          imagemin source/images --out-dir=dist/images
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./public
 
-    - name: Upload Pages artifact
-      uses: actions/upload-pages-artifact@v3
-      with:
-        path: ./dist
-
-    - name: Deploy to GitHub Pages
-      id: deployment
-      uses: actions/deploy-pages@v4
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

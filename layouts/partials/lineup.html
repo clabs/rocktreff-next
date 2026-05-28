@@ -1,0 +1,88 @@
+{{- $currentYear := .Site.Params.currentYear -}}
+{{- $allBands := where .Site.RegularPages "Type" "bands" -}}
+{{- $bands := where $allBands "Params.year" $currentYear -}}
+{{- $bands = sort $bands "Params.stagetime" -}}
+<div class="lineup-grid dates">
+    <div></div>
+    <div>
+        <span class="hide-portrait">
+            Freitag, 3. Juli
+        </span>
+        <span class="show-portrait">
+            Fr, 3.7.
+        </span>
+    </div>
+    <div>
+        <span class="hide-portrait">
+            Samstag, 4. Juli
+        </span>
+        <span class="show-portrait">
+            Sa, 4.7.
+        </span>
+    </div>
+    <div>
+        <span class="hide-portrait">
+            Sonntag, 5. Juli
+        </span>
+        <span class="show-portrait">
+            So, 5.7.
+        </span>
+    </div>
+</div>
+<div class="lineup-grid">
+    <div class="lineup-times">
+        <div class="timeslot">16:00</div>
+        <div class="timeslot">17:00</div>
+        <div class="timeslot">18:00</div>
+        <div class="timeslot">19:00</div>
+        <div class="timeslot">20:00</div>
+        <div class="timeslot">21:00</div>
+        <div class="timeslot">22:00</div>
+        <div class="timeslot">23:00</div>
+    </div>
+    <div class="day friday">
+        {{ range $bands }}
+        {{ if in .Params.stagetime "Freitag" }}
+        {{- $parts := split .Params.stagetime ", " -}}
+        {{- $timePart := index $parts (sub (len $parts) 1) -}}
+        {{- $timeStr := index (split $timePart " ") 0 -}}
+        {{- $hour := int (index (split $timeStr ":") 0) -}}
+        {{- $row := sub $hour 15 -}}
+        <a href="{{ .RelPermalink }}" class="thumb"
+            style="grid-row:{{ $row }};background-image:url('/static/bands/pictures/{{ .Params.picture }}')">
+            <div class="name">{{ .Title }}</div>
+        </a>
+        {{ end }}
+        {{ end }}
+    </div>
+    <div class="day saturday">
+        {{ range $bands }}
+        {{ if in .Params.stagetime "Samstag" }}
+        {{- $parts := split .Params.stagetime ", " -}}
+        {{- $timePart := index $parts (sub (len $parts) 1) -}}
+        {{- $timeStr := index (split $timePart " ") 0 -}}
+        {{- $hour := int (index (split $timeStr ":") 0) -}}
+        {{- $row := sub $hour 15 -}}
+        <a href="{{ .RelPermalink }}" class="thumb"
+            style="grid-row:{{ $row }};background-image:url('/static/bands/pictures/{{ .Params.picture }}')">
+            <div class="name">{{ .Title }}</div>
+        </a>
+        {{ end }}
+        {{ end }}
+    </div>
+    <div class="day sunday">
+        {{ range $bands }}
+        {{ if in .Params.stagetime "Sonntag" }}
+        {{- $parts := split .Params.stagetime ", " -}}
+        {{- $timePart := index $parts (sub (len $parts) 1) -}}
+        {{- $timeStr := index (split $timePart " ") 0 -}}
+        {{- $hour := int (index (split $timeStr ":") 0) -}}
+        {{- $row := sub $hour 15 -}}
+        <a href="{{ .RelPermalink }}" class="thumb"
+            style="grid-row:{{ $row }};background-image:url('/static/bands/pictures/{{ .Params.picture }}')">
+            <div class="name">{{ .Title }}</div>
+        </a>
+        {{ end }}
+        {{ end }}
+    </div>
+</div>
