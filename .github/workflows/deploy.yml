@@ -44,7 +44,7 @@ jobs:
             ${{ runner.os }}-hugo-
 
       - name: Build
-        run: hugo --minify
+        run: hugo --environment production --minify
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
