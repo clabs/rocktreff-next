@@ -23,7 +23,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v6
         with:
-          node-version: "22"
+          node-version: "24"
           cache: "npm"
 
       - name: Install npm dependencies
@@ -35,16 +35,8 @@ jobs:
           hugo-version: "0.162.0"
           extended: false
 
-      - name: Cache Hugo resources
-        uses: actions/cache@v5
-        with:
-          path: ~/.cache/hugo_cache
-          key: ${{ runner.os }}-hugo-${{ hashFiles('layouts/**', 'assets/**', 'content/**') }}
-          restore-keys: |
-            ${{ runner.os }}-hugo-
-
       - name: Build
-        run: hugo --minify
+        run: hugo --environment production --minify
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3

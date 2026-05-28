@@ -14,7 +14,8 @@ ______ _____ _____  _   _____________ _________________
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <meta name="theme-color" content="#fff300">
     <title>404 | {{ .Site.Title }}</title>
-    <link rel="stylesheet" href="/styles/main.css">
+    {{- $css := resources.Get "css/main.css" | css.PostCSS | fingerprint -}}
+    <link rel="stylesheet" href="{{ $css.RelPermalink }}">
     <link rel="icon" href="/favicon.ico">
 </head>
 
@@ -27,7 +28,8 @@ ______ _____ _____  _   _____________ _________________
             <a href="/" class="error-cta">Zurück zur Startseite</a>
         </div>
     </div>
-    <script src="/js/main.js"></script>
+    {{- $js := resources.Get "js/main.js" | js.Build (dict "minify" hugo.IsProduction) | fingerprint -}}
+    <script src="{{ $js.RelPermalink }}"></script>
 </body>
 
 </html>
