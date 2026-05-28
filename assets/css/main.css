@@ -243,6 +243,10 @@
   --gap: 2em;
   --logo-height: 50px;
   --logo-height-lg: 80px;
+  --nav-height: 55px;
+  --nav-logo-width: 137px;
+  --hover-transform: rotate(-3deg) scale(1.2);
+  --hover-transform-sm: rotate(-2deg) scale(1.2);
 }
 
 /* ---- Minimal reset ---- */
@@ -568,7 +572,7 @@ p.initial::first-letter {
 nav {
   position: fixed;
   z-index: 100;
-  height: 55px;
+  height: var(--nav-height);
   width: 100vw;
   border-bottom: 1px solid var(--gelb-dark);
   background-color: var(--gelb);
@@ -590,7 +594,7 @@ nav.hidden {
   position: absolute;
   left: 10px;
   top: 0;
-  width: 137px;
+  width: var(--nav-logo-width);
   height: 52px;
   background-image: url('/images/rt.svg');
   background-size: auto 100%;
@@ -607,7 +611,7 @@ nav.hidden {
   color: black;
   font-size: 1.5em;
   cursor: pointer;
-  line-height: 55px;
+  line-height: var(--nav-height);
   padding: 0;
 }
 
@@ -615,7 +619,7 @@ nav.hidden {
   display: flex;
   align-items: center;
   flex: 1;
-  height: 55px;
+  height: var(--nav-height);
 }
 
 .nav-links {
@@ -709,7 +713,7 @@ nav.hidden {
 
   .nav-menu {
     position: fixed;
-    top: 55px;
+    top: var(--nav-height);
     left: 0;
     right: 0;
     bottom: 0;
@@ -1289,6 +1293,7 @@ body.page .box.clear {
   padding-top: var(--space-xl);
   padding-bottom: var(--space-xl);
   min-height: auto;
+  overflow: visible;
 }
 .slide.lineup .lineup-times,
 .slide.lineup .lineup-times,
@@ -1299,17 +1304,26 @@ body.page .box.clear {
 }
 .slide.lineup .thumb {
   position: relative;
-  border-top: 3px solid var(--gelb);
+  border: 3px solid transparent;
+  border-top-color: var(--gelb);
   background-size: cover;
   background-position-y: 35%;
   transition: all var(--easing-time) var(--easing-fn);
+  outline: none;
+}
+.slide.lineup .thumb:focus,
+.slide.lineup .thumb:focus-visible {
+  outline: none;
 }
 .slide.lineup .thumb:hover {
-  transform: rotate(-2deg) scale(1.2);
+  transform: var(--hover-transform-sm);
   border: 3px solid var(--gelb);
   z-index: 100;
   border-radius: 4px;
   filter: initial;
+}
+.slide.lineup .day:last-child .thumb:hover {
+  transform-origin: right center;
 }
 .slide.lineup .timeslot {
   position: relative;
@@ -1546,7 +1560,7 @@ body.page.band ul.lineup li {
 }
 body.page.band ul.lineup li:hover a {
   text-decoration: none;
-  transform: scale(1.2) rotate(-2deg);
+  transform: var(--hover-transform-sm);
   background-color: var(--gelb);
   color: black;
 }
@@ -1593,7 +1607,7 @@ body.page.band .stagetime::before {
 }
 .gallery a:hover {
   border-color: var(--gelb);
-  transform: rotate(-3deg) scale(1.2);
+  transform: var(--hover-transform);
   z-index: 2;
 }
 .gallery img {

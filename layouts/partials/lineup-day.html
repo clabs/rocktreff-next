@@ -1,0 +1,25 @@
+{{- $bands := .bands -}}
+{{- $dayString := .dayString -}}
+{{ range $bands }}
+{{ if in .Params.stagetime $dayString }}
+{{- $parts := split .Params.stagetime ", " -}}
+{{- $timePart := index $parts (sub (len $parts) 1) -}}
+{{- $timeStr := index (split $timePart " ") 0 -}}
+{{- $hour := int (index (split $timeStr ":") 0) -}}
+{{- $row := sub $hour 15 -}}
+{{- $stem := strings.TrimSuffix (path.Ext .Params.picture) .Params.picture -}}
+{{- $mimeOrig := cond (eq (lower (path.Ext .Params.picture)) ".png") "image/png" "image/jpeg" -}}
+{{- $bandImg := cond (ne .Params.picture "") (resources.Get (printf "bands/pictures/%s" .Params.picture)) nil -}}
+{{- $style := "" -}}
+{{- if $bandImg -}}
+  {{- $avifImg := resources.Get (printf "bands/pictures/%s.avif" $stem) -}}
+  {{- $webpImg := resources.Get (printf "bands/pictures/%s.webp" $stem) -}}
+  {{- $entries := slice (printf "url('%s') type('image/avif')" $avifImg.RelPermalink) (printf "url('%s') type('image/webp')" $webpImg.RelPermalink) (printf "url('%s') type('%s')" $bandImg.RelPermalink $mimeOrig) -}}
+  {{- $style = printf "grid-row:%d;background-image:image-set(%s)" $row (delimit $entries ",") -}}
+{{- end -}}
+<a href="{{ .RelPermalink }}" class="thumb"
+    {{ if $style }}style="{{ $style | safeCSS }}"{{ end }}>
+    <div class="name">{{ .Title }}</div>
+</a>
+{{ end }}
+{{ end }}
