@@ -25,9 +25,17 @@ ______ _____ _____  _   _____________ _________________
     <div class="content-wrap">
         <div class="band-layout">
             <div class="band-sidebar">
-                {{- if .Params.logo -}}{{- with resources.Get (printf "bands/logos/%s" .Params.logo) }}
+                {{- if .Params.logo -}}
+                {{- $logoFile := .Params.logo -}}{{- $logoBase := strings.TrimSuffix (path.Ext $logoFile) $logoFile -}}
+                {{- $logoAvif := resources.Get (printf "bands/logos/%s.avif" $logoBase) -}}
+                {{- $logoWebp := resources.Get (printf "bands/logos/%s.webp" $logoBase) -}}
+                {{- with resources.Get (printf "bands/logos/%s" $logoFile) }}
                 <div class="box">
-                    <img src="{{ .RelPermalink }}">
+                    <picture>
+                        {{- if $logoAvif }}<source srcset="{{ $logoAvif.RelPermalink }}" type="image/avif">{{ end -}}
+                        {{- if $logoWebp }}<source srcset="{{ $logoWebp.RelPermalink }}" type="image/webp">{{ end -}}
+                        <img src="{{ .RelPermalink }}">
+                    </picture>
                 </div>
                 {{- end }}{{- end }}
                 <div class="box">
@@ -59,8 +67,16 @@ ______ _____ _____  _   _____________ _________________
             <div class="band-main">
                 <div class="box">
                     <h1>{{ .Title }}</h1>
-                    {{- if .Params.picture -}}{{- with resources.Get (printf "bands/pictures/%s" .Params.picture) }}
-                    <img class="picture" src="{{ .RelPermalink }}">
+                    {{- if .Params.picture -}}
+                    {{- $picFile := .Params.picture -}}{{- $picBase := strings.TrimSuffix (path.Ext $picFile) $picFile -}}
+                    {{- $picAvif := resources.Get (printf "bands/pictures/%s.avif" $picBase) -}}
+                    {{- $picWebp := resources.Get (printf "bands/pictures/%s.webp" $picBase) -}}
+                    {{- with resources.Get (printf "bands/pictures/%s" $picFile) }}
+                    <picture>
+                        {{- if $picAvif }}<source srcset="{{ $picAvif.RelPermalink }}" type="image/avif">{{ end -}}
+                        {{- if $picWebp }}<source srcset="{{ $picWebp.RelPermalink }}" type="image/webp">{{ end -}}
+                        <img class="picture" src="{{ .RelPermalink }}">
+                    </picture>
                     {{- end }}{{- end }}
                     {{ .Content }}
                 </div>
