@@ -32,7 +32,16 @@
             </div>
             {{- range hugo.Data.sponsors -}}
             {{- if .presenter -}}
-            {{- $sUrl := .url -}}{{- $sName := .name -}}{{- $imgFile := .image -}}{{- $imgBase := strings.TrimSuffix (path.Ext $imgFile) $imgFile -}}{{- $imgAvif := resources.Get (printf "sponsors/%s.avif" $imgBase) -}}{{- $imgWebp := resources.Get (printf "sponsors/%s.webp" $imgBase) -}}{{- with resources.Get (printf "sponsors/%s" $imgFile) -}}<a href="{{ $sUrl }}" target="_blank"><picture>{{- if $imgAvif }}<source srcset="{{ $imgAvif.RelPermalink }}" type="image/avif">{{ end -}}{{- if $imgWebp }}<source srcset="{{ $imgWebp.RelPermalink }}" type="image/webp">{{ end -}}<img src="{{ .RelPermalink }}" alt="Sponsor Logo {{ $sName }}"></picture></a>{{- end -}}
+            {{- $sUrl := .url -}}{{- $sName := .name -}}{{- $imgFile := .image -}}{{- $imgBase := strings.TrimSuffix
+            (path.Ext $imgFile) $imgFile -}}{{- $imgAvif := resources.Get (printf "sponsors/%s.avif" $imgBase) -}}{{-
+            $imgWebp := resources.Get (printf "sponsors/%s.webp" $imgBase) -}}{{- with resources.Get (printf
+            "sponsors/%s" $imgFile) -}}<a href="{{ $sUrl }}" target="_blank">
+                <picture>{{- if $imgAvif }}
+                    <source srcset="{{ $imgAvif.RelPermalink }}" type="image/avif">{{ end -}}{{- if $imgWebp }}
+                    <source srcset="{{ $imgWebp.RelPermalink }}" type="image/webp">{{ end -}}<img
+                        src="{{ .RelPermalink }}" alt="Sponsor Logo {{ $sName }}">
+                </picture>
+            </a>{{- end -}}
             {{- end -}}
             {{- end -}}
         </div>
@@ -156,8 +165,10 @@
                     {{- with resources.Get (printf "sponsors/%s" $imgFile) -}}
                     <a href="{{ $sUrl }}" target="_blank">
                         <picture>
-                            {{- if $imgAvif }}<source srcset="{{ $imgAvif.RelPermalink }}" type="image/avif">{{ end -}}
-                            {{- if $imgWebp }}<source srcset="{{ $imgWebp.RelPermalink }}" type="image/webp">{{ end -}}
+                            {{- if $imgAvif }}
+                            <source srcset="{{ $imgAvif.RelPermalink }}" type="image/avif">{{ end -}}
+                            {{- if $imgWebp }}
+                            <source srcset="{{ $imgWebp.RelPermalink }}" type="image/webp">{{ end -}}
                             <img src="{{ .RelPermalink }}" alt="Sponsor Logo {{ $sName }}">
                         </picture>
                     </a>
@@ -178,8 +189,10 @@
                 {{- with resources.Get (printf "sponsors/%s" $imgFile) -}}
                 <a href="{{ $sUrl }}" target="_blank">
                     <picture>
-                        {{- if $imgAvif }}<source srcset="{{ $imgAvif.RelPermalink }}" type="image/avif">{{ end -}}
-                        {{- if $imgWebp }}<source srcset="{{ $imgWebp.RelPermalink }}" type="image/webp">{{ end -}}
+                        {{- if $imgAvif }}
+                        <source srcset="{{ $imgAvif.RelPermalink }}" type="image/avif">{{ end -}}
+                        {{- if $imgWebp }}
+                        <source srcset="{{ $imgWebp.RelPermalink }}" type="image/webp">{{ end -}}
                         <img src="{{ .RelPermalink }}" alt="Sponsor Logo {{ $sName }}">
                     </picture>
                 </a>
@@ -199,25 +212,58 @@
     </section>
     <section class="slide spielfest_info">
         <div class="content-wrap">
-                <p>
-                    Im Rahmen des ROCKTREFFs findet auf dem selben Gelände am
-                    Samstag und Sonntag von 12:00 Uhr bis 18:00 Uhr das
-                    Spielfest statt. Die Kleinsten der Rocker können sich bei
-                    zahlreichen tollen Attraktionen austoben, während ihren
-                    Eltern ein buntes Angebot an Gastronomie und Kunsthandwerk
-                    geboten wird. Der Schirmherr des Spielfestes ist der
-                    Bezirksbürgermeister Herr Jörn Oltmann.
-                    <a class="link" href="https://spielfest-mariendorf.de/" target="_blank">Mehr Infos …</a>
-                </p>
+            <p>
+                Im Rahmen des ROCKTREFFs findet auf dem selben Gelände am
+                Samstag und Sonntag von 12:00 Uhr bis 18:00 Uhr das
+                Spielfest statt. Die Kleinsten der Rocker können sich bei
+                zahlreichen tollen Attraktionen austoben, während ihren
+                Eltern ein buntes Angebot an Gastronomie und Kunsthandwerk
+                geboten wird. Der Schirmherr des Spielfestes ist der
+                Bezirksbürgermeister Herr Jörn Oltmann.
+                <a class="link" href="https://spielfest-mariendorf.de/" target="_blank">Mehr Infos …</a>
+            </p>
         </div>
     </section>
     <section class="slide spielfest_sponsors">
-        {{- $ccAvif := resources.Get "sponsors/catering_company_light.avif" -}}{{- $ccWebp := resources.Get "sponsors/catering_company_light.webp" -}}{{- with resources.Get "sponsors/catering_company_light.png" }}<picture>{{- if $ccAvif }}<source srcset="{{ $ccAvif.RelPermalink }}" type="image/avif">{{ end -}}{{- if $ccWebp }}<source srcset="{{ $ccWebp.RelPermalink }}" type="image/webp">{{ end -}}<img src="{{ .RelPermalink }}" alt="Catering Company Logo"></picture>{{ end }}
-        {{- $sbAvif := resources.Get "sponsors/stilbrand_light.avif" -}}{{- $sbWebp := resources.Get "sponsors/stilbrand_light.webp" -}}{{- with resources.Get "sponsors/stilbrand_light.png" }}<picture>{{- if $sbAvif }}<source srcset="{{ $sbAvif.RelPermalink }}" type="image/avif">{{ end -}}{{- if $sbWebp }}<source srcset="{{ $sbWebp.RelPermalink }}" type="image/webp">{{ end -}}<img src="{{ .RelPermalink }}" alt="Stilbrand Logo"></picture>{{ end }}
-        {{- $prAvif := resources.Get "sponsors/piereg_light.avif" -}}{{- $prWebp := resources.Get "sponsors/piereg_light.webp" -}}{{- with resources.Get "sponsors/piereg_light.png" }}<picture>{{- if $prAvif }}<source srcset="{{ $prAvif.RelPermalink }}" type="image/avif">{{ end -}}{{- if $prWebp }}<source srcset="{{ $prWebp.RelPermalink }}" type="image/webp">{{ end -}}<img src="{{ .RelPermalink }}" alt="Piereg Logo"></picture>{{ end }}
-        {{- $slAvif := resources.Get "sponsors/stadtundland.avif" -}}{{- $slWebp := resources.Get "sponsors/stadtundland.webp" -}}{{- with resources.Get "sponsors/stadtundland.png" }}<picture>{{- if $slAvif }}<source srcset="{{ $slAvif.RelPermalink }}" type="image/avif">{{ end -}}{{- if $slWebp }}<source srcset="{{ $slWebp.RelPermalink }}" type="image/webp">{{ end -}}<img src="{{ .RelPermalink }}" alt="Stadt und Land Logo"></picture>{{ end }}
-        {{- $nnAvif := resources.Get "sponsors/nitz-nitz-pos.avif" -}}{{- $nnWebp := resources.Get "sponsors/nitz-nitz-pos.webp" -}}{{- with resources.Get "sponsors/nitz-nitz-pos.png" }}<picture>{{- if $nnAvif }}<source srcset="{{ $nnAvif.RelPermalink }}" type="image/avif">{{ end -}}{{- if $nnWebp }}<source srcset="{{ $nnWebp.RelPermalink }}" type="image/webp">{{ end -}}<img src="{{ .RelPermalink }}" alt="Nitz und Nitz Logo"></picture>{{ end }}
-        {{- $bnAvif := resources.Get "sponsors/binss.avif" -}}{{- $bnWebp := resources.Get "sponsors/binss.webp" -}}{{- with resources.Get "sponsors/binss.png" }}<picture>{{- if $bnAvif }}<source srcset="{{ $bnAvif.RelPermalink }}" type="image/avif">{{ end -}}{{- if $bnWebp }}<source srcset="{{ $bnWebp.RelPermalink }}" type="image/webp">{{ end -}}<img src="{{ .RelPermalink }}" alt="B.I.N.S.S. LOGO"></picture>{{ end }}
+        {{- $ccAvif := resources.Get "sponsors/catering_company_light.avif" -}}{{- $ccWebp := resources.Get
+        "sponsors/catering_company_light.webp" -}}{{- with resources.Get "sponsors/catering_company_light.png" }}
+        <picture>{{- if $ccAvif }}
+            <source srcset="{{ $ccAvif.RelPermalink }}" type="image/avif">{{ end -}}{{- if $ccWebp }}
+            <source srcset="{{ $ccWebp.RelPermalink }}" type="image/webp">{{ end -}}<img src="{{ .RelPermalink }}"
+                alt="Catering Company Logo">
+        </picture>{{ end }}
+        {{- $sbAvif := resources.Get "sponsors/stilbrand_light.avif" -}}{{- $sbWebp := resources.Get
+        "sponsors/stilbrand_light.webp" -}}{{- with resources.Get "sponsors/stilbrand_light.png" }}<picture>{{- if
+            $sbAvif }}
+            <source srcset="{{ $sbAvif.RelPermalink }}" type="image/avif">{{ end -}}{{- if $sbWebp }}
+            <source srcset="{{ $sbWebp.RelPermalink }}" type="image/webp">{{ end -}}<img src="{{ .RelPermalink }}"
+                alt="Stilbrand Logo">
+        </picture>{{ end }}
+        {{- $prAvif := resources.Get "sponsors/piereg_light.avif" -}}{{- $prWebp := resources.Get
+        "sponsors/piereg_light.webp" -}}{{- with resources.Get "sponsors/piereg_light.png" }}<picture>{{- if $prAvif }}
+            <source srcset="{{ $prAvif.RelPermalink }}" type="image/avif">{{ end -}}{{- if $prWebp }}
+            <source srcset="{{ $prWebp.RelPermalink }}" type="image/webp">{{ end -}}<img src="{{ .RelPermalink }}"
+                alt="Piereg Logo">
+        </picture>{{ end }}
+        {{- $slAvif := resources.Get "sponsors/stadtundland.avif" -}}{{- $slWebp := resources.Get
+        "sponsors/stadtundland.webp" -}}{{- with resources.Get "sponsors/stadtundland.png" }}<picture>{{- if $slAvif }}
+            <source srcset="{{ $slAvif.RelPermalink }}" type="image/avif">{{ end -}}{{- if $slWebp }}
+            <source srcset="{{ $slWebp.RelPermalink }}" type="image/webp">{{ end -}}<img src="{{ .RelPermalink }}"
+                alt="Stadt und Land Logo">
+        </picture>{{ end }}
+        {{- $nnAvif := resources.Get "sponsors/nitz-nitz-pos.avif" -}}{{- $nnWebp := resources.Get
+        "sponsors/nitz-nitz-pos.webp" -}}{{- with resources.Get "sponsors/nitz-nitz-pos.png" }}<picture>{{- if $nnAvif
+            }}
+            <source srcset="{{ $nnAvif.RelPermalink }}" type="image/avif">{{ end -}}{{- if $nnWebp }}
+            <source srcset="{{ $nnWebp.RelPermalink }}" type="image/webp">{{ end -}}<img src="{{ .RelPermalink }}"
+                alt="Nitz und Nitz Logo">
+        </picture>{{ end }}
+        {{- $bnAvif := resources.Get "sponsors/binss.avif" -}}{{- $bnWebp := resources.Get "sponsors/binss.webp" -}}{{-
+        with resources.Get "sponsors/binss.png" }}<picture>{{- if $bnAvif }}
+            <source srcset="{{ $bnAvif.RelPermalink }}" type="image/avif">{{ end -}}{{- if $bnWebp }}
+            <source srcset="{{ $bnWebp.RelPermalink }}" type="image/webp">{{ end -}}<img src="{{ .RelPermalink }}"
+                alt="B.I.N.S.S. LOGO">
+        </picture>{{ end }}
     </section>
     <section class="slide foo">
         <div class="bg">
@@ -250,8 +296,10 @@
                         {{- with resources.Get "crew/crew2025.jpg" -}}
                         <a href="{{ .RelPermalink }}">
                             <picture>
-                                {{- if $crewAvif }}<source srcset="{{ $crewAvif.RelPermalink }}" type="image/avif">{{ end -}}
-                                {{- if $crewWebp }}<source srcset="{{ $crewWebp.RelPermalink }}" type="image/webp">{{ end -}}
+                                {{- if $crewAvif }}
+                                <source srcset="{{ $crewAvif.RelPermalink }}" type="image/avif">{{ end -}}
+                                {{- if $crewWebp }}
+                                <source srcset="{{ $crewWebp.RelPermalink }}" type="image/webp">{{ end -}}
                                 <img src="{{ .RelPermalink }}" alt="Rocktreff Crewfoto 2025">
                             </picture>
                         </a>
@@ -398,13 +446,24 @@
                 </div>
             </div>
             <div class="imprint-logos">
-                {{- $jaAvif := resources.Get "sponsors/jugendamt.avif" -}}{{- $jaWebp := resources.Get "sponsors/jugendamt.webp" -}}
-                <a href="https://www.berlin.de/ba-tempelhof-schoeneberg/politik-und-verwaltung/aemter/jugendamt/" target="_blank">
-                    {{- with resources.Get "sponsors/jugendamt.png" }}<picture>{{- if $jaAvif }}<source srcset="{{ $jaAvif.RelPermalink }}" type="image/avif">{{ end -}}{{- if $jaWebp }}<source srcset="{{ $jaWebp.RelPermalink }}" type="image/webp">{{ end -}}<img src="{{ .RelPermalink }}" alt="Jugendamt Tempelhof Schoeneberg Logo"></picture>{{ end }}
+                {{- $jaAvif := resources.Get "sponsors/jugendamt.avif" -}}{{- $jaWebp := resources.Get
+                "sponsors/jugendamt.webp" -}}
+                <a href="https://www.berlin.de/ba-tempelhof-schoeneberg/politik-und-verwaltung/aemter/jugendamt/"
+                    target="_blank">
+                    {{- with resources.Get "sponsors/jugendamt.png" }}<picture>{{- if $jaAvif }}
+                        <source srcset="{{ $jaAvif.RelPermalink }}" type="image/avif">{{ end -}}{{- if $jaWebp }}
+                        <source srcset="{{ $jaWebp.RelPermalink }}" type="image/webp">{{ end -}}<img
+                            src="{{ .RelPermalink }}" alt="Jugendamt Tempelhof Schoeneberg Logo">
+                    </picture>{{ end }}
                 </a>
-                {{- $cpyeAvif := resources.Get "sponsors/cpye_inv.avif" -}}{{- $cpyeWebp := resources.Get "sponsors/cpye_inv.webp" -}}
+                {{- $cpyeAvif := resources.Get "sponsors/cpye_inv.avif" -}}{{- $cpyeWebp := resources.Get
+                "sponsors/cpye_inv.webp" -}}
                 <a href="https://cpye.de/" target="_blank">
-                    {{- with resources.Get "sponsors/cpye_inv.png" }}<picture>{{- if $cpyeAvif }}<source srcset="{{ $cpyeAvif.RelPermalink }}" type="image/avif">{{ end -}}{{- if $cpyeWebp }}<source srcset="{{ $cpyeWebp.RelPermalink }}" type="image/webp">{{ end -}}<img src="{{ .RelPermalink }}" alt="CPYE e.V. Logo"></picture>{{ end }}
+                    {{- with resources.Get "sponsors/cpye_inv.png" }}<picture>{{- if $cpyeAvif }}
+                        <source srcset="{{ $cpyeAvif.RelPermalink }}" type="image/avif">{{ end -}}{{- if $cpyeWebp }}
+                        <source srcset="{{ $cpyeWebp.RelPermalink }}" type="image/webp">{{ end -}}<img
+                            src="{{ .RelPermalink }}" alt="CPYE e.V. Logo">
+                    </picture>{{ end }}
                 </a>
             </div>
             <div class="imprint-footer-links">
