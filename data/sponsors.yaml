@@ -58,7 +58,7 @@
 
 - name: MyLager
   image: mylager.png
-  url: https://www.mylager.de/
+  url: https://www.mylager.de/self-storage-berlin?utm_source=rocktreff&utm_medium=event&utm_campaign=rocktreff-sponsor-2026&utm_content=berlin-mieten
   main: true
 
 #        _   _
