@@ -1,6 +1,7 @@
 ---
 day: friday
 logo: void_queen.png
+gallery_id: 4OMUNqqdDdk7L_UwS5wsCP9h
 picture: void_queen.jpg
 stagetime: Freitag, 3. Juli 2026, 18:00 Uhr
 title: Void Queen

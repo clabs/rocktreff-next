@@ -1,6 +1,7 @@
 ---
 day: saturday
 logo: the_fright.png
+gallery_id: -TW2A0h64AZ61o-TJQu5wwQC
 picture: the_fright.jpg
 stagetime: Samstag, 4. Juli 2026, 19:00 Uhr
 title: The Fright

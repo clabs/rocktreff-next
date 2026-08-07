@@ -1,6 +1,7 @@
 ---
 day: saturday
 logo: gruessevonmicha.png
+gallery_id: 9mJanZlu8sMIYdj4wrlhfhDT
 picture: gruessevonmicha.jpg
 stagetime: Samstag, 4. Juli 2026, 21:00 Uhr
 title: grüßevonmicha

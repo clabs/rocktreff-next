@@ -1,6 +1,7 @@
 ---
 day: sunday
 logo: fitis.png
+gallery_id: xK4aGIjdD8sIcJGMLDj3IGlA
 picture: fitis.jpg
 stagetime: Sonntag, 5. Juli 2026, 17:00 Uhr
 title: Fitis

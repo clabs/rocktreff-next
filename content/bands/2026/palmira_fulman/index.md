@@ -1,6 +1,7 @@
 ---
 day: friday
 logo: palmira_furman.png
+gallery_id: uaOE3vgdkgPClD-DLosv74d1
 picture: palmira_furman.jpg
 stagetime: Freitag, 3. Juli 2026, 21:00 Uhr
 title: PALMIRA FURMAN

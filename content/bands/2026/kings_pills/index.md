@@ -1,6 +1,7 @@
 ---
 day: sunday
 logo: kings_pills.png
+gallery_id: wduGzASArw37phfHHIA9i8M6
 picture: kings_pills.jpg
 stagetime: Sonntag, 5. Juli 2026, 19:00 Uhr
 title: Kings & Pills

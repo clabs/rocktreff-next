@@ -1,6 +1,7 @@
 ---
 day: saturday
 logo: joejoe.png
+gallery_id: OvcPfeM0GpGCsW4hPI-DbJ5R
 picture: joejoe.jpg
 spotify: spotify:artist:11Dh4tK58PqWjTJZsHIVOy
 stagetime: Samstag, 4. Juli 2026, 16:00 Uhr

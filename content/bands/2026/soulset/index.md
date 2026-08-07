@@ -1,6 +1,7 @@
 ---
 day: friday
 logo: soulset.png
+gallery_id: dW_UC7Gw6THbizi7MauUnFmp
 picture: soulset.jpg
 stagetime: Freitag, 3. Juli 2026, 20:00 Uhr
 title: Soulset

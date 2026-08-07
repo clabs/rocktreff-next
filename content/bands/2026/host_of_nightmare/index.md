@@ -1,6 +1,7 @@
 ---
 day: saturday
 logo: host_of_nightmare.png
+gallery_id: mMygkiz9mSVWB1xA_clZduZp
 picture: host_of_nightmare.jpg
 stagetime: Samstag, 4. Juli 2026, 22:00 Uhr
 title: Host of Nightmare

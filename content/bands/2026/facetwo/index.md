@@ -1,6 +1,7 @@
 ---
 day: saturday
 logo: facetwo.png
+gallery_id: 4GzoOrHYjqafMUEy11sS_bbv
 picture: facetwo.jpg
 stagetime: Samstag, 4. Juli 2026, 20:00 Uhr
 title: FaceTwo

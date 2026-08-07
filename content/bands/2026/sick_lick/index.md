@@ -1,6 +1,7 @@
 ---
 day: sunday
 logo: sick_lick.png
+gallery_id: A6nWmX5COfjmaa6RjpWTC0H8
 picture: sick_lick.jpg
 stagetime: Sonntag, 5. Juli 2026, 18:00 Uhr
 title: Sick Lick
