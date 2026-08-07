@@ -1,6 +1,7 @@
 ---
 day: friday
 logo: pigeons.png
+gallery_id: XAkDuv-DyjimvAOjH5koOfAd
 picture: pigeons.jpg
 stagetime: Freitag, 3. Juli 2026, 19:00 Uhr
 title: PIGEONS

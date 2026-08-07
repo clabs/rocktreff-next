@@ -1,6 +1,7 @@
 ---
 day: saturday
 logo: artikel_5.png
+gallery_id: rXNY0Aewf_bSZ0OJ5GqRcpiP
 picture: artikel_5.jpg
 stagetime: Samstag, 4. Juli 2026, 17:00 Uhr
 title: ARTIKEL 5

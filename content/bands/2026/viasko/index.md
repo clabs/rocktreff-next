@@ -1,6 +1,7 @@
 ---
 day: sunday
 logo: viasko.png
+gallery_id: 7v5LoO2wi2y4_BK9fl4uYFzC
 picture: viasko.jpg
 stagetime: Sonntag, 5. Juli 2026, 16:00 Uhr
 title: VIASKO

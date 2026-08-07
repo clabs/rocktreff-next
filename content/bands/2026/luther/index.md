@@ -1,6 +1,7 @@
 ---
 day: friday
 logo: luther.png
+gallery_id: Kc4jB_3Gezb4e7DclDZfpZci
 picture: luther.jpg
 stagetime: Freitag, 3. Juli 2026, 22:00 Uhr
 title: LUTHER

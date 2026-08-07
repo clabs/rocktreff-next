@@ -1,6 +1,7 @@
 ---
 day: saturday
 logo: fox_badger.png
+gallery_id: JL-vaotLFivE5ISZ9wXYbFH9
 picture: fox_badger.jpg
 stagetime: Samstag, 4. Juli 2026, 18:00 Uhr
 title: Fox & Badger
