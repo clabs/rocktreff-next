@@ -11,6 +11,8 @@ params:
   # bewerbungPhase controls the band application widget.
   # Values: "open" | "teaser" | "geschlossen" | "" (empty = hidden)
   bewerbungPhase: "open"
+  # showVerbote shows the prohibited-items section (only needed before the event).
+  showVerbote: false
 
 markup:
   goldmark:

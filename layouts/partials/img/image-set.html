@@ -1,0 +1,13 @@
+{{- /*
+  Returns a CSS image-set() value with WebP + original, e.g.
+    image-set(url('/images/bg_hu_….webp') type('image/webp'), url('/images/bg.jpg') type('image/jpeg'))
+
+  Params (dict):
+    src    image resource
+    width  max width in px (default 2000)
+*/ -}}
+{{- $v := partial "img/variants.html" (dict "src" .src "width" (.width | default 2000)) -}}
+{{- $set := slice -}}
+{{- with $v.webp }}{{ $set = $set | append (printf "url('%s') type('image/webp')" .RelPermalink) }}{{ end -}}
+{{- $set = $set | append (printf "url('%s') type('%s')" $v.fallback.RelPermalink $v.fallback.MediaType.Type) -}}
+{{- return printf "image-set(%s)" (delimit $set ", ") -}}

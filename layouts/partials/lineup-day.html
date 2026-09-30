@@ -7,15 +7,10 @@
 {{- $timeStr := index (split $timePart " ") 0 -}}
 {{- $hour := int (index (split $timeStr ":") 0) -}}
 {{- $row := sub $hour 15 -}}
-{{- $stem := strings.TrimSuffix (path.Ext .Params.picture) .Params.picture -}}
-{{- $mimeOrig := cond (eq (lower (path.Ext .Params.picture)) ".png") "image/png" "image/jpeg" -}}
 {{- $bandImg := cond (ne .Params.picture "") (resources.Get (printf "bands/pictures/%s" .Params.picture)) nil -}}
 {{- $style := "" -}}
 {{- if $bandImg -}}
-  {{- $avifImg := resources.Get (printf "bands/pictures/%s.avif" $stem) -}}
-  {{- $webpImg := resources.Get (printf "bands/pictures/%s.webp" $stem) -}}
-  {{- $entries := slice (printf "url('%s') type('image/avif')" $avifImg.RelPermalink) (printf "url('%s') type('image/webp')" $webpImg.RelPermalink) (printf "url('%s') type('%s')" $bandImg.RelPermalink $mimeOrig) -}}
-  {{- $style = printf "grid-row:%d;background-image:image-set(%s)" $row (delimit $entries ",") -}}
+  {{- $style = printf "grid-row:%d;background-image:%s" $row (partial "img/image-set.html" (dict "src" $bandImg "width" 600)) -}}
 {{- end -}}
 <a href="{{ .RelPermalink }}" class="thumb"
     {{ if $style }}style="{{ $style | safeCSS }}"{{ end }}>

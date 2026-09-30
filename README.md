@@ -8,7 +8,6 @@ Hugo site with PostCSS (autoprefixer + PurgeCSS). Deploys to GitHub Pages on pus
 | ----------- | --------------- | ------------------------------------------------------------------------------ |
 | Hugo        | 0.162.0         | [github.com/gohugoio/hugo/releases](https://github.com/gohugoio/hugo/releases) |
 | Node.js     | 24+             | required for PostCSS pipeline                                                  |
-| ImageMagick | 7+ with libheif | only needed for image scripts                                                  |
 
 **Install Hugo (macOS):**
 
@@ -41,39 +40,45 @@ Hugo watches for changes and reloads automatically. PostCSS runs as part of the 
 hugo --minify        # output to ./public/
 ```
 
-## Image scripts
+## Images
 
-Both scripts require ImageMagick. Install with AVIF support:
+Commit only the original JPG/PNG to `assets/`. Hugo generates WebP variants
+(and downscaled sizes) at build time — no local image tools needed.
 
-```bash
-# macOS
-brew install imagemagick
+- **JPG** → lossy WebP. **PNG** → lossless WebP (lossy if much smaller).
+  The WebP is only served if it is smaller than the original.
+- Generated files are cached in `resources/_gen/` (gitignored). The first build
+  after a fresh clone takes a bit longer; later builds reuse the cache. CI caches it too.
 
-# Ubuntu/Debian
-sudo apt install imagemagick libheif-dev
+**In templates**, render an image from `assets/` with:
+
+```go-html-template
+{{ partial "img/picture.html" (dict "src" "sponsors/foo.png" "alt" "Foo Logo") }}
+
+{{/* fluid-width images (CSS width: 100%): responsive srcset */}}
+{{ partial "img/picture.html" (dict
+    "src" "crew/crew2025.jpg"
+    "widths" (slice 480 800 1200 1600 2000)
+    "sizes" "(min-width: 768px) 50vw, 100vw") }}
 ```
 
-### `scripts/create-webp-avif.sh` — batch convert a folder
+Without `widths`, the image is capped at 1200px (`"width"` overrides it).
+Only use `widths` when CSS sets the rendered width, as srcset `w` descriptors
+change the intrinsic size of `width: auto` images.
 
-Converts all JPEGs and PNGs in a directory to WebP and AVIF. JPEGs use lossy encoding; PNGs with fewer than 256 unique colors use lossless encoding automatically.
+**In CSS**, every image in `assets/images/` is published at its own path, with a
+generated `.webp` next to it if that is smaller (`images/landing_0.jpg` →
+`/images/landing_0.webp`). Reference both in plain CSS:
 
-```bash
-./scripts/create-webp-avif.sh [input_dir] [quality]
+```css
+.foo {
+  background-image: image-set(
+    url('../images/landing_0.webp') type('image/webp'),
+    url('../images/landing_0.jpg') type('image/jpeg')
+  );
+}
 ```
 
-| Argument    | Default           | Description                     |
-| ----------- | ----------------- | ------------------------------- |
-| `input_dir` | `.` (current dir) | folder containing source images |
-| `quality`   | `80`              | lossy quality 1–100 for photos  |
-
-**Examples:**
-
-```bash
-# convert all images in current directory at default quality
-./scripts/create-webp-avif.sh
-
-# convert images in static/img/ at quality 85
-./scripts/create-webp-avif.sh static/img 85
-```
-
-Output files are written next to the originals (`hero.jpg` → `hero.webp`, `hero.avif`).
+Some photos are already so compressed that WebP is not smaller (`bg.jpg`,
+`bg_light.jpg`, `landing_2.jpg`, `landing_3.jpg`); no `.webp` is generated for
+them, so reference the original only.

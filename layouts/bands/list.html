@@ -15,6 +15,7 @@ ______ _____ _____  _   _____________ _________________
     <meta name="theme-color" content="#fff300">
     <title>Alle Bands | ROCKTREFF</title>
     {{ partial "opengraph.html" . }}
+    {{- partialCached "img/publish-webp.html" . -}}
     {{- $css := resources.Get "css/main.css" | css.PostCSS | fingerprint -}}
     <link rel="stylesheet" href="{{ $css.RelPermalink }}">
     <link rel="icon" href="/favicon.ico">
