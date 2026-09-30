@@ -5,10 +5,10 @@ title: "ROCKTREFF"
 
 params:
   email: "kontakt@rocktreff.de"
-  currentYear: 2026
+  currentYear: 2027
   # bewerbungPhase controls the band application widget.
   # Values: "open" | "teaser" | "geschlossen" | "" (empty = hidden)
-  bewerbungPhase: "teaser"
+  bewerbungPhase: "open"
 
 markup:
   goldmark:
