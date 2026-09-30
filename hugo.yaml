@@ -6,6 +6,8 @@ title: "ROCKTREFF"
 params:
   email: "kontakt@rocktreff.de"
   currentYear: 2027
+  # bewerbungEnde is the last day bands can apply (YYYY-MM-DD).
+  bewerbungEnde: 2027-01-15
   # bewerbungPhase controls the band application widget.
   # Values: "open" | "teaser" | "geschlossen" | "" (empty = hidden)
   bewerbungPhase: "open"
