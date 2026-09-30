@@ -1,0 +1,13 @@
+{{- /*
+  Publishes every image in assets/images/ at its own path, plus a WebP next
+  to it (images/landing_0.jpg → /images/landing_0.webp) if the WebP is
+  smaller. main.css references these stable paths directly.
+  Call with partialCached; it only needs to run once per build.
+*/ -}}
+{{- range $img := resources.Match "images/**.{jpg,jpeg,png}" -}}
+  {{- $img.Publish -}}
+  {{- with (partial "img/variants.html" (dict "src" $img)).webp -}}
+    {{- $target := replaceRE `\.[a-z]+$` ".webp" (strings.TrimPrefix "/" $img.Name) -}}
+    {{- (resources.Copy $target .).Publish -}}
+  {{- end -}}
+{{- end -}}

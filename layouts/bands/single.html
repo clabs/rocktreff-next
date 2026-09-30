@@ -15,6 +15,7 @@ ______ _____ _____  _   _____________ _________________
     <meta name="theme-color" content="#fff300">
     <title>{{ .Title }} | {{ .Site.Title }}</title>
     {{ partial "opengraph.html" . }}
+    {{- partialCached "img/publish-webp.html" . -}}
     {{- $css := resources.Get "css/main.css" | css.PostCSS | fingerprint -}}
     <link rel="stylesheet" href="{{ $css.RelPermalink }}">
     <link rel="icon" href="/favicon.ico">
@@ -26,16 +27,9 @@ ______ _____ _____  _   _____________ _________________
         <div class="band-layout">
             <div class="band-sidebar">
                 {{- if .Params.logo -}}
-                {{- $logoFile := .Params.logo -}}{{- $logoBase := strings.TrimSuffix (path.Ext $logoFile) $logoFile -}}
-                {{- $logoAvif := resources.Get (printf "bands/logos/%s.avif" $logoBase) -}}
-                {{- $logoWebp := resources.Get (printf "bands/logos/%s.webp" $logoBase) -}}
-                {{- with resources.Get (printf "bands/logos/%s" $logoFile) }}
+                {{- with resources.Get (printf "bands/logos/%s" .Params.logo) }}
                 <div class="box">
-                    <picture>
-                        {{- if $logoAvif }}<source srcset="{{ $logoAvif.RelPermalink }}" type="image/avif">{{ end -}}
-                        {{- if $logoWebp }}<source srcset="{{ $logoWebp.RelPermalink }}" type="image/webp">{{ end -}}
-                        <img src="{{ .RelPermalink }}">
-                    </picture>
+                    {{ partial "img/picture.html" (dict "src" . "width" 800) }}
                 </div>
                 {{- end }}{{- end }}
                 <div class="box">
@@ -68,15 +62,8 @@ ______ _____ _____  _   _____________ _________________
                 <div class="box">
                     <h1>{{ .Title }}</h1>
                     {{- if .Params.picture -}}
-                    {{- $picFile := .Params.picture -}}{{- $picBase := strings.TrimSuffix (path.Ext $picFile) $picFile -}}
-                    {{- $picAvif := resources.Get (printf "bands/pictures/%s.avif" $picBase) -}}
-                    {{- $picWebp := resources.Get (printf "bands/pictures/%s.webp" $picBase) -}}
-                    {{- with resources.Get (printf "bands/pictures/%s" $picFile) }}
-                    <picture>
-                        {{- if $picAvif }}<source srcset="{{ $picAvif.RelPermalink }}" type="image/avif">{{ end -}}
-                        {{- if $picWebp }}<source srcset="{{ $picWebp.RelPermalink }}" type="image/webp">{{ end -}}
-                        <img class="picture" src="{{ .RelPermalink }}">
-                    </picture>
+                    {{- with resources.Get (printf "bands/pictures/%s" .Params.picture) }}
+                    {{ partial "img/picture.html" (dict "src" . "class" "picture") }}
                     {{- end }}{{- end }}
                     {{ .Content }}
                 </div>

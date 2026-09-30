@@ -5,6 +5,9 @@ on:
     branches:
       - main
 
+env:
+  HUGO_VERSION: "0.162.0"
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -32,11 +35,21 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: "0.162.0"
+          hugo-version: ${{ env.HUGO_VERSION }}
           extended: false
 
+      # Hugo generates WebP variants into resources/_gen. Encoding all
+      # images from scratch is slow, so reuse the previous run's output and
+      # only encode new or changed images.
+      - name: Cache processed images
+        uses: actions/cache@v4
+        with:
+          path: resources/_gen
+          key: hugo-${{ env.HUGO_VERSION }}-gen-${{ hashFiles('assets/**', 'layouts/partials/img/**') }}
+          restore-keys: hugo-${{ env.HUGO_VERSION }}-gen-
+
       - name: Build
-        run: hugo --environment production --minify
+        run: hugo --environment production --minify --gc
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3

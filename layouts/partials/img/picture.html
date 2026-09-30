@@ -1,0 +1,57 @@
+{{- /*
+  Renders <picture> with a WebP source generated at build time.
+  Renders nothing if the image does not exist.
+
+  Params (dict):
+    src     resource or path below assets/ (e.g. "sponsors/foo.png")
+    alt     alt text (optional)
+    class   class for the <img> (optional)
+    width   max width in px when rendering a single size (default 1200)
+    widths  list of widths for a responsive srcset (optional). Only use for
+            images whose rendered width comes from CSS (e.g. width: 100%),
+            as `w` descriptors change the intrinsic size.
+    sizes   sizes attribute for widths (default "100vw")
+*/ -}}
+{{- $src := .src -}}
+{{- if eq (printf "%T" $src) "string" -}}
+  {{- $src = resources.Get $src -}}
+{{- end -}}
+{{- with $src -}}
+{{- $webp := "" -}}
+{{- $fallback := "" -}}
+{{- $sizes := "" -}}
+{{- $img := false -}}
+
+{{- if $.widths -}}
+  {{- $ws := slice -}}
+  {{- $capped := false -}}
+  {{- range $.widths -}}
+    {{- if lt . $src.Width }}{{ $ws = $ws | append . }}{{ else }}{{ $capped = true }}{{ end -}}
+  {{- end -}}
+  {{- if $capped }}{{ $ws = $ws | append $src.Width }}{{ end -}}
+  {{- $sizes = $.sizes | default "100vw" -}}
+
+  {{- $webpSet := slice -}}
+  {{- $fallbackSet := slice -}}
+  {{- range $w := $ws -}}
+    {{- $v := partial "img/variants.html" (dict "src" $src "width" $w "exact" true) -}}
+    {{- with $v.webp }}{{ $webpSet = $webpSet | append (printf "%s %dw" .RelPermalink $w) }}{{ end -}}
+    {{- $fallbackSet = $fallbackSet | append (printf "%s %dw" $v.fallback.RelPermalink $w) -}}
+    {{- $img = $v.fallback -}}
+  {{- end -}}
+  {{- /* only offer WebP if every size has one */ -}}
+  {{- if eq (len $webpSet) (len $ws) }}{{ $webp = delimit $webpSet ", " }}{{ end -}}
+  {{- $fallback = delimit $fallbackSet ", " -}}
+{{- else -}}
+  {{- $v := partial "img/variants.html" (dict "src" $src "width" ($.width | default 1200)) -}}
+  {{- with $v.webp }}{{ $webp = .RelPermalink }}{{ end -}}
+  {{- $img = $v.fallback -}}
+{{- end -}}
+<picture>
+  {{- with $webp }}<source srcset="{{ . }}"{{ with $sizes }} sizes="{{ . }}"{{ end }} type="image/webp">{{ end -}}
+  <img src="{{ $img.RelPermalink }}"
+    {{- with $fallback }} srcset="{{ . }}" sizes="{{ $sizes }}"{{ end }}
+    {{- with $.class }} class="{{ . }}"{{ end }}
+    {{- with $.alt }} alt="{{ . }}"{{ end }}>
+</picture>
+{{- end -}}

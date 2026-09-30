@@ -1,0 +1,44 @@
+{{- /*
+  Returns a WebP variant of an image resource, optionally downscaled.
+
+  JPG: lossy WebP.
+  PNG: lossless WebP; lossy if that is less than half the size
+       (i.e. the PNG is really a photo).
+  The WebP is dropped when it is not smaller than the fallback, and the
+  fallback stays the original if resizing does not make it smaller.
+
+  Params (dict):
+    src    image resource
+    width  max width in px (optional, never upscales)
+    exact  always use the resized fallback (needed for srcset `w` descriptors)
+
+  Returns dict: fallback (jpg/png resource), webp (resource or false)
+*/ -}}
+{{- $src := .src -}}
+{{- $resize := "" -}}
+{{- $fallback := $src -}}
+{{- if and .width (lt .width $src.Width) -}}
+  {{- $resize = printf "resize %dx " (int .width) -}}
+  {{- $resized := $src.Resize (printf "%dx" (int .width)) -}}
+  {{- /* re-encoding can grow heavily compressed sources */ -}}
+  {{- if or .exact (lt (len $resized.Content) (len $src.Content)) -}}
+    {{- $fallback = $resized -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $webp := false -}}
+{{- if eq $src.MediaType.SubType "png" -}}
+  {{- $webp = $src.Process (printf "%swebp lossless" $resize) -}}
+  {{- $lossy := $src.Process (printf "%swebp q85 drawing" $resize) -}}
+  {{- if lt (mul (len $lossy.Content) 2) (len $webp.Content) -}}
+    {{- $webp = $lossy -}}
+  {{- end -}}
+{{- else -}}
+  {{- $webp = $src.Process (printf "%swebp q80 photo" $resize) -}}
+{{- end -}}
+
+{{- if ge (len $webp.Content) (len $fallback.Content) -}}
+  {{- $webp = false -}}
+{{- end -}}
+
+{{- return dict "fallback" $fallback "webp" $webp -}}

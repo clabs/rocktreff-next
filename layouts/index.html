@@ -18,6 +18,7 @@
         Mariendorf</title>
     {{ partial "opengraph.html" . }}
     <link rel="icon" href="./favicon.ico">
+    {{- partialCached "img/publish-webp.html" . -}}
     {{- $css := resources.Get "css/main.css" | css.PostCSS | fingerprint -}}
     <link rel="stylesheet" href="{{ $css.RelPermalink }}">
 </head>
@@ -32,15 +33,9 @@
             </div>
             {{- range hugo.Data.sponsors -}}
             {{- if .presenter -}}
-            {{- $sUrl := .url -}}{{- $sName := .name -}}{{- $imgFile := .image -}}{{- $imgBase := strings.TrimSuffix
-            (path.Ext $imgFile) $imgFile -}}{{- $imgAvif := resources.Get (printf "sponsors/%s.avif" $imgBase) -}}{{-
-            $imgWebp := resources.Get (printf "sponsors/%s.webp" $imgBase) -}}{{- with resources.Get (printf
-            "sponsors/%s" $imgFile) -}}<a href="{{ $sUrl }}" target="_blank">
-                <picture>{{- if $imgAvif }}
-                    <source srcset="{{ $imgAvif.RelPermalink }}" type="image/avif">{{ end -}}{{- if $imgWebp }}
-                    <source srcset="{{ $imgWebp.RelPermalink }}" type="image/webp">{{ end -}}<img
-                        src="{{ .RelPermalink }}" alt="Sponsor Logo {{ $sName }}">
-                </picture>
+            {{- $sUrl := .url -}}{{- $sName := .name -}}
+            {{- with resources.Get (printf "sponsors/%s" .image) -}}<a href="{{ $sUrl }}" target="_blank">
+                {{ partial "img/picture.html" (dict "src" . "alt" (printf "Sponsor Logo %s" $sName)) }}
             </a>{{- end -}}
             {{- end -}}
             {{- end -}}
@@ -159,18 +154,9 @@
                     {{ range hugo.Data.sponsors }}
                     {{ if .main }}
                     {{- $sUrl := .url -}}{{- $sName := .name -}}
-                    {{- $imgFile := .image -}}{{- $imgBase := strings.TrimSuffix (path.Ext $imgFile) $imgFile -}}
-                    {{- $imgAvif := resources.Get (printf "sponsors/%s.avif" $imgBase) -}}
-                    {{- $imgWebp := resources.Get (printf "sponsors/%s.webp" $imgBase) -}}
-                    {{- with resources.Get (printf "sponsors/%s" $imgFile) -}}
+                    {{- with resources.Get (printf "sponsors/%s" .image) -}}
                     <a href="{{ $sUrl }}" target="_blank">
-                        <picture>
-                            {{- if $imgAvif }}
-                            <source srcset="{{ $imgAvif.RelPermalink }}" type="image/avif">{{ end -}}
-                            {{- if $imgWebp }}
-                            <source srcset="{{ $imgWebp.RelPermalink }}" type="image/webp">{{ end -}}
-                            <img src="{{ .RelPermalink }}" alt="Sponsor Logo {{ $sName }}">
-                        </picture>
+                        {{ partial "img/picture.html" (dict "src" . "alt" (printf "Sponsor Logo %s" $sName)) }}
                     </a>
                     {{- end -}}
                     {{ end }}
@@ -183,18 +169,9 @@
                 {{ if not .presenter }}
                 {{ if not .main }}
                 {{- $sUrl := .url -}}{{- $sName := .name -}}
-                {{- $imgFile := .image -}}{{- $imgBase := strings.TrimSuffix (path.Ext $imgFile) $imgFile -}}
-                {{- $imgAvif := resources.Get (printf "sponsors/%s.avif" $imgBase) -}}
-                {{- $imgWebp := resources.Get (printf "sponsors/%s.webp" $imgBase) -}}
-                {{- with resources.Get (printf "sponsors/%s" $imgFile) -}}
+                {{- with resources.Get (printf "sponsors/%s" .image) -}}
                 <a href="{{ $sUrl }}" target="_blank">
-                    <picture>
-                        {{- if $imgAvif }}
-                        <source srcset="{{ $imgAvif.RelPermalink }}" type="image/avif">{{ end -}}
-                        {{- if $imgWebp }}
-                        <source srcset="{{ $imgWebp.RelPermalink }}" type="image/webp">{{ end -}}
-                        <img src="{{ .RelPermalink }}" alt="Sponsor Logo {{ $sName }}">
-                    </picture>
+                    {{ partial "img/picture.html" (dict "src" . "alt" (printf "Sponsor Logo %s" $sName)) }}
                 </a>
                 {{- end -}}
                 {{ end }}
@@ -225,45 +202,12 @@
         </div>
     </section>
     <section class="slide spielfest_sponsors">
-        {{- $ccAvif := resources.Get "sponsors/catering_company_light.avif" -}}{{- $ccWebp := resources.Get
-        "sponsors/catering_company_light.webp" -}}{{- with resources.Get "sponsors/catering_company_light.png" }}
-        <picture>{{- if $ccAvif }}
-            <source srcset="{{ $ccAvif.RelPermalink }}" type="image/avif">{{ end -}}{{- if $ccWebp }}
-            <source srcset="{{ $ccWebp.RelPermalink }}" type="image/webp">{{ end -}}<img src="{{ .RelPermalink }}"
-                alt="Catering Company Logo">
-        </picture>{{ end }}
-        {{- $sbAvif := resources.Get "sponsors/stilbrand_light.avif" -}}{{- $sbWebp := resources.Get
-        "sponsors/stilbrand_light.webp" -}}{{- with resources.Get "sponsors/stilbrand_light.png" }}<picture>{{- if
-            $sbAvif }}
-            <source srcset="{{ $sbAvif.RelPermalink }}" type="image/avif">{{ end -}}{{- if $sbWebp }}
-            <source srcset="{{ $sbWebp.RelPermalink }}" type="image/webp">{{ end -}}<img src="{{ .RelPermalink }}"
-                alt="Stilbrand Logo">
-        </picture>{{ end }}
-        {{- $prAvif := resources.Get "sponsors/piereg_light.avif" -}}{{- $prWebp := resources.Get
-        "sponsors/piereg_light.webp" -}}{{- with resources.Get "sponsors/piereg_light.png" }}<picture>{{- if $prAvif }}
-            <source srcset="{{ $prAvif.RelPermalink }}" type="image/avif">{{ end -}}{{- if $prWebp }}
-            <source srcset="{{ $prWebp.RelPermalink }}" type="image/webp">{{ end -}}<img src="{{ .RelPermalink }}"
-                alt="Piereg Logo">
-        </picture>{{ end }}
-        {{- $slAvif := resources.Get "sponsors/stadtundland.avif" -}}{{- $slWebp := resources.Get
-        "sponsors/stadtundland.webp" -}}{{- with resources.Get "sponsors/stadtundland.png" }}<picture>{{- if $slAvif }}
-            <source srcset="{{ $slAvif.RelPermalink }}" type="image/avif">{{ end -}}{{- if $slWebp }}
-            <source srcset="{{ $slWebp.RelPermalink }}" type="image/webp">{{ end -}}<img src="{{ .RelPermalink }}"
-                alt="Stadt und Land Logo">
-        </picture>{{ end }}
-        {{- $nnAvif := resources.Get "sponsors/nitz-nitz-pos.avif" -}}{{- $nnWebp := resources.Get
-        "sponsors/nitz-nitz-pos.webp" -}}{{- with resources.Get "sponsors/nitz-nitz-pos.png" }}<picture>{{- if $nnAvif
-            }}
-            <source srcset="{{ $nnAvif.RelPermalink }}" type="image/avif">{{ end -}}{{- if $nnWebp }}
-            <source srcset="{{ $nnWebp.RelPermalink }}" type="image/webp">{{ end -}}<img src="{{ .RelPermalink }}"
-                alt="Nitz und Nitz Logo">
-        </picture>{{ end }}
-        {{- $bnAvif := resources.Get "sponsors/binss.avif" -}}{{- $bnWebp := resources.Get "sponsors/binss.webp" -}}{{-
-        with resources.Get "sponsors/binss.png" }}<picture>{{- if $bnAvif }}
-            <source srcset="{{ $bnAvif.RelPermalink }}" type="image/avif">{{ end -}}{{- if $bnWebp }}
-            <source srcset="{{ $bnWebp.RelPermalink }}" type="image/webp">{{ end -}}<img src="{{ .RelPermalink }}"
-                alt="B.I.N.S.S. LOGO">
-        </picture>{{ end }}
+        {{ partial "img/picture.html" (dict "src" "sponsors/catering_company_light.png" "alt" "Catering Company Logo") }}
+        {{ partial "img/picture.html" (dict "src" "sponsors/stilbrand_light.png" "alt" "Stilbrand Logo") }}
+        {{ partial "img/picture.html" (dict "src" "sponsors/piereg_light.png" "alt" "Piereg Logo") }}
+        {{ partial "img/picture.html" (dict "src" "sponsors/stadtundland.png" "alt" "Stadt und Land Logo") }}
+        {{ partial "img/picture.html" (dict "src" "sponsors/nitz-nitz-pos.png" "alt" "Nitz und Nitz Logo") }}
+        {{ partial "img/picture.html" (dict "src" "sponsors/binss.png" "alt" "B.I.N.S.S. LOGO") }}
     </section>
     <section class="slide foo">
         <div class="bg">
@@ -291,17 +235,13 @@
                 </div>
                 <div>
                     <div class="gallery">
-                        {{- $crewAvif := resources.Get "crew/crew2025.avif" -}}
-                        {{- $crewWebp := resources.Get "crew/crew2025.webp" -}}
                         {{- with resources.Get "crew/crew2025.jpg" -}}
                         <a href="{{ .RelPermalink }}">
-                            <picture>
-                                {{- if $crewAvif }}
-                                <source srcset="{{ $crewAvif.RelPermalink }}" type="image/avif">{{ end -}}
-                                {{- if $crewWebp }}
-                                <source srcset="{{ $crewWebp.RelPermalink }}" type="image/webp">{{ end -}}
-                                <img src="{{ .RelPermalink }}" alt="Rocktreff Crewfoto 2025">
-                            </picture>
+                            {{ partial "img/picture.html" (dict
+                                "src" .
+                                "alt" "Rocktreff Crewfoto 2025"
+                                "widths" (slice 480 800 1200 1600 2000)
+                                "sizes" "(min-width: 768px) 50vw, 100vw") }}
                         </a>
                         {{- end -}}
                     </div>
@@ -351,11 +291,7 @@
                     <div class="code">
                         <a
                             href="bank://singlepaymentsepa?name=CPYE%20e.%20V.&reason=Spende%20ROCKTREFF&iban=DE51100100100015333103&bic=PBNKDEFFXXX&amount=23%2C00">
-                            <picture>
-                                <source srcset="/images/bezahlcode.avif" type="image/avif">
-                                <source srcset="/images/bezahlcode.webp" type="image/webp">
-                                <img src="/images/bezahlcode.png" class="bezahlcode">
-                            </picture>
+                            {{ partial "img/picture.html" (dict "src" "images/bezahlcode.png" "class" "bezahlcode") }}
                         </a>
                     </div>
                     <strong>Inhaber:</strong> CPYE e.V. <br>
@@ -383,11 +319,7 @@
                 Aus Sicherheits- und Versicherungsrelevanten Gründen ist die Mitnahme der folgenden Gegenstände
                 nicht gestattet
             </h2>
-            <picture>
-                <source srcset="/images/rt_verbote.avif" type="image/avif">
-                <source srcset="/images/rt_verbote.webp" type="image/webp">
-                <img src="/images/rt_verbote.png">
-            </picture>
+            {{ partial "img/picture.html" (dict "src" "images/rt_verbote.png") }}
             <p>
                 Ebenfalls verboten sind Waffen, Pyrotechnik, Laser Pointer, Drohnen,
                 Lärminstrumente (Megaphone, Handsiren, Gasdruckfanfahren, Lautsprecher),
@@ -454,24 +386,12 @@
                 </div>
             </div>
             <div class="imprint-logos">
-                {{- $jaAvif := resources.Get "sponsors/jugendamt.avif" -}}{{- $jaWebp := resources.Get
-                "sponsors/jugendamt.webp" -}}
                 <a href="https://www.berlin.de/ba-tempelhof-schoeneberg/politik-und-verwaltung/aemter/jugendamt/"
                     target="_blank">
-                    {{- with resources.Get "sponsors/jugendamt.png" }}<picture>{{- if $jaAvif }}
-                        <source srcset="{{ $jaAvif.RelPermalink }}" type="image/avif">{{ end -}}{{- if $jaWebp }}
-                        <source srcset="{{ $jaWebp.RelPermalink }}" type="image/webp">{{ end -}}<img
-                            src="{{ .RelPermalink }}" alt="Jugendamt Tempelhof Schoeneberg Logo">
-                    </picture>{{ end }}
+                    {{- partial "img/picture.html" (dict "src" "sponsors/jugendamt.png" "alt" "Jugendamt Tempelhof Schoeneberg Logo") -}}
                 </a>
-                {{- $cpyeAvif := resources.Get "sponsors/cpye_inv.avif" -}}{{- $cpyeWebp := resources.Get
-                "sponsors/cpye_inv.webp" -}}
                 <a href="https://cpye.de/" target="_blank">
-                    {{- with resources.Get "sponsors/cpye_inv.png" }}<picture>{{- if $cpyeAvif }}
-                        <source srcset="{{ $cpyeAvif.RelPermalink }}" type="image/avif">{{ end -}}{{- if $cpyeWebp }}
-                        <source srcset="{{ $cpyeWebp.RelPermalink }}" type="image/webp">{{ end -}}<img
-                            src="{{ .RelPermalink }}" alt="CPYE e.V. Logo">
-                    </picture>{{ end }}
+                    {{- partial "img/picture.html" (dict "src" "sponsors/cpye_inv.png" "alt" "CPYE e.V. Logo") -}}
                 </a>
             </div>
             <div class="imprint-footer-links">
