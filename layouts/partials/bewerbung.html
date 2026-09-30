@@ -1,12 +1,14 @@
+{{ $year := site.Params.currentYear }}
+{{ $ende := time.AsTime site.Params.bewerbungEnde }}
 <div class="teaser">
-    <h3>Eure Band beim ROCKTREFF 2027?</h3>
+    <h3>Eure Band beim ROCKTREFF {{ $year }}?</h3>
     <p>
-        Bis zum 15. Januar könnnen
+        Bis zum {{ $ende | time.Format "2. January" }} können
         sich Bands bei uns online bewerben.
     </p>
     <p>
     <h2>
-        <a href="https://rockon.dev/event/rocktreff-2027/bands/bid/" target="_blank">
+        <a href="https://rockon.dev/event/rocktreff-{{ $year }}/bands/bid/" target="_blank">
             Bewerbt Euch hier!
         </a>
     </h2>

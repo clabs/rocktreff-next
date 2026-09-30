@@ -1,7 +1,9 @@
+{{ $year := site.Params.currentYear }}
+{{ $ende := time.AsTime site.Params.bewerbungEnde }}
 <div class="teaser">
-    <h3>Eure Band beim ROCKTREFF 2026?</h3>
+    <h3>Eure Band beim ROCKTREFF {{ $year }}?</h3>
     <p>
-        Bis zum 14.02.2026 konnten sich Bands bei uns online bewerben.
+        Bis zum {{ $ende | time.Format "02.01.2006" }} konnten sich Bands bei uns online bewerben.
     </p>
     <p>
     <h2>
@@ -9,10 +11,10 @@
     </h2>
     </p>
     <p>
-        Bewerbungen für 2027 sind ab November und ausschließlich über diese Website möglich.
+        Bewerbungen für {{ add $year 1 }} sind ab November und ausschließlich über diese Website möglich.
     </p>
     <p>
-        Das Lineup für den Rocktreff 2026 veröffentlichen wir hier in Kürze!
+        Das Lineup für den Rocktreff {{ $year }} veröffentlichen wir hier in Kürze!
     </p>
     <p>
         Fragen? Schreib eine Mail an <span class="email">booking</span>.
